@@ -295,7 +295,7 @@ int HyperJ2PlaneStress<T>::evaluate(
   Tensor<T> const s = mu * zeta_3D;
   T const s_mag = minitensor::norm(s);
   T const sigma_yield = Y + S * (1. - std::exp(-D * alpha))
-    + A * std::pow(alpha, n) + K * alpha;
+    + A * std::pow((alpha+1.e-9), n) + K * alpha;
   T const f = (s_mag - sqrt_23 * sigma_yield) / val(mu);
 
   Tensor<T> R_zeta;
