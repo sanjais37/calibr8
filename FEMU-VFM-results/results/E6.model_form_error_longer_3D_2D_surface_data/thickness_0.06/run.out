@@ -1,0 +1,2341 @@
+DISP_EPS_STAR_NOISE = 6.1035e-06
+RUNNING forward_notch3D_Asym_finite_J2
+reading input: temp_forward_notch3D_Asym_finite_J2.yaml
+model ../../../../meshes/longer_notch_Asym_3D_surface_to_2D/thickness_0.06/notch3D_Asym.dmg loaded in 0.002193 seconds
+mesh ../../../../meshes/longer_notch_Asym_3D_surface_to_2D/thickness_0.06/notch3D_Asym_4p.smb loaded in 0.010154 seconds
+number of tet 38866 hex 0 prism 0 pyramid 0
+mesh entity counts: v 9641 e 55030 f 84256 r 38866
+mesh reordered in 0.031165 seconds
+mesh verified in 0.016847 seconds
+nsteps = 8
+ON PRIMAL STEP (1)
+ > (1) Newton iteration
+ > absolute ||R|| = 5.877474e+01
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 3.680025e-02
+ > relative ||R|| = 6.261235e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 7.974105e-03
+ > relative ||R|| = 1.356723e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 1.203745e-04
+ > relative ||R|| = 2.048065e-06
+ > (5) Newton iteration
+ > absolute ||R|| = 2.651884e-08
+ > relative ||R|| = 4.511945e-10
+ > (6) Newton iteration
+ > absolute ||R|| = 5.077119e-13
+ > relative ||R|| = 8.638267e-15
+writeVtuFile into buffers: 0.015253 seconds
+writeVtuFile buffers to disk: 0.001724 seconds
+vtk files forward_notch3D_Asym_finite_J2_forward_viz/out_1 written in 0.017371 seconds
+ON PRIMAL STEP (2)
+ > (1) Newton iteration
+ > absolute ||R|| = 2.936731e+01
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 1.459503e-01
+ > relative ||R|| = 4.969822e-03
+ > (3) Newton iteration
+ > absolute ||R|| = 8.523147e-02
+ > relative ||R|| = 2.902257e-03
+ > (4) Newton iteration
+ > absolute ||R|| = 5.655779e-03
+ > relative ||R|| = 1.925876e-04
+ > (5) Newton iteration
+ > absolute ||R|| = 2.344523e-04
+ > relative ||R|| = 7.983446e-06
+ > (6) Newton iteration
+ > absolute ||R|| = 5.895143e-08
+ > relative ||R|| = 2.007383e-09
+ > (7) Newton iteration
+ > absolute ||R|| = 6.643860e-13
+ > relative ||R|| = 2.262332e-14
+writeVtuFile into buffers: 0.015049 seconds
+writeVtuFile buffers to disk: 0.002365 seconds
+vtk files forward_notch3D_Asym_finite_J2_forward_viz/out_2 written in 0.018198 seconds
+ON PRIMAL STEP (3)
+ > (1) Newton iteration
+ > absolute ||R|| = 2.930358e+01
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 2.569659e-01
+ > relative ||R|| = 8.769096e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > (3) Newton iteration
+ > absolute ||R|| = 2.266274e-01
+ > relative ||R|| = 7.733780e-03
+ > (4) Newton iteration
+ > absolute ||R|| = 6.659848e-02
+ > relative ||R|| = 2.272708e-03
+ > (5) Newton iteration
+ > absolute ||R|| = 2.111731e-03
+ > relative ||R|| = 7.206394e-05
+ > (6) Newton iteration
+ > absolute ||R|| = 1.733485e-04
+ > relative ||R|| = 5.915609e-06
+ > (7) Newton iteration
+ > absolute ||R|| = 3.875118e-08
+ > relative ||R|| = 1.322405e-09
+ > (8) Newton iteration
+ > absolute ||R|| = 6.329114e-13
+ > relative ||R|| = 2.159843e-14
+writeVtuFile into buffers: 0.022509 seconds
+writeVtuFile buffers to disk: 0.001880 seconds
+vtk files forward_notch3D_Asym_finite_J2_forward_viz/out_3 written in 0.026726 seconds
+ON PRIMAL STEP (4)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.740201e+02
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 1.058849e+00
+ > relative ||R|| = 6.084635e-03
+ > (3) Newton iteration
+ > absolute ||R|| = 9.642300e-01
+ > relative ||R|| = 5.540911e-03
+ > (4) Newton iteration
+ > absolute ||R|| = 2.100837e-01
+ > relative ||R|| = 1.207238e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > (5) Newton iteration
+ > absolute ||R|| = 9.277300e-02
+ > relative ||R|| = 5.331165e-04
+ > (6) Newton iteration
+ > absolute ||R|| = 1.352678e-02
+ > relative ||R|| = 7.773113e-05
+ > (7) Newton iteration
+ > absolute ||R|| = 2.937250e-04
+ > relative ||R|| = 1.687880e-06
+ > (8) Newton iteration
+ > absolute ||R|| = 1.584442e-07
+ > relative ||R|| = 9.104936e-10
+ > (9) Newton iteration
+ > absolute ||R|| = 5.249010e-13
+ > relative ||R|| = 3.016324e-15
+writeVtuFile into buffers: 0.021415 seconds
+writeVtuFile buffers to disk: 0.002066 seconds
+vtk files forward_notch3D_Asym_finite_J2_forward_viz/out_4 written in 0.024672 seconds
+ON PRIMAL STEP (5)
+ > (1) Newton iteration
+ > absolute ||R|| = 2.790989e+02
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 4.121816e-01
+ > relative ||R|| = 1.476830e-03
+ > (3) Newton iteration
+ > absolute ||R|| = 1.745944e-01
+ > relative ||R|| = 6.255648e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 1.964474e-02
+ > relative ||R|| = 7.038630e-05
+ > (5) Newton iteration
+ > absolute ||R|| = 8.078924e-04
+ > relative ||R|| = 2.894646e-06
+ > (6) Newton iteration
+ > absolute ||R|| = 2.994666e-06
+ > relative ||R|| = 1.072976e-08
+ > (7) Newton iteration
+ > absolute ||R|| = 3.492111e-11
+ > relative ||R|| = 1.251209e-13
+writeVtuFile into buffers: 0.021337 seconds
+writeVtuFile buffers to disk: 0.001914 seconds
+vtk files forward_notch3D_Asym_finite_J2_forward_viz/out_5 written in 0.024598 seconds
+ON PRIMAL STEP (6)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.065462e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 1.250910e+00
+ > relative ||R|| = 1.174054e-03
+ > (3) Newton iteration
+ > absolute ||R|| = 5.638499e-01
+ > relative ||R|| = 5.292071e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 1.756805e-01
+ > relative ||R|| = 1.648867e-04
+ > (5) Newton iteration
+ > absolute ||R|| = 9.067192e-02
+ > relative ||R|| = 8.510105e-05
+ > (6) Newton iteration
+ > absolute ||R|| = 8.816138e-03
+ > relative ||R|| = 8.274475e-06
+ > (7) Newton iteration
+ > absolute ||R|| = 6.579170e-04
+ > relative ||R|| = 6.174947e-07
+ > (8) Newton iteration
+ > absolute ||R|| = 1.436334e-06
+ > relative ||R|| = 1.348086e-09
+ > (9) Newton iteration
+ > absolute ||R|| = 7.660341e-12
+ > relative ||R|| = 7.189690e-15
+writeVtuFile into buffers: 0.022712 seconds
+writeVtuFile buffers to disk: 0.001851 seconds
+vtk files forward_notch3D_Asym_finite_J2_forward_viz/out_6 written in 0.025523 seconds
+ON PRIMAL STEP (7)
+ > (1) Newton iteration
+ > absolute ||R|| = 8.476544e+02
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 4.453287e-01
+ > relative ||R|| = 5.253659e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 5.260002e-02
+ > relative ||R|| = 6.205361e-05
+ > (4) Newton iteration
+ > absolute ||R|| = 2.673099e-03
+ > relative ||R|| = 3.153525e-06
+ > (5) Newton iteration
+ > absolute ||R|| = 3.490515e-05
+ > relative ||R|| = 4.117852e-08
+ > (6) Newton iteration
+ > absolute ||R|| = 1.414665e-08
+ > relative ||R|| = 1.668917e-11
+ > (7) Newton iteration
+ > absolute ||R|| = 3.659803e-13
+ > relative ||R|| = 4.317565e-16
+writeVtuFile into buffers: 0.022151 seconds
+writeVtuFile buffers to disk: 0.002105 seconds
+vtk files forward_notch3D_Asym_finite_J2_forward_viz/out_7 written in 0.027222 seconds
+ON PRIMAL STEP (8)
+ > (1) Newton iteration
+ > absolute ||R|| = 8.352859e+02
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 2.095614e-01
+ > relative ||R|| = 2.508859e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 1.526423e-02
+ > relative ||R|| = 1.827425e-05
+ > (4) Newton iteration
+ > absolute ||R|| = 4.133800e-04
+ > relative ||R|| = 4.948965e-07
+ > (5) Newton iteration
+ > absolute ||R|| = 1.722360e-07
+ > relative ||R|| = 2.062001e-10
+ > (6) Newton iteration
+ > absolute ||R|| = 4.998630e-13
+ > relative ||R|| = 5.984335e-16
+writeVtuFile into buffers: 0.021216 seconds
+writeVtuFile buffers to disk: 0.001959 seconds
+vtk files forward_notch3D_Asym_finite_J2_forward_viz/out_8 written in 0.025769 seconds
+J: 1.3461944967329905e+03
+
+mesh forward_notch3D_Asym_finite_J2_synthetic/ written in 0.008143 seconds
+COMPLETED forward_notch3D_Asym_finite_J2
+
+RUNNING forward_notch2D_Asym_finite_J2_plane_stress
+reading input: temp_forward_notch2D_Asym_finite_J2_plane_stress.yaml
+model ../../../../meshes/longer_notch_Asym_3D_surface_to_2D/thickness_0.06/notch2D_Asym.dmg loaded in 0.002116 seconds
+mesh ../../../../meshes/longer_notch_Asym_3D_surface_to_2D/thickness_0.06/notch2D_Asym_4p.smb loaded in 0.001807 seconds
+number of triangle 5620 quad 0
+mesh entity counts: v 2923 e 8542 f 5620 r 0
+mesh reordered in 0.001329 seconds
+mesh verified in 0.002301 seconds
+nsteps = 8
+ON PRIMAL STEP (1)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.028502e+02
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 5.642757e-02
+ > relative ||R|| = 5.486383e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 2.763244e-02
+ > relative ||R|| = 2.686667e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 1.770628e-04
+ > relative ||R|| = 1.721560e-06
+ > (5) Newton iteration
+ > absolute ||R|| = 3.129174e-08
+ > relative ||R|| = 3.042457e-10
+ > (6) Newton iteration
+ > absolute ||R|| = 3.976546e-10
+ > relative ||R|| = 3.866346e-12
+ > (7) Newton iteration
+ > absolute ||R|| = 9.962461e-11
+ > relative ||R|| = 9.686378e-13
+writeVtuFile into buffers: 0.002934 seconds
+writeVtuFile buffers to disk: 0.000305 seconds
+vtk files forward_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_1 written in 0.003439 seconds
+ON PRIMAL STEP (2)
+ > (1) Newton iteration
+ > absolute ||R|| = 5.136777e+01
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 2.180992e-01
+ > relative ||R|| = 4.245838e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > (3) Newton iteration
+ > absolute ||R|| = 1.828467e-01
+ > relative ||R|| = 3.559561e-03
+ > (4) Newton iteration
+ > absolute ||R|| = 9.229860e-02
+ > relative ||R|| = 1.796819e-03
+ > (5) Newton iteration
+ > absolute ||R|| = 8.377819e-03
+ > relative ||R|| = 1.630949e-04
+ > (6) Newton iteration
+ > absolute ||R|| = 1.712116e-03
+ > relative ||R|| = 3.333055e-05
+ > (7) Newton iteration
+ > absolute ||R|| = 9.929628e-07
+ > relative ||R|| = 1.933046e-08
+ > (8) Newton iteration
+ > absolute ||R|| = 1.024420e-09
+ > relative ||R|| = 1.994287e-11
+ > (9) Newton iteration
+ > absolute ||R|| = 2.341406e-10
+ > relative ||R|| = 4.558123e-12
+ > (10) Newton iteration
+ > absolute ||R|| = 5.906334e-11
+ > relative ||R|| = 1.149813e-12
+ > (11) Newton iteration
+ > absolute ||R|| = 1.669372e-11
+ > relative ||R|| = 3.249844e-13
+writeVtuFile into buffers: 0.002981 seconds
+writeVtuFile buffers to disk: 0.000349 seconds
+vtk files forward_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_2 written in 0.003558 seconds
+ON PRIMAL STEP (3)
+ > (1) Newton iteration
+ > absolute ||R|| = 5.123537e+01
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 2.563673e-01
+ > relative ||R|| = 5.003717e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > residual increase -- line search alpha_3 = 1.25e-01
+ > (3) Newton iteration
+ > absolute ||R|| = 2.349195e-01
+ > relative ||R|| = 4.585103e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > (4) Newton iteration
+ > absolute ||R|| = 2.107885e-01
+ > relative ||R|| = 4.114121e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > (5) Newton iteration
+ > absolute ||R|| = 1.569620e-01
+ > relative ||R|| = 3.063547e-03
+ > (6) Newton iteration
+ > absolute ||R|| = 6.407165e-02
+ > relative ||R|| = 1.250536e-03
+ > (7) Newton iteration
+ > absolute ||R|| = 4.161435e-03
+ > relative ||R|| = 8.122192e-05
+ > (8) Newton iteration
+ > absolute ||R|| = 1.492862e-04
+ > relative ||R|| = 2.913733e-06
+ > (9) Newton iteration
+ > absolute ||R|| = 3.553984e-08
+ > relative ||R|| = 6.936584e-10
+ > (10) Newton iteration
+ > absolute ||R|| = 3.573725e-10
+ > relative ||R|| = 6.975113e-12
+ > (11) Newton iteration
+ > absolute ||R|| = 7.946423e-11
+ > relative ||R|| = 1.550964e-12
+ > (12) Newton iteration
+ > absolute ||R|| = 1.926947e-11
+ > relative ||R|| = 3.760970e-13
+writeVtuFile into buffers: 0.002994 seconds
+writeVtuFile buffers to disk: 0.000297 seconds
+vtk files forward_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_3 written in 0.003576 seconds
+ON PRIMAL STEP (4)
+ > (1) Newton iteration
+ > absolute ||R|| = 3.036032e+02
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 9.728652e-01
+ > relative ||R|| = 3.204397e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > (3) Newton iteration
+ > absolute ||R|| = 8.917726e-01
+ > relative ||R|| = 2.937296e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > (4) Newton iteration
+ > absolute ||R|| = 6.691403e-01
+ > relative ||R|| = 2.203996e-03
+ > (5) Newton iteration
+ > absolute ||R|| = 3.547903e-01
+ > relative ||R|| = 1.168598e-03
+ > (6) Newton iteration
+ > absolute ||R|| = 1.487676e-02
+ > relative ||R|| = 4.900067e-05
+ > (7) Newton iteration
+ > absolute ||R|| = 1.504417e-03
+ > relative ||R|| = 4.955208e-06
+ > (8) Newton iteration
+ > absolute ||R|| = 2.534616e-05
+ > relative ||R|| = 8.348449e-08
+ > (9) Newton iteration
+ > absolute ||R|| = 5.511010e-10
+ > relative ||R|| = 1.815201e-12
+ > (10) Newton iteration
+ > absolute ||R|| = 1.295557e-10
+ > relative ||R|| = 4.267269e-13
+writeVtuFile into buffers: 0.003220 seconds
+writeVtuFile buffers to disk: 0.000403 seconds
+vtk files forward_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_4 written in 0.004017 seconds
+ON PRIMAL STEP (5)
+ > (1) Newton iteration
+ > absolute ||R|| = 4.593100e+02
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 6.356768e-01
+ > relative ||R|| = 1.383982e-03
+ > (3) Newton iteration
+ > absolute ||R|| = 3.564307e-01
+ > relative ||R|| = 7.760133e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 4.210295e-02
+ > relative ||R|| = 9.166564e-05
+ > (5) Newton iteration
+ > absolute ||R|| = 6.002636e-04
+ > relative ||R|| = 1.306881e-06
+ > (6) Newton iteration
+ > absolute ||R|| = 2.875990e-07
+ > relative ||R|| = 6.261545e-10
+ > (7) Newton iteration
+ > absolute ||R|| = 7.237195e-10
+ > relative ||R|| = 1.575667e-12
+ > (8) Newton iteration
+ > absolute ||R|| = 1.753844e-10
+ > relative ||R|| = 3.818432e-13
+writeVtuFile into buffers: 0.002997 seconds
+writeVtuFile buffers to disk: 0.000326 seconds
+vtk files forward_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_5 written in 0.005716 seconds
+ON PRIMAL STEP (6)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.682169e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 1.291157e+00
+ > relative ||R|| = 7.675546e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 1.130781e+00
+ > relative ||R|| = 6.722160e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 5.415275e-01
+ > relative ||R|| = 3.219221e-04
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > (5) Newton iteration
+ > absolute ||R|| = 4.172622e-01
+ > relative ||R|| = 2.480500e-04
+ > (6) Newton iteration
+ > absolute ||R|| = 4.260511e-02
+ > relative ||R|| = 2.532748e-05
+ > (7) Newton iteration
+ > absolute ||R|| = 5.210603e-03
+ > relative ||R|| = 3.097549e-06
+ > (8) Newton iteration
+ > absolute ||R|| = 3.290001e-05
+ > relative ||R|| = 1.955808e-08
+ > (9) Newton iteration
+ > absolute ||R|| = 1.620364e-09
+ > relative ||R|| = 9.632586e-13
+writeVtuFile into buffers: 0.003006 seconds
+writeVtuFile buffers to disk: 0.000359 seconds
+vtk files forward_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_6 written in 0.003593 seconds
+ON PRIMAL STEP (7)
+ > (1) Newton iteration
+ > absolute ||R|| = 8.664532e+02
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 4.765467e-01
+ > relative ||R|| = 5.499970e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 1.889814e-01
+ > relative ||R|| = 2.181092e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 1.738310e-02
+ > relative ||R|| = 2.006237e-05
+ > (5) Newton iteration
+ > absolute ||R|| = 3.060865e-03
+ > relative ||R|| = 3.532637e-06
+ > (6) Newton iteration
+ > absolute ||R|| = 3.224832e-05
+ > relative ||R|| = 3.721877e-08
+ > (7) Newton iteration
+ > absolute ||R|| = 1.751968e-09
+ > relative ||R|| = 2.022000e-12
+ > (8) Newton iteration
+ > absolute ||R|| = 1.312657e-10
+ > relative ||R|| = 1.514978e-13
+writeVtuFile into buffers: 0.003009 seconds
+writeVtuFile buffers to disk: 0.000315 seconds
+vtk files forward_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_7 written in 0.003631 seconds
+ON PRIMAL STEP (8)
+ > (1) Newton iteration
+ > absolute ||R|| = 8.648727e+02
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 3.073286e-01
+ > relative ||R|| = 3.553455e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 1.681740e-01
+ > relative ||R|| = 1.944494e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 3.031519e-03
+ > relative ||R|| = 3.505162e-06
+ > (5) Newton iteration
+ > absolute ||R|| = 8.196956e-07
+ > relative ||R|| = 9.477644e-10
+ > (6) Newton iteration
+ > absolute ||R|| = 1.805173e-10
+ > relative ||R|| = 2.087213e-13
+writeVtuFile into buffers: 0.003615 seconds
+writeVtuFile buffers to disk: 0.000290 seconds
+vtk files forward_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_8 written in 0.004135 seconds
+J: 1.3343271227349712e+03
+
+mesh forward_notch2D_Asym_finite_J2_plane_stress_synthetic/ written in 0.001211 seconds
+COMPLETED forward_notch2D_Asym_finite_J2_plane_stress
+
+model ../../../../../../meshes/longer_notch_Asym_3D_surface_to_2D/thickness_0.06/notch3D_Asym.dmg loaded in 0.000069 seconds
+mesh noisy_synthetic/ loaded in 0.011625 seconds
+number of tet 38866 hex 0 prism 0 pyramid 0
+mesh entity counts: v 9641 e 55030 f 84256 r 38866
+writeVtuFile into buffers: 0.011499 seconds
+writeVtuFile buffers to disk: 0.000534 seconds
+vtk files noisy_synthetic_viz written in 0.012602 seconds
+model ../../../../../../meshes/longer_notch_Asym_3D_surface_to_2D/thickness_0.06/notch3D_Asym.dmg loaded in 0.000070 seconds
+mesh noisy_synthetic/ loaded in 0.011650 seconds
+number of tet 38866 hex 0 prism 0 pyramid 0
+mesh entity counts: v 9641 e 55030 f 84256 r 38866
+mesh serial_noisy_synthetic/ written in 0.030408 seconds
+planned RIB factor 4 in 0.021003 seconds
+mesh serial_synthetic/ loaded in 0.028579 seconds
+number of tet 31912 hex 0 prism 0 pyramid 0
+mesh entity counts: v 7961 e 45304 f 69256 r 31912
+planned RIB factor 4 in 0.018692 seconds
+mesh expanded from 1 to 4 parts in 0.015531 seconds
+mesh migrated from 1 to 4 in 0.205889 seconds
+PARMA_STATUS  disconnected <max avg> 0 0.000
+PARMA_STATUS  neighbors <max avg> 3 3.000
+PARMA_STATUS  smallest side of max neighbor part 3
+PARMA_STATUS  num parts with max neighbors 4
+PARMA_STATUS  empty parts 0
+PARMA_STATUS  small neighbor counts 1:0 2:0 3:2 4:0 5:2 6:0 7:0 8:0 9:0 10:0 
+PARMA_STATUS  weighted vtx <tot max min avg> 8361.0 2104.0 2081.0 2090.250
+PARMA_STATUS  weighted edge <tot max min avg> 46265.0 11604.0 11539.0 11566.250
+PARMA_STATUS  weighted face <tot max min avg> 69820.0 17479.0 17437.0 17455.000
+PARMA_STATUS  weighted rgn <tot max min avg> 31912.0 7978.0 7978.0 7978.000
+PARMA_STATUS  owned bdry vtx <tot max min avg> 392 209 0 98.000
+PARMA_STATUS  shared bdry vtx <tot max min avg> 792 209 186 198.000
+PARMA_STATUS  model bdry vtx <tot max min avg> 5662 1436 1403 1415.500
+PARMA_STATUS  sharedSidesToElements <max min avg> 0.037 0.033 0.035
+PARMA_STATUS  entity imbalance <v e f r>: 1.01 1.00 1.00 1.00
+MDS: reordering before writing smb files
+mesh noisy_synthetic/ written in 0.048357 seconds
+model ../../../../../../meshes/notch_Asym_3D_surface_to_2D/thickness_0.06/notch3D_Asym.dmg loaded in 0.000069 seconds
+mesh noisy_synthetic/ loaded in 0.009636 seconds
+number of tet 31912 hex 0 prism 0 pyramid 0
+mesh entity counts: v 7961 e 45304 f 69256 r 31912
+writeVtuFile into buffers: 0.009135 seconds
+writeVtuFile buffers to disk: 0.000766 seconds
+vtk files noisy_synthetic_viz written in 0.010383 seconds
+model ../../../../../../meshes/longer_notch_Asym_3D_surface_to_2D/thickness_0.06/notch2D_Asym.dmg loaded in 0.000040 seconds
+mesh serial_longer_synthetic_plane_stress/ loaded in 0.002900 seconds
+number of triangle 5620 quad 0
+mesh entity counts: v 2923 e 8542 f 5620 r 0
+writeVtuFile into buffers: 0.006784 seconds
+writeVtuFile buffers to disk: 0.000336 seconds
+vtk files serial_longer_synthetic_plane_stress_viz written in 0.007635 seconds
+mesh serial_synthetic_plane_stress/ loaded in 0.003526 seconds
+number of triangle 4608 quad 0
+mesh entity counts: v 2407 e 7014 f 4608 r 0
+planned RIB factor 4 in 0.002357 seconds
+mesh expanded from 1 to 4 parts in 0.001673 seconds
+mesh migrated from 1 to 4 in 0.021739 seconds
+PARMA_STATUS  disconnected <max avg> 0 0.000
+PARMA_STATUS  neighbors <max avg> 3 3.000
+PARMA_STATUS  smallest side of max neighbor part 1
+PARMA_STATUS  num parts with max neighbors 4
+PARMA_STATUS  empty parts 0
+PARMA_STATUS  small neighbor counts 1:4 2:0 3:0 4:0 5:0 6:0 7:0 8:0 9:0 10:0 
+PARMA_STATUS  weighted vtx <tot max min avg> 2516.0 631.0 627.0 629.000
+PARMA_STATUS  weighted edge <tot max min avg> 7120.0 1782.0 1778.0 1780.000
+PARMA_STATUS  weighted face <tot max min avg> 4608.0 1152.0 1152.0 1152.000
+PARMA_STATUS  owned bdry vtx <tot max min avg> 107 54 0 26.750
+PARMA_STATUS  shared bdry vtx <tot max min avg> 216 54 54 54.000
+PARMA_STATUS  model bdry vtx <tot max min avg> 208 56 48 52.000
+PARMA_STATUS  sharedSidesToElements <max min avg> 0.046 0.046 0.046
+PARMA_STATUS  entity imbalance <v e f r>: 1.00 1.00 1.00 1.00
+MDS: reordering before writing smb files
+mesh noisy_synthetic_plane_stress/ written in 0.003512 seconds
+model ../../../../../../meshes/longer_notch_Asym_3D_surface_to_2D/thickness_0.06/notch3D_Asym.dmg loaded in 0.000080 seconds
+mesh noisy_synthetic_plane_stress/ loaded in 0.001584 seconds
+number of triangle 4608 quad 0
+mesh entity counts: v 2407 e 7014 f 4608 r 0
+writeVtuFile into buffers: 0.002267 seconds
+writeVtuFile buffers to disk: 0.000256 seconds
+vtk files noisy_synthetic_plane_stress_viz written in 0.002872 seconds
+Initial parameters guess saved to mat_data_initial.csv
+Initial guess::1 => Y: 304.95203731481143, S: 869.753382781279, D: 2.885583732612789
+RUNNING noisy_load_0x noisy_disp_0x vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            3     M =           10
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  3.81536D-02    |proj g|=  1.52492D+00
+
+At iterate    1    f=  6.54286D-04    |proj g|=  1.53942D-01
+
+At iterate    2    f=  1.57425D-05    |proj g|=  1.43523D-02
+
+At iterate    3    f=  1.06035D-05    |proj g|=  2.85077D-03
+
+At iterate    4    f=  1.02949D-05    |proj g|=  3.25056D-03
+
+At iterate    5    f=  7.14127D-06    |proj g|=  5.52422D-03
+
+At iterate    6    f=  3.94506D-06    |proj g|=  7.34551D-03
+
+At iterate    7    f=  7.85642D-07    |proj g|=  4.76811D-03
+
+At iterate    8    f=  1.26255D-07    |proj g|=  1.10634D-03
+
+At iterate    9    f=  9.18296D-08    |proj g|=  1.11365D-04
+
+At iterate   10    f=  9.11247D-08    |proj g|=  3.87458D-05
+
+At iterate   11    f=  9.03927D-08    |proj g|=  4.73061D-05
+
+At iterate   12    f=  8.57388D-08    |proj g|=  5.78787D-05
+
+At iterate   13    f=  5.32825D-08    |proj g|=  3.33257D-04
+
+At iterate   14    f=  3.40299D-08    |proj g|=  3.90759D-04
+
+At iterate   15    f=  8.66825D-09    |proj g|=  4.75770D-05
+
+At iterate   16    f=  6.81230D-09    |proj g|=  1.61623D-04
+
+At iterate   17    f=  6.16229D-09    |proj g|=  3.19625D-05
+
+At iterate   18    f=  6.10476D-09    |proj g|=  4.33426D-06
+
+At iterate   19    f=  6.10123D-09    |proj g|=  4.30484D-06
+
+At iterate   20    f=  6.10043D-09    |proj g|=  1.57917D-06
+
+At iterate   21    f=  6.09945D-09    |proj g|=  1.09034D-08
+
+At iterate   22    f=  6.09945D-09    |proj g|=  7.27272D-10
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    3     22     28     22     0     0   7.273D-10   6.099D-09
+  F =   6.0994519882015671E-009
+
+CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH             
+
+real	0m27.079s
+user	1m29.490s
+sys	0m5.293s
+CALIBRATED PARAMS:
+
+Y: 3.299893433495e+02
+S: 9.919646341954e+02
+D: 1.006676933369e+01
+COMPLETED noisy_load_0x noisy_disp_0x vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+
+Mean values and errors have been written to mean_vfm_forward_sens_calibrated_params.txt and ../../params_error_vfm_forward_sens_noisy_load_0x.txt.
+RUNNING calibration noisy_load_0x noisy_disp_0x calibration_vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+reading input: temp_calibration_vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress.yaml
+model ../../../../meshes/notch_Asym_3D_surface_to_2D/thickness_0.06/notch2D_Asym.dmg loaded in 0.000048 seconds
+mesh ../forward/noisy_displacement_data/noisy_0x/noisy_synthetic_plane_stress/ loaded in 0.001353 seconds
+number of triangle 4608 quad 0
+mesh entity counts: v 2407 e 7014 f 4608 r 0
+mesh reordered in 0.001696 seconds
+  - verifying tags: measured_8_ver, measured_7_ver, measured_6_ver, measured_5_ver, measured_4_ver, measured_3_ver, measured_2_ver, measured_1_ver, measured_0_ver
+mesh verified in 0.002614 seconds
+nsteps = 8
+ON PRIMAL STEP (1)
+ > (1) Newton iteration
+ > absolute ||R|| = 9.496660e+01
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 5.849691e-02
+ > relative ||R|| = 6.159735e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 4.820820e-02
+ > relative ||R|| = 5.076333e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 3.373937e-04
+ > relative ||R|| = 3.552762e-06
+ > (5) Newton iteration
+ > absolute ||R|| = 6.430918e-08
+ > relative ||R|| = 6.771768e-10
+ > (6) Newton iteration
+ > absolute ||R|| = 5.305577e-10
+ > relative ||R|| = 5.586782e-12
+ > (7) Newton iteration
+ > absolute ||R|| = 1.341092e-10
+ > relative ||R|| = 1.412173e-12
+ > (8) Newton iteration
+ > absolute ||R|| = 4.008381e-11
+ > relative ||R|| = 4.220833e-13
+writeVtuFile into buffers: 0.002560 seconds
+writeVtuFile buffers to disk: 0.000285 seconds
+vtk files vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_1 written in 0.003051 seconds
+ON PRIMAL STEP (2)
+ > (1) Newton iteration
+ > absolute ||R|| = 4.774786e+01
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 2.136244e-01
+ > relative ||R|| = 4.474009e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > (3) Newton iteration
+ > absolute ||R|| = 1.959063e-01
+ > relative ||R|| = 4.102932e-03
+ > (4) Newton iteration
+ > absolute ||R|| = 9.227229e-02
+ > relative ||R|| = 1.932490e-03
+ > (5) Newton iteration
+ > absolute ||R|| = 1.112452e-02
+ > relative ||R|| = 2.329846e-04
+ > (6) Newton iteration
+ > absolute ||R|| = 1.282501e-03
+ > relative ||R|| = 2.685985e-05
+ > (7) Newton iteration
+ > absolute ||R|| = 5.541678e-07
+ > relative ||R|| = 1.160613e-08
+ > (8) Newton iteration
+ > absolute ||R|| = 8.304532e-10
+ > relative ||R|| = 1.739247e-11
+ > (9) Newton iteration
+ > absolute ||R|| = 1.933294e-10
+ > relative ||R|| = 4.048964e-12
+ > (10) Newton iteration
+ > absolute ||R|| = 5.022996e-11
+ > relative ||R|| = 1.051983e-12
+ > (11) Newton iteration
+ > absolute ||R|| = 1.453982e-11
+ > relative ||R|| = 3.045125e-13
+writeVtuFile into buffers: 0.002582 seconds
+writeVtuFile buffers to disk: 0.000267 seconds
+vtk files vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_2 written in 0.003055 seconds
+ON PRIMAL STEP (3)
+ > (1) Newton iteration
+ > absolute ||R|| = 4.885962e+01
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 2.267624e-01
+ > relative ||R|| = 4.641100e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > residual increase -- line search alpha_3 = 1.25e-01
+ > (3) Newton iteration
+ > absolute ||R|| = 2.075554e-01
+ > relative ||R|| = 4.247994e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > (4) Newton iteration
+ > absolute ||R|| = 1.822841e-01
+ > relative ||R|| = 3.730773e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > (5) Newton iteration
+ > absolute ||R|| = 1.371224e-01
+ > relative ||R|| = 2.806457e-03
+ > (6) Newton iteration
+ > absolute ||R|| = 6.016708e-02
+ > relative ||R|| = 1.231428e-03
+ > (7) Newton iteration
+ > absolute ||R|| = 2.296907e-03
+ > relative ||R|| = 4.701034e-05
+ > (8) Newton iteration
+ > absolute ||R|| = 1.485349e-06
+ > relative ||R|| = 3.040035e-08
+ > (9) Newton iteration
+ > absolute ||R|| = 8.620464e-10
+ > relative ||R|| = 1.764333e-11
+ > (10) Newton iteration
+ > absolute ||R|| = 2.044380e-10
+ > relative ||R|| = 4.184191e-12
+ > (11) Newton iteration
+ > absolute ||R|| = 5.485258e-11
+ > relative ||R|| = 1.122657e-12
+ > (12) Newton iteration
+ > absolute ||R|| = 1.627284e-11
+ > relative ||R|| = 3.330530e-13
+writeVtuFile into buffers: 0.002937 seconds
+writeVtuFile buffers to disk: 0.000357 seconds
+vtk files vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_3 written in 0.003591 seconds
+ON PRIMAL STEP (4)
+ > (1) Newton iteration
+ > absolute ||R|| = 2.970020e+02
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 9.674700e-01
+ > relative ||R|| = 3.257452e-03
+ > (3) Newton iteration
+ > absolute ||R|| = 7.426770e-01
+ > relative ||R|| = 2.500579e-03
+ > (4) Newton iteration
+ > absolute ||R|| = 1.202710e-01
+ > relative ||R|| = 4.049501e-04
+ > (5) Newton iteration
+ > absolute ||R|| = 2.047376e-02
+ > relative ||R|| = 6.893476e-05
+ > (6) Newton iteration
+ > absolute ||R|| = 2.721197e-04
+ > relative ||R|| = 9.162217e-07
+ > (7) Newton iteration
+ > absolute ||R|| = 7.154780e-08
+ > relative ||R|| = 2.409000e-10
+ > (8) Newton iteration
+ > absolute ||R|| = 5.059518e-10
+ > relative ||R|| = 1.703530e-12
+ > (9) Newton iteration
+ > absolute ||R|| = 1.409213e-10
+ > relative ||R|| = 4.744793e-13
+writeVtuFile into buffers: 0.002387 seconds
+writeVtuFile buffers to disk: 0.000264 seconds
+vtk files vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_4 written in 0.002859 seconds
+ON PRIMAL STEP (5)
+ > (1) Newton iteration
+ > absolute ||R|| = 4.146078e+02
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 6.499856e-01
+ > relative ||R|| = 1.567712e-03
+ > (3) Newton iteration
+ > absolute ||R|| = 2.937100e-01
+ > relative ||R|| = 7.084045e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 3.828548e-02
+ > relative ||R|| = 9.234146e-05
+ > (5) Newton iteration
+ > absolute ||R|| = 8.840888e-04
+ > relative ||R|| = 2.132350e-06
+ > (6) Newton iteration
+ > absolute ||R|| = 6.352863e-07
+ > relative ||R|| = 1.532259e-09
+ > (7) Newton iteration
+ > absolute ||R|| = 6.483170e-10
+ > relative ||R|| = 1.563688e-12
+ > (8) Newton iteration
+ > absolute ||R|| = 1.535521e-10
+ > relative ||R|| = 3.703551e-13
+writeVtuFile into buffers: 0.002575 seconds
+writeVtuFile buffers to disk: 0.000284 seconds
+vtk files vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_5 written in 0.003072 seconds
+ON PRIMAL STEP (6)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.346081e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 1.408201e+00
+ > relative ||R|| = 1.046149e-03
+ > (3) Newton iteration
+ > absolute ||R|| = 7.270113e-01
+ > relative ||R|| = 5.400948e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 2.894742e-01
+ > relative ||R|| = 2.150497e-04
+ > (5) Newton iteration
+ > absolute ||R|| = 9.886891e-03
+ > relative ||R|| = 7.344946e-06
+ > (6) Newton iteration
+ > absolute ||R|| = 5.455445e-05
+ > relative ||R|| = 4.052836e-08
+ > (7) Newton iteration
+ > absolute ||R|| = 2.886124e-09
+ > relative ||R|| = 2.144094e-12
+ > (8) Newton iteration
+ > absolute ||R|| = 6.658084e-11
+ > relative ||R|| = 4.946273e-14
+writeVtuFile into buffers: 0.003097 seconds
+writeVtuFile buffers to disk: 0.000244 seconds
+vtk files vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_6 written in 0.003531 seconds
+ON PRIMAL STEP (7)
+ > (1) Newton iteration
+ > absolute ||R|| = 9.240974e+02
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 4.954394e-01
+ > relative ||R|| = 5.361332e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 2.153530e-01
+ > relative ||R|| = 2.330414e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 2.281886e-03
+ > relative ||R|| = 2.469313e-06
+ > (5) Newton iteration
+ > absolute ||R|| = 3.104171e-06
+ > relative ||R|| = 3.359138e-09
+ > (6) Newton iteration
+ > absolute ||R|| = 1.380283e-10
+ > relative ||R|| = 1.493655e-13
+writeVtuFile into buffers: 0.002605 seconds
+writeVtuFile buffers to disk: 0.000289 seconds
+vtk files vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_7 written in 0.003126 seconds
+ON PRIMAL STEP (8)
+ > (1) Newton iteration
+ > absolute ||R|| = 8.962701e+02
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 3.076710e-01
+ > relative ||R|| = 3.432794e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 1.641049e-01
+ > relative ||R|| = 1.830976e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 9.017263e-03
+ > relative ||R|| = 1.006088e-05
+ > (5) Newton iteration
+ > absolute ||R|| = 6.357228e-06
+ > relative ||R|| = 7.092983e-09
+ > (6) Newton iteration
+ > absolute ||R|| = 4.999951e-11
+ > relative ||R|| = 5.578621e-14
+writeVtuFile into buffers: 0.002590 seconds
+writeVtuFile buffers to disk: 0.000280 seconds
+vtk files vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_8 written in 0.003090 seconds
+J: 1.3023617579102189e-03
+
+COMPLETED calibration noisy_load_0x noisy_disp_0x calibration_vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+
+Initial guess::1 => Y: 304.95203731481143, S: 869.753382781279, D: 2.885583732612789
+RUNNING noisy_load_0x noisy_disp_0x pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            3     M =           10
+ This problem is unconstrained.
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  8.91295D+04    |proj g|=  1.93569D+05
+
+At iterate    1    f=  2.85409D+04    |proj g|=  1.32549D+05
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+
+At iterate    2    f=  4.74916D+03    |proj g|=  1.45199D+04
+
+At iterate    3    f=  4.25562D+03    |proj g|=  1.33410D+04
+
+At iterate    4    f=  3.33723D+03    |proj g|=  9.75642D+03
+
+At iterate    5    f=  5.13959D+02    |proj g|=  7.85365D+03
+
+At iterate    6    f=  3.66097D+02    |proj g|=  1.21322D+04
+
+At iterate    7    f=  1.98292D+02    |proj g|=  8.17595D+03
+
+At iterate    8    f=  6.46937D+01    |proj g|=  1.00094D+03
+
+At iterate    9    f=  5.69441D+01    |proj g|=  6.06267D+02
+
+At iterate   10    f=  5.61991D+01    |proj g|=  1.44929D+02
+
+At iterate   11    f=  5.61558D+01    |proj g|=  1.27018D+02
+
+At iterate   12    f=  5.56385D+01    |proj g|=  1.33518D+02
+
+At iterate   13    f=  5.46001D+01    |proj g|=  3.30685D+02
+
+At iterate   14    f=  5.10711D+01    |proj g|=  6.88912D+02
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+Newton's method failed in 30 iterationsNewton's method failed in 30 iterations[ase-d22442:3558150] *** Process received signal ***
+[ase-d22442:3558150] Signal: Aborted (6)
+[ase-d22442:3558150] Signal code:  (-6)
+Newton's method failed in 30 iterations[ase-d22442:3558151] *** Process received signal ***
+[ase-d22442:3558151] Signal: Aborted (6)
+[ase-d22442:3558151] Signal code:  (-6)
+Newton's method failed in 30 iterations[ase-d22442:3558148] *** Process received signal ***
+[ase-d22442:3558148] Signal: Aborted (6)
+[ase-d22442:3558148] Signal code:  (-6)
+[ase-d22442:3558149] *** Process received signal ***
+[ase-d22442:3558149] Signal: Aborted (6)
+[ase-d22442:3558149] Signal code:  (-6)
+[ase-d22442:3558149] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7ede98642520]
+ > Reached max line search evals
+
+
+
+
+[ase-d22442:3558149] [ 1] [ase-d22442:3558151] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7b2ed3642520]
+[ase-d22442:3558151] [ 1] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x7b2ed36969fc]
+[ase-d22442:3558151] [ 2] [ase-d22442:3558150] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7e2514042520]
+[ase-d22442:3558150] [ 1] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x7e25140969fc]
+[ase-d22442:3558150] [ 2] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x7e2514042476]
+[ase-d22442:3558150] [ 3] [ase-d22442:3558148] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x762c0d642520]
+[ase-d22442:3558148] [ 1] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x762c0d6969fc]
+[ase-d22442:3558148] [ 2] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x762c0d642476]
+[ase-d22442:3558148] [ 3] /lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x762c0d6287f3]
+[ase-d22442:3558148] [ 4] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x7ede986969fc]
+[ase-d22442:3558149] [ 2] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x7ede98642476]
+[ase-d22442:3558149] [ 3] /lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x7ede986287f3]
+[ase-d22442:3558149] [ 4] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x7b2ed3642476]
+[ase-d22442:3558151] [ 3] /lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x7b2ed36287f3]
+[ase-d22442:3558151] [ 4] /lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x7e25140287f3]
+[ase-d22442:3558150] [ 4] /home/sk63837/calibr8/flavor/linux-shared/install/calibr8/lib/libcalibr8.so(_ZN7calibr84failEPKcz+0xd2)[0x7e2514f567c2]
+[ase-d22442:3558150] [ 5] /home/sk63837/calibr8/flavor/linux-shared/install/calibr8/lib/libcalibr8.so(_ZN7calibr84failEPKcz+0xd2)[0x7ede995567c2]
+[ase-d22442:3558149] [ 5] /home/sk63837/calibr8/flavor/linux-shared/install/calibr8/lib/libcalibr8.so(_ZN7calibr84failEPKcz+0xd2)[0x762c0e5567c2]
+[ase-d22442:3558148] [ 5] /home/sk63837/calibr8/flavor/linux-shared/install/calibr8/lib/libcalibr8.so(_ZN7calibr84failEPKcz+0xd2)[0x7b2ed45567c2]
+[ase-d22442:3558151] [ 5] /home/sk63837/calibr8/flavor/linux-shared/install/calibr8/lib/libcalibr8.so(_ZN7calibr86Primal13solve_at_stepEi+0x1158)[0x762c0e764a98]
+[ase-d22442:3558148] [ 6] objective(+0xa073)[0x5a3409854073]
+[ase-d22442:3558148] [ 7] objective(+0x910b)[0x5a340985310b]
+[ase-d22442:3558148] [ 8] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x762c0d629d90]
+[ase-d22442:3558148] [ 9] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x762c0d629e40]
+[ase-d22442:3558148] [10] objective(+0x9295)[0x5a3409853295]
+[ase-d22442:3558148] *** End of error message ***
+/home/sk63837/calibr8/flavor/linux-shared/install/calibr8/lib/libcalibr8.so(_ZN7calibr86Primal13solve_at_stepEi+0x1158)[0x7b2ed4764a98]
+[ase-d22442:3558151] [ 6] objective(+0xa073)[0x5db394a91073]
+[ase-d22442:3558151] [ 7] objective(+0x910b)[0x5db394a9010b]
+[ase-d22442:3558151] [ 8] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x7b2ed3629d90]
+[ase-d22442:3558151] [ 9] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x7b2ed3629e40]
+[ase-d22442:3558151] [10] objective(+0x9295)[0x5db394a90295]
+[ase-d22442:3558151] *** End of error message ***
+/home/sk63837/calibr8/flavor/linux-shared/install/calibr8/lib/libcalibr8.so(_ZN7calibr86Primal13solve_at_stepEi+0x1158)[0x7e2515164a98]
+[ase-d22442:3558150] [ 6] objective(+0xa073)[0x63c1ab98a073]
+[ase-d22442:3558150] [ 7] objective(+0x910b)[0x63c1ab98910b]
+[ase-d22442:3558150] [ 8] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x7e2514029d90]
+[ase-d22442:3558150] [ 9] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x7e2514029e40]
+[ase-d22442:3558150] [10] objective(+0x9295)[0x63c1ab989295]
+[ase-d22442:3558150] *** End of error message ***
+/home/sk63837/calibr8/flavor/linux-shared/install/calibr8/lib/libcalibr8.so(_ZN7calibr86Primal13solve_at_stepEi+0x1158)[0x7ede99764a98]
+[ase-d22442:3558149] [ 6] objective(+0xa073)[0x5c5527f3b073]
+[ase-d22442:3558149] [ 7] objective(+0x910b)[0x5c5527f3a10b]
+[ase-d22442:3558149] [ 8] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x7ede98629d90]
+[ase-d22442:3558149] [ 9] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x7ede98629e40]
+[ase-d22442:3558149] [10] objective(+0x9295)[0x5c5527f3a295]
+[ase-d22442:3558149] *** End of error message ***
+--------------------------------------------------------------------------
+prterun noticed that process rank 1 with PID 3558149 on node ase-d22442 exited on
+signal 6 (Aborted).
+--------------------------------------------------------------------------
+
+At iterate   15    f=  2.52296D+01    |proj g|=  1.32048D+03
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+Newton's method failed in 30 iterations[ase-d22442:3558250] *** Process received signal ***
+[ase-d22442:3558250] Signal: Aborted (6)
+[ase-d22442:3558250] Signal code:  (-6)
+Newton's method failed in 30 iterations[ase-d22442:3558249] *** Process received signal ***
+[ase-d22442:3558249] Signal: Aborted (6)
+[ase-d22442:3558249] Signal code:  (-6)
+Newton's method failed in 30 iterations[ase-d22442:3558251] *** Process received signal ***
+[ase-d22442:3558251] Signal: Aborted (6)
+[ase-d22442:3558251] Signal code:  (-6)
+Newton's method failed in 30 iterations[ase-d22442:3558248] *** Process received signal ***
+[ase-d22442:3558248] Signal: Aborted (6)
+[ase-d22442:3558248] Signal code:  (-6)
+[ase-d22442:3558248] [ 0] [ase-d22442:3558249] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x75b243a42520]
+[ase-d22442:3558249] [ 1] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x75b243a969fc]
+[ase-d22442:3558249] [ 2] [ase-d22442:3558250] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x708162042520]
+[ase-d22442:3558250] [ 1] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x7081620969fc]
+[ase-d22442:3558250] [ 2] [ase-d22442:3558251] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x74fccd442520]
+[ase-d22442:3558251] [ 1] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x74fccd4969fc]
+[ase-d22442:3558251] [ 2] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x736c20642520]
+[ase-d22442:3558248] [ 1] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x736c206969fc]
+[ase-d22442:3558248] [ 2] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x736c20642476]
+[ase-d22442:3558248] [ 3] /lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x736c206287f3]
+[ase-d22442:3558248] [ 4] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x75b243a42476]
+[ase-d22442:3558249] [ 3] /lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x75b243a287f3]
+[ase-d22442:3558249] [ 4] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x708162042476]
+[ase-d22442:3558250] [ 3] /lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x7081620287f3]
+[ase-d22442:3558250] [ 4] /home/sk63837/calibr8/flavor/linux-shared/install/calibr8/lib/libcalibr8.so(_ZN7calibr84failEPKcz+0xd2)[0x708162f567c2]
+[ase-d22442:3558250] [ 5] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x74fccd442476]
+[ase-d22442:3558251] [ 3] /lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x74fccd4287f3]
+[ase-d22442:3558251] [ 4] /home/sk63837/calibr8/flavor/linux-shared/install/calibr8/lib/libcalibr8.so(_ZN7calibr84failEPKcz+0xd2)[0x74fcce3567c2]
+[ase-d22442:3558251] [ 5] /home/sk63837/calibr8/flavor/linux-shared/install/calibr8/lib/libcalibr8.so(_ZN7calibr84failEPKcz+0xd2)[0x736c215567c2]
+[ase-d22442:3558248] [ 5] /home/sk63837/calibr8/flavor/linux-shared/install/calibr8/lib/libcalibr8.so(_ZN7calibr84failEPKcz+0xd2)[0x75b2449567c2]
+[ase-d22442:3558249] [ 5] /home/sk63837/calibr8/flavor/linux-shared/install/calibr8/lib/libcalibr8.so(_ZN7calibr86Primal13solve_at_stepEi+0x1158)[0x708163164a98]
+[ase-d22442:3558250] [ 6] objective(+0xa073)[0x578a18cbd073]
+[ase-d22442:3558250] [ 7] objective(+0x910b)[0x578a18cbc10b]
+[ase-d22442:3558250] [ 8] /home/sk63837/calibr8/flavor/linux-shared/install/calibr8/lib/libcalibr8.so(_ZN7calibr86Primal13solve_at_stepEi+0x1158)[0x736c21764a98]
+[ase-d22442:3558248] [ 6] objective(+0xa073)[0x62c3691b7073]
+[ase-d22442:3558248] [ 7] objective(+0x910b)[0x62c3691b610b]
+[ase-d22442:3558248] [ 8] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x736c20629d90]
+[ase-d22442:3558248] [ 9] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x736c20629e40]
+[ase-d22442:3558248] [10] objective(+0x9295)[0x62c3691b6295]
+/home/sk63837/calibr8/flavor/linux-shared/install/calibr8/lib/libcalibr8.so(_ZN7calibr86Primal13solve_at_stepEi+0x1158)[0x75b244b64a98]
+[ase-d22442:3558249] [ 6] objective(+0xa073)[0x64313e16a073]
+[ase-d22442:3558249] [ 7] objective(+0x910b)[0x64313e16910b]
+[ase-d22442:3558249] [ 8] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x75b243a29d90]
+[ase-d22442:3558249] [ 9] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x75b243a29e40]
+[ase-d22442:3558249] [10] objective(+0x9295)[0x64313e169295]
+[ase-d22442:3558249] *** End of error message ***
+/home/sk63837/calibr8/flavor/linux-shared/install/calibr8/lib/libcalibr8.so(_ZN7calibr86Primal13solve_at_stepEi+0x1158)[0x74fcce564a98]
+[ase-d22442:3558251] [ 6] objective(+0xa073)[0x5eff7ee15073]
+[ase-d22442:3558251] [ 7] objective(+0x910b)[0x5eff7ee1410b]
+[ase-d22442:3558251] [ 8] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x74fccd429d90]
+[ase-d22442:3558251] [ 9] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x74fccd429e40]
+[ase-d22442:3558251] [10] objective(+0x9295)[0x5eff7ee14295]
+[ase-d22442:3558251] *** End of error message ***
+/lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x708162029d90]
+[ase-d22442:3558250] [ 9] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x708162029e40]
+[ase-d22442:3558250] [10] objective(+0x9295)[0x578a18cbc295]
+[ase-d22442:3558250] *** End of error message ***
+[ase-d22442:3558248] *** End of error message ***
+ > Reached max line search evals
+
+
+
+
+--------------------------------------------------------------------------
+prterun noticed that process rank 3 with PID 3558251 on node ase-d22442 exited on
+signal 6 (Aborted).
+--------------------------------------------------------------------------
+
+At iterate   16    f=  2.22157D+01    |proj g|=  2.29643D+03
+
+At iterate   17    f=  1.70521D+01    |proj g|=  1.99710D+03
+
+At iterate   18    f=  2.96945D+00    |proj g|=  6.12867D+02
+
+At iterate   19    f=  2.56549D+00    |proj g|=  2.92097D+02
+
+At iterate   20    f=  1.02076D+00    |proj g|=  8.76438D+01
+
+At iterate   21    f=  3.69422D-02    |proj g|=  7.98611D+01
+
+At iterate   22    f=  1.02914D-02    |proj g|=  5.85636D+01
+
+At iterate   23    f=  2.12661D-03    |proj g|=  1.59601D+00
+
+At iterate   24    f=  2.10546D-03    |proj g|=  6.56622D-01
+
+At iterate   25    f=  2.10431D-03    |proj g|=  1.51831D-02
+
+At iterate   26    f=  2.10431D-03    |proj g|=  3.09037D-04
+
+At iterate   27    f=  2.10431D-03    |proj g|=  1.77402D-06
+
+ Bad direction in the line search;
+   refresh the lbfgs memory and restart the iteration.
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    3     28     47      2     0     0   1.774D-06   2.104D-03
+  F =   2.1043110604536622E-003
+
+ABNORMAL_TERMINATION_IN_LNSRCH                              
+
+ Line search cannot locate an adequate point after MAXLS
+  function and gradient evaluations.
+  Previous x, f and g restored.
+ Possible causes: 1 error in function or gradient evaluation;
+                  2 rounding error dominate computation.
+
+real	10m4.480s
+user	38m33.947s
+sys	0m11.537s
+CALIBRATED PARAMS:
+
+Y: 3.301135884204e+02
+S: 1.003076690414e+03
+D: 9.962722700844e+00
+COMPLETED noisy_load_0x noisy_disp_0x pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+
+Mean values and errors have been written to mean_pdeco_adjoint_calibrated_params.txt and ../../params_error_pdeco_adjoint_noisy_load_0x.txt.
+RUNNING calibration noisy_load_0x noisy_disp_0x calibration_pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+reading input: temp_calibration_pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress.yaml
+model ../../../../meshes/notch_Asym_3D_surface_to_2D/thickness_0.06/notch2D_Asym.dmg loaded in 0.000053 seconds
+mesh ../forward/noisy_displacement_data/noisy_0x/noisy_synthetic_plane_stress/ loaded in 0.001344 seconds
+number of triangle 4608 quad 0
+mesh entity counts: v 2407 e 7014 f 4608 r 0
+mesh reordered in 0.001815 seconds
+  - verifying tags: measured_8_ver, measured_7_ver, measured_6_ver, measured_5_ver, measured_4_ver, measured_3_ver, measured_2_ver, measured_1_ver, measured_0_ver
+mesh verified in 0.002842 seconds
+nsteps = 8
+ON PRIMAL STEP (1)
+ > (1) Newton iteration
+ > absolute ||R|| = 9.496660e+01
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 5.839783e-02
+ > relative ||R|| = 6.149302e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 4.833612e-02
+ > relative ||R|| = 5.089802e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 3.370332e-04
+ > relative ||R|| = 3.548966e-06
+ > (5) Newton iteration
+ > absolute ||R|| = 6.481207e-08
+ > relative ||R|| = 6.824723e-10
+ > (6) Newton iteration
+ > absolute ||R|| = 5.416872e-10
+ > relative ||R|| = 5.703976e-12
+ > (7) Newton iteration
+ > absolute ||R|| = 1.358933e-10
+ > relative ||R|| = 1.430959e-12
+ > (8) Newton iteration
+ > absolute ||R|| = 4.018920e-11
+ > relative ||R|| = 4.231930e-13
+writeVtuFile into buffers: 0.002691 seconds
+writeVtuFile buffers to disk: 0.000354 seconds
+vtk files pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_1 written in 0.003309 seconds
+ON PRIMAL STEP (2)
+ > (1) Newton iteration
+ > absolute ||R|| = 4.774786e+01
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 2.134950e-01
+ > relative ||R|| = 4.471300e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > (3) Newton iteration
+ > absolute ||R|| = 1.960256e-01
+ > relative ||R|| = 4.105432e-03
+ > (4) Newton iteration
+ > absolute ||R|| = 9.294485e-02
+ > relative ||R|| = 1.946576e-03
+ > (5) Newton iteration
+ > absolute ||R|| = 1.134032e-02
+ > relative ||R|| = 2.375042e-04
+ > (6) Newton iteration
+ > absolute ||R|| = 1.237070e-03
+ > relative ||R|| = 2.590838e-05
+ > (7) Newton iteration
+ > absolute ||R|| = 5.151559e-07
+ > relative ||R|| = 1.078909e-08
+ > (8) Newton iteration
+ > absolute ||R|| = 8.338743e-10
+ > relative ||R|| = 1.746412e-11
+ > (9) Newton iteration
+ > absolute ||R|| = 1.960750e-10
+ > relative ||R|| = 4.106467e-12
+ > (10) Newton iteration
+ > absolute ||R|| = 5.125839e-11
+ > relative ||R|| = 1.073522e-12
+ > (11) Newton iteration
+ > absolute ||R|| = 1.482836e-11
+ > relative ||R|| = 3.105555e-13
+writeVtuFile into buffers: 0.002587 seconds
+writeVtuFile buffers to disk: 0.000271 seconds
+vtk files pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_2 written in 0.003068 seconds
+ON PRIMAL STEP (3)
+ > (1) Newton iteration
+ > absolute ||R|| = 4.885961e+01
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 2.265670e-01
+ > relative ||R|| = 4.637102e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > residual increase -- line search alpha_3 = 1.25e-01
+ > (3) Newton iteration
+ > absolute ||R|| = 2.073893e-01
+ > relative ||R|| = 4.244597e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > (4) Newton iteration
+ > absolute ||R|| = 1.817815e-01
+ > relative ||R|| = 3.720485e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > (5) Newton iteration
+ > absolute ||R|| = 1.348186e-01
+ > relative ||R|| = 2.759305e-03
+ > (6) Newton iteration
+ > absolute ||R|| = 5.743073e-02
+ > relative ||R|| = 1.175424e-03
+ > (7) Newton iteration
+ > absolute ||R|| = 2.244490e-03
+ > relative ||R|| = 4.593753e-05
+ > (8) Newton iteration
+ > absolute ||R|| = 1.389039e-06
+ > relative ||R|| = 2.842918e-08
+ > (9) Newton iteration
+ > absolute ||R|| = 8.391541e-10
+ > relative ||R|| = 1.717480e-11
+ > (10) Newton iteration
+ > absolute ||R|| = 2.002713e-10
+ > relative ||R|| = 4.098913e-12
+ > (11) Newton iteration
+ > absolute ||R|| = 5.425557e-11
+ > relative ||R|| = 1.110438e-12
+ > (12) Newton iteration
+ > absolute ||R|| = 1.631687e-11
+ > relative ||R|| = 3.339542e-13
+writeVtuFile into buffers: 0.002655 seconds
+writeVtuFile buffers to disk: 0.000313 seconds
+vtk files pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_3 written in 0.003208 seconds
+ON PRIMAL STEP (4)
+ > (1) Newton iteration
+ > absolute ||R|| = 2.970019e+02
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 9.678946e-01
+ > relative ||R|| = 3.258884e-03
+ > (3) Newton iteration
+ > absolute ||R|| = 7.427223e-01
+ > relative ||R|| = 2.500733e-03
+ > (4) Newton iteration
+ > absolute ||R|| = 1.204202e-01
+ > relative ||R|| = 4.054526e-04
+ > (5) Newton iteration
+ > absolute ||R|| = 2.038871e-02
+ > relative ||R|| = 6.864841e-05
+ > (6) Newton iteration
+ > absolute ||R|| = 2.228811e-04
+ > relative ||R|| = 7.504367e-07
+ > (7) Newton iteration
+ > absolute ||R|| = 7.222926e-08
+ > relative ||R|| = 2.431946e-10
+ > (8) Newton iteration
+ > absolute ||R|| = 4.808895e-10
+ > relative ||R|| = 1.619146e-12
+ > (9) Newton iteration
+ > absolute ||R|| = 1.363665e-10
+ > relative ||R|| = 4.591434e-13
+writeVtuFile into buffers: 0.002521 seconds
+writeVtuFile buffers to disk: 0.000296 seconds
+vtk files pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_4 written in 0.003025 seconds
+ON PRIMAL STEP (5)
+ > (1) Newton iteration
+ > absolute ||R|| = 4.146079e+02
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 6.506411e-01
+ > relative ||R|| = 1.569292e-03
+ > (3) Newton iteration
+ > absolute ||R|| = 2.938077e-01
+ > relative ||R|| = 7.086398e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 3.821718e-02
+ > relative ||R|| = 9.217666e-05
+ > (5) Newton iteration
+ > absolute ||R|| = 8.944249e-04
+ > relative ||R|| = 2.157279e-06
+ > (6) Newton iteration
+ > absolute ||R|| = 6.684469e-07
+ > relative ||R|| = 1.612239e-09
+ > (7) Newton iteration
+ > absolute ||R|| = 6.329557e-10
+ > relative ||R|| = 1.526637e-12
+ > (8) Newton iteration
+ > absolute ||R|| = 1.481893e-10
+ > relative ||R|| = 3.574203e-13
+writeVtuFile into buffers: 0.002484 seconds
+writeVtuFile buffers to disk: 0.000272 seconds
+vtk files pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_5 written in 0.002960 seconds
+ON PRIMAL STEP (6)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.346028e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 1.409820e+00
+ > relative ||R|| = 1.047393e-03
+ > (3) Newton iteration
+ > absolute ||R|| = 7.269234e-01
+ > relative ||R|| = 5.400507e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 2.794197e-01
+ > relative ||R|| = 2.075883e-04
+ > (5) Newton iteration
+ > absolute ||R|| = 9.465253e-03
+ > relative ||R|| = 7.031987e-06
+ > (6) Newton iteration
+ > absolute ||R|| = 4.952903e-05
+ > relative ||R|| = 3.679643e-08
+ > (7) Newton iteration
+ > absolute ||R|| = 2.274517e-09
+ > relative ||R|| = 1.689799e-12
+ > (8) Newton iteration
+ > absolute ||R|| = 5.185165e-11
+ > relative ||R|| = 3.852197e-14
+writeVtuFile into buffers: 0.002666 seconds
+writeVtuFile buffers to disk: 0.000282 seconds
+vtk files pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_6 written in 0.003164 seconds
+ON PRIMAL STEP (7)
+ > (1) Newton iteration
+ > absolute ||R|| = 9.239155e+02
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 4.984039e-01
+ > relative ||R|| = 5.394475e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 2.099521e-01
+ > relative ||R|| = 2.272417e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 2.553650e-03
+ > relative ||R|| = 2.763944e-06
+ > (5) Newton iteration
+ > absolute ||R|| = 3.050195e-06
+ > relative ||R|| = 3.301379e-09
+ > (6) Newton iteration
+ > absolute ||R|| = 1.299253e-10
+ > relative ||R|| = 1.406247e-13
+writeVtuFile into buffers: 0.002539 seconds
+writeVtuFile buffers to disk: 0.000285 seconds
+vtk files pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_7 written in 0.003030 seconds
+ON PRIMAL STEP (8)
+ > (1) Newton iteration
+ > absolute ||R|| = 8.958383e+02
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 3.053225e-01
+ > relative ||R|| = 3.408232e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 1.385401e-01
+ > relative ||R|| = 1.546485e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 6.681300e-03
+ > relative ||R|| = 7.458154e-06
+ > (5) Newton iteration
+ > absolute ||R|| = 3.063809e-06
+ > relative ||R|| = 3.420047e-09
+ > (6) Newton iteration
+ > absolute ||R|| = 1.497991e-10
+ > relative ||R|| = 1.672167e-13
+writeVtuFile into buffers: 0.002680 seconds
+writeVtuFile buffers to disk: 0.000293 seconds
+vtk files pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_8 written in 0.003194 seconds
+J: 6.7686944642789188e-07
+
+COMPLETED calibration noisy_load_0x noisy_disp_0x calibration_pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+
+Initial guess::1 => Y: 304.95203731481143, S: 869.753382781279, D: 2.885583732612789
+RUNNING noisy_load_0x noisy_disp_0x 3D_pdeco_adjoint_notch3D_Asym_finite_J2
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            3     M =           10
+ This problem is unconstrained.
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  8.91762D+04    |proj g|=  1.93577D+05
+
+At iterate    1    f=  2.85770D+04    |proj g|=  1.32679D+05
+
+At iterate    2    f=  4.76477D+03    |proj g|=  1.46321D+04
+
+At iterate    3    f=  4.26711D+03    |proj g|=  1.34093D+04
+
+At iterate    4    f=  3.34015D+03    |proj g|=  9.81304D+03
+
+At iterate    5    f=  5.27544D+02    |proj g|=  7.90599D+03
+
+At iterate    6    f=  3.76341D+02    |proj g|=  1.22447D+04
+
+At iterate    7    f=  2.05761D+02    |proj g|=  8.31445D+03
+
+At iterate    8    f=  6.69301D+01    |proj g|=  1.04820D+03
+
+At iterate    9    f=  5.85026D+01    |proj g|=  6.40349D+02
+
+At iterate   10    f=  5.76844D+01    |proj g|=  1.52661D+02
+
+At iterate   11    f=  5.76404D+01    |proj g|=  1.27613D+02
+
+At iterate   12    f=  5.72674D+01    |proj g|=  1.33085D+02
+
+At iterate   13    f=  5.64974D+01    |proj g|=  3.35381D+02
+
+At iterate   14    f=  5.40647D+01    |proj g|=  7.07507D+02
+
+At iterate   15    f=  1.89628D+01    |proj g|=  2.25858D+03
+
+At iterate   16    f=  8.86058D+00    |proj g|=  1.03950D+03
+
+At iterate   17    f=  5.86467D+00    |proj g|=  1.60508D+03
+
+At iterate   18    f=  2.50466D+00    |proj g|=  1.30306D+02
+
+At iterate   19    f=  1.95404D+00    |proj g|=  3.68478D+02
+
+At iterate   20    f=  1.21753D+00    |proj g|=  5.41544D+02
+
+At iterate   21    f=  4.96163D-01    |proj g|=  4.55182D+02
+
+At iterate   22    f=  5.88660D-02    |proj g|=  1.52689D+02
+
+At iterate   23    f=  2.14448D-03    |proj g|=  2.82915D+01
+
+At iterate   24    f=  3.61009D-04    |proj g|=  6.51639D+00
+
+At iterate   25    f=  2.39797D-04    |proj g|=  2.82815D-01
+
+At iterate   26    f=  2.39254D-04    |proj g|=  3.95298D-03
+
+At iterate   27    f=  2.39251D-04    |proj g|=  4.39453D-04
+
+At iterate   28    f=  2.39251D-04    |proj g|=  3.89416D-04
+
+At iterate   29    f=  2.39251D-04    |proj g|=  6.99487D-08
+
+At iterate   30    f=  2.39251D-04    |proj g|=  3.48035D-08
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    3     30     42      1     0     0   3.480D-08   2.393D-04
+  F =   2.3925094612604311E-004
+
+CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH             
+
+real	339m9.985s
+user	1355m27.469s
+sys	0m48.042s
+CALIBRATED PARAMS:
+
+Y: 3.300478748333e+02
+S: 1.000073664842e+03
+D: 9.997990397779e+00
+COMPLETED noisy_load_0x noisy_disp_0x 3D_pdeco_adjoint_notch3D_Asym_finite_J2
+
+Mean values and errors have been written to mean_3D_pdeco_adjoint_calibrated_params.txt and ../../params_error_3D_pdeco_adjoint_noisy_load_0x.txt.
+RUNNING calibration noisy_load_0x noisy_disp_0x calibration_3D_pdeco_adjoint_notch3D_Asym_finite_J2
+reading input: temp_calibration_3D_pdeco_adjoint_notch3D_Asym_finite_J2.yaml
+model ../../../../meshes/notch_Asym_3D_surface_to_2D/thickness_0.06/notch3D_Asym.dmg loaded in 0.000097 seconds
+mesh ../forward/noisy_displacement_data/noisy_0x/noisy_synthetic/ loaded in 0.010223 seconds
+number of tet 31912 hex 0 prism 0 pyramid 0
+mesh entity counts: v 7961 e 45304 f 69256 r 31912
+mesh reordered in 0.037406 seconds
+  - verifying tags: measured_8_ver, measured_7_ver, measured_6_ver, measured_5_ver, measured_4_ver, measured_3_ver, measured_2_ver, measured_1_ver, measured_0_ver
+mesh verified in 0.028546 seconds
+nsteps = 8
+ON PRIMAL STEP (1)
+ > (1) Newton iteration
+ > absolute ||R|| = 5.542409e+01
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 3.612704e-02
+ > relative ||R|| = 6.518292e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 8.809106e-03
+ > relative ||R|| = 1.589400e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 5.073453e-04
+ > relative ||R|| = 9.153876e-06
+ > (5) Newton iteration
+ > absolute ||R|| = 3.303730e-07
+ > relative ||R|| = 5.960819e-09
+ > (6) Newton iteration
+ > absolute ||R|| = 5.278111e-13
+ > relative ||R|| = 9.523134e-15
+writeVtuFile into buffers: 0.016116 seconds
+writeVtuFile buffers to disk: 0.001637 seconds
+vtk files 3D_pdeco_adjoint_notch3D_Asym_finite_J2_forward_viz/out_1 written in 0.018183 seconds
+ON PRIMAL STEP (2)
+ > (1) Newton iteration
+ > absolute ||R|| = 2.787954e+01
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 1.487590e-01
+ > relative ||R|| = 5.335778e-03
+ > (3) Newton iteration
+ > absolute ||R|| = 1.424738e-01
+ > relative ||R|| = 5.110335e-03
+ > (4) Newton iteration
+ > absolute ||R|| = 6.203306e-03
+ > relative ||R|| = 2.225039e-04
+ > (5) Newton iteration
+ > absolute ||R|| = 4.968216e-04
+ > relative ||R|| = 1.782030e-05
+ > (6) Newton iteration
+ > absolute ||R|| = 4.112043e-07
+ > relative ||R|| = 1.474932e-08
+ > (7) Newton iteration
+ > absolute ||R|| = 7.989789e-13
+ > relative ||R|| = 2.865826e-14
+writeVtuFile into buffers: 0.016879 seconds
+writeVtuFile buffers to disk: 0.001751 seconds
+vtk files 3D_pdeco_adjoint_notch3D_Asym_finite_J2_forward_viz/out_2 written in 0.019040 seconds
+ON PRIMAL STEP (3)
+ > (1) Newton iteration
+ > absolute ||R|| = 2.853363e+01
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 2.730961e-01
+ > relative ||R|| = 9.571025e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > (3) Newton iteration
+ > absolute ||R|| = 2.361368e-01
+ > relative ||R|| = 8.275737e-03
+ > (4) Newton iteration
+ > absolute ||R|| = 8.555226e-02
+ > relative ||R|| = 2.998296e-03
+ > (5) Newton iteration
+ > absolute ||R|| = 2.484085e-03
+ > relative ||R|| = 8.705817e-05
+ > (6) Newton iteration
+ > absolute ||R|| = 1.220299e-04
+ > relative ||R|| = 4.276705e-06
+ > (7) Newton iteration
+ > absolute ||R|| = 1.929669e-08
+ > relative ||R|| = 6.762789e-10
+ > (8) Newton iteration
+ > absolute ||R|| = 5.252991e-13
+ > relative ||R|| = 1.840983e-14
+writeVtuFile into buffers: 0.017296 seconds
+writeVtuFile buffers to disk: 0.001631 seconds
+vtk files 3D_pdeco_adjoint_notch3D_Asym_finite_J2_forward_viz/out_3 written in 0.019401 seconds
+ON PRIMAL STEP (4)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.733715e+02
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 9.978751e-01
+ > relative ||R|| = 5.755704e-03
+ > (3) Newton iteration
+ > absolute ||R|| = 3.204081e-01
+ > relative ||R|| = 1.848101e-03
+ > (4) Newton iteration
+ > absolute ||R|| = 5.287234e-02
+ > relative ||R|| = 3.049655e-04
+ > (5) Newton iteration
+ > absolute ||R|| = 4.697432e-03
+ > relative ||R|| = 2.709460e-05
+ > (6) Newton iteration
+ > absolute ||R|| = 1.193297e-04
+ > relative ||R|| = 6.882889e-07
+ > (7) Newton iteration
+ > absolute ||R|| = 2.534643e-08
+ > relative ||R|| = 1.461972e-10
+ > (8) Newton iteration
+ > absolute ||R|| = 4.131769e-13
+ > relative ||R|| = 2.383188e-15
+writeVtuFile into buffers: 0.017047 seconds
+writeVtuFile buffers to disk: 0.001605 seconds
+vtk files 3D_pdeco_adjoint_notch3D_Asym_finite_J2_forward_viz/out_4 written in 0.019515 seconds
+ON PRIMAL STEP (5)
+ > (1) Newton iteration
+ > absolute ||R|| = 2.573961e+02
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 4.343385e-01
+ > relative ||R|| = 1.687433e-03
+ > (3) Newton iteration
+ > absolute ||R|| = 1.345721e-01
+ > relative ||R|| = 5.228209e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 1.431893e-02
+ > relative ||R|| = 5.562995e-05
+ > (5) Newton iteration
+ > absolute ||R|| = 4.212650e-04
+ > relative ||R|| = 1.636641e-06
+ > (6) Newton iteration
+ > absolute ||R|| = 5.988460e-07
+ > relative ||R|| = 2.326555e-09
+ > (7) Newton iteration
+ > absolute ||R|| = 2.104282e-12
+ > relative ||R|| = 8.175269e-15
+writeVtuFile into buffers: 0.016450 seconds
+writeVtuFile buffers to disk: 0.001963 seconds
+vtk files 3D_pdeco_adjoint_notch3D_Asym_finite_J2_forward_viz/out_5 written in 0.018974 seconds
+ON PRIMAL STEP (6)
+ > (1) Newton iteration
+ > absolute ||R|| = 9.369235e+02
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 1.276356e+00
+ > relative ||R|| = 1.362284e-03
+ > (3) Newton iteration
+ > absolute ||R|| = 3.295431e-01
+ > relative ||R|| = 3.517290e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 5.130750e-02
+ > relative ||R|| = 5.476168e-05
+ > (5) Newton iteration
+ > absolute ||R|| = 2.666398e-03
+ > relative ||R|| = 2.845908e-06
+ > (6) Newton iteration
+ > absolute ||R|| = 2.688734e-05
+ > relative ||R|| = 2.869748e-08
+ > (7) Newton iteration
+ > absolute ||R|| = 1.091601e-09
+ > relative ||R|| = 1.165091e-12
+ > (8) Newton iteration
+ > absolute ||R|| = 2.522160e-13
+ > relative ||R|| = 2.691960e-16
+writeVtuFile into buffers: 0.018990 seconds
+writeVtuFile buffers to disk: 0.002116 seconds
+vtk files 3D_pdeco_adjoint_notch3D_Asym_finite_J2_forward_viz/out_6 written in 0.021699 seconds
+ON PRIMAL STEP (7)
+ > (1) Newton iteration
+ > absolute ||R|| = 8.406497e+02
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 3.173473e-01
+ > relative ||R|| = 3.775024e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 3.757062e-02
+ > relative ||R|| = 4.469236e-05
+ > (4) Newton iteration
+ > absolute ||R|| = 1.389067e-03
+ > relative ||R|| = 1.652373e-06
+ > (5) Newton iteration
+ > absolute ||R|| = 3.788121e-06
+ > relative ||R|| = 4.506182e-09
+ > (6) Newton iteration
+ > absolute ||R|| = 3.817483e-11
+ > relative ||R|| = 4.541110e-14
+writeVtuFile into buffers: 0.016666 seconds
+writeVtuFile buffers to disk: 0.001465 seconds
+vtk files 3D_pdeco_adjoint_notch3D_Asym_finite_J2_forward_viz/out_7 written in 0.020075 seconds
+ON PRIMAL STEP (8)
+ > (1) Newton iteration
+ > absolute ||R|| = 8.517890e+02
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 1.776531e-01
+ > relative ||R|| = 2.085647e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 1.518041e-02
+ > relative ||R|| = 1.782179e-05
+ > (4) Newton iteration
+ > absolute ||R|| = 8.337852e-05
+ > relative ||R|| = 9.788635e-08
+ > (5) Newton iteration
+ > absolute ||R|| = 2.309514e-08
+ > relative ||R|| = 2.711369e-11
+ > (6) Newton iteration
+ > absolute ||R|| = 4.472602e-13
+ > relative ||R|| = 5.250833e-16
+writeVtuFile into buffers: 0.016260 seconds
+writeVtuFile buffers to disk: 0.001531 seconds
+vtk files 3D_pdeco_adjoint_notch3D_Asym_finite_J2_forward_viz/out_8 written in 0.018269 seconds
+J: 3.9393629360535424e-08
+
+COMPLETED calibration noisy_load_0x noisy_disp_0x calibration_3D_pdeco_adjoint_notch3D_Asym_finite_J2
+
+Total elapsed time: 365.71 minutes

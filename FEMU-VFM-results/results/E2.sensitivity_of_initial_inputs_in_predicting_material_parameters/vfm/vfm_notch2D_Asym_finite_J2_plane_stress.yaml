@@ -1,0 +1,54 @@
+vfm notch2D Asym finite J2 plane stress:
+
+  problem:
+    name: vfm_notch2D_Asym_finite_J2_plane_stress
+
+  discretization:
+    geom file: '../../../meshes/notch2D_Asym/notch2D_Asym.dmg'
+    mesh file: '../forward/forward_notch2D_Asym_finite_J2_plane_stress_synthetic/'
+    assoc file: '../../../meshes/notch2D_Asym/notch2D_Asym.txt'
+    time file: '../forward/time.dat'
+
+  residuals:
+    global residual:
+      type: 'mechanics_plane_stress'
+      nonlinear max iters: 30
+      nonlinear absolute tol: 1.e-12
+      nonlinear relative tol: 1.e-12
+    local residual:
+      type: 'hyper_J2_plane_stress'
+      nonlinear max iters: 500
+      nonlinear absolute tol: 1.e-12
+      nonlinear relative tol: 1.e-12
+      materials:
+        body:
+          E: 220.e3
+          nu: 0.24
+          Y: 360.
+          S: 920.
+          D: 6.
+          A: 0.
+          n: 0.
+          K: 0.
+
+  inverse:
+    objective type: "FS_VFM"
+    check gradient: false
+    print vfm mismatch: false
+    objective scale factor: 1e-1
+    thickness: 1.
+    load input file: "../forward/load.dat"
+    gradient tolerance: 1e-12
+    iteration limit: 300
+    max line search evals: 10
+    materials:
+      body:
+       E:  [100.e3, 300.e3]
+       nu: [0.23, 0.35]
+       Y:  [250., 400.]
+       S:  [800., 1150.]
+       D:  [2., 12.]
+
+  virtual fields:
+    w_x: 'cos(4. * atan(1.) * (y - 0.5) / 1.)'
+    w_y: '(y * (2 * (y - 0.5) + 1.) / (2 * 1.))'

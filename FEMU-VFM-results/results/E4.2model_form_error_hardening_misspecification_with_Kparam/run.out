@@ -1,0 +1,4805 @@
+DISP_EPS_STAR_NOISE = 6.1035e-06
+RUNNING forward_notch2D_Asym_finite_J2_plane_stress
+reading input: forward_notch2D_Asym_finite_J2_plane_stress.yaml
+model ../../../meshes/notch2D_Asym/notch2D_Asym.dmg loaded in 0.000070 seconds
+mesh ../../../meshes/notch2D_Asym/notch2D_Asym_4p.smb loaded in 0.009196 seconds
+number of triangle 4566 quad 0
+mesh entity counts: v 2386 e 6951 f 4566 r 0
+mesh reordered in 0.001193 seconds
+mesh verified in 0.007289 seconds
+nsteps = 13
+ON PRIMAL STEP (1)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.676488e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 1.751357e+00
+ > relative ||R|| = 1.044658e-03
+ > (3) Newton iteration
+ > absolute ||R|| = 1.731099e+00
+ > relative ||R|| = 1.032574e-03
+ > (4) Newton iteration
+ > absolute ||R|| = 1.834800e-01
+ > relative ||R|| = 1.094431e-04
+ > (5) Newton iteration
+ > absolute ||R|| = 1.292462e-02
+ > relative ||R|| = 7.709340e-06
+ > (6) Newton iteration
+ > absolute ||R|| = 5.243016e-05
+ > relative ||R|| = 3.127380e-08
+ > (7) Newton iteration
+ > absolute ||R|| = 1.211468e-08
+ > relative ||R|| = 7.226222e-12
+ > (8) Newton iteration
+ > absolute ||R|| = 2.701495e-09
+ > relative ||R|| = 1.611401e-12
+ > (9) Newton iteration
+ > absolute ||R|| = 6.584392e-10
+ > relative ||R|| = 3.927491e-13
+writeVtuFile into buffers: 0.006779 seconds
+writeVtuFile buffers to disk: 0.000360 seconds
+vtk files forward_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_1 written in 0.007427 seconds
+ON PRIMAL STEP (2)
+ > (1) Newton iteration
+ > absolute ||R|| = 8.371549e+02
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 4.130602e+00
+ > relative ||R|| = 4.934096e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > (3) Newton iteration
+ > absolute ||R|| = 3.522703e+00
+ > relative ||R|| = 4.207947e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > (4) Newton iteration
+ > absolute ||R|| = 2.045595e+00
+ > relative ||R|| = 2.443508e-03
+ > (5) Newton iteration
+ > absolute ||R|| = 5.602231e-01
+ > relative ||R|| = 6.691989e-04
+ > (6) Newton iteration
+ > absolute ||R|| = 5.526064e-02
+ > relative ||R|| = 6.601005e-05
+ > (7) Newton iteration
+ > absolute ||R|| = 6.005541e-04
+ > relative ||R|| = 7.173750e-07
+ > (8) Newton iteration
+ > absolute ||R|| = 5.819656e-06
+ > relative ||R|| = 6.951707e-09
+ > (9) Newton iteration
+ > absolute ||R|| = 1.229274e-08
+ > relative ||R|| = 1.468395e-11
+ > (10) Newton iteration
+ > absolute ||R|| = 2.800909e-09
+ > relative ||R|| = 3.345747e-12
+ > (11) Newton iteration
+ > absolute ||R|| = 7.109296e-10
+ > relative ||R|| = 8.492210e-13
+writeVtuFile into buffers: 0.005786 seconds
+writeVtuFile buffers to disk: 0.000333 seconds
+vtk files forward_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_2 written in 0.013897 seconds
+ON PRIMAL STEP (3)
+ > (1) Newton iteration
+ > absolute ||R|| = 8.326670e+02
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 4.522330e+00
+ > relative ||R|| = 5.431139e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > residual increase -- line search alpha_3 = 1.25e-01
+ > (3) Newton iteration
+ > absolute ||R|| = 4.100807e+00
+ > relative ||R|| = 4.924906e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > (4) Newton iteration
+ > absolute ||R|| = 3.388053e+00
+ > relative ||R|| = 4.068917e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > (5) Newton iteration
+ > absolute ||R|| = 2.189851e+00
+ > relative ||R|| = 2.629924e-03
+ > (6) Newton iteration
+ > absolute ||R|| = 8.123303e-01
+ > relative ||R|| = 9.755764e-04
+ > (7) Newton iteration
+ > absolute ||R|| = 2.221756e-02
+ > relative ||R|| = 2.668241e-05
+ > (8) Newton iteration
+ > absolute ||R|| = 1.324219e-03
+ > relative ||R|| = 1.590335e-06
+ > (9) Newton iteration
+ > absolute ||R|| = 1.468849e-05
+ > relative ||R|| = 1.764029e-08
+ > (10) Newton iteration
+ > absolute ||R|| = 1.472366e-08
+ > relative ||R|| = 1.768253e-11
+ > (11) Newton iteration
+ > absolute ||R|| = 3.406000e-09
+ > relative ||R|| = 4.090471e-12
+ > (12) Newton iteration
+ > absolute ||R|| = 8.791188e-10
+ > relative ||R|| = 1.055787e-12
+ > (13) Newton iteration
+ > absolute ||R|| = 2.503812e-10
+ > relative ||R|| = 3.006979e-13
+writeVtuFile into buffers: 0.002802 seconds
+writeVtuFile buffers to disk: 0.000362 seconds
+vtk files forward_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_3 written in 0.003426 seconds
+ON PRIMAL STEP (4)
+ > (1) Newton iteration
+ > absolute ||R|| = 4.896473e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 1.021530e+01
+ > relative ||R|| = 2.086258e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > (3) Newton iteration
+ > absolute ||R|| = 9.004364e+00
+ > relative ||R|| = 1.838949e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > (4) Newton iteration
+ > absolute ||R|| = 6.201914e+00
+ > relative ||R|| = 1.266608e-03
+ > (5) Newton iteration
+ > absolute ||R|| = 2.122402e+00
+ > relative ||R|| = 4.334552e-04
+ > (6) Newton iteration
+ > absolute ||R|| = 7.922599e-02
+ > relative ||R|| = 1.618022e-05
+ > (7) Newton iteration
+ > absolute ||R|| = 5.008894e-04
+ > relative ||R|| = 1.022960e-07
+ > (8) Newton iteration
+ > absolute ||R|| = 7.463142e-08
+ > relative ||R|| = 1.524187e-11
+ > (9) Newton iteration
+ > absolute ||R|| = 3.690327e-09
+ > relative ||R|| = 7.536706e-13
+writeVtuFile into buffers: 0.002810 seconds
+writeVtuFile buffers to disk: 0.000372 seconds
+vtk files forward_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_4 written in 0.011051 seconds
+ON PRIMAL STEP (5)
+ > (1) Newton iteration
+ > absolute ||R|| = 7.479353e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 6.185866e+00
+ > relative ||R|| = 8.270590e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 2.993198e+00
+ > relative ||R|| = 4.001948e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 2.022449e-01
+ > relative ||R|| = 2.704043e-05
+ > (5) Newton iteration
+ > absolute ||R|| = 4.031635e-03
+ > relative ||R|| = 5.390353e-07
+ > (6) Newton iteration
+ > absolute ||R|| = 2.951788e-06
+ > relative ||R|| = 3.946582e-10
+ > (7) Newton iteration
+ > absolute ||R|| = 9.483172e-09
+ > relative ||R|| = 1.267913e-12
+ > (8) Newton iteration
+ > absolute ||R|| = 2.317271e-09
+ > relative ||R|| = 3.098224e-13
+writeVtuFile into buffers: 0.002807 seconds
+writeVtuFile buffers to disk: 0.000341 seconds
+vtk files forward_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_5 written in 0.003442 seconds
+ON PRIMAL STEP (6)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.430925e+04
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 6.979069e+00
+ > relative ||R|| = 4.877312e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 3.437108e+00
+ > relative ||R|| = 2.402017e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 3.193346e-01
+ > relative ||R|| = 2.231665e-05
+ > (5) Newton iteration
+ > absolute ||R|| = 9.937870e-03
+ > relative ||R|| = 6.945065e-07
+ > (6) Newton iteration
+ > absolute ||R|| = 2.743411e-05
+ > relative ||R|| = 1.917229e-09
+ > (7) Newton iteration
+ > absolute ||R|| = 9.811158e-09
+ > relative ||R|| = 6.856512e-13
+writeVtuFile into buffers: 0.003006 seconds
+writeVtuFile buffers to disk: 0.000354 seconds
+vtk files forward_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_6 written in 0.008049 seconds
+ON PRIMAL STEP (7)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.350194e+04
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 4.319200e+00
+ > relative ||R|| = 3.198947e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 1.469759e+00
+ > relative ||R|| = 1.088554e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 1.131961e-01
+ > relative ||R|| = 8.383690e-06
+ > (5) Newton iteration
+ > absolute ||R|| = 1.390346e-03
+ > relative ||R|| = 1.029738e-07
+ > (6) Newton iteration
+ > absolute ||R|| = 1.448031e-06
+ > relative ||R|| = 1.072461e-10
+ > (7) Newton iteration
+ > absolute ||R|| = 4.464690e-09
+ > relative ||R|| = 3.306702e-13
+writeVtuFile into buffers: 0.002572 seconds
+writeVtuFile buffers to disk: 0.000361 seconds
+vtk files forward_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_7 written in 0.011433 seconds
+ON PRIMAL STEP (8)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.274261e+04
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 3.254007e+00
+ > relative ||R|| = 2.553643e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 5.334198e-01
+ > relative ||R|| = 4.186112e-05
+ > (4) Newton iteration
+ > absolute ||R|| = 1.545910e-02
+ > relative ||R|| = 1.213182e-06
+ > (5) Newton iteration
+ > absolute ||R|| = 3.394901e-05
+ > relative ||R|| = 2.664212e-09
+ > (6) Newton iteration
+ > absolute ||R|| = 6.576144e-09
+ > relative ||R|| = 5.160752e-13
+writeVtuFile into buffers: 0.003277 seconds
+writeVtuFile buffers to disk: 0.000335 seconds
+vtk files forward_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_8 written in 0.009179 seconds
+ON PRIMAL STEP (9)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.203257e+04
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 2.740527e+00
+ > relative ||R|| = 2.277590e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 3.943988e-01
+ > relative ||R|| = 3.277759e-05
+ > (4) Newton iteration
+ > absolute ||R|| = 2.893217e-02
+ > relative ||R|| = 2.404487e-06
+ > (5) Newton iteration
+ > absolute ||R|| = 1.584259e-03
+ > relative ||R|| = 1.316642e-07
+ > (6) Newton iteration
+ > absolute ||R|| = 3.678443e-06
+ > relative ||R|| = 3.057071e-10
+ > (7) Newton iteration
+ > absolute ||R|| = 7.150672e-09
+ > relative ||R|| = 5.942761e-13
+writeVtuFile into buffers: 0.002973 seconds
+writeVtuFile buffers to disk: 0.000384 seconds
+vtk files forward_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_9 written in 0.012621 seconds
+ON PRIMAL STEP (10)
+ > (1) Newton iteration
+ > absolute ||R|| = 5.666772e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 8.943880e-01
+ > relative ||R|| = 1.578302e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 1.194701e-01
+ > relative ||R|| = 2.108256e-05
+ > (4) Newton iteration
+ > absolute ||R|| = 5.362537e-03
+ > relative ||R|| = 9.463124e-07
+ > (5) Newton iteration
+ > absolute ||R|| = 3.304821e-05
+ > relative ||R|| = 5.831929e-09
+ > (6) Newton iteration
+ > absolute ||R|| = 6.400690e-09
+ > relative ||R|| = 1.129513e-12
+ > (7) Newton iteration
+ > absolute ||R|| = 1.390744e-09
+ > relative ||R|| = 2.454209e-13
+writeVtuFile into buffers: 0.005717 seconds
+writeVtuFile buffers to disk: 0.000366 seconds
+vtk files forward_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_10 written in 0.006339 seconds
+ON PRIMAL STEP (11)
+ > (1) Newton iteration
+ > absolute ||R|| = 5.429340e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 8.739941e-01
+ > relative ||R|| = 1.609761e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 7.002690e-02
+ > relative ||R|| = 1.289786e-05
+ > (4) Newton iteration
+ > absolute ||R|| = 5.062342e-04
+ > relative ||R|| = 9.324046e-08
+ > (5) Newton iteration
+ > absolute ||R|| = 6.033945e-08
+ > relative ||R|| = 1.111359e-11
+ > (6) Newton iteration
+ > absolute ||R|| = 1.332331e-09
+ > relative ||R|| = 2.453947e-13
+writeVtuFile into buffers: 0.002714 seconds
+writeVtuFile buffers to disk: 0.000378 seconds
+vtk files forward_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_11 written in 0.009444 seconds
+ON PRIMAL STEP (12)
+ > (1) Newton iteration
+ > absolute ||R|| = 5.292014e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 7.159070e-01
+ > relative ||R|| = 1.352806e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 4.182225e-02
+ > relative ||R|| = 7.902897e-06
+ > (4) Newton iteration
+ > absolute ||R|| = 8.208782e-04
+ > relative ||R|| = 1.551164e-07
+ > (5) Newton iteration
+ > absolute ||R|| = 3.064109e-07
+ > relative ||R|| = 5.790061e-11
+ > (6) Newton iteration
+ > absolute ||R|| = 3.577163e-09
+ > relative ||R|| = 6.759550e-13
+writeVtuFile into buffers: 0.002743 seconds
+writeVtuFile buffers to disk: 0.000352 seconds
+vtk files forward_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_12 written in 0.003313 seconds
+ON PRIMAL STEP (13)
+ > (1) Newton iteration
+ > absolute ||R|| = 5.134257e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 6.941778e-01
+ > relative ||R|| = 1.352051e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 2.503831e-02
+ > relative ||R|| = 4.876716e-06
+ > (4) Newton iteration
+ > absolute ||R|| = 1.215958e-04
+ > relative ||R|| = 2.368324e-08
+ > (5) Newton iteration
+ > absolute ||R|| = 5.848822e-09
+ > relative ||R|| = 1.139176e-12
+ > (6) Newton iteration
+ > absolute ||R|| = 9.462205e-10
+ > relative ||R|| = 1.842955e-13
+writeVtuFile into buffers: 0.002484 seconds
+writeVtuFile buffers to disk: 0.000339 seconds
+vtk files forward_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_13 written in 0.010404 seconds
+J: 4.2603674071502389e+05
+
+mesh forward_notch2D_Asym_finite_J2_plane_stress_synthetic/ written in 0.004580 seconds
+COMPLETED forward_notch2D_Asym_finite_J2_plane_stress
+
+model ../../../../../meshes/notch2D_Asym/notch2D_Asym.dmg loaded in 0.000055 seconds
+mesh noisy_synthetic/ loaded in 0.001686 seconds
+number of triangle 4566 quad 0
+mesh entity counts: v 2386 e 6951 f 4566 r 0
+writeVtuFile into buffers: 0.007002 seconds
+writeVtuFile buffers to disk: 0.000234 seconds
+vtk files noisy_synthetic_viz written in 0.007601 seconds
+Initial parameters guess saved to mat_data_initial.csv
+Initial guess::1 => Y: 304.95203731481143, S: 93.9506765562558, D: 2.885583732612789, K:1257.234181320644
+RUNNING noisy_load_0x noisy_disp_0x pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            4     M =           10
+ This problem is unconstrained.
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  1.75257D+00    |proj g|=  1.07259D+01
+
+At iterate    1    f=  1.24905D+00    |proj g|=  6.37226D+00
+
+At iterate    2    f=  1.02989D+00    |proj g|=  4.62247D+00
+
+At iterate    3    f=  6.97593D-01    |proj g|=  5.57449D-01
+
+At iterate    4    f=  6.90932D-01    |proj g|=  1.79888D-01
+
+At iterate    5    f=  6.83291D-01    |proj g|=  3.35962D-01
+
+At iterate    6    f=  4.99467D-01    |proj g|=  2.11767D+00
+
+At iterate    7    f=  4.73013D-01    |proj g|=  2.90712D+00
+
+At iterate    8    f=  2.07944D-01    |proj g|=  5.25520D+00
+
+At iterate    9    f=  1.55935D-01    |proj g|=  2.57750D+00
+
+At iterate   10    f=  7.57074D-02    |proj g|=  1.58939D+00
+
+At iterate   11    f=  3.84092D-02    |proj g|=  5.45096D-01
+
+At iterate   12    f=  3.55818D-02    |proj g|=  1.27821D-01
+
+At iterate   13    f=  3.54450D-02    |proj g|=  4.65002D-02
+
+At iterate   14    f=  3.54083D-02    |proj g|=  2.60104D-02
+
+At iterate   15    f=  3.51584D-02    |proj g|=  6.34656D-02
+
+At iterate   16    f=  3.47286D-02    |proj g|=  1.66496D-01
+
+At iterate   17    f=  3.33307D-02    |proj g|=  3.76466D-01
+
+At iterate   18    f=  2.96670D-02    |proj g|=  9.62302D-01
+
+At iterate   19    f=  2.63306D-02    |proj g|=  1.37420D+00
+
+At iterate   20    f=  2.05905D-02    |proj g|=  1.52251D+00
+
+At iterate   21    f=  9.59067D-03    |proj g|=  6.05593D-01
+
+At iterate   22    f=  8.32719D-03    |proj g|=  1.75083D-01
+
+At iterate   23    f=  7.69993D-03    |proj g|=  1.83644D-01
+
+At iterate   24    f=  6.93719D-03    |proj g|=  1.19366D-01
+
+At iterate   25    f=  6.27157D-03    |proj g|=  1.07418D-01
+
+At iterate   26    f=  5.85549D-03    |proj g|=  4.04901D-02
+
+At iterate   27    f=  5.75666D-03    |proj g|=  6.68592D-03
+
+At iterate   28    f=  5.73796D-03    |proj g|=  1.73268D-03
+
+At iterate   29    f=  5.73785D-03    |proj g|=  1.45153D-03
+
+At iterate   30    f=  5.73784D-03    |proj g|=  8.22829D-05
+
+At iterate   31    f=  5.73784D-03    |proj g|=  4.08431D-06
+
+At iterate   32    f=  5.73784D-03    |proj g|=  5.68444D-07
+
+At iterate   33    f=  5.73784D-03    |proj g|=  1.04133D-08
+
+ Bad direction in the line search;
+   refresh the lbfgs memory and restart the iteration.
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    4     34     51      2     0     0   1.041D-08   5.738D-03
+  F =   5.7378376067779603E-003
+
+ABNORMAL_TERMINATION_IN_LNSRCH                              
+
+ Line search cannot locate an adequate point after MAXLS
+  function and gradient evaluations.
+  Previous x, f and g restored.
+ Possible causes: 1 error in function or gradient evaluation;
+                  2 rounding error dominate computation.
+
+real	21m24.817s
+user	80m17.514s
+sys	0m17.810s
+CALIBRATED PARAMS:
+
+Y: 3.433068936679e+02
+S: 8.651830014880e+01
+D: 2.531033438344e+01
+K: 1.219217198692e+03
+COMPLETED noisy_load_0x noisy_disp_0x pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+
+Initial guess::2 => Y: 318.900556711592, S: 149.1372933216141, D: 10.515680698511307, K:1385.8729262659313
+RUNNING noisy_load_0x noisy_disp_0x pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            4     M =           10
+ This problem is unconstrained.
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  5.63872D+00    |proj g|=  3.22644D+01
+
+At iterate    1    f=  5.44611D-01    |proj g|=  4.58862D+00
+
+At iterate    2    f=  4.02380D-01    |proj g|=  2.90555D+00
+
+At iterate    3    f=  1.43436D-01    |proj g|=  1.50235D+00
+
+At iterate    4    f=  1.08407D-01    |proj g|=  3.73662D-01
+
+At iterate    5    f=  1.00882D-01    |proj g|=  4.17371D-01
+
+At iterate    6    f=  7.95201D-02    |proj g|=  5.88398D-01
+
+At iterate    7    f=  4.87686D-02    |proj g|=  8.05133D-01
+
+At iterate    8    f=  3.19232D-02    |proj g|=  3.32842D-01
+
+At iterate    9    f=  2.84695D-02    |proj g|=  7.63622D-02
+
+At iterate   10    f=  2.82709D-02    |proj g|=  2.99866D-02
+
+At iterate   11    f=  2.82294D-02    |proj g|=  3.43969D-02
+
+At iterate   12    f=  2.77456D-02    |proj g|=  1.05554D-01
+
+At iterate   13    f=  2.68757D-02    |proj g|=  2.21266D-01
+
+At iterate   14    f=  2.50750D-02    |proj g|=  2.68136D-01
+
+At iterate   15    f=  2.24002D-02    |proj g|=  8.17203D-01
+
+At iterate   16    f=  1.74111D-02    |proj g|=  5.53653D-01
+
+At iterate   17    f=  7.41587D-03    |proj g|=  3.43618D-01
+
+At iterate   18    f=  6.16978D-03    |proj g|=  1.10466D-01
+
+At iterate   19    f=  6.04796D-03    |proj g|=  3.41441D-02
+
+At iterate   20    f=  5.96338D-03    |proj g|=  3.58943D-02
+
+At iterate   21    f=  5.75319D-03    |proj g|=  4.49588D-02
+
+At iterate   22    f=  5.74085D-03    |proj g|=  1.65165D-02
+
+At iterate   23    f=  5.73811D-03    |proj g|=  5.88457D-03
+
+At iterate   24    f=  5.73784D-03    |proj g|=  2.48451D-04
+
+At iterate   25    f=  5.73784D-03    |proj g|=  2.54745D-05
+
+At iterate   26    f=  5.73784D-03    |proj g|=  1.33274D-07
+
+ Bad direction in the line search;
+   refresh the lbfgs memory and restart the iteration.
+
+At iterate   27    f=  5.73784D-03    |proj g|=  7.81043D-09
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    4     27     37      2     0     0   7.810D-09   5.738D-03
+  F =   5.7378376067779083E-003
+
+CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH             
+
+real	26m39.303s
+user	76m15.505s
+sys	0m11.120s
+CALIBRATED PARAMS:
+
+Y: 3.433068938684e+02
+S: 8.651830162738e+01
+D: 2.531033360048e+01
+K: 1.219217187823e+03
+COMPLETED noisy_load_0x noisy_disp_0x pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+
+Initial guess::3 => Y: 257.7158151212889, S: 118.87416087530784, D: 8.074645263526673, K:835.098906551158
+RUNNING noisy_load_0x noisy_disp_0x pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            4     M =           10
+ This problem is unconstrained.
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  3.24654D+00    |proj g|=  2.03873D+01
+
+At iterate    1    f=  1.58889D+00    |proj g|=  6.20752D+00
+
+At iterate    2    f=  1.22599D+00    |proj g|=  5.02557D+00
+
+At iterate    3    f=  2.02443D-01    |proj g|=  1.45562D+00
+
+At iterate    4    f=  1.30660D-01    |proj g|=  5.22520D-01
+
+At iterate    5    f=  1.17914D-01    |proj g|=  4.22419D-01
+
+At iterate    6    f=  7.54268D-02    |proj g|=  1.28133D+00
+
+At iterate    7    f=  5.04055D-02    |proj g|=  1.36475D+00
+
+At iterate    8    f=  3.23713D-02    |proj g|=  2.67990D-01
+
+At iterate    9    f=  3.11338D-02    |proj g|=  2.76127D-02
+
+At iterate   10    f=  3.10933D-02    |proj g|=  1.91464D-02
+
+At iterate   11    f=  3.09853D-02    |proj g|=  3.27803D-02
+
+At iterate   12    f=  3.05250D-02    |proj g|=  3.79094D-02
+
+At iterate   13    f=  3.03593D-02    |proj g|=  1.96886D-01
+
+At iterate   14    f=  2.92399D-02    |proj g|=  2.02739D-01
+
+At iterate   15    f=  1.79240D-02    |proj g|=  2.54130D-01
+
+At iterate   16    f=  1.62269D-02    |proj g|=  5.42057D-01
+
+At iterate   17    f=  1.31823D-02    |proj g|=  6.79439D-01
+
+At iterate   18    f=  7.42309D-03    |proj g|=  4.87182D-01
+
+At iterate   19    f=  6.32738D-03    |proj g|=  9.71800D-02
+
+At iterate   20    f=  6.06624D-03    |proj g|=  6.84890D-02
+
+At iterate   21    f=  5.97445D-03    |proj g|=  5.17383D-02
+
+At iterate   22    f=  5.91370D-03    |proj g|=  5.48981D-02
+
+At iterate   23    f=  5.73927D-03    |proj g|=  7.44631D-03
+
+At iterate   24    f=  5.73792D-03    |proj g|=  1.89878D-03
+
+At iterate   25    f=  5.73784D-03    |proj g|=  1.86276D-04
+
+At iterate   26    f=  5.73784D-03    |proj g|=  2.03181D-05
+
+At iterate   27    f=  5.73784D-03    |proj g|=  1.39012D-06
+
+At iterate   28    f=  5.73784D-03    |proj g|=  5.23258D-08
+
+At iterate   29    f=  5.73784D-03    |proj g|=  1.51285D-09
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    4     29     36      1     0     0   1.513D-09   5.738D-03
+  F =   5.7378376067785519E-003
+
+CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH             
+
+real	37m13.148s
+user	93m55.548s
+sys	0m10.596s
+CALIBRATED PARAMS:
+
+Y: 3.433068936500e+02
+S: 8.651830048907e+01
+D: 2.531033422213e+01
+K: 1.219217196036e+03
+COMPLETED noisy_load_0x noisy_disp_0x pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+
+Initial guess::4 => Y: 321.59919290608434, S: 103.06946665135482, D: 4.164856817868848, K:1357.9117129156507
+RUNNING noisy_load_0x noisy_disp_0x pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            4     M =           10
+ This problem is unconstrained.
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  1.48320D+00    |proj g|=  1.43574D+01
+
+At iterate    1    f=  7.13252D-01    |proj g|=  3.14022D+00
+
+At iterate    2    f=  6.61494D-01    |proj g|=  1.53780D+00
+
+At iterate    3    f=  6.28611D-01    |proj g|=  1.33577D+00
+
+At iterate    4    f=  5.97612D-01    |proj g|=  7.91832D-01
+
+At iterate    5    f=  5.89607D-01    |proj g|=  2.85497D-01
+
+At iterate    6    f=  5.83364D-01    |proj g|=  6.74520D-01
+
+At iterate    7    f=  5.69926D-01    |proj g|=  1.56574D+00
+
+At iterate    8    f=  5.15490D-01    |proj g|=  3.58271D+00
+
+At iterate    9    f=  4.53606D-01    |proj g|=  5.43165D+00
+
+At iterate   10    f=  3.66084D-01    |proj g|=  5.33648D+00
+
+At iterate   11    f=  1.88930D-01    |proj g|=  4.10749D+00
+
+At iterate   12    f=  5.00468D-02    |proj g|=  1.35736D+00
+
+At iterate   13    f=  3.88473D-02    |proj g|=  1.41100D-01
+
+At iterate   14    f=  3.57919D-02    |proj g|=  2.03558D-01
+
+At iterate   15    f=  3.55659D-02    |proj g|=  2.74252D-02
+
+At iterate   16    f=  3.55556D-02    |proj g|=  2.78145D-02
+
+At iterate   17    f=  3.54151D-02    |proj g|=  5.62477D-02
+
+At iterate   18    f=  3.51177D-02    |proj g|=  1.21469D-01
+
+At iterate   19    f=  3.42906D-02    |proj g|=  2.12874D-01
+
+At iterate   20    f=  3.26269D-02    |proj g|=  2.49791D-01
+
+At iterate   21    f=  2.96809D-02    |proj g|=  3.03822D-01
+
+At iterate   22    f=  2.14643D-02    |proj g|=  5.55090D-01
+
+At iterate   23    f=  8.22808D-03    |proj g|=  6.79479D-01
+
+At iterate   24    f=  7.67224D-03    |proj g|=  4.36936D-01
+
+At iterate   25    f=  6.29228D-03    |proj g|=  1.77519D-01
+
+At iterate   26    f=  6.02917D-03    |proj g|=  3.61923D-02
+
+At iterate   27    f=  5.97601D-03    |proj g|=  3.61234D-02
+
+At iterate   28    f=  5.78112D-03    |proj g|=  2.98891D-02
+
+At iterate   29    f=  5.74053D-03    |proj g|=  1.58495D-02
+
+At iterate   30    f=  5.73790D-03    |proj g|=  2.64483D-03
+
+At iterate   31    f=  5.73784D-03    |proj g|=  1.02855D-04
+
+At iterate   32    f=  5.73784D-03    |proj g|=  1.30004D-05
+
+At iterate   33    f=  5.73784D-03    |proj g|=  1.89515D-07
+
+At iterate   34    f=  5.73784D-03    |proj g|=  9.85562D-09
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    4     34     41      1     0     0   9.856D-09   5.738D-03
+  F =   5.7378376067788867E-003
+
+CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH             
+
+real	32m39.724s
+user	91m28.487s
+sys	0m12.287s
+CALIBRATED PARAMS:
+
+Y: 3.433068936772e+02
+S: 8.651830059827e+01
+D: 2.531033418601e+01
+K: 1.219217195335e+03
+COMPLETED noisy_load_0x noisy_disp_0x pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+
+Initial guess::5 => Y: 313.1348334609399, S: 87.22281759717762, D: 5.690706185502268, K:1440.391098688258
+RUNNING noisy_load_0x noisy_disp_0x pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            4     M =           10
+ This problem is unconstrained.
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  2.51333D+00    |proj g|=  2.18404D+01
+
+At iterate    1    f=  5.95140D-01    |proj g|=  2.46348D+00
+
+At iterate    2    f=  5.55426D-01    |proj g|=  8.45421D-01
+
+At iterate    3    f=  5.45960D-01    |proj g|=  7.07104D-01
+
+At iterate    4    f=  5.28883D-01    |proj g|=  5.94612D-01
+
+At iterate    5    f=  5.19760D-01    |proj g|=  4.27412D-01
+
+At iterate    6    f=  4.96639D-01    |proj g|=  9.90054D-01
+
+At iterate    7    f=  4.52091D-01    |proj g|=  2.40620D+00
+
+At iterate    8    f=  3.89435D-01    |proj g|=  3.59444D+00
+
+At iterate    9    f=  3.31395D-01    |proj g|=  4.12123D+00
+
+At iterate   10    f=  2.06985D-01    |proj g|=  4.24705D+00
+
+At iterate   11    f=  5.57997D-02    |proj g|=  1.28005D+00
+
+At iterate   12    f=  2.50946D-02    |proj g|=  2.26090D-01
+
+At iterate   13    f=  2.39249D-02    |proj g|=  2.26250D-02
+
+At iterate   14    f=  2.38935D-02    |proj g|=  2.25842D-02
+
+At iterate   15    f=  2.35778D-02    |proj g|=  4.18795D-02
+
+At iterate   16    f=  1.91254D-02    |proj g|=  2.71133D-01
+
+At iterate   17    f=  6.90778D-03    |proj g|=  3.87454D-01
+
+At iterate   18    f=  6.65141D-03    |proj g|=  2.22131D-01
+
+At iterate   19    f=  6.02614D-03    |proj g|=  1.09570D-01
+
+At iterate   20    f=  5.74245D-03    |proj g|=  2.62716D-02
+
+At iterate   21    f=  5.73893D-03    |proj g|=  1.46420D-03
+
+At iterate   22    f=  5.73850D-03    |proj g|=  1.28937D-03
+
+At iterate   23    f=  5.73793D-03    |proj g|=  1.14587D-03
+
+At iterate   24    f=  5.73787D-03    |proj g|=  1.15612D-03
+
+At iterate   25    f=  5.73784D-03    |proj g|=  2.94099D-04
+
+At iterate   26    f=  5.73784D-03    |proj g|=  3.08136D-05
+
+At iterate   27    f=  5.73784D-03    |proj g|=  2.65402D-06
+
+At iterate   28    f=  5.73784D-03    |proj g|=  4.79971D-08
+
+At iterate   29    f=  5.73784D-03    |proj g|=  1.41075D-09
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    4     29     38      1     0     0   1.411D-09   5.738D-03
+  F =   5.7378376067791972E-003
+
+CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH             
+
+real	13m51.252s
+user	54m51.449s
+sys	0m11.435s
+CALIBRATED PARAMS:
+
+Y: 3.433068936522e+02
+S: 8.651830051858e+01
+D: 2.531033421181e+01
+K: 1.219217195856e+03
+COMPLETED noisy_load_0x noisy_disp_0x pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+
+Initial guess::6 => Y: 308.43957321106814, S: 93.11351012392043, D: 2.6673615504684003, K:1158.5200908762602
+RUNNING noisy_load_0x noisy_disp_0x pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            4     M =           10
+ This problem is unconstrained.
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  1.95293D+00    |proj g|=  6.03552D+00
+
+At iterate    1    f=  7.57307D-01    |proj g|=  3.28935D+00
+
+At iterate    2    f=  7.08736D-01    |proj g|=  6.54648D-01
+
+At iterate    3    f=  7.03138D-01    |proj g|=  1.80922D-01
+
+At iterate    4    f=  7.02028D-01    |proj g|=  1.60175D-01
+
+At iterate    5    f=  6.99003D-01    |proj g|=  1.90560D-01
+
+At iterate    6    f=  6.87401D-01    |proj g|=  5.37269D-01
+
+At iterate    7    f=  5.10959D-01    |proj g|=  5.36256D+00
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+Newton's method failed in 30 iterations[ase-d22442:2504830] *** Process received signal ***
+Newton's method failed in 30 iterations[ase-d22442:2504829] *** Process received signal ***
+[ase-d22442:2504829] Signal: Aborted (6)
+[ase-d22442:2504829] Signal code:  (-6)
+Newton's method failed in 30 iterations[ase-d22442:2504831] *** Process received signal ***
+[ase-d22442:2504831] Signal: Aborted (6)
+[ase-d22442:2504831] Signal code:  (-6)
+Newton's method failed in 30 iterations[ase-d22442:2504828] *** Process received signal ***
+[ase-d22442:2504828] Signal: Aborted (6)
+[ase-d22442:2504828] Signal code:  (-6)
+[ase-d22442:2504830] Signal: Aborted (6)
+[ase-d22442:2504830] Signal code:  (-6)
+[ase-d22442:2504830] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7d1700642520]
+[ase-d22442:2504830] [ 1] [ase-d22442:2504829] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7857a1642520]
+[ase-d22442:2504829] [ 1] [ase-d22442:2504831] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7a5073a42520]
+[ase-d22442:2504831] [ 1] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x7a5073a969fc]
+[ase-d22442:2504831] [ase-d22442:2504828] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7501de042520]
+[ase-d22442:2504828] [ 1] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x7501de0969fc]
+[ase-d22442:2504828] [ 2] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x7501de042476]
+[ase-d22442:2504828] [ 3] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x7d17006969fc]
+[ase-d22442:2504830] [ 2] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x7d1700642476]
+[ase-d22442:2504830] [ 3] /lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x7d17006287f3]
+/lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x7857a16969fc]
+[ase-d22442:2504829] [ 2] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x7857a1642476]
+[ase-d22442:2504829] [ 3] /lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x7857a16287f3]
+[ase-d22442:2504829] [ 4] [ 2] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x7a5073a42476]
+[ase-d22442:2504831] [ 3] /lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x7a5073a287f3]
+[ase-d22442:2504831] [ 4] /lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x7501de0287f3]
+ > Reached max line search evals
+
+
+
+
+[ase-d22442:2504828] [ 4] [ase-d22442:2504830] [ 4] /home/sk63837/calibr8/flavor/linux-shared/install/calibr8/lib/libcalibr8.so(_ZN7calibr84failEPKcz+0xd2)[0x7857a25567c2]
+[ase-d22442:2504829] [ 5] /home/sk63837/calibr8/flavor/linux-shared/install/calibr8/lib/libcalibr8.so(_ZN7calibr84failEPKcz+0xd2)[0x7501def567c2]
+[ase-d22442:2504828] [ 5] /home/sk63837/calibr8/flavor/linux-shared/install/calibr8/lib/libcalibr8.so(_ZN7calibr84failEPKcz+0xd2)[0x7a50749567c2]
+[ase-d22442:2504831] [ 5] /home/sk63837/calibr8/flavor/linux-shared/install/calibr8/lib/libcalibr8.so(_ZN7calibr84failEPKcz+0xd2)[0x7d17015567c2]
+[ase-d22442:2504830] [ 5] /home/sk63837/calibr8/flavor/linux-shared/install/calibr8/lib/libcalibr8.so(_ZN7calibr86Primal13solve_at_stepEi+0x1158)[0x7857a2764a98]
+[ase-d22442:2504829] [ 6] objective(+0xa073)[0x5f4f86666073]
+[ase-d22442:2504829] [ 7] objective(+0x910b)[0x5f4f8666510b]
+/home/sk63837/calibr8/flavor/linux-shared/install/calibr8/lib/libcalibr8.so(_ZN7calibr86Primal13solve_at_stepEi+0x1158)[0x7501df164a98]
+[ase-d22442:2504828] [ 6] objective(+0xa073)[0x55dcb69ce073]
+[ase-d22442:2504828] [ 7] objective(+0x910b)[0x55dcb69cd10b]
+[ase-d22442:2504828] [ 8] /home/sk63837/calibr8/flavor/linux-shared/install/calibr8/lib/libcalibr8.so(_ZN7calibr86Primal13solve_at_stepEi+0x1158)[0x7d1701764a98]
+[ase-d22442:2504830] [ 6] objective(+0xa073)[0x596b70bbf073]
+[ase-d22442:2504830] [ 7] objective(+0x910b)[0x596b70bbe10b]
+[ase-d22442:2504830] [ 8] /home/sk63837/calibr8/flavor/linux-shared/install/calibr8/lib/libcalibr8.so(_ZN7calibr86Primal13solve_at_stepEi+0x1158)[0x7a5074b64a98]
+[ase-d22442:2504831] [ 6] objective(+0xa073)[0x623a8da2f073]
+[ase-d22442:2504831] [ 7] objective(+0x910b)[0x623a8da2e10b]
+[ase-d22442:2504831] [ 8] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x7a5073a29d90]
+[ase-d22442:2504831] [ 9] [ase-d22442:2504829] [ 8] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x7857a1629d90]
+[ase-d22442:2504829] [ 9] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x7857a1629e40]
+[ase-d22442:2504829] [10] objective(+0x9295)[0x5f4f86665295]
+[ase-d22442:2504829] *** End of error message ***
+/lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x7d1700629d90]
+[ase-d22442:2504830] [ 9] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x7d1700629e40]
+[ase-d22442:2504830] [10] objective(+0x9295)[0x596b70bbe295]
+[ase-d22442:2504830] *** End of error message ***
+/lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x7501de029d90]
+[ase-d22442:2504828] [ 9] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x7501de029e40]
+[ase-d22442:2504828] [10] objective(+0x9295)[0x55dcb69cd295]
+[ase-d22442:2504828] *** End of error message ***
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x7a5073a29e40]
+[ase-d22442:2504831] [10] objective(+0x9295)[0x623a8da2e295]
+[ase-d22442:2504831] *** End of error message ***
+--------------------------------------------------------------------------
+prterun noticed that process rank 1 with PID 2504829 on node ase-d22442 exited on
+signal 6 (Aborted).
+--------------------------------------------------------------------------
+
+At iterate    8    f=  5.06632D-01    |proj g|=  6.55901D+00
+
+At iterate    9    f=  4.36314D-01    |proj g|=  5.54124D+00
+
+At iterate   10    f=  2.78092D-01    |proj g|=  2.93375D+00
+
+At iterate   11    f=  2.05863D-01    |proj g|=  1.75483D+00
+
+At iterate   12    f=  1.60176D-01    |proj g|=  1.23208D+00
+
+At iterate   13    f=  1.18556D-01    |proj g|=  1.69740D+00
+
+At iterate   14    f=  7.32878D-02    |proj g|=  1.24973D+00
+
+At iterate   15    f=  3.75259D-02    |proj g|=  3.42629D-01
+
+At iterate   16    f=  3.44284D-02    |proj g|=  1.87724D-01
+
+At iterate   17    f=  3.38345D-02    |proj g|=  2.41797D-02
+
+At iterate   18    f=  3.37945D-02    |proj g|=  4.29115D-02
+
+At iterate   19    f=  3.36864D-02    |proj g|=  6.93394D-02
+
+At iterate   20    f=  3.33501D-02    |proj g|=  1.17483D-01
+
+At iterate   21    f=  3.23289D-02    |proj g|=  2.13206D-01
+
+At iterate   22    f=  1.86009D-02    |proj g|=  1.23556D+00
+
+At iterate   23    f=  1.35339D-02    |proj g|=  1.26939D-01
+
+At iterate   24    f=  8.91409D-03    |proj g|=  1.66535D-01
+
+At iterate   25    f=  7.86367D-03    |proj g|=  4.43455D-01
+
+At iterate   26    f=  6.56201D-03    |proj g|=  1.11014D-01
+
+At iterate   27    f=  6.27370D-03    |proj g|=  8.11087D-02
+
+At iterate   28    f=  5.91292D-03    |proj g|=  5.35273D-02
+
+At iterate   29    f=  5.73963D-03    |proj g|=  7.39313D-03
+
+At iterate   30    f=  5.73786D-03    |proj g|=  1.42053D-03
+
+At iterate   31    f=  5.73784D-03    |proj g|=  5.94405D-05
+
+At iterate   32    f=  5.73784D-03    |proj g|=  9.42006D-06
+
+At iterate   33    f=  5.73784D-03    |proj g|=  3.11655D-07
+
+At iterate   34    f=  5.73784D-03    |proj g|=  2.07675D-07
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    4     34     46      1     0     0   2.077D-07   5.738D-03
+  F =   5.7378376067784244E-003
+
+CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH             
+
+real	16m39.150s
+user	65m27.831s
+sys	0m13.441s
+CALIBRATED PARAMS:
+
+Y: 3.433068944092e+02
+S: 8.651830124428e+01
+D: 2.531033366449e+01
+K: 1.219217189140e+03
+COMPLETED noisy_load_0x noisy_disp_0x pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+
+Initial guess::7 => Y: 350.1333977365762, S: 108.8966708988495, D: 10.48319403823991, K:1167.1423442027485
+RUNNING noisy_load_0x noisy_disp_0x pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            4     M =           10
+ This problem is unconstrained.
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  2.22370D-01    |proj g|=  3.53310D+00
+
+At iterate    1    f=  2.10175D-01    |proj g|=  3.18963D+00
+
+At iterate    2    f=  1.66278D-01    |proj g|=  4.64374D-01
+
+At iterate    3    f=  1.56231D-01    |proj g|=  5.39041D-01
+
+At iterate    4    f=  1.20673D-01    |proj g|=  1.53985D+00
+
+At iterate    5    f=  7.11551D-02    |proj g|=  2.01447D+00
+
+At iterate    6    f=  3.51503D-02    |proj g|=  1.63277D+00
+
+At iterate    7    f=  2.14563D-02    |proj g|=  3.12359D-01
+
+At iterate    8    f=  2.09125D-02    |proj g|=  4.94885D-02
+
+At iterate    9    f=  2.08525D-02    |proj g|=  3.42927D-02
+
+At iterate   10    f=  2.07698D-02    |proj g|=  5.85435D-02
+
+At iterate   11    f=  2.04741D-02    |proj g|=  1.00153D-01
+
+At iterate   12    f=  1.92731D-02    |proj g|=  1.92078D-01
+
+At iterate   13    f=  1.71710D-02    |proj g|=  2.32149D-01
+
+At iterate   14    f=  1.35020D-02    |proj g|=  3.44653D-01
+
+At iterate   15    f=  8.26938D-03    |proj g|=  4.10332D-01
+
+At iterate   16    f=  6.33763D-03    |proj g|=  1.61788D-01
+
+At iterate   17    f=  6.07273D-03    |proj g|=  3.97585D-02
+
+At iterate   18    f=  5.97183D-03    |proj g|=  4.87726D-02
+
+At iterate   19    f=  5.80020D-03    |proj g|=  7.56313D-02
+
+At iterate   20    f=  5.76276D-03    |proj g|=  4.93923D-02
+
+At iterate   21    f=  5.73787D-03    |proj g|=  4.93090D-04
+
+At iterate   22    f=  5.73784D-03    |proj g|=  2.07038D-04
+
+At iterate   23    f=  5.73784D-03    |proj g|=  7.75663D-06
+
+At iterate   24    f=  5.73784D-03    |proj g|=  3.69114D-07
+
+At iterate   25    f=  5.73784D-03    |proj g|=  7.62264D-09
+
+ Bad direction in the line search;
+   refresh the lbfgs memory and restart the iteration.
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    4     26     40      2     0     0   7.623D-09   5.738D-03
+  F =   5.7378376067776776E-003
+
+ABNORMAL_TERMINATION_IN_LNSRCH                              
+
+ Line search cannot locate an adequate point after MAXLS
+  function and gradient evaluations.
+  Previous x, f and g restored.
+ Possible causes: 1 error in function or gradient evaluation;
+                  2 rounding error dominate computation.
+
+real	13m32.799s
+user	53m39.118s
+sys	0m11.264s
+CALIBRATED PARAMS:
+
+Y: 3.433068936548e+02
+S: 8.651830052132e+01
+D: 2.531033415046e+01
+K: 1.219217195298e+03
+COMPLETED noisy_load_0x noisy_disp_0x pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+
+Initial guess::8 => Y: 369.61514620370986, S: 119.56066824541777, D: 7.907989022967629, K:1088.7476035830985
+RUNNING noisy_load_0x noisy_disp_0x pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            4     M =           10
+ This problem is unconstrained.
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  4.80003D-01    |proj g|=  6.05164D+00
+
+At iterate    1    f=  2.87970D-01    |proj g|=  1.17249D+00
+
+At iterate    2    f=  2.69855D-01    |proj g|=  6.23637D-01
+
+At iterate    3    f=  2.60324D-01    |proj g|=  8.23086D-01
+
+At iterate    4    f=  2.36880D-01    |proj g|=  7.95224D-01
+
+At iterate    5    f=  2.13095D-01    |proj g|=  9.85561D-01
+
+At iterate    6    f=  1.29876D-01    |proj g|=  1.63923D+00
+
+At iterate    7    f=  7.43505D-02    |proj g|=  9.03342D-01
+
+At iterate    8    f=  3.30090D-02    |proj g|=  6.97037D-01
+
+At iterate    9    f=  2.95305D-02    |proj g|=  4.58211D-01
+
+At iterate   10    f=  2.74405D-02    |proj g|=  2.25358D-02
+
+At iterate   11    f=  2.74062D-02    |proj g|=  3.40711D-02
+
+At iterate   12    f=  2.73620D-02    |proj g|=  4.73123D-02
+
+At iterate   13    f=  2.71528D-02    |proj g|=  8.86636D-02
+
+At iterate   14    f=  2.66750D-02    |proj g|=  1.66087D-01
+
+At iterate   15    f=  2.51975D-02    |proj g|=  3.18450D-01
+
+At iterate   16    f=  7.25903D-03    |proj g|=  1.61664D-01
+
+At iterate   17    f=  7.11028D-03    |proj g|=  2.43697D-01
+
+At iterate   18    f=  6.53436D-03    |proj g|=  2.54843D-01
+
+At iterate   19    f=  5.84371D-03    |proj g|=  3.00864D-02
+
+At iterate   20    f=  5.78656D-03    |proj g|=  3.10120D-02
+
+At iterate   21    f=  5.75612D-03    |proj g|=  3.75732D-02
+
+At iterate   22    f=  5.73794D-03    |proj g|=  3.40370D-03
+
+At iterate   23    f=  5.73786D-03    |proj g|=  1.75086D-03
+
+At iterate   24    f=  5.73784D-03    |proj g|=  3.41870D-06
+
+At iterate   25    f=  5.73784D-03    |proj g|=  1.80581D-07
+
+At iterate   26    f=  5.73784D-03    |proj g|=  5.64527D-09
+
+At iterate   27    f=  5.73784D-03    |proj g|=  2.04516D-09
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    4     27     32      1     0     0   2.045D-09   5.738D-03
+  F =   5.7378376067791998E-003
+
+CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH             
+
+real	11m25.352s
+user	45m14.490s
+sys	0m9.371s
+CALIBRATED PARAMS:
+
+Y: 3.433068936646e+02
+S: 8.651830043207e+01
+D: 2.531033424304e+01
+K: 1.219217196513e+03
+COMPLETED noisy_load_0x noisy_disp_0x pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+
+Initial guess::9 => Y: 266.45802385033323, S: 129.32132013087113, D: 10.583934274602852, K:1307.5197119231025
+RUNNING noisy_load_0x noisy_disp_0x pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            4     M =           10
+ This problem is unconstrained.
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  9.76553D+00    |proj g|=  4.49907D+01
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+
+At iterate    1    f=  1.38818D-01    |proj g|=  9.83547D-01
+
+At iterate    2    f=  1.33533D-01    |proj g|=  3.99892D-01
+
+At iterate    3    f=  1.30729D-01    |proj g|=  4.11709D-01
+
+At iterate    4    f=  1.12392D-01    |proj g|=  1.30246D+00
+
+At iterate    5    f=  8.74876D-02    |proj g|=  2.07546D+00
+
+At iterate    6    f=  5.13774D-02    |proj g|=  2.20992D+00
+
+At iterate    7    f=  4.07597D-02    |proj g|=  1.97549D+00
+
+At iterate    8    f=  2.55901D-02    |proj g|=  4.80482D-01
+
+At iterate    9    f=  2.36536D-02    |proj g|=  6.85103D-02
+
+At iterate   10    f=  2.35803D-02    |proj g|=  4.98468D-02
+
+At iterate   11    f=  2.25873D-02    |proj g|=  3.16929D-02
+
+At iterate   12    f=  1.12459D-02    |proj g|=  8.48108D-01
+
+At iterate   13    f=  7.32223D-03    |proj g|=  1.25717D-01
+
+At iterate   14    f=  6.08528D-03    |proj g|=  1.76018D-01
+
+At iterate   15    f=  5.84770D-03    |proj g|=  5.73154D-02
+
+At iterate   16    f=  5.80644D-03    |proj g|=  1.12748D-02
+
+At iterate   17    f=  5.76117D-03    |proj g|=  2.07821D-02
+
+At iterate   18    f=  5.73884D-03    |proj g|=  1.23466D-02
+
+At iterate   19    f=  5.73787D-03    |proj g|=  1.14230D-03
+
+At iterate   20    f=  5.73784D-03    |proj g|=  5.39232D-04
+
+At iterate   21    f=  5.73784D-03    |proj g|=  2.31141D-04
+
+At iterate   22    f=  5.73784D-03    |proj g|=  7.61803D-07
+
+At iterate   23    f=  5.73784D-03    |proj g|=  2.53510D-09
+
+ Bad direction in the line search;
+   refresh the lbfgs memory and restart the iteration.
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    4     24     38      2     0     0   2.535D-09   5.738D-03
+  F =   5.7378376067785111E-003
+
+ABNORMAL_TERMINATION_IN_LNSRCH                              
+
+ Line search cannot locate an adequate point after MAXLS
+  function and gradient evaluations.
+  Previous x, f and g restored.
+ Possible causes: 1 error in function or gradient evaluation;
+                  2 rounding error dominate computation.
+
+real	13m18.038s
+user	52m41.352s
+sys	0m10.666s
+CALIBRATED PARAMS:
+
+Y: 3.433068936076e+02
+S: 8.651830064008e+01
+D: 2.531033422727e+01
+K: 1.219217195311e+03
+COMPLETED noisy_load_0x noisy_disp_0x pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+
+Initial guess::10 => Y: 312.9348963434811, S: 86.09752390070881, D: 3.8578912436902906, K:1185.8852269376825
+RUNNING noisy_load_0x noisy_disp_0x pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            4     M =           10
+ This problem is unconstrained.
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  1.51171D+00    |proj g|=  5.69407D+00
+
+At iterate    1    f=  9.94416D-01    |proj g|=  5.95790D+00
+
+At iterate    2    f=  6.55814D-01    |proj g|=  1.66691D+00
+
+At iterate    3    f=  6.34502D-01    |proj g|=  2.83658D-01
+
+At iterate    4    f=  6.33592D-01    |proj g|=  2.42452D-01
+
+At iterate    5    f=  6.31553D-01    |proj g|=  2.80155D-01
+
+At iterate    6    f=  6.23781D-01    |proj g|=  1.00389D+00
+
+At iterate    7    f=  5.99949D-01    |proj g|=  2.30950D+00
+
+At iterate    8    f=  4.79082D-01    |proj g|=  5.14391D+00
+
+At iterate    9    f=  4.65006D-01    |proj g|=  5.39946D+00
+
+At iterate   10    f=  4.28858D-01    |proj g|=  5.85818D+00
+
+At iterate   11    f=  3.68886D-01    |proj g|=  5.37874D+00
+
+At iterate   12    f=  6.66117D-02    |proj g|=  2.40696D+00
+
+At iterate   13    f=  4.44414D-02    |proj g|=  3.96633D-01
+
+At iterate   14    f=  2.94381D-02    |proj g|=  3.60716D-01
+
+At iterate   15    f=  2.77743D-02    |proj g|=  3.07839D-02
+
+At iterate   16    f=  2.77334D-02    |proj g|=  3.32286D-02
+
+At iterate   17    f=  2.76572D-02    |proj g|=  2.77001D-02
+
+At iterate   18    f=  2.73083D-02    |proj g|=  8.50207D-02
+
+At iterate   19    f=  2.66350D-02    |proj g|=  6.98937D-02
+
+At iterate   20    f=  2.46352D-02    |proj g|=  2.97523D-01
+
+At iterate   21    f=  2.20583D-02    |proj g|=  6.21054D-01
+
+At iterate   22    f=  1.55471D-02    |proj g|=  4.20849D-01
+
+At iterate   23    f=  8.37606D-03    |proj g|=  2.19163D-01
+
+At iterate   24    f=  7.95122D-03    |proj g|=  9.82531D-02
+
+At iterate   25    f=  7.15122D-03    |proj g|=  1.16381D-01
+
+At iterate   26    f=  6.37800D-03    |proj g|=  1.90861D-01
+
+At iterate   27    f=  5.82565D-03    |proj g|=  7.60614D-02
+
+At iterate   28    f=  5.75676D-03    |proj g|=  3.12957D-02
+
+At iterate   29    f=  5.73796D-03    |proj g|=  1.73094D-03
+
+At iterate   30    f=  5.73785D-03    |proj g|=  1.02057D-04
+
+At iterate   31    f=  5.73784D-03    |proj g|=  1.26188D-04
+
+At iterate   32    f=  5.73784D-03    |proj g|=  1.10685D-04
+
+At iterate   33    f=  5.73784D-03    |proj g|=  6.58004D-06
+
+At iterate   34    f=  5.73784D-03    |proj g|=  8.10083D-07
+
+At iterate   35    f=  5.73784D-03    |proj g|=  8.57467D-09
+
+At iterate   36    f=  5.73784D-03    |proj g|=  1.12267D-09
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    4     36     43      1     0     0   1.123D-09   5.738D-03
+  F =   5.7378376067789933E-003
+
+CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH             
+
+real	14m48.509s
+user	58m34.188s
+sys	0m13.111s
+CALIBRATED PARAMS:
+
+Y: 3.433068936518e+02
+S: 8.651830050096e+01
+D: 2.531033421364e+01
+K: 1.219217195968e+03
+COMPLETED noisy_load_0x noisy_disp_0x pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+
+Mean values and errors have been written to mean_pdeco_adjoint_calibrated_params.txt and ../../params_error_pdeco_adjoint_noisy_load_0x.txt.
+RUNNING calibration noisy_load_0x noisy_disp_0x calibration_pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+reading input: temp_calibration_pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress.yaml
+model ../../../meshes/notch2D_Asym/notch2D_Asym.dmg loaded in 0.000037 seconds
+mesh ../forward/forward_notch2D_Asym_finite_J2_plane_stress_synthetic/ loaded in 0.001013 seconds
+number of triangle 4566 quad 0
+mesh entity counts: v 2386 e 6951 f 4566 r 0
+mesh reordered in 0.001545 seconds
+  - verifying tags: measured_13_ver, measured_12_ver, measured_11_ver, measured_10_ver, measured_9_ver, measured_8_ver, measured_7_ver, measured_6_ver, measured_5_ver, measured_4_ver, measured_3_ver, measured_2_ver, measured_1_ver, measured_0_ver
+mesh verified in 0.001967 seconds
+nsteps = 13
+ON PRIMAL STEP (1)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.676488e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 1.588028e+00
+ > relative ||R|| = 9.472351e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 1.169453e+00
+ > relative ||R|| = 6.975611e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 1.033809e-02
+ > relative ||R|| = 6.166518e-06
+ > (5) Newton iteration
+ > absolute ||R|| = 3.648593e-06
+ > relative ||R|| = 2.176331e-09
+ > (6) Newton iteration
+ > absolute ||R|| = 1.238102e-08
+ > relative ||R|| = 7.385091e-12
+ > (7) Newton iteration
+ > absolute ||R|| = 3.082396e-09
+ > relative ||R|| = 1.838603e-12
+ > (8) Newton iteration
+ > absolute ||R|| = 9.003651e-10
+ > relative ||R|| = 5.370543e-13
+ON PRIMAL STEP (2)
+ > (1) Newton iteration
+ > absolute ||R|| = 8.371530e+02
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 4.301218e+00
+ > relative ||R|| = 5.137911e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > residual increase -- line search alpha_3 = 1.25e-01
+ > (3) Newton iteration
+ > absolute ||R|| = 3.844665e+00
+ > relative ||R|| = 4.592547e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > (4) Newton iteration
+ > absolute ||R|| = 3.539566e+00
+ > relative ||R|| = 4.228099e-03
+ > (5) Newton iteration
+ > absolute ||R|| = 8.461148e-01
+ > relative ||R|| = 1.010705e-03
+ > (6) Newton iteration
+ > absolute ||R|| = 1.737977e-01
+ > relative ||R|| = 2.076056e-04
+ > (7) Newton iteration
+ > absolute ||R|| = 2.892582e-02
+ > relative ||R|| = 3.455261e-05
+ > (8) Newton iteration
+ > absolute ||R|| = 1.072837e-04
+ > relative ||R|| = 1.281531e-07
+ > (9) Newton iteration
+ > absolute ||R|| = 1.122598e-08
+ > relative ||R|| = 1.340971e-11
+ > (10) Newton iteration
+ > absolute ||R|| = 2.363970e-09
+ > relative ||R|| = 2.823821e-12
+ > (11) Newton iteration
+ > absolute ||R|| = 5.260828e-10
+ > relative ||R|| = 6.284190e-13
+ON PRIMAL STEP (3)
+ > (1) Newton iteration
+ > absolute ||R|| = 8.326317e+02
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 4.464923e+00
+ > relative ||R|| = 5.362423e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > residual increase -- line search alpha_3 = 1.25e-01
+ > residual increase -- line search alpha_4 = 6.25e-02
+ > (3) Newton iteration
+ > absolute ||R|| = 4.287201e+00
+ > relative ||R|| = 5.148976e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > residual increase -- line search alpha_3 = 1.25e-01
+ > (4) Newton iteration
+ > absolute ||R|| = 4.135946e+00
+ > relative ||R|| = 4.967317e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > (5) Newton iteration
+ > absolute ||R|| = 3.605272e+00
+ > relative ||R|| = 4.329973e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > (6) Newton iteration
+ > absolute ||R|| = 2.884136e+00
+ > relative ||R|| = 3.463879e-03
+ > (7) Newton iteration
+ > absolute ||R|| = 2.357906e+00
+ > relative ||R|| = 2.831872e-03
+ > (8) Newton iteration
+ > absolute ||R|| = 9.573942e-02
+ > relative ||R|| = 1.149841e-04
+ > (9) Newton iteration
+ > absolute ||R|| = 7.729417e-03
+ > relative ||R|| = 9.283116e-06
+ > (10) Newton iteration
+ > absolute ||R|| = 3.125253e-06
+ > relative ||R|| = 3.753463e-09
+ > (11) Newton iteration
+ > absolute ||R|| = 9.827176e-09
+ > relative ||R|| = 1.180255e-11
+ > (12) Newton iteration
+ > absolute ||R|| = 2.277250e-09
+ > relative ||R|| = 2.735002e-12
+ > (13) Newton iteration
+ > absolute ||R|| = 5.842160e-10
+ > relative ||R|| = 7.016500e-13
+ON PRIMAL STEP (4)
+ > (1) Newton iteration
+ > absolute ||R|| = 4.909082e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 1.436207e+01
+ > relative ||R|| = 2.925612e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > residual increase -- line search alpha_3 = 1.25e-01
+ > (3) Newton iteration
+ > absolute ||R|| = 1.357558e+01
+ > relative ||R|| = 2.765402e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > (4) Newton iteration
+ > absolute ||R|| = 1.258609e+01
+ > relative ||R|| = 2.563837e-03
+ > (5) Newton iteration
+ > absolute ||R|| = 4.738870e+00
+ > relative ||R|| = 9.653273e-04
+ > (6) Newton iteration
+ > absolute ||R|| = 7.485041e-01
+ > relative ||R|| = 1.524734e-04
+ > (7) Newton iteration
+ > absolute ||R|| = 4.071290e-02
+ > relative ||R|| = 8.293384e-06
+ > (8) Newton iteration
+ > absolute ||R|| = 3.843581e-04
+ > relative ||R|| = 7.829531e-08
+ > (9) Newton iteration
+ > absolute ||R|| = 3.343074e-08
+ > relative ||R|| = 6.809978e-12
+ > (10) Newton iteration
+ > absolute ||R|| = 1.590107e-09
+ > relative ||R|| = 3.239113e-13
+ON PRIMAL STEP (5)
+ > (1) Newton iteration
+ > absolute ||R|| = 7.593678e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 7.656245e+00
+ > relative ||R|| = 1.008239e-03
+ > (3) Newton iteration
+ > absolute ||R|| = 5.441688e+00
+ > relative ||R|| = 7.166077e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 8.418199e-01
+ > relative ||R|| = 1.108580e-04
+ > (5) Newton iteration
+ > absolute ||R|| = 6.587513e-02
+ > relative ||R|| = 8.674996e-06
+ > (6) Newton iteration
+ > absolute ||R|| = 2.113925e-03
+ > relative ||R|| = 2.783795e-07
+ > (7) Newton iteration
+ > absolute ||R|| = 1.546983e-07
+ > relative ||R|| = 2.037198e-11
+ > (8) Newton iteration
+ > absolute ||R|| = 3.485673e-09
+ > relative ||R|| = 4.590230e-13
+ON PRIMAL STEP (6)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.464768e+04
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 8.428778e+00
+ > relative ||R|| = 5.754344e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 5.968595e+00
+ > relative ||R|| = 4.074772e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 7.257685e-01
+ > relative ||R|| = 4.954836e-05
+ > (5) Newton iteration
+ > absolute ||R|| = 8.886455e-02
+ > relative ||R|| = 6.066801e-06
+ > (6) Newton iteration
+ > absolute ||R|| = 9.555577e-04
+ > relative ||R|| = 6.523611e-08
+ > (7) Newton iteration
+ > absolute ||R|| = 1.746127e-07
+ > relative ||R|| = 1.192084e-11
+ > (8) Newton iteration
+ > absolute ||R|| = 1.798865e-09
+ > relative ||R|| = 1.228089e-13
+ON PRIMAL STEP (7)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.375871e+04
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 5.019461e+00
+ > relative ||R|| = 3.648208e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 2.430653e+00
+ > relative ||R|| = 1.766629e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 3.032505e-01
+ > relative ||R|| = 2.204063e-05
+ > (5) Newton iteration
+ > absolute ||R|| = 1.128923e-02
+ > relative ||R|| = 8.205156e-07
+ > (6) Newton iteration
+ > absolute ||R|| = 1.668360e-05
+ > relative ||R|| = 1.212585e-09
+ > (7) Newton iteration
+ > absolute ||R|| = 1.033814e-08
+ > relative ||R|| = 7.513888e-13
+ON PRIMAL STEP (8)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.310561e+04
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 3.621722e+00
+ > relative ||R|| = 2.763489e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 1.402114e+00
+ > relative ||R|| = 1.069857e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 1.277600e-01
+ > relative ||R|| = 9.748494e-06
+ > (5) Newton iteration
+ > absolute ||R|| = 9.017579e-04
+ > relative ||R|| = 6.880700e-08
+ > (6) Newton iteration
+ > absolute ||R|| = 1.085360e-07
+ > relative ||R|| = 8.281639e-12
+ > (7) Newton iteration
+ > absolute ||R|| = 1.673477e-09
+ > relative ||R|| = 1.276916e-13
+ON PRIMAL STEP (9)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.246380e+04
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 2.780804e+00
+ > relative ||R|| = 2.231105e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 4.442462e-01
+ > relative ||R|| = 3.564292e-05
+ > (4) Newton iteration
+ > absolute ||R|| = 2.550976e-02
+ > relative ||R|| = 2.046709e-06
+ > (5) Newton iteration
+ > absolute ||R|| = 4.432414e-05
+ > relative ||R|| = 3.556231e-09
+ > (6) Newton iteration
+ > absolute ||R|| = 6.757790e-09
+ > relative ||R|| = 5.421935e-13
+ON PRIMAL STEP (10)
+ > (1) Newton iteration
+ > absolute ||R|| = 5.853122e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 1.209941e+00
+ > relative ||R|| = 2.067172e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 3.016162e-01
+ > relative ||R|| = 5.153083e-05
+ > (4) Newton iteration
+ > absolute ||R|| = 3.653748e-03
+ > relative ||R|| = 6.242391e-07
+ > (5) Newton iteration
+ > absolute ||R|| = 1.678577e-06
+ > relative ||R|| = 2.867832e-10
+ > (6) Newton iteration
+ > absolute ||R|| = 5.202017e-09
+ > relative ||R|| = 8.887594e-13
+ON PRIMAL STEP (11)
+ > (1) Newton iteration
+ > absolute ||R|| = 5.652246e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 1.188332e+00
+ > relative ||R|| = 2.102407e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 1.886470e-01
+ > relative ||R|| = 3.337558e-05
+ > (4) Newton iteration
+ > absolute ||R|| = 1.363519e-03
+ > relative ||R|| = 2.412348e-07
+ > (5) Newton iteration
+ > absolute ||R|| = 1.748054e-07
+ > relative ||R|| = 3.092671e-11
+ > (6) Newton iteration
+ > absolute ||R|| = 4.088773e-09
+ > relative ||R|| = 7.233891e-13
+ON PRIMAL STEP (12)
+ > (1) Newton iteration
+ > absolute ||R|| = 5.502308e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 9.860307e-01
+ > relative ||R|| = 1.792031e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 1.444375e-01
+ > relative ||R|| = 2.625034e-05
+ > (4) Newton iteration
+ > absolute ||R|| = 2.210307e-03
+ > relative ||R|| = 4.017053e-07
+ > (5) Newton iteration
+ > absolute ||R|| = 4.918349e-07
+ > relative ||R|| = 8.938702e-11
+ > (6) Newton iteration
+ > absolute ||R|| = 4.611910e-09
+ > relative ||R|| = 8.381774e-13
+ON PRIMAL STEP (13)
+ > (1) Newton iteration
+ > absolute ||R|| = 5.401742e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 7.494563e-01
+ > relative ||R|| = 1.387434e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 4.671081e-02
+ > relative ||R|| = 8.647361e-06
+ > (4) Newton iteration
+ > absolute ||R|| = 2.072798e-04
+ > relative ||R|| = 3.837276e-08
+ > (5) Newton iteration
+ > absolute ||R|| = 4.757148e-09
+ > relative ||R|| = 8.806691e-13
+J: 4.7302738248471088e-02
+
+COMPLETED calibration noisy_load_0x noisy_disp_0x calibration_pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+
+Initial guess::1 => Y: 304.95203731481143, S: 93.9506765562558, D: 2.885583732612789, K:1257.234181320644
+RUNNING noisy_load_0x noisy_disp_0x vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            4     M =           10
+ This problem is unconstrained.
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  8.10821D-01    |proj g|=  7.27868D+00
+
+At iterate    1    f=  1.66332D-02    |proj g|=  8.88962D-01
+
+At iterate    2    f=  8.11603D-03    |proj g|=  2.51724D-01
+
+At iterate    3    f=  7.42831D-03    |proj g|=  3.78294D-02
+
+At iterate    4    f=  4.87189D-03    |proj g|=  3.43375D-02
+
+At iterate    5    f=  1.63983D-03    |proj g|=  1.57807D-01
+
+At iterate    6    f=  1.21886D-03    |proj g|=  5.41410D-02
+
+At iterate    7    f=  1.17885D-03    |proj g|=  6.28169D-03
+
+At iterate    8    f=  1.17705D-03    |proj g|=  1.25519D-03
+
+At iterate    9    f=  1.17678D-03    |proj g|=  1.97914D-04
+
+At iterate   10    f=  1.17580D-03    |proj g|=  2.14239D-03
+
+At iterate   11    f=  1.17225D-03    |proj g|=  6.47552D-03
+
+At iterate   12    f=  1.16137D-03    |proj g|=  3.23233D-02
+
+At iterate   13    f=  1.11186D-03    |proj g|=  4.31661D-02
+
+At iterate   14    f=  1.04295D-03    |proj g|=  3.43431D-03
+
+At iterate   15    f=  1.03695D-03    |proj g|=  1.57181D-02
+
+At iterate   16    f=  9.70506D-04    |proj g|=  3.89795D-02
+
+At iterate   17    f=  9.33252D-04    |proj g|=  3.51691D-02
+
+At iterate   18    f=  8.64417D-04    |proj g|=  7.15863D-02
+
+At iterate   19    f=  6.36944D-04    |proj g|=  1.44793D-02
+
+At iterate   20    f=  6.27423D-04    |proj g|=  3.71433D-02
+
+At iterate   21    f=  5.65429D-04    |proj g|=  5.26393D-02
+
+At iterate   22    f=  4.76293D-04    |proj g|=  4.04621D-02
+
+At iterate   23    f=  3.93169D-04    |proj g|=  1.60533D-02
+
+At iterate   24    f=  3.27559D-04    |proj g|=  2.26295D-02
+
+At iterate   25    f=  3.09285D-04    |proj g|=  4.28874D-02
+
+At iterate   26    f=  2.71876D-04    |proj g|=  4.39412D-02
+
+At iterate   27    f=  2.67588D-04    |proj g|=  4.12862D-02
+
+At iterate   28    f=  1.85375D-04    |proj g|=  1.59617D-02
+
+At iterate   29    f=  1.63390D-04    |proj g|=  2.89338D-02
+
+At iterate   30    f=  1.14451D-04    |proj g|=  4.64478D-02
+
+At iterate   31    f=  8.27992D-05    |proj g|=  1.65038D-02
+
+At iterate   32    f=  5.75552D-05    |proj g|=  1.36043D-02
+
+At iterate   33    f=  5.27868D-05    |proj g|=  2.36357D-02
+
+At iterate   34    f=  4.33283D-05    |proj g|=  8.24260D-03
+
+At iterate   35    f=  3.86794D-05    |proj g|=  5.05906D-03
+
+At iterate   36    f=  3.74177D-05    |proj g|=  8.31314D-04
+
+At iterate   37    f=  3.72500D-05    |proj g|=  1.89752D-03
+
+At iterate   38    f=  3.72055D-05    |proj g|=  5.50919D-04
+
+At iterate   39    f=  3.72016D-05    |proj g|=  1.53349D-05
+
+At iterate   40    f=  3.72015D-05    |proj g|=  1.62908D-05
+
+At iterate   41    f=  3.72007D-05    |proj g|=  3.86697D-05
+
+At iterate   42    f=  3.71993D-05    |proj g|=  9.10195D-05
+
+At iterate   43    f=  3.71959D-05    |proj g|=  1.72027D-04
+
+At iterate   44    f=  3.71878D-05    |proj g|=  2.72375D-04
+
+At iterate   45    f=  3.71663D-05    |proj g|=  3.71012D-04
+
+At iterate   46    f=  3.71314D-05    |proj g|=  8.27941D-04
+
+At iterate   47    f=  3.70549D-05    |proj g|=  5.42646D-04
+
+At iterate   48    f=  3.64807D-05    |proj g|=  1.04310D-04
+
+At iterate   49    f=  3.57751D-05    |proj g|=  2.72372D-03
+
+At iterate   50    f=  3.54801D-05    |proj g|=  4.87306D-03
+
+At iterate   51    f=  3.49343D-05    |proj g|=  5.15480D-03
+
+At iterate   52    f=  3.39528D-05    |proj g|=  1.01458D-02
+
+At iterate   53    f=  3.28619D-05    |proj g|=  1.43370D-03
+
+At iterate   54    f=  3.13963D-05    |proj g|=  1.92622D-03
+
+At iterate   55    f=  3.08564D-05    |proj g|=  4.85573D-03
+
+At iterate   56    f=  2.94730D-05    |proj g|=  3.82049D-03
+
+At iterate   57    f=  2.88691D-05    |proj g|=  7.58490D-04
+
+At iterate   58    f=  2.84140D-05    |proj g|=  4.30137D-03
+
+At iterate   59    f=  2.77266D-05    |proj g|=  6.75482D-03
+
+At iterate   60    f=  2.57791D-05    |proj g|=  7.77195D-03
+
+At iterate   61    f=  2.42364D-05    |proj g|=  5.05310D-03
+
+At iterate   62    f=  2.22848D-05    |proj g|=  4.67998D-04
+
+At iterate   63    f=  2.18353D-05    |proj g|=  4.41662D-03
+
+At iterate   64    f=  2.14083D-05    |proj g|=  5.98170D-03
+
+At iterate   65    f=  1.98811D-05    |proj g|=  8.97213D-03
+
+At iterate   66    f=  1.86119D-05    |proj g|=  9.12422D-03
+
+At iterate   67    f=  1.81045D-05    |proj g|=  4.46612D-03
+
+At iterate   68    f=  1.58349D-05    |proj g|=  4.79953D-03
+
+At iterate   69    f=  1.56096D-05    |proj g|=  8.03223D-03
+
+At iterate   70    f=  1.36076D-05    |proj g|=  6.34292D-03
+
+At iterate   71    f=  1.11415D-05    |proj g|=  1.06805D-03
+
+At iterate   72    f=  1.00663D-05    |proj g|=  6.42132D-04
+
+At iterate   73    f=  8.12319D-06    |proj g|=  7.65338D-04
+
+At iterate   74    f=  3.50545D-06    |proj g|=  1.99226D-03
+
+At iterate   75    f=  3.35036D-06    |proj g|=  1.03945D-02
+
+At iterate   76    f=  1.93627D-06    |proj g|=  4.51819D-03
+
+At iterate   77    f=  1.65410D-06    |proj g|=  1.44341D-03
+
+At iterate   78    f=  1.62875D-06    |proj g|=  3.57760D-04
+
+At iterate   79    f=  1.60981D-06    |proj g|=  1.91062D-04
+
+At iterate   80    f=  1.60882D-06    |proj g|=  1.13617D-04
+
+At iterate   81    f=  1.60779D-06    |proj g|=  2.98387D-05
+
+At iterate   82    f=  1.60567D-06    |proj g|=  5.69028D-05
+
+At iterate   83    f=  1.60072D-06    |proj g|=  1.15208D-04
+
+At iterate   84    f=  1.59891D-06    |proj g|=  1.35319D-05
+
+At iterate   85    f=  1.59887D-06    |proj g|=  2.15916D-06
+
+At iterate   86    f=  1.59887D-06    |proj g|=  3.16337D-07
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    4     86    120      1     0     0   3.163D-07   1.599D-06
+  F =   1.5988711736276491E-006
+
+CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL            
+
+real	1m52.543s
+user	5m20.654s
+sys	0m31.021s
+CALIBRATED PARAMS:
+
+Y: 3.368697522361e+02
+S: 6.391179245389e+01
+D: 4.749298182811e+01
+K: 1.415827465166e+03
+COMPLETED noisy_load_0x noisy_disp_0x vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+
+Initial guess::2 => Y: 318.900556711592, S: 149.1372933216141, D: 10.515680698511307, K:1385.8729262659313
+RUNNING noisy_load_0x noisy_disp_0x vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            4     M =           10
+ This problem is unconstrained.
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  5.58874D-02    |proj g|=  1.89474D+00
+
+At iterate    1    f=  8.13852D-03    |proj g|=  4.97868D-01
+
+At iterate    2    f=  4.76296D-03    |proj g|=  3.62716D-02
+
+At iterate    3    f=  4.71059D-03    |proj g|=  3.27200D-02
+
+At iterate    4    f=  4.49614D-03    |proj g|=  5.37920D-02
+
+At iterate    5    f=  4.07870D-03    |proj g|=  1.31389D-01
+
+At iterate    6    f=  3.23445D-03    |proj g|=  2.18807D-01
+
+At iterate    7    f=  2.06345D-03    |proj g|=  2.47222D-01
+
+At iterate    8    f=  7.78396D-04    |proj g|=  1.33805D-01
+
+At iterate    9    f=  4.33882D-04    |proj g|=  1.81670D-02
+
+At iterate   10    f=  4.21667D-04    |proj g|=  6.58750D-04
+
+At iterate   11    f=  4.21344D-04    |proj g|=  7.58873D-04
+
+At iterate   12    f=  3.84030D-04    |proj g|=  1.02650D-02
+
+At iterate   13    f=  3.35343D-04    |proj g|=  3.94423D-02
+
+At iterate   14    f=  3.06455D-04    |proj g|=  5.68690D-02
+
+At iterate   15    f=  2.40793D-04    |proj g|=  5.81005D-02
+
+At iterate   16    f=  1.98272D-04    |proj g|=  2.30543D-02
+
+At iterate   17    f=  1.18163D-04    |proj g|=  4.37093D-02
+
+At iterate   18    f=  1.01989D-04    |proj g|=  2.20439D-02
+
+At iterate   19    f=  7.16472D-05    |proj g|=  3.18500D-02
+
+At iterate   20    f=  5.55529D-05    |proj g|=  1.02969D-02
+
+At iterate   21    f=  4.48416D-05    |proj g|=  1.05222D-02
+
+At iterate   22    f=  3.26583D-05    |proj g|=  1.38131D-02
+
+At iterate   23    f=  2.97999D-05    |proj g|=  2.73791D-03
+
+At iterate   24    f=  2.92133D-05    |proj g|=  3.60604D-04
+
+At iterate   25    f=  2.92027D-05    |proj g|=  3.90373D-05
+
+At iterate   26    f=  2.92018D-05    |proj g|=  9.89789D-05
+
+At iterate   27    f=  2.92005D-05    |proj g|=  2.23662D-04
+
+At iterate   28    f=  2.91962D-05    |proj g|=  4.74837D-04
+
+At iterate   29    f=  2.91859D-05    |proj g|=  8.45543D-04
+
+At iterate   30    f=  2.91725D-05    |proj g|=  1.46400D-03
+
+At iterate   31    f=  2.90987D-05    |proj g|=  2.50221D-03
+
+At iterate   32    f=  2.89029D-05    |proj g|=  4.13608D-03
+
+At iterate   33    f=  2.69370D-05    |proj g|=  1.16661D-03
+
+At iterate   34    f=  2.67856D-05    |proj g|=  1.02120D-03
+
+At iterate   35    f=  2.56891D-05    |proj g|=  8.60135D-04
+
+At iterate   36    f=  2.46114D-05    |proj g|=  9.73497D-03
+
+At iterate   37    f=  2.41078D-05    |proj g|=  4.16936D-03
+
+At iterate   38    f=  2.32647D-05    |proj g|=  9.21369D-03
+
+At iterate   39    f=  2.23246D-05    |proj g|=  8.04211D-03
+
+At iterate   40    f=  1.89653D-05    |proj g|=  2.15199D-03
+
+At iterate   41    f=  1.84336D-05    |proj g|=  8.05492D-03
+
+At iterate   42    f=  1.59562D-05    |proj g|=  7.82755D-03
+
+At iterate   43    f=  1.57568D-05    |proj g|=  4.80237D-03
+
+At iterate   44    f=  1.31707D-05    |proj g|=  2.44202D-03
+
+At iterate   45    f=  1.17691D-05    |proj g|=  6.24934D-03
+
+At iterate   46    f=  1.02135D-05    |proj g|=  9.33669D-03
+
+At iterate   47    f=  8.10306D-06    |proj g|=  7.64642D-03
+
+At iterate   48    f=  6.57438D-06    |proj g|=  6.06339D-04
+
+At iterate   49    f=  4.41901D-06    |proj g|=  2.55966D-03
+
+At iterate   50    f=  3.19000D-06    |proj g|=  6.06356D-04
+
+At iterate   51    f=  1.93257D-06    |proj g|=  3.47121D-03
+
+At iterate   52    f=  1.73986D-06    |proj g|=  9.15855D-04
+
+At iterate   53    f=  1.70091D-06    |proj g|=  1.82671D-03
+
+At iterate   54    f=  1.63925D-06    |proj g|=  8.51751D-04
+
+At iterate   55    f=  1.62189D-06    |proj g|=  1.75710D-04
+
+At iterate   56    f=  1.62070D-06    |proj g|=  1.60674D-04
+
+At iterate   57    f=  1.60087D-06    |proj g|=  3.06784D-04
+
+At iterate   58    f=  1.59895D-06    |proj g|=  3.90846D-06
+
+At iterate   59    f=  1.59887D-06    |proj g|=  2.99167D-06
+
+At iterate   60    f=  1.59887D-06    |proj g|=  2.35044D-07
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    4     60     81      1     0     0   2.350D-07   1.599D-06
+  F =   1.5988712720443013E-006
+
+CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL            
+
+real	1m16.579s
+user	3m40.722s
+sys	0m20.796s
+CALIBRATED PARAMS:
+
+Y: 3.368701280505e+02
+S: 6.391266192759e+01
+D: 4.749124128126e+01
+K: 1.415816387816e+03
+COMPLETED noisy_load_0x noisy_disp_0x vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+
+Initial guess::3 => Y: 257.7158151212889, S: 118.87416087530784, D: 8.074645263526673, K:835.098906551158
+RUNNING noisy_load_0x noisy_disp_0x vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            4     M =           10
+ This problem is unconstrained.
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  2.28537D+00    |proj g|=  1.08862D+01
+
+At iterate    1    f=  7.06118D-02    |proj g|=  2.26498D+00
+
+At iterate    2    f=  2.31736D-02    |proj g|=  1.23264D+00
+
+At iterate    3    f=  7.00693D-03    |proj g|=  7.74808D-02
+
+At iterate    4    f=  6.90654D-03    |proj g|=  2.54426D-02
+
+At iterate    5    f=  6.87256D-03    |proj g|=  2.38853D-02
+
+At iterate    6    f=  6.62623D-03    |proj g|=  9.76131D-02
+
+At iterate    7    f=  6.17158D-03    |proj g|=  1.85913D-01
+
+At iterate    8    f=  5.12438D-03    |proj g|=  3.11953D-01
+
+At iterate    9    f=  3.70614D-03    |proj g|=  3.82912D-01
+
+At iterate   10    f=  1.91890D-03    |proj g|=  3.11354D-01
+
+At iterate   11    f=  5.08240D-04    |proj g|=  7.05769D-02
+
+At iterate   12    f=  4.18816D-04    |proj g|=  5.51346D-03
+
+At iterate   13    f=  4.17018D-04    |proj g|=  6.65166D-04
+
+At iterate   14    f=  4.16901D-04    |proj g|=  6.84246D-04
+
+At iterate   15    f=  4.15365D-04    |proj g|=  6.17492D-03
+
+At iterate   16    f=  4.12565D-04    |proj g|=  1.27959D-02
+
+At iterate   17    f=  4.03365D-04    |proj g|=  2.52891D-02
+
+At iterate   18    f=  2.52144D-04    |proj g|=  3.38653D-03
+
+At iterate   19    f=  2.40367D-04    |proj g|=  2.44528D-02
+
+At iterate   20    f=  1.53724D-04    |proj g|=  3.69180D-02
+
+At iterate   21    f=  1.46041D-04    |proj g|=  2.64286D-02
+
+At iterate   22    f=  1.18643D-04    |proj g|=  1.27918D-02
+
+At iterate   23    f=  7.05727D-05    |proj g|=  2.96829D-02
+
+At iterate   24    f=  4.28156D-05    |proj g|=  1.57327D-02
+
+At iterate   25    f=  3.68366D-05    |proj g|=  3.49924D-03
+
+At iterate   26    f=  3.32338D-05    |proj g|=  2.43026D-03
+
+At iterate   27    f=  3.16643D-05    |proj g|=  2.44305D-03
+
+At iterate   28    f=  3.15644D-05    |proj g|=  2.02695D-03
+
+At iterate   29    f=  3.13907D-05    |proj g|=  2.48019D-04
+
+At iterate   30    f=  3.13873D-05    |proj g|=  4.05787D-05
+
+At iterate   31    f=  3.13860D-05    |proj g|=  1.18343D-04
+
+At iterate   32    f=  3.13788D-05    |proj g|=  3.79585D-04
+
+At iterate   33    f=  3.13631D-05    |proj g|=  7.26684D-04
+
+At iterate   34    f=  3.13182D-05    |proj g|=  1.35144D-03
+
+At iterate   35    f=  3.12027D-05    |proj g|=  2.35267D-03
+
+At iterate   36    f=  3.08276D-05    |proj g|=  4.07727D-03
+
+At iterate   37    f=  2.82832D-05    |proj g|=  1.86669D-03
+
+At iterate   38    f=  2.82035D-05    |proj g|=  3.99561D-03
+
+At iterate   39    f=  2.77925D-05    |proj g|=  4.63070D-03
+
+At iterate   40    f=  2.72709D-05    |proj g|=  3.41055D-03
+
+At iterate   41    f=  2.69534D-05    |proj g|=  5.84494D-03
+
+At iterate   42    f=  2.65502D-05    |proj g|=  4.67702D-03
+
+At iterate   43    f=  2.52891D-05    |proj g|=  8.95580D-03
+
+At iterate   44    f=  2.31787D-05    |proj g|=  8.11856D-03
+
+At iterate   45    f=  2.20976D-05    |proj g|=  4.93320D-04
+
+At iterate   46    f=  2.04982D-05    |proj g|=  2.72704D-03
+
+At iterate   47    f=  2.00596D-05    |proj g|=  8.90206D-03
+
+At iterate   48    f=  1.88409D-05    |proj g|=  4.95962D-03
+
+At iterate   49    f=  1.69710D-05    |proj g|=  1.49717D-03
+
+At iterate   50    f=  1.57536D-05    |proj g|=  1.00751D-02
+
+At iterate   51    f=  1.49277D-05    |proj g|=  2.70268D-03
+
+At iterate   52    f=  1.39914D-05    |proj g|=  1.56053D-03
+
+At iterate   53    f=  1.29915D-05    |proj g|=  3.58017D-03
+
+At iterate   54    f=  1.12848D-05    |proj g|=  3.26053D-03
+
+At iterate   55    f=  5.46763D-06    |proj g|=  7.02464D-03
+
+At iterate   56    f=  3.62682D-06    |proj g|=  1.16104D-03
+
+At iterate   57    f=  2.44619D-06    |proj g|=  4.22138D-03
+
+At iterate   58    f=  2.16759D-06    |proj g|=  5.44219D-03
+
+At iterate   59    f=  1.62522D-06    |proj g|=  3.66931D-04
+
+At iterate   60    f=  1.60467D-06    |proj g|=  2.46843D-04
+
+At iterate   61    f=  1.60311D-06    |proj g|=  6.61891D-05
+
+At iterate   62    f=  1.60206D-06    |proj g|=  1.09450D-04
+
+At iterate   63    f=  1.59913D-06    |proj g|=  9.22650D-05
+
+At iterate   64    f=  1.59900D-06    |proj g|=  6.16898D-05
+
+At iterate   65    f=  1.59887D-06    |proj g|=  2.23889D-08
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    4     65     88      1     0     0   2.239D-08   1.599D-06
+  F =   1.5988712101797557E-006
+
+CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL            
+
+real	1m21.907s
+user	3m59.690s
+sys	0m21.270s
+CALIBRATED PARAMS:
+
+Y: 3.368695693757e+02
+S: 6.391125603089e+01
+D: 4.749399242180e+01
+K: 1.415833331582e+03
+COMPLETED noisy_load_0x noisy_disp_0x vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+
+Initial guess::4 => Y: 321.59919290608434, S: 103.06946665135482, D: 4.164856817868848, K:1357.9117129156507
+RUNNING noisy_load_0x noisy_disp_0x vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            4     M =           10
+ This problem is unconstrained.
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  3.23523D-01    |proj g|=  4.76770D+00
+
+At iterate    1    f=  2.90624D-03    |proj g|=  3.53680D-02
+
+At iterate    2    f=  2.87585D-03    |proj g|=  2.03203D-02
+
+At iterate    3    f=  2.80443D-03    |proj g|=  4.25217D-02
+
+At iterate    4    f=  2.51359D-03    |proj g|=  1.07843D-01
+
+At iterate    5    f=  1.97132D-03    |proj g|=  1.77124D-01
+
+At iterate    6    f=  1.48361D-03    |proj g|=  1.63829D-01
+
+At iterate    7    f=  1.09787D-03    |proj g|=  5.11534D-02
+
+At iterate    8    f=  1.06488D-03    |proj g|=  1.44479D-03
+
+At iterate    9    f=  1.06479D-03    |proj g|=  3.54634D-04
+
+At iterate   10    f=  1.06474D-03    |proj g|=  3.59971D-04
+
+At iterate   11    f=  1.06446D-03    |proj g|=  8.06961D-04
+
+At iterate   12    f=  1.06325D-03    |proj g|=  1.96307D-03
+
+At iterate   13    f=  1.06043D-03    |proj g|=  3.57639D-03
+
+At iterate   14    f=  1.05242D-03    |proj g|=  5.22029D-03
+
+At iterate   15    f=  1.03034D-03    |proj g|=  8.17611D-03
+
+At iterate   16    f=  1.00668D-03    |proj g|=  4.82187D-03
+
+At iterate   17    f=  9.80479D-04    |proj g|=  7.46936D-03
+
+At iterate   18    f=  9.30801D-04    |proj g|=  9.88025D-03
+
+At iterate   19    f=  8.48725D-04    |proj g|=  5.75549D-02
+
+At iterate   20    f=  7.72616D-04    |proj g|=  2.26166D-02
+
+At iterate   21    f=  6.75431D-04    |proj g|=  2.47432D-02
+
+At iterate   22    f=  6.48218D-04    |proj g|=  5.43828D-02
+
+At iterate   23    f=  6.10759D-04    |proj g|=  3.92719D-02
+
+At iterate   24    f=  5.82546D-04    |proj g|=  3.33706D-02
+
+At iterate   25    f=  4.81183D-04    |proj g|=  6.53379D-02
+
+At iterate   26    f=  3.49471D-04    |proj g|=  3.66133D-02
+
+At iterate   27    f=  2.63729D-04    |proj g|=  9.61349D-03
+
+At iterate   28    f=  2.44366D-04    |proj g|=  3.32589D-02
+
+At iterate   29    f=  2.26171D-04    |proj g|=  4.31545D-02
+
+At iterate   30    f=  1.87231D-04    |proj g|=  4.27271D-02
+
+At iterate   31    f=  1.32074D-04    |proj g|=  4.45600D-02
+
+At iterate   32    f=  7.82860D-05    |proj g|=  1.77462D-02
+
+At iterate   33    f=  5.74799D-05    |proj g|=  5.50635D-03
+
+At iterate   34    f=  4.24248D-05    |proj g|=  1.55441D-02
+
+At iterate   35    f=  3.49215D-05    |proj g|=  4.50348D-03
+
+At iterate   36    f=  3.36362D-05    |proj g|=  5.85446D-03
+
+At iterate   37    f=  3.28855D-05    |proj g|=  1.89854D-03
+
+At iterate   38    f=  3.27779D-05    |proj g|=  2.11710D-04
+
+At iterate   39    f=  3.27758D-05    |proj g|=  1.86672D-04
+
+At iterate   40    f=  3.25007D-05    |proj g|=  1.34403D-03
+
+At iterate   41    f=  3.07412D-05    |proj g|=  2.14564D-03
+
+At iterate   42    f=  3.04416D-05    |proj g|=  5.83163D-03
+
+At iterate   43    f=  2.98934D-05    |proj g|=  4.97381D-03
+
+At iterate   44    f=  2.94820D-05    |proj g|=  4.07000D-03
+
+At iterate   45    f=  2.90568D-05    |proj g|=  4.62794D-03
+
+At iterate   46    f=  2.79265D-05    |proj g|=  1.78444D-03
+
+At iterate   47    f=  2.75766D-05    |proj g|=  4.73475D-03
+
+At iterate   48    f=  2.63318D-05    |proj g|=  9.74031D-03
+
+At iterate   49    f=  2.35341D-05    |proj g|=  2.38509D-03
+
+At iterate   50    f=  2.26574D-05    |proj g|=  4.63885D-03
+
+At iterate   51    f=  2.19626D-05    |proj g|=  6.30588D-03
+
+At iterate   52    f=  2.07910D-05    |proj g|=  7.25112D-03
+
+At iterate   53    f=  2.01385D-05    |proj g|=  1.20703D-03
+
+At iterate   54    f=  1.94007D-05    |proj g|=  1.76670D-03
+
+At iterate   55    f=  1.86106D-05    |proj g|=  5.42285D-03
+
+At iterate   56    f=  1.64582D-05    |proj g|=  2.56722D-03
+
+At iterate   57    f=  1.19701D-05    |proj g|=  7.95999D-04
+
+At iterate   58    f=  1.02853D-05    |proj g|=  8.95917D-03
+
+At iterate   59    f=  5.22888D-06    |proj g|=  7.30651D-03
+
+At iterate   60    f=  2.17705D-06    |proj g|=  2.83406D-03
+
+At iterate   61    f=  2.03161D-06    |proj g|=  1.86274D-03
+
+At iterate   62    f=  1.83869D-06    |proj g|=  3.58693D-03
+
+At iterate   63    f=  1.63184D-06    |proj g|=  5.10294D-05
+
+At iterate   64    f=  1.62160D-06    |proj g|=  7.12478D-05
+
+At iterate   65    f=  1.61152D-06    |proj g|=  4.20331D-04
+
+At iterate   66    f=  1.60325D-06    |proj g|=  3.17446D-04
+
+At iterate   67    f=  1.59898D-06    |proj g|=  3.21315D-05
+
+At iterate   68    f=  1.59888D-06    |proj g|=  1.31132D-05
+
+At iterate   69    f=  1.59887D-06    |proj g|=  1.17768D-06
+
+At iterate   70    f=  1.59887D-06    |proj g|=  1.86545D-08
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    4     70     98      1     0     0   1.865D-08   1.599D-06
+  F =   1.5988711709775017E-006
+
+CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL            
+
+real	1m26.120s
+user	4m27.243s
+sys	0m18.458s
+CALIBRATED PARAMS:
+
+Y: 3.368697842707e+02
+S: 6.391182581040e+01
+D: 4.749286372461e+01
+K: 1.415826906902e+03
+COMPLETED noisy_load_0x noisy_disp_0x vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+
+Initial guess::5 => Y: 313.1348334609399, S: 87.22281759717762, D: 5.690706185502268, K:1440.391098688258
+RUNNING noisy_load_0x noisy_disp_0x vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            4     M =           10
+ This problem is unconstrained.
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  3.85073D-01    |proj g|=  5.11724D+00
+
+At iterate    1    f=  1.84326D-03    |proj g|=  1.77983D-01
+
+At iterate    2    f=  1.46698D-03    |proj g|=  3.37587D-02
+
+At iterate    3    f=  1.45226D-03    |proj g|=  1.12499D-02
+
+At iterate    4    f=  1.44808D-03    |proj g|=  1.19014D-02
+
+At iterate    5    f=  1.39997D-03    |proj g|=  3.56884D-02
+
+At iterate    6    f=  1.32351D-03    |proj g|=  6.53176D-02
+
+At iterate    7    f=  1.16896D-03    |proj g|=  8.74858D-02
+
+At iterate    8    f=  1.03535D-03    |proj g|=  6.29784D-02
+
+At iterate    9    f=  9.95463D-04    |proj g|=  2.40438D-02
+
+At iterate   10    f=  9.86925D-04    |proj g|=  1.85550D-03
+
+At iterate   11    f=  9.86722D-04    |proj g|=  4.28790D-04
+
+At iterate   12    f=  9.86598D-04    |proj g|=  4.47821D-04
+
+At iterate   13    f=  9.85400D-04    |proj g|=  1.52272D-03
+
+At iterate   14    f=  9.82589D-04    |proj g|=  3.48422D-03
+
+At iterate   15    f=  9.73260D-04    |proj g|=  5.60105D-03
+
+At iterate   16    f=  9.33515D-04    |proj g|=  1.43247D-02
+
+At iterate   17    f=  9.17896D-04    |proj g|=  3.74880D-02
+
+At iterate   18    f=  8.91291D-04    |proj g|=  7.46953D-02
+
+At iterate   19    f=  8.10030D-04    |proj g|=  5.91196D-02
+
+At iterate   20    f=  7.04667D-04    |proj g|=  3.79087D-02
+
+At iterate   21    f=  6.73916D-04    |proj g|=  2.02663D-03
+
+At iterate   22    f=  6.18486D-04    |proj g|=  2.05225D-02
+
+At iterate   23    f=  5.84475D-04    |proj g|=  4.46558D-02
+
+At iterate   24    f=  4.97689D-04    |proj g|=  5.51356D-02
+
+At iterate   25    f=  3.92564D-04    |proj g|=  1.07328D-02
+
+At iterate   26    f=  3.48835D-04    |proj g|=  4.40580D-02
+
+At iterate   27    f=  3.11449D-04    |proj g|=  7.86144D-02
+
+At iterate   28    f=  2.29285D-04    |proj g|=  3.10609D-02
+
+At iterate   29    f=  1.62813D-04    |proj g|=  3.79925D-02
+
+At iterate   30    f=  1.06557D-04    |proj g|=  1.07836D-02
+
+At iterate   31    f=  8.54633D-05    |proj g|=  2.92448D-02
+
+At iterate   32    f=  4.81725D-05    |proj g|=  1.88467D-02
+
+At iterate   33    f=  3.61967D-05    |proj g|=  1.00072D-03
+
+At iterate   34    f=  3.10836D-05    |proj g|=  8.22575D-03
+
+At iterate   35    f=  2.89516D-05    |proj g|=  5.44245D-03
+
+At iterate   36    f=  2.83262D-05    |proj g|=  9.88943D-04
+
+At iterate   37    f=  2.82771D-05    |proj g|=  3.43958D-04
+
+At iterate   38    f=  2.82744D-05    |proj g|=  2.04013D-05
+
+At iterate   39    f=  2.82743D-05    |proj g|=  2.66331D-05
+
+At iterate   40    f=  2.82738D-05    |proj g|=  1.75240D-05
+
+At iterate   41    f=  2.82578D-05    |proj g|=  1.79710D-05
+
+At iterate   42    f=  2.82519D-05    |proj g|=  5.26758D-05
+
+At iterate   43    f=  2.82350D-05    |proj g|=  8.98611D-05
+
+At iterate   44    f=  2.81884D-05    |proj g|=  2.21768D-04
+
+At iterate   45    f=  2.80623D-05    |proj g|=  4.56368D-04
+
+At iterate   46    f=  2.76972D-05    |proj g|=  1.46592D-03
+
+At iterate   47    f=  2.71283D-05    |proj g|=  3.61745D-03
+
+At iterate   48    f=  2.65170D-05    |proj g|=  8.00910D-03
+
+At iterate   49    f=  2.52922D-05    |proj g|=  1.21310D-02
+
+At iterate   50    f=  2.26153D-05    |proj g|=  2.44757D-04
+
+At iterate   51    f=  2.17052D-05    |proj g|=  3.89902D-03
+
+At iterate   52    f=  2.14232D-05    |proj g|=  5.70922D-03
+
+At iterate   53    f=  2.07036D-05    |proj g|=  6.71641D-03
+
+At iterate   54    f=  1.80980D-05    |proj g|=  1.50468D-02
+
+At iterate   55    f=  1.67043D-05    |proj g|=  5.68434D-04
+
+At iterate   56    f=  1.42003D-05    |proj g|=  5.82830D-03
+
+At iterate   57    f=  1.32561D-05    |proj g|=  9.00809D-03
+
+At iterate   58    f=  1.18245D-05    |proj g|=  5.88116D-03
+
+At iterate   59    f=  9.90956D-06    |proj g|=  4.98849D-04
+
+At iterate   60    f=  9.24650D-06    |proj g|=  2.25383D-03
+
+At iterate   61    f=  8.10126D-06    |proj g|=  2.69836D-03
+
+At iterate   62    f=  7.26833D-06    |proj g|=  8.69384D-03
+
+At iterate   63    f=  4.34025D-06    |proj g|=  2.77617D-03
+
+At iterate   64    f=  3.03453D-06    |proj g|=  1.85244D-03
+
+At iterate   65    f=  2.18932D-06    |proj g|=  2.48756D-03
+
+At iterate   66    f=  2.04569D-06    |proj g|=  1.10292D-03
+
+At iterate   67    f=  1.85337D-06    |proj g|=  1.48323D-03
+
+At iterate   68    f=  1.75715D-06    |proj g|=  4.71749D-04
+
+At iterate   69    f=  1.74190D-06    |proj g|=  8.11522D-04
+
+At iterate   70    f=  1.70860D-06    |proj g|=  1.05668D-03
+
+At iterate   71    f=  1.65785D-06    |proj g|=  1.22693D-03
+
+At iterate   72    f=  1.60655D-06    |proj g|=  5.22292D-04
+
+At iterate   73    f=  1.59897D-06    |proj g|=  5.08743D-05
+
+At iterate   74    f=  1.59888D-06    |proj g|=  1.40319D-05
+
+At iterate   75    f=  1.59887D-06    |proj g|=  4.36052D-07
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    4     75     95      1     0     0   4.361D-07   1.599D-06
+  F =   1.5988713260158552E-006
+
+CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL            
+
+real	1m23.747s
+user	4m18.556s
+sys	0m18.328s
+CALIBRATED PARAMS:
+
+Y: 3.368702135664e+02
+S: 6.391359915882e+01
+D: 4.749005092330e+01
+K: 1.415807908829e+03
+COMPLETED noisy_load_0x noisy_disp_0x vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+
+Initial guess::6 => Y: 308.43957321106814, S: 93.11351012392043, D: 2.6673615504684003, K:1158.5200908762602
+RUNNING noisy_load_0x noisy_disp_0x vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            4     M =           10
+ This problem is unconstrained.
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  8.34283D-01    |proj g|=  7.42954D+00
+
+At iterate    1    f=  2.12499D-02    |proj g|=  9.24079D-01
+
+At iterate    2    f=  1.22590D-02    |proj g|=  2.68017D-01
+
+At iterate    3    f=  1.14907D-02    |proj g|=  4.46100D-02
+
+At iterate    4    f=  7.93485D-03    |proj g|=  8.96554D-02
+
+At iterate    5    f=  1.90277D-03    |proj g|=  8.23634D-02
+
+At iterate    6    f=  1.60488D-03    |proj g|=  1.71606D-01
+
+At iterate    7    f=  1.21926D-03    |proj g|=  3.57099D-02
+
+At iterate    8    f=  1.19122D-03    |proj g|=  8.27836D-03
+
+At iterate    9    f=  1.18834D-03    |proj g|=  1.82988D-04
+
+At iterate   10    f=  1.18833D-03    |proj g|=  1.79438D-04
+
+At iterate   11    f=  1.18442D-03    |proj g|=  1.41814D-03
+
+At iterate   12    f=  1.17171D-03    |proj g|=  1.49379D-02
+
+At iterate   13    f=  1.16320D-03    |proj g|=  3.08002D-02
+
+At iterate   14    f=  1.13581D-03    |proj g|=  2.41959D-02
+
+At iterate   15    f=  1.08827D-03    |proj g|=  4.16530D-02
+
+At iterate   16    f=  1.05332D-03    |proj g|=  2.64360D-02
+
+At iterate   17    f=  9.88431D-04    |proj g|=  3.81759D-02
+
+At iterate   18    f=  9.68550D-04    |proj g|=  7.81433D-02
+
+At iterate   19    f=  9.59551D-04    |proj g|=  5.68670D-03
+
+At iterate   20    f=  9.09775D-04    |proj g|=  2.07824D-02
+
+At iterate   21    f=  8.89920D-04    |proj g|=  3.74491D-02
+
+At iterate   22    f=  8.58861D-04    |proj g|=  6.03882D-02
+
+At iterate   23    f=  8.06337D-04    |proj g|=  4.43092D-02
+
+At iterate   24    f=  7.38979D-04    |proj g|=  7.85227D-02
+
+At iterate   25    f=  6.19104D-04    |proj g|=  2.66705D-02
+
+At iterate   26    f=  5.60080D-04    |proj g|=  9.67155D-03
+
+At iterate   27    f=  5.36428D-04    |proj g|=  3.47743D-02
+
+At iterate   28    f=  4.92919D-04    |proj g|=  4.95673D-02
+
+At iterate   29    f=  4.46142D-04    |proj g|=  3.32587D-02
+
+At iterate   30    f=  4.08925D-04    |proj g|=  7.35084D-02
+
+At iterate   31    f=  3.29991D-04    |proj g|=  2.77806D-02
+
+At iterate   32    f=  2.74021D-04    |proj g|=  3.82762D-02
+
+At iterate   33    f=  2.19208D-04    |proj g|=  5.24520D-02
+
+At iterate   34    f=  1.77224D-04    |proj g|=  2.38582D-02
+
+At iterate   35    f=  1.35259D-04    |proj g|=  1.66984D-02
+
+At iterate   36    f=  1.16139D-04    |proj g|=  3.28654D-02
+
+At iterate   37    f=  8.98048D-05    |proj g|=  1.23142D-02
+
+At iterate   38    f=  7.44953D-05    |proj g|=  2.40632D-02
+
+At iterate   39    f=  5.85668D-05    |proj g|=  2.15258D-02
+
+At iterate   40    f=  4.95987D-05    |proj g|=  2.34760D-03
+
+At iterate   41    f=  4.24296D-05    |proj g|=  9.30661D-03
+
+At iterate   42    f=  3.94664D-05    |proj g|=  4.88122D-03
+
+At iterate   43    f=  3.83566D-05    |proj g|=  2.73209D-03
+
+At iterate   44    f=  3.81587D-05    |proj g|=  5.72859D-04
+
+At iterate   45    f=  3.81418D-05    |proj g|=  7.79939D-04
+
+At iterate   46    f=  3.81221D-05    |proj g|=  4.63756D-05
+
+At iterate   47    f=  3.81220D-05    |proj g|=  3.23881D-05
+
+At iterate   48    f=  3.81216D-05    |proj g|=  3.29057D-05
+
+At iterate   49    f=  3.81137D-05    |proj g|=  8.28903D-05
+
+At iterate   50    f=  3.80945D-05    |proj g|=  1.31071D-04
+
+At iterate   51    f=  3.80801D-05    |proj g|=  1.54713D-04
+
+At iterate   52    f=  3.80161D-05    |proj g|=  1.43955D-04
+
+At iterate   53    f=  3.78034D-05    |proj g|=  4.37345D-04
+
+At iterate   54    f=  3.75177D-05    |proj g|=  1.47878D-03
+
+At iterate   55    f=  3.71953D-05    |proj g|=  2.74422D-03
+
+At iterate   56    f=  3.68464D-05    |proj g|=  1.08113D-03
+
+At iterate   57    f=  3.54314D-05    |proj g|=  3.64057D-03
+
+At iterate   58    f=  3.49314D-05    |proj g|=  5.44704D-03
+
+At iterate   59    f=  3.39442D-05    |proj g|=  4.74663D-03
+
+At iterate   60    f=  3.26904D-05    |proj g|=  2.36737D-03
+
+At iterate   61    f=  3.20504D-05    |proj g|=  5.46441D-03
+
+At iterate   62    f=  3.03540D-05    |proj g|=  5.79837D-03
+
+At iterate   63    f=  3.01809D-05    |proj g|=  6.25669D-03
+
+At iterate   64    f=  3.00774D-05    |proj g|=  8.30535D-03
+
+At iterate   65    f=  2.71617D-05    |proj g|=  8.32440D-04
+
+At iterate   66    f=  2.65639D-05    |proj g|=  4.42301D-03
+
+At iterate   67    f=  2.64067D-05    |proj g|=  4.47596D-03
+
+At iterate   68    f=  2.61869D-05    |proj g|=  6.67156D-03
+
+At iterate   69    f=  2.54577D-05    |proj g|=  4.93937D-03
+
+At iterate   70    f=  2.40309D-05    |proj g|=  3.69093D-03
+
+At iterate   71    f=  2.14861D-05    |proj g|=  1.52173D-03
+
+At iterate   72    f=  2.05096D-05    |proj g|=  5.21748D-03
+
+At iterate   73    f=  1.79603D-05    |proj g|=  6.74186D-03
+
+At iterate   74    f=  1.36272D-05    |proj g|=  1.56778D-03
+
+At iterate   75    f=  1.19936D-05    |proj g|=  4.12659D-03
+
+At iterate   76    f=  1.11166D-05    |proj g|=  7.44286D-03
+
+At iterate   77    f=  8.89368D-06    |proj g|=  8.12019D-03
+
+At iterate   78    f=  6.53141D-06    |proj g|=  2.69788D-03
+
+At iterate   79    f=  5.89538D-06    |proj g|=  9.76721D-03
+
+At iterate   80    f=  3.99993D-06    |proj g|=  5.72062D-03
+
+At iterate   81    f=  3.01508D-06    |proj g|=  3.14418D-03
+
+At iterate   82    f=  2.47547D-06    |proj g|=  2.60163D-03
+
+At iterate   83    f=  2.16866D-06    |proj g|=  1.59815D-04
+
+At iterate   84    f=  2.07147D-06    |proj g|=  4.85085D-04
+
+At iterate   85    f=  1.93430D-06    |proj g|=  1.08626D-03
+
+At iterate   86    f=  1.73190D-06    |proj g|=  1.92049D-03
+
+At iterate   87    f=  1.63533D-06    |proj g|=  9.28308D-04
+
+At iterate   88    f=  1.60106D-06    |proj g|=  1.01999D-04
+
+At iterate   89    f=  1.59897D-06    |proj g|=  6.76726D-05
+
+At iterate   90    f=  1.59889D-06    |proj g|=  2.40391D-05
+
+At iterate   91    f=  1.59887D-06    |proj g|=  1.05977D-06
+
+At iterate   92    f=  1.59887D-06    |proj g|=  4.44684D-09
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    4     92    120      1     0     0   4.447D-09   1.599D-06
+  F =   1.5988711712368041E-006
+
+CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL            
+
+real	1m44.582s
+user	5m22.480s
+sys	0m22.720s
+CALIBRATED PARAMS:
+
+Y: 3.368697997958e+02
+S: 6.391193561027e+01
+D: 4.749272513025e+01
+K: 1.415825736337e+03
+COMPLETED noisy_load_0x noisy_disp_0x vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+
+Initial guess::7 => Y: 350.1333977365762, S: 108.8966708988495, D: 10.48319403823991, K:1167.1423442027485
+RUNNING noisy_load_0x noisy_disp_0x vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            4     M =           10
+ This problem is unconstrained.
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  6.43633D-03    |proj g|=  6.61467D-01
+
+At iterate    1    f=  4.15185D-03    |proj g|=  5.19526D-01
+
+At iterate    2    f=  9.98247D-04    |proj g|=  1.06589D-02
+
+At iterate    3    f=  9.93823D-04    |proj g|=  9.43692D-03
+
+At iterate    4    f=  9.83505D-04    |proj g|=  1.57380D-02
+
+At iterate    5    f=  9.57159D-04    |proj g|=  3.76539D-02
+
+At iterate    6    f=  8.95775D-04    |proj g|=  6.77482D-02
+
+At iterate    7    f=  7.77115D-04    |proj g|=  9.72660D-02
+
+At iterate    8    f=  6.19902D-04    |proj g|=  9.89483D-02
+
+At iterate    9    f=  4.59063D-04    |proj g|=  2.47205D-02
+
+At iterate   10    f=  4.50164D-04    |proj g|=  7.05452D-04
+
+At iterate   11    f=  4.50105D-04    |proj g|=  1.12311D-03
+
+At iterate   12    f=  4.50007D-04    |proj g|=  2.34612D-03
+
+At iterate   13    f=  4.49707D-04    |proj g|=  4.67938D-03
+
+At iterate   14    f=  4.48961D-04    |proj g|=  8.24026D-03
+
+At iterate   15    f=  4.46928D-04    |proj g|=  1.41364D-02
+
+At iterate   16    f=  4.41344D-04    |proj g|=  2.37928D-02
+
+At iterate   17    f=  4.23492D-04    |proj g|=  3.91537D-02
+
+At iterate   18    f=  2.84742D-04    |proj g|=  4.08742D-03
+
+At iterate   19    f=  2.74737D-04    |proj g|=  2.16649D-02
+
+At iterate   20    f=  1.82887D-04    |proj g|=  3.41002D-02
+
+At iterate   21    f=  1.58302D-04    |proj g|=  2.66229D-02
+
+At iterate   22    f=  1.50959D-04    |proj g|=  3.54951D-02
+
+At iterate   23    f=  1.31893D-04    |proj g|=  3.83959D-02
+
+At iterate   24    f=  8.87431D-05    |proj g|=  3.77202D-02
+
+At iterate   25    f=  7.49592D-05    |proj g|=  2.66505D-02
+
+At iterate   26    f=  4.22574D-05    |proj g|=  4.80879D-04
+
+At iterate   27    f=  3.36349D-05    |proj g|=  1.39092D-02
+
+At iterate   28    f=  2.78271D-05    |proj g|=  9.33524D-03
+
+At iterate   29    f=  2.58773D-05    |proj g|=  1.96089D-03
+
+At iterate   30    f=  2.56235D-05    |proj g|=  1.17757D-03
+
+At iterate   31    f=  2.55981D-05    |proj g|=  2.60286D-05
+
+At iterate   32    f=  2.55977D-05    |proj g|=  3.21137D-05
+
+At iterate   33    f=  2.51805D-05    |proj g|=  1.03532D-03
+
+At iterate   34    f=  2.43955D-05    |proj g|=  2.33069D-04
+
+At iterate   35    f=  2.36347D-05    |proj g|=  2.25839D-03
+
+At iterate   36    f=  2.21018D-05    |proj g|=  2.25583D-03
+
+At iterate   37    f=  2.02043D-05    |proj g|=  8.40146D-03
+
+At iterate   38    f=  1.96980D-05    |proj g|=  3.74803D-03
+
+At iterate   39    f=  1.75405D-05    |proj g|=  7.01341D-03
+
+At iterate   40    f=  1.62337D-05    |proj g|=  8.41438D-03
+
+At iterate   41    f=  1.19389D-05    |proj g|=  2.37628D-03
+
+At iterate   42    f=  1.00618D-05    |proj g|=  1.18842D-02
+
+At iterate   43    f=  4.56185D-06    |proj g|=  4.21979D-04
+
+At iterate   44    f=  3.37362D-06    |proj g|=  4.65806D-03
+
+At iterate   45    f=  2.76840D-06    |proj g|=  4.32833D-03
+
+At iterate   46    f=  2.67029D-06    |proj g|=  1.78708D-03
+
+At iterate   47    f=  2.11401D-06    |proj g|=  1.50991D-03
+
+At iterate   48    f=  1.74894D-06    |proj g|=  2.26908D-03
+
+At iterate   49    f=  1.71588D-06    |proj g|=  6.62877D-04
+
+At iterate   50    f=  1.67502D-06    |proj g|=  9.07306D-04
+
+At iterate   51    f=  1.66939D-06    |proj g|=  8.48212D-04
+
+At iterate   52    f=  1.62619D-06    |proj g|=  1.87094D-04
+
+At iterate   53    f=  1.60441D-06    |proj g|=  1.83430D-04
+
+At iterate   54    f=  1.59977D-06    |proj g|=  1.70458D-04
+
+At iterate   55    f=  1.59951D-06    |proj g|=  1.69196D-04
+
+At iterate   56    f=  1.59898D-06    |proj g|=  2.96161D-05
+
+At iterate   57    f=  1.59887D-06    |proj g|=  7.54912D-07
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    4     57     75      1     0     0   7.549D-07   1.599D-06
+  F =   1.5988718583729065E-006
+
+CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL            
+
+real	1m5.438s
+user	3m22.997s
+sys	0m14.363s
+CALIBRATED PARAMS:
+
+Y: 3.368691140059e+02
+S: 6.390974471470e+01
+D: 4.749685028150e+01
+K: 1.415848181673e+03
+COMPLETED noisy_load_0x noisy_disp_0x vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+
+Initial guess::8 => Y: 369.61514620370986, S: 119.56066824541777, D: 7.907989022967629, K:1088.7476035830985
+RUNNING noisy_load_0x noisy_disp_0x vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            4     M =           10
+ This problem is unconstrained.
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  1.19482D-02    |proj g|=  9.03164D-01
+
+At iterate    1    f=  3.14663D-03    |proj g|=  1.55954D-01
+
+At iterate    2    f=  2.84073D-03    |proj g|=  1.88785D-02
+
+At iterate    3    f=  2.78993D-03    |proj g|=  3.53249D-02
+
+At iterate    4    f=  2.64924D-03    |proj g|=  7.34086D-02
+
+At iterate    5    f=  2.09281D-03    |proj g|=  1.69885D-01
+
+At iterate    6    f=  1.51317D-03    |proj g|=  2.05646D-01
+
+At iterate    7    f=  8.90984D-04    |proj g|=  1.47173D-01
+
+At iterate    8    f=  6.00717D-04    |proj g|=  2.89013D-02
+
+At iterate    9    f=  5.89916D-04    |proj g|=  6.72118D-04
+
+At iterate   10    f=  5.89878D-04    |proj g|=  6.93158D-04
+
+At iterate   11    f=  5.89785D-04    |proj g|=  7.01841D-04
+
+At iterate   12    f=  5.88809D-04    |proj g|=  2.35169D-03
+
+At iterate   13    f=  5.86839D-04    |proj g|=  4.73362D-03
+
+At iterate   14    f=  5.81030D-04    |proj g|=  8.80723D-03
+
+At iterate   15    f=  5.65665D-04    |proj g|=  1.33159D-02
+
+At iterate   16    f=  5.20531D-04    |proj g|=  8.59992D-03
+
+At iterate   17    f=  4.73080D-04    |proj g|=  5.45481D-03
+
+At iterate   18    f=  4.22313D-04    |proj g|=  5.20866D-03
+
+At iterate   19    f=  3.35546D-04    |proj g|=  4.04899D-03
+
+At iterate   20    f=  1.62711D-04    |proj g|=  4.81753D-03
+
+At iterate   21    f=  1.45547D-04    |proj g|=  2.29012D-02
+
+At iterate   22    f=  6.73295D-05    |proj g|=  1.48436D-02
+
+At iterate   23    f=  5.20100D-05    |proj g|=  2.37779D-02
+
+At iterate   24    f=  3.35528D-05    |proj g|=  9.45030D-03
+
+At iterate   25    f=  2.96658D-05    |proj g|=  2.32216D-03
+
+At iterate   26    f=  2.90473D-05    |proj g|=  3.29039D-03
+
+At iterate   27    f=  2.89803D-05    |proj g|=  2.44961D-03
+
+At iterate   28    f=  2.88987D-05    |proj g|=  4.06354D-05
+
+At iterate   29    f=  2.88986D-05    |proj g|=  3.57379D-05
+
+At iterate   30    f=  2.88974D-05    |proj g|=  3.23826D-05
+
+At iterate   31    f=  2.88916D-05    |proj g|=  2.29225D-05
+
+At iterate   32    f=  2.88761D-05    |proj g|=  6.35421D-05
+
+At iterate   33    f=  2.88715D-05    |proj g|=  4.82852D-04
+
+At iterate   34    f=  2.87978D-05    |proj g|=  1.98134D-04
+
+At iterate   35    f=  2.85631D-05    |proj g|=  1.67091D-04
+
+At iterate   36    f=  2.80903D-05    |proj g|=  1.53728D-03
+
+At iterate   37    f=  2.74193D-05    |proj g|=  2.92022D-03
+
+At iterate   38    f=  2.53144D-05    |proj g|=  7.80929D-03
+
+At iterate   39    f=  2.21510D-05    |proj g|=  5.49268D-03
+
+At iterate   40    f=  2.00225D-05    |proj g|=  6.85668D-04
+
+At iterate   41    f=  1.94695D-05    |proj g|=  4.04466D-03
+
+At iterate   42    f=  1.89257D-05    |proj g|=  9.02500D-03
+
+At iterate   43    f=  1.80271D-05    |proj g|=  7.92390D-03
+
+At iterate   44    f=  1.58073D-05    |proj g|=  8.60936D-03
+
+At iterate   45    f=  1.22631D-05    |proj g|=  1.09279D-02
+
+At iterate   46    f=  8.18415D-06    |proj g|=  1.01692D-02
+
+At iterate   47    f=  4.21742D-06    |proj g|=  9.07579D-03
+
+At iterate   48    f=  2.31615D-06    |proj g|=  2.11190D-03
+
+At iterate   49    f=  1.99441D-06    |proj g|=  1.50418D-03
+
+At iterate   50    f=  1.64270D-06    |proj g|=  3.54167D-04
+
+At iterate   51    f=  1.61996D-06    |proj g|=  3.47496D-04
+
+At iterate   52    f=  1.60234D-06    |proj g|=  5.64693D-05
+
+At iterate   53    f=  1.60202D-06    |proj g|=  7.69740D-06
+
+At iterate   54    f=  1.60051D-06    |proj g|=  3.65566D-05
+
+At iterate   55    f=  1.59998D-06    |proj g|=  5.89373D-05
+
+At iterate   56    f=  1.59921D-06    |proj g|=  6.22002D-05
+
+At iterate   57    f=  1.59910D-06    |proj g|=  2.45309D-05
+
+At iterate   58    f=  1.59889D-06    |proj g|=  1.31622D-05
+
+At iterate   59    f=  1.59889D-06    |proj g|=  2.25222D-05
+
+At iterate   60    f=  1.59887D-06    |proj g|=  2.58003D-06
+
+At iterate   61    f=  1.59887D-06    |proj g|=  2.05586D-07
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    4     61     85      1     0     0   2.056D-07   1.599D-06
+  F =   1.5988711801626222E-006
+
+CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL            
+
+real	1m14.680s
+user	3m51.720s
+sys	0m16.029s
+CALIBRATED PARAMS:
+
+Y: 3.368696786853e+02
+S: 6.391153373729e+01
+D: 4.749341716387e+01
+K: 1.415830320844e+03
+COMPLETED noisy_load_0x noisy_disp_0x vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+
+Initial guess::9 => Y: 266.45802385033323, S: 129.32132013087113, D: 10.583934274602852, K:1307.5197119231025
+RUNNING noisy_load_0x noisy_disp_0x vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            4     M =           10
+ This problem is unconstrained.
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  1.08455D+00    |proj g|=  7.70123D+00
+
+At iterate    1    f=  2.02554D-02    |proj g|=  1.15497D+00
+
+At iterate    2    f=  3.68600D-03    |proj g|=  3.32492D-01
+
+At iterate    3    f=  2.21921D-03    |proj g|=  1.94958D-02
+
+At iterate    4    f=  2.20172D-03    |proj g|=  2.08412D-02
+
+At iterate    5    f=  2.03855D-03    |proj g|=  5.50270D-02
+
+At iterate    6    f=  1.79162D-03    |proj g|=  1.07785D-01
+
+At iterate    7    f=  1.30761D-03    |proj g|=  1.58137D-01
+
+At iterate    8    f=  7.96167D-04    |proj g|=  1.38476D-01
+
+At iterate    9    f=  4.55850D-04    |proj g|=  4.42839D-02
+
+At iterate   10    f=  4.26408D-04    |proj g|=  3.05631D-03
+
+At iterate   11    f=  4.26229D-04    |proj g|=  7.48422D-04
+
+At iterate   12    f=  4.26117D-04    |proj g|=  1.55380D-03
+
+At iterate   13    f=  4.25780D-04    |proj g|=  3.18819D-03
+
+At iterate   14    f=  4.24139D-04    |proj g|=  8.17633D-03
+
+At iterate   15    f=  4.20499D-04    |proj g|=  1.47517D-02
+
+At iterate   16    f=  4.08997D-04    |proj g|=  2.61737D-02
+
+At iterate   17    f=  2.24697D-04    |proj g|=  5.48401D-02
+
+At iterate   18    f=  1.92882D-04    |proj g|=  7.36885D-03
+
+At iterate   19    f=  1.61998D-04    |proj g|=  1.67328D-02
+
+At iterate   20    f=  1.54732D-04    |proj g|=  3.40945D-02
+
+At iterate   21    f=  1.45415D-04    |proj g|=  3.47381D-02
+
+At iterate   22    f=  9.81853D-05    |proj g|=  5.00290D-02
+
+At iterate   23    f=  5.93514D-05    |proj g|=  9.64267D-04
+
+At iterate   24    f=  3.95469D-05    |proj g|=  1.40177D-02
+
+At iterate   25    f=  3.27317D-05    |proj g|=  1.73826D-02
+
+At iterate   26    f=  2.91385D-05    |proj g|=  2.58036D-03
+
+At iterate   27    f=  2.78520D-05    |proj g|=  9.67247D-04
+
+At iterate   28    f=  2.75760D-05    |proj g|=  9.04877D-04
+
+At iterate   29    f=  2.75681D-05    |proj g|=  2.90516D-04
+
+At iterate   30    f=  2.75597D-05    |proj g|=  3.33106D-05
+
+At iterate   31    f=  2.75588D-05    |proj g|=  1.39193D-04
+
+At iterate   32    f=  2.75578D-05    |proj g|=  2.13790D-04
+
+At iterate   33    f=  2.75544D-05    |proj g|=  3.68146D-04
+
+ Bad direction in the line search;
+   refresh the lbfgs memory and restart the iteration.
+
+At iterate   34    f=  2.75527D-05    |proj g|=  2.47441D-05
+
+At iterate   35    f=  2.75526D-05    |proj g|=  2.12432D-05
+
+At iterate   36    f=  2.75517D-05    |proj g|=  1.47902D-04
+
+At iterate   37    f=  2.75503D-05    |proj g|=  2.62560D-04
+
+At iterate   38    f=  2.75479D-05    |proj g|=  3.21418D-04
+
+At iterate   39    f=  2.75457D-05    |proj g|=  2.25618D-04
+
+At iterate   40    f=  2.75444D-05    |proj g|=  3.95330D-05
+
+At iterate   41    f=  2.75440D-05    |proj g|=  8.71292D-05
+
+At iterate   42    f=  2.75437D-05    |proj g|=  1.55024D-04
+
+At iterate   43    f=  2.75430D-05    |proj g|=  2.65908D-04
+
+At iterate   44    f=  2.75411D-05    |proj g|=  4.31295D-04
+
+At iterate   45    f=  2.75361D-05    |proj g|=  7.04739D-04
+
+At iterate   46    f=  2.75230D-05    |proj g|=  1.14613D-03
+
+At iterate   47    f=  2.74889D-05    |proj g|=  1.87364D-03
+
+At iterate   48    f=  2.74182D-05    |proj g|=  3.04581D-03
+
+At iterate   49    f=  2.72361D-05    |proj g|=  4.75066D-03
+
+At iterate   50    f=  2.69354D-05    |proj g|=  6.42611D-03
+
+At iterate   51    f=  2.63579D-05    |proj g|=  7.41172D-03
+
+At iterate   52    f=  2.50804D-05    |proj g|=  6.27673D-03
+
+At iterate   53    f=  2.33051D-05    |proj g|=  3.79644D-03
+
+At iterate   54    f=  2.25806D-05    |proj g|=  5.03216D-03
+
+At iterate   55    f=  2.14789D-05    |proj g|=  1.38404D-03
+
+At iterate   56    f=  2.05616D-05    |proj g|=  3.93330D-03
+
+At iterate   57    f=  1.99757D-05    |proj g|=  1.61629D-03
+
+At iterate   58    f=  1.95754D-05    |proj g|=  4.25649D-03
+
+At iterate   59    f=  1.92098D-05    |proj g|=  2.92243D-03
+
+At iterate   60    f=  1.88148D-05    |proj g|=  7.96231D-05
+
+At iterate   61    f=  1.87010D-05    |proj g|=  1.45412D-03
+
+At iterate   62    f=  1.85856D-05    |proj g|=  1.17161D-03
+
+At iterate   63    f=  1.85306D-05    |proj g|=  1.69589D-04
+
+At iterate   64    f=  1.85108D-05    |proj g|=  1.08138D-04
+
+At iterate   65    f=  1.84947D-05    |proj g|=  2.88072D-04
+
+At iterate   66    f=  1.84349D-05    |proj g|=  1.27805D-03
+
+At iterate   67    f=  1.83270D-05    |proj g|=  1.89297D-03
+
+At iterate   68    f=  1.81741D-05    |proj g|=  1.58977D-03
+
+At iterate   69    f=  1.78559D-05    |proj g|=  5.51651D-04
+
+At iterate   70    f=  1.73954D-05    |proj g|=  1.66557D-04
+
+At iterate   71    f=  1.55195D-05    |proj g|=  7.98022D-04
+
+At iterate   72    f=  1.47146D-05    |proj g|=  4.84246D-03
+
+At iterate   73    f=  1.38793D-05    |proj g|=  1.38669D-03
+
+At iterate   74    f=  1.36669D-05    |proj g|=  3.31741D-04
+
+At iterate   75    f=  1.32694D-05    |proj g|=  1.01021D-03
+
+At iterate   76    f=  1.29000D-05    |proj g|=  2.49698D-03
+
+At iterate   77    f=  1.25304D-05    |proj g|=  1.89963D-03
+
+At iterate   78    f=  1.19294D-05    |proj g|=  7.36865D-04
+
+At iterate   79    f=  1.08189D-05    |proj g|=  7.24241D-04
+
+At iterate   80    f=  1.05611D-05    |proj g|=  2.97303D-03
+
+At iterate   81    f=  9.13541D-06    |proj g|=  9.19817D-04
+
+At iterate   82    f=  6.70215D-06    |proj g|=  1.20974D-03
+
+At iterate   83    f=  3.63154D-06    |proj g|=  4.26321D-03
+
+At iterate   84    f=  2.13639D-06    |proj g|=  1.35417D-03
+
+At iterate   85    f=  1.73466D-06    |proj g|=  1.23670D-03
+
+At iterate   86    f=  1.68359D-06    |proj g|=  2.07435D-03
+
+At iterate   87    f=  1.64831D-06    |proj g|=  6.07214D-04
+
+At iterate   88    f=  1.63983D-06    |proj g|=  4.44383D-04
+
+At iterate   89    f=  1.60910D-06    |proj g|=  4.56504D-05
+
+At iterate   90    f=  1.59937D-06    |proj g|=  1.69648D-05
+
+At iterate   91    f=  1.59910D-06    |proj g|=  6.49389D-05
+
+At iterate   92    f=  1.59888D-06    |proj g|=  5.38689D-06
+
+At iterate   93    f=  1.59887D-06    |proj g|=  2.51819D-06
+
+At iterate   94    f=  1.59887D-06    |proj g|=  2.24557D-07
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    4     94    126      2     0     0   2.246D-07   1.599D-06
+  F =   1.5988712789057898E-006
+
+CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL            
+
+real	1m50.916s
+user	5m40.894s
+sys	0m24.441s
+CALIBRATED PARAMS:
+
+Y: 3.368701444949e+02
+S: 6.391247185468e+01
+D: 4.749131897475e+01
+K: 1.415818639160e+03
+COMPLETED noisy_load_0x noisy_disp_0x vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+
+Initial guess::10 => Y: 312.9348963434811, S: 86.09752390070881, D: 3.8578912436902906, K:1185.8852269376825
+RUNNING noisy_load_0x noisy_disp_0x vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            4     M =           10
+ This problem is unconstrained.
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  6.53466D-01    |proj g|=  6.63725D+00
+
+At iterate    1    f=  1.34247D-02    |proj g|=  6.39826D-01
+
+At iterate    2    f=  8.96711D-03    |proj g|=  1.63046D-01
+
+At iterate    3    f=  8.66876D-03    |proj g|=  3.84961D-02
+
+At iterate    4    f=  8.49051D-03    |proj g|=  4.27291D-02
+
+At iterate    5    f=  6.96025D-03    |proj g|=  2.00044D-01
+
+At iterate    6    f=  3.83689D-03    |proj g|=  3.10574D-01
+
+At iterate    7    f=  1.75803D-03    |proj g|=  2.25144D-01
+
+At iterate    8    f=  1.40863D-03    |proj g|=  6.25796D-02
+
+At iterate    9    f=  1.19263D-03    |proj g|=  7.09368D-02
+
+At iterate   10    f=  1.11558D-03    |proj g|=  2.07217D-02
+
+At iterate   11    f=  1.11049D-03    |proj g|=  1.85844D-03
+
+At iterate   12    f=  1.11034D-03    |proj g|=  2.92582D-04
+
+At iterate   13    f=  1.11033D-03    |proj g|=  2.86663D-04
+
+At iterate   14    f=  1.11024D-03    |proj g|=  2.75187D-04
+
+At iterate   15    f=  1.10944D-03    |proj g|=  1.16696D-03
+
+At iterate   16    f=  1.10787D-03    |proj g|=  2.31686D-03
+
+At iterate   17    f=  1.10348D-03    |proj g|=  5.16696D-03
+
+At iterate   18    f=  1.09434D-03    |proj g|=  1.27408D-02
+
+At iterate   19    f=  1.08101D-03    |proj g|=  2.26616D-02
+
+At iterate   20    f=  1.05094D-03    |proj g|=  3.67334D-02
+
+At iterate   21    f=  9.72987D-04    |proj g|=  4.09352D-02
+
+At iterate   22    f=  9.60886D-04    |proj g|=  2.62087D-02
+
+At iterate   23    f=  8.68297D-04    |proj g|=  3.02359D-02
+
+At iterate   24    f=  7.82000D-04    |proj g|=  5.02771D-02
+
+At iterate   25    f=  7.45117D-04    |proj g|=  4.86164D-02
+
+At iterate   26    f=  6.84375D-04    |proj g|=  5.38848D-02
+
+At iterate   27    f=  5.89108D-04    |proj g|=  3.14099D-03
+
+At iterate   28    f=  5.65427D-04    |proj g|=  2.50873D-02
+
+At iterate   29    f=  5.09789D-04    |proj g|=  4.63127D-02
+
+At iterate   30    f=  4.79697D-04    |proj g|=  3.82323D-02
+
+At iterate   31    f=  4.31500D-04    |proj g|=  5.82256D-02
+
+At iterate   32    f=  3.46275D-04    |proj g|=  3.49108D-02
+
+At iterate   33    f=  3.04919D-04    |proj g|=  4.77491D-02
+
+At iterate   34    f=  2.01967D-04    |proj g|=  6.65201D-02
+
+At iterate   35    f=  1.50848D-04    |proj g|=  3.14827D-03
+
+At iterate   36    f=  1.21522D-04    |proj g|=  4.72101D-03
+
+At iterate   37    f=  8.17464D-05    |proj g|=  2.78533D-02
+
+At iterate   38    f=  5.98080D-05    |proj g|=  1.73886D-02
+
+At iterate   39    f=  4.62590D-05    |proj g|=  2.59265D-02
+
+At iterate   40    f=  3.80246D-05    |proj g|=  1.91389D-02
+
+At iterate   41    f=  3.24216D-05    |proj g|=  3.69055D-03
+
+At iterate   42    f=  3.21424D-05    |proj g|=  5.44711D-04
+
+At iterate   43    f=  3.21084D-05    |proj g|=  7.66724D-05
+
+At iterate   44    f=  3.21019D-05    |proj g|=  1.09025D-04
+
+At iterate   45    f=  3.20953D-05    |proj g|=  2.46385D-05
+
+At iterate   46    f=  3.20527D-05    |proj g|=  6.85513D-04
+
+At iterate   47    f=  3.19713D-05    |proj g|=  1.43862D-03
+
+At iterate   48    f=  3.01776D-05    |proj g|=  4.61843D-03
+
+At iterate   49    f=  2.99497D-05    |proj g|=  7.23648D-03
+
+At iterate   50    f=  2.72149D-05    |proj g|=  4.93390D-03
+
+At iterate   51    f=  2.67713D-05    |proj g|=  6.40810D-03
+
+At iterate   52    f=  2.64573D-05    |proj g|=  2.10311D-03
+
+At iterate   53    f=  2.62781D-05    |proj g|=  2.59870D-03
+
+At iterate   54    f=  2.57857D-05    |proj g|=  6.97514D-03
+
+At iterate   55    f=  2.50056D-05    |proj g|=  4.04057D-03
+
+At iterate   56    f=  2.27767D-05    |proj g|=  6.48826D-03
+
+At iterate   57    f=  2.10000D-05    |proj g|=  1.49346D-02
+
+At iterate   58    f=  1.79691D-05    |proj g|=  4.04260D-03
+
+At iterate   59    f=  1.65862D-05    |proj g|=  4.88480D-03
+
+At iterate   60    f=  1.53984D-05    |proj g|=  8.59462D-03
+
+At iterate   61    f=  1.32267D-05    |proj g|=  1.56419D-03
+
+At iterate   62    f=  1.19933D-05    |proj g|=  2.68061D-03
+
+At iterate   63    f=  7.83953D-06    |proj g|=  1.38927D-02
+
+At iterate   64    f=  5.50989D-06    |proj g|=  6.60357D-03
+
+At iterate   65    f=  2.80327D-06    |proj g|=  2.32195D-03
+
+At iterate   66    f=  2.18981D-06    |proj g|=  1.17368D-03
+
+At iterate   67    f=  1.72801D-06    |proj g|=  1.13824D-03
+
+At iterate   68    f=  1.62702D-06    |proj g|=  2.57305D-04
+
+At iterate   69    f=  1.60804D-06    |proj g|=  3.08803D-04
+
+At iterate   70    f=  1.60536D-06    |proj g|=  3.26994D-04
+
+At iterate   71    f=  1.60475D-06    |proj g|=  3.30322D-04
+
+At iterate   72    f=  1.60003D-06    |proj g|=  2.41619D-05
+
+At iterate   73    f=  1.59918D-06    |proj g|=  7.64926D-05
+
+At iterate   74    f=  1.59888D-06    |proj g|=  2.89504D-05
+
+At iterate   75    f=  1.59887D-06    |proj g|=  2.85265D-06
+
+At iterate   76    f=  1.59887D-06    |proj g|=  5.77463D-08
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    4     76    100      1     0     0   5.775D-08   1.599D-06
+  F =   1.5988711712556860E-006
+
+CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL            
+
+real	1m27.923s
+user	4m30.450s
+sys	0m19.455s
+CALIBRATED PARAMS:
+
+Y: 3.368697711066e+02
+S: 6.391179980329e+01
+D: 4.749291644455e+01
+K: 1.415827262443e+03
+COMPLETED noisy_load_0x noisy_disp_0x vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+
+Mean values and errors have been written to mean_vfm_forward_sens_calibrated_params.txt and ../../params_error_vfm_forward_sens_noisy_load_0x.txt.
+RUNNING calibration noisy_load_0x noisy_disp_0x calibration_vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+reading input: temp_calibration_vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress.yaml
+model ../../../meshes/notch2D_Asym/notch2D_Asym.dmg loaded in 0.000040 seconds
+mesh ../forward/forward_notch2D_Asym_finite_J2_plane_stress_synthetic/ loaded in 0.001106 seconds
+number of triangle 4566 quad 0
+mesh entity counts: v 2386 e 6951 f 4566 r 0
+mesh reordered in 0.001541 seconds
+  - verifying tags: measured_13_ver, measured_12_ver, measured_11_ver, measured_10_ver, measured_9_ver, measured_8_ver, measured_7_ver, measured_6_ver, measured_5_ver, measured_4_ver, measured_3_ver, measured_2_ver, measured_1_ver, measured_0_ver
+mesh verified in 0.001904 seconds
+nsteps = 13
+ON PRIMAL STEP (1)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.676488e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 1.703128e+00
+ > relative ||R|| = 1.015891e-03
+ > (3) Newton iteration
+ > absolute ||R|| = 1.151996e+00
+ > relative ||R|| = 6.871483e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 2.519158e-01
+ > relative ||R|| = 1.502640e-04
+ > (5) Newton iteration
+ > absolute ||R|| = 1.772357e-02
+ > relative ||R|| = 1.057184e-05
+ > (6) Newton iteration
+ > absolute ||R|| = 1.037024e-05
+ > relative ||R|| = 6.185692e-09
+ > (7) Newton iteration
+ > absolute ||R|| = 1.087822e-08
+ > relative ||R|| = 6.488696e-12
+ > (8) Newton iteration
+ > absolute ||R|| = 2.483346e-09
+ > relative ||R|| = 1.481279e-12
+ > (9) Newton iteration
+ > absolute ||R|| = 6.415785e-10
+ > relative ||R|| = 3.826920e-13
+ON PRIMAL STEP (2)
+ > (1) Newton iteration
+ > absolute ||R|| = 8.371543e+02
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 4.284158e+00
+ > relative ||R|| = 5.117525e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > residual increase -- line search alpha_3 = 1.25e-01
+ > (3) Newton iteration
+ > absolute ||R|| = 3.815021e+00
+ > relative ||R|| = 4.557130e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > (4) Newton iteration
+ > absolute ||R|| = 3.006527e+00
+ > relative ||R|| = 3.591366e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > (5) Newton iteration
+ > absolute ||R|| = 1.824587e+00
+ > relative ||R|| = 2.179511e-03
+ > (6) Newton iteration
+ > absolute ||R|| = 8.526758e-01
+ > relative ||R|| = 1.018541e-03
+ > (7) Newton iteration
+ > absolute ||R|| = 1.030906e-01
+ > relative ||R|| = 1.231441e-04
+ > (8) Newton iteration
+ > absolute ||R|| = 3.548266e-03
+ > relative ||R|| = 4.238485e-06
+ > (9) Newton iteration
+ > absolute ||R|| = 2.366961e-06
+ > relative ||R|| = 2.827389e-09
+ > (10) Newton iteration
+ > absolute ||R|| = 1.106665e-08
+ > relative ||R|| = 1.321937e-11
+ > (11) Newton iteration
+ > absolute ||R|| = 2.743454e-09
+ > relative ||R|| = 3.277119e-12
+ > (12) Newton iteration
+ > absolute ||R|| = 7.820719e-10
+ > relative ||R|| = 9.342028e-13
+ON PRIMAL STEP (3)
+ > (1) Newton iteration
+ > absolute ||R|| = 8.326122e+02
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 4.516636e+00
+ > relative ||R|| = 5.424657e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > residual increase -- line search alpha_3 = 1.25e-01
+ > residual increase -- line search alpha_4 = 6.25e-02
+ > (3) Newton iteration
+ > absolute ||R|| = 4.336509e+00
+ > relative ||R|| = 5.208317e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > residual increase -- line search alpha_3 = 1.25e-01
+ > (4) Newton iteration
+ > absolute ||R|| = 4.055322e+00
+ > relative ||R|| = 4.870601e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > (5) Newton iteration
+ > absolute ||R|| = 3.541928e+00
+ > relative ||R|| = 4.253995e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > (6) Newton iteration
+ > absolute ||R|| = 2.474770e+00
+ > relative ||R|| = 2.972296e-03
+ > (7) Newton iteration
+ > absolute ||R|| = 2.068986e+00
+ > relative ||R|| = 2.484934e-03
+ > (8) Newton iteration
+ > absolute ||R|| = 6.098874e-02
+ > relative ||R|| = 7.324987e-05
+ > (9) Newton iteration
+ > absolute ||R|| = 6.816390e-03
+ > relative ||R|| = 8.186752e-06
+ > (10) Newton iteration
+ > absolute ||R|| = 5.385325e-06
+ > relative ||R|| = 6.467987e-09
+ > (11) Newton iteration
+ > absolute ||R|| = 1.352874e-08
+ > relative ||R|| = 1.624855e-11
+ > (12) Newton iteration
+ > absolute ||R|| = 3.250383e-09
+ > relative ||R|| = 3.903838e-12
+ > (13) Newton iteration
+ > absolute ||R|| = 8.638982e-10
+ > relative ||R|| = 1.037576e-12
+ > (14) Newton iteration
+ > absolute ||R|| = 2.500496e-10
+ > relative ||R|| = 3.003194e-13
+ON PRIMAL STEP (4)
+ > (1) Newton iteration
+ > absolute ||R|| = 4.909112e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 1.423199e+01
+ > relative ||R|| = 2.899095e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > residual increase -- line search alpha_3 = 1.25e-01
+ > (3) Newton iteration
+ > absolute ||R|| = 1.327634e+01
+ > relative ||R|| = 2.704427e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > (4) Newton iteration
+ > absolute ||R|| = 1.138276e+01
+ > relative ||R|| = 2.318700e-03
+ > (5) Newton iteration
+ > absolute ||R|| = 4.107292e+00
+ > relative ||R|| = 8.366670e-04
+ > (6) Newton iteration
+ > absolute ||R|| = 4.053434e-01
+ > relative ||R|| = 8.256959e-05
+ > (7) Newton iteration
+ > absolute ||R|| = 1.143864e-02
+ > relative ||R|| = 2.330084e-06
+ > (8) Newton iteration
+ > absolute ||R|| = 1.476699e-05
+ > relative ||R|| = 3.008078e-09
+ > (9) Newton iteration
+ > absolute ||R|| = 1.055254e-08
+ > relative ||R|| = 2.149582e-12
+ > (10) Newton iteration
+ > absolute ||R|| = 2.347519e-09
+ > relative ||R|| = 4.781962e-13
+ON PRIMAL STEP (5)
+ > (1) Newton iteration
+ > absolute ||R|| = 7.540147e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 7.515266e+00
+ > relative ||R|| = 9.967002e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 6.214223e+00
+ > relative ||R|| = 8.241514e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 5.492475e-01
+ > relative ||R|| = 7.284307e-05
+ > (5) Newton iteration
+ > absolute ||R|| = 3.943378e-02
+ > relative ||R|| = 5.229842e-06
+ > (6) Newton iteration
+ > absolute ||R|| = 2.376382e-04
+ > relative ||R|| = 3.151639e-08
+ > (7) Newton iteration
+ > absolute ||R|| = 6.985805e-09
+ > relative ||R|| = 9.264813e-13
+ON PRIMAL STEP (6)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.447905e+04
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 7.910137e+00
+ > relative ||R|| = 5.463160e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 7.068390e+00
+ > relative ||R|| = 4.881805e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 9.564673e-01
+ > relative ||R|| = 6.605870e-05
+ > (5) Newton iteration
+ > absolute ||R|| = 1.531614e-01
+ > relative ||R|| = 1.057814e-05
+ > (6) Newton iteration
+ > absolute ||R|| = 6.579454e-03
+ > relative ||R|| = 4.544120e-07
+ > (7) Newton iteration
+ > absolute ||R|| = 8.887211e-06
+ > relative ||R|| = 6.137979e-10
+ > (8) Newton iteration
+ > absolute ||R|| = 7.869180e-09
+ > relative ||R|| = 5.434873e-13
+ON PRIMAL STEP (7)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.356013e+04
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 4.982240e+00
+ > relative ||R|| = 3.674183e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 2.161174e+00
+ > relative ||R|| = 1.593771e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 2.272127e-01
+ > relative ||R|| = 1.675593e-05
+ > (5) Newton iteration
+ > absolute ||R|| = 1.488824e-02
+ > relative ||R|| = 1.097942e-06
+ > (6) Newton iteration
+ > absolute ||R|| = 2.391233e-04
+ > relative ||R|| = 1.763429e-08
+ > (7) Newton iteration
+ > absolute ||R|| = 9.160790e-07
+ > relative ||R|| = 6.755680e-11
+ > (8) Newton iteration
+ > absolute ||R|| = 5.848096e-09
+ > relative ||R|| = 4.312713e-13
+ON PRIMAL STEP (8)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.289866e+04
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 3.394390e+00
+ > relative ||R|| = 2.631583e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 1.090900e+00
+ > relative ||R|| = 8.457469e-05
+ > (4) Newton iteration
+ > absolute ||R|| = 6.519238e-02
+ > relative ||R|| = 5.054197e-06
+ > (5) Newton iteration
+ > absolute ||R|| = 4.020454e-04
+ > relative ||R|| = 3.116954e-08
+ > (6) Newton iteration
+ > absolute ||R|| = 2.124760e-08
+ > relative ||R|| = 1.647272e-12
+ > (7) Newton iteration
+ > absolute ||R|| = 1.174545e-09
+ > relative ||R|| = 9.105945e-14
+ON PRIMAL STEP (9)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.238424e+04
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 3.132672e+00
+ > relative ||R|| = 2.529564e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 5.429190e-01
+ > relative ||R|| = 4.383951e-05
+ > (4) Newton iteration
+ > absolute ||R|| = 6.541217e-02
+ > relative ||R|| = 5.281889e-06
+ > (5) Newton iteration
+ > absolute ||R|| = 3.281308e-03
+ > relative ||R|| = 2.649584e-07
+ > (6) Newton iteration
+ > absolute ||R|| = 1.162260e-06
+ > relative ||R|| = 9.384992e-11
+ > (7) Newton iteration
+ > absolute ||R|| = 4.770749e-09
+ > relative ||R|| = 3.852275e-13
+ON PRIMAL STEP (10)
+ > (1) Newton iteration
+ > absolute ||R|| = 5.701962e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 1.131485e+00
+ > relative ||R|| = 1.984379e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 1.964414e-01
+ > relative ||R|| = 3.445155e-05
+ > (4) Newton iteration
+ > absolute ||R|| = 4.585193e-03
+ > relative ||R|| = 8.041431e-07
+ > (5) Newton iteration
+ > absolute ||R|| = 6.267072e-07
+ > relative ||R|| = 1.099108e-10
+ > (6) Newton iteration
+ > absolute ||R|| = 5.003970e-09
+ > relative ||R|| = 8.775873e-13
+ON PRIMAL STEP (11)
+ > (1) Newton iteration
+ > absolute ||R|| = 5.607953e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 1.079623e+00
+ > relative ||R|| = 1.925164e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 2.535405e-01
+ > relative ||R|| = 4.521088e-05
+ > (4) Newton iteration
+ > absolute ||R|| = 7.047935e-03
+ > relative ||R|| = 1.256775e-06
+ > (5) Newton iteration
+ > absolute ||R|| = 4.836576e-06
+ > relative ||R|| = 8.624495e-10
+ > (6) Newton iteration
+ > absolute ||R|| = 6.171431e-09
+ > relative ||R|| = 1.100478e-12
+ > (7) Newton iteration
+ > absolute ||R|| = 1.519637e-09
+ > relative ||R|| = 2.709789e-13
+ON PRIMAL STEP (12)
+ > (1) Newton iteration
+ > absolute ||R|| = 5.401447e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 7.696304e-01
+ > relative ||R|| = 1.424860e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 1.359676e-01
+ > relative ||R|| = 2.517244e-05
+ > (4) Newton iteration
+ > absolute ||R|| = 5.693291e-03
+ > relative ||R|| = 1.054031e-06
+ > (5) Newton iteration
+ > absolute ||R|| = 5.355145e-07
+ > relative ||R|| = 9.914278e-11
+ > (6) Newton iteration
+ > absolute ||R|| = 4.009886e-09
+ > relative ||R|| = 7.423725e-13
+ON PRIMAL STEP (13)
+ > (1) Newton iteration
+ > absolute ||R|| = 5.241585e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 9.770698e-01
+ > relative ||R|| = 1.864073e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 1.062038e-01
+ > relative ||R|| = 2.026176e-05
+ > (4) Newton iteration
+ > absolute ||R|| = 9.387860e-04
+ > relative ||R|| = 1.791035e-07
+ > (5) Newton iteration
+ > absolute ||R|| = 7.544887e-08
+ > relative ||R|| = 1.439428e-11
+ > (6) Newton iteration
+ > absolute ||R|| = 2.398824e-09
+ > relative ||R|| = 4.576523e-13
+J: 5.0406402249985438e-02
+
+COMPLETED calibration noisy_load_0x noisy_disp_0x calibration_vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+
+Total elapsed time: 217.38 minutes

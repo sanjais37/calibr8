@@ -1,0 +1,735 @@
+RUNNING forward_notch2D_Asym_finite_J2_plane_stress
+reading input: forward_notch2D_Asym_finite_J2_plane_stress.yaml
+model ../../../../meshes/notch2D_Asym/notch2D_Asym.dmg loaded in 0.000046 seconds
+mesh ../../../../meshes/notch2D_Asym/notch2D_Asym.smb loaded in 0.001734 seconds
+number of triangle 4566 quad 0
+mesh entity counts: v 2386 e 6951 f 4566 r 0
+mesh reordered in 0.002847 seconds
+mesh verified in 0.003733 seconds
+nsteps = 8
+ON PRIMAL STEP (1)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.676488e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 1.775927e+00
+ > relative ||R|| = 1.059314e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > (3) Newton iteration
+ > absolute ||R|| = 1.127397e+00
+ > relative ||R|| = 6.724755e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 3.231480e-01
+ > relative ||R|| = 1.927529e-04
+ > (5) Newton iteration
+ > absolute ||R|| = 7.494945e-04
+ > relative ||R|| = 4.470622e-07
+ > (6) Newton iteration
+ > absolute ||R|| = 1.784184e-08
+ > relative ||R|| = 1.064239e-11
+ > (7) Newton iteration
+ > absolute ||R|| = 2.421730e-09
+ > relative ||R|| = 1.444525e-12
+ > (8) Newton iteration
+ > absolute ||R|| = 5.945799e-10
+ > relative ||R|| = 3.546580e-13
+writeVtuFile into buffers: 0.007114 seconds
+writeVtuFile buffers to disk: 0.000334 seconds
+vtk files forward_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_1 written in 0.007753 seconds
+ON PRIMAL STEP (2)
+ > (1) Newton iteration
+ > absolute ||R|| = 8.371551e+02
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 4.358099e+00
+ > relative ||R|| = 5.205844e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > (3) Newton iteration
+ > absolute ||R|| = 3.892904e+00
+ > relative ||R|| = 4.650159e-03
+ > (4) Newton iteration
+ > absolute ||R|| = 3.480774e+00
+ > relative ||R|| = 4.157861e-03
+ > (5) Newton iteration
+ > absolute ||R|| = 1.511930e-01
+ > relative ||R|| = 1.806033e-04
+ > (6) Newton iteration
+ > absolute ||R|| = 4.043607e-03
+ > relative ||R|| = 4.830177e-06
+ > (7) Newton iteration
+ > absolute ||R|| = 2.971532e-07
+ > relative ||R|| = 3.549560e-10
+ > (8) Newton iteration
+ > absolute ||R|| = 5.135106e-09
+ > relative ||R|| = 6.133996e-12
+ > (9) Newton iteration
+ > absolute ||R|| = 1.175353e-09
+ > relative ||R|| = 1.403985e-12
+ > (10) Newton iteration
+ > absolute ||R|| = 2.927684e-10
+ > relative ||R|| = 3.497182e-13
+writeVtuFile into buffers: 0.006819 seconds
+writeVtuFile buffers to disk: 0.000644 seconds
+vtk files forward_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_2 written in 0.007798 seconds
+ON PRIMAL STEP (3)
+ > (1) Newton iteration
+ > absolute ||R|| = 8.326443e+02
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 5.434955e+00
+ > relative ||R|| = 6.527344e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > residual increase -- line search alpha_3 = 1.25e-01
+ > (3) Newton iteration
+ > absolute ||R|| = 5.087266e+00
+ > relative ||R|| = 6.109771e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > (4) Newton iteration
+ > absolute ||R|| = 4.255692e+00
+ > relative ||R|| = 5.111056e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > (5) Newton iteration
+ > absolute ||R|| = 2.655568e+00
+ > relative ||R|| = 3.189319e-03
+ > (6) Newton iteration
+ > absolute ||R|| = 8.572770e-01
+ > relative ||R|| = 1.029584e-03
+ > (7) Newton iteration
+ > absolute ||R|| = 4.055606e-02
+ > relative ||R|| = 4.870754e-05
+ > (8) Newton iteration
+ > absolute ||R|| = 1.629039e-03
+ > relative ||R|| = 1.956465e-06
+ > (9) Newton iteration
+ > absolute ||R|| = 2.182939e-07
+ > relative ||R|| = 2.621694e-10
+ > (10) Newton iteration
+ > absolute ||R|| = 3.244471e-09
+ > relative ||R|| = 3.896588e-12
+ > (11) Newton iteration
+ > absolute ||R|| = 7.208819e-10
+ > relative ||R|| = 8.657742e-13
+writeVtuFile into buffers: 0.006858 seconds
+writeVtuFile buffers to disk: 0.000466 seconds
+vtk files forward_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_3 written in 0.007670 seconds
+ON PRIMAL STEP (4)
+ > (1) Newton iteration
+ > absolute ||R|| = 4.895936e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 1.420689e+01
+ > relative ||R|| = 2.901773e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > (3) Newton iteration
+ > absolute ||R|| = 1.339347e+01
+ > relative ||R|| = 2.735629e-03
+ > (4) Newton iteration
+ > absolute ||R|| = 6.618819e+00
+ > relative ||R|| = 1.351901e-03
+ > (5) Newton iteration
+ > absolute ||R|| = 2.890889e-01
+ > relative ||R|| = 5.904671e-05
+ > (6) Newton iteration
+ > absolute ||R|| = 5.149768e-03
+ > relative ||R|| = 1.051846e-06
+ > (7) Newton iteration
+ > absolute ||R|| = 5.858303e-07
+ > relative ||R|| = 1.196565e-10
+ > (8) Newton iteration
+ > absolute ||R|| = 4.705122e-09
+ > relative ||R|| = 9.610261e-13
+writeVtuFile into buffers: 0.007225 seconds
+writeVtuFile buffers to disk: 0.000419 seconds
+vtk files forward_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_4 written in 0.007988 seconds
+ON PRIMAL STEP (5)
+ > (1) Newton iteration
+ > absolute ||R|| = 7.359603e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 1.007737e+01
+ > relative ||R|| = 1.369282e-03
+ > (3) Newton iteration
+ > absolute ||R|| = 7.342178e+00
+ > relative ||R|| = 9.976322e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 7.141582e-01
+ > relative ||R|| = 9.703759e-05
+ > (5) Newton iteration
+ > absolute ||R|| = 2.579560e-02
+ > relative ||R|| = 3.505026e-06
+ > (6) Newton iteration
+ > absolute ||R|| = 5.592555e-05
+ > relative ||R|| = 7.598989e-09
+ > (7) Newton iteration
+ > absolute ||R|| = 7.993861e-09
+ > relative ||R|| = 1.086181e-12
+ > (8) Newton iteration
+ > absolute ||R|| = 1.806746e-09
+ > relative ||R|| = 2.454951e-13
+writeVtuFile into buffers: 0.006588 seconds
+writeVtuFile buffers to disk: 0.000423 seconds
+vtk files forward_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_5 written in 0.007353 seconds
+ON PRIMAL STEP (6)
+ > (1) Newton iteration
+ > absolute ||R|| = 2.560218e+04
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 1.984489e+01
+ > relative ||R|| = 7.751248e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 1.828868e+01
+ > relative ||R|| = 7.143408e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 1.472021e+01
+ > relative ||R|| = 5.749591e-04
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > (5) Newton iteration
+ > absolute ||R|| = 1.424824e+01
+ > relative ||R|| = 5.565245e-04
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > (6) Newton iteration
+ > absolute ||R|| = 8.105829e+00
+ > relative ||R|| = 3.166070e-04
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > (7) Newton iteration
+ > absolute ||R|| = 5.259821e+00
+ > relative ||R|| = 2.054442e-04
+ > (8) Newton iteration
+ > absolute ||R|| = 1.969633e+00
+ > relative ||R|| = 7.693222e-05
+ > (9) Newton iteration
+ > absolute ||R|| = 1.631471e-01
+ > relative ||R|| = 6.372391e-06
+ > (10) Newton iteration
+ > absolute ||R|| = 2.394416e-03
+ > relative ||R|| = 9.352391e-08
+ > (11) Newton iteration
+ > absolute ||R|| = 9.179521e-07
+ > relative ||R|| = 3.585445e-11
+ > (12) Newton iteration
+ > absolute ||R|| = 2.888161e-09
+ > relative ||R|| = 1.128092e-13
+writeVtuFile into buffers: 0.006776 seconds
+writeVtuFile buffers to disk: 0.000334 seconds
+vtk files forward_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_6 written in 0.007442 seconds
+ON PRIMAL STEP (7)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.532085e+04
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 7.417941e+00
+ > relative ||R|| = 4.841729e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 1.741835e+00
+ > relative ||R|| = 1.136905e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 4.876344e-02
+ > relative ||R|| = 3.182815e-06
+ > (5) Newton iteration
+ > absolute ||R|| = 1.143523e-04
+ > relative ||R|| = 7.463835e-09
+ > (6) Newton iteration
+ > absolute ||R|| = 2.115852e-09
+ > relative ||R|| = 1.381028e-13
+writeVtuFile into buffers: 0.007257 seconds
+writeVtuFile buffers to disk: 0.000360 seconds
+vtk files forward_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_7 written in 0.007939 seconds
+ON PRIMAL STEP (8)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.518079e+04
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 5.071366e+00
+ > relative ||R|| = 3.340647e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 1.372830e+00
+ > relative ||R|| = 9.043207e-05
+ > (4) Newton iteration
+ > absolute ||R|| = 1.269368e-02
+ > relative ||R|| = 8.361671e-07
+ > (5) Newton iteration
+ > absolute ||R|| = 4.083071e-06
+ > relative ||R|| = 2.689630e-10
+ > (6) Newton iteration
+ > absolute ||R|| = 4.067558e-09
+ > relative ||R|| = 2.679411e-13
+writeVtuFile into buffers: 0.006741 seconds
+writeVtuFile buffers to disk: 0.000391 seconds
+vtk files forward_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_8 written in 0.007462 seconds
+J: 4.1024793766166794e+05
+
+mesh forward_notch2D_Asym_finite_J2_plane_stress_synthetic/ written in 0.002046 seconds
+
+real	0m22.855s
+user	0m22.477s
+sys	0m0.354s
+COMPLETED forward_notch2D_Asym_finite_J2_plane_stress
+
+RUNNING plastic_params_only: vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+
+Quasi-Newton Method with Limited-Memory BFGS
+Line Search: Cubic Interpolation satisfying Strong Wolfe Conditions
+  iter  value          gnorm          snorm          #fval     #grad     ls_#fval  ls_#grad  
+  0     1.768699e+02   1.857900e+00   
+  1     4.577458e+00   2.347441e+00   6.191743e-01   10        2         9         0         
+  2     4.346901e+00   2.189959e+00   1.764156e-02   11        3         1         0         
+  3     4.041487e+00   2.159667e+00   3.413827e-02   12        4         1         0         
+  4     3.314222e+00   1.367185e+00   1.019718e-01   13        5         1         0         
+  5     2.033591e+00   1.353429e+00   2.176418e-01   14        6         1         0         
+  6     5.964922e-01   1.364417e+00   2.971113e-01   15        7         1         0         
+  7     2.939156e-02   1.363242e+00   1.503172e-01   16        8         1         0         
+  8     1.265787e-03   6.654919e-01   1.080480e-02   17        9         1         0         
+  9     1.906312e-04   2.662700e-02   9.248838e-03   18        10        1         0         
+  10    1.806823e-04   1.445293e-02   1.137088e-03   19        11        1         0         
+  11    1.762450e-04   1.224664e-02   4.857104e-04   20        12        1         0         
+  12    1.970974e-05   1.386355e-01   3.333295e-02   21        13        1         0         
+  13    3.132341e-06   4.124486e-02   2.668148e-03   22        14        1         0         
+  14    3.521656e-09   2.290617e-03   3.339370e-03   23        15        1         0         
+  15    4.569812e-10   9.426281e-05   7.077768e-06   24        16        1         0         
+  16    4.305640e-10   3.204402e-06   1.274542e-05   25        17        1         0         
+  17    4.304623e-10   5.458316e-07   1.124969e-07   26        18        1         0         
+  18    4.304618e-10   1.222623e-09   7.344635e-09   27        19        1         0         
+  19    4.304618e-10   8.876939e-12   1.192116e-10   28        20        1         0         
+  20    4.304618e-10   5.886996e-13   7.541749e-14   29        21        1         0         
+Optimization Terminated with Status: Converged
+body: Y = 3.2999940332192824e+02
+body: S = 9.9999523135148183e+02
+body: D = 1.0000088067560805e+01
+
+real	0m54.423s
+user	0m54.095s
+sys	0m0.282s
+COMPLETED vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+
+RUNNING plastic_params_only: vfm_adjoint_notch2D_Asym_finite_J2_plane_stress
+
+Quasi-Newton Method with Limited-Memory BFGS
+Line Search: Cubic Interpolation satisfying Strong Wolfe Conditions
+  iter  value          gnorm          snorm          #fval     #grad     ls_#fval  ls_#grad  
+  0     1.768699e+02   1.857900e+00   
+  1     4.577458e+00   2.347441e+00   6.191743e-01   10        2         9         0         
+  2     4.346901e+00   2.189959e+00   1.764156e-02   11        3         1         0         
+  3     4.041487e+00   2.159667e+00   3.413827e-02   12        4         1         0         
+  4     3.314222e+00   1.367185e+00   1.019718e-01   13        5         1         0         
+  5     2.033591e+00   1.353429e+00   2.176418e-01   14        6         1         0         
+  6     5.964922e-01   1.364417e+00   2.971113e-01   15        7         1         0         
+  7     2.939156e-02   1.363242e+00   1.503172e-01   16        8         1         0         
+  8     1.265787e-03   6.654919e-01   1.080480e-02   17        9         1         0         
+  9     1.906312e-04   2.662700e-02   9.248838e-03   18        10        1         0         
+  10    1.806823e-04   1.445293e-02   1.137088e-03   19        11        1         0         
+  11    1.762450e-04   1.224664e-02   4.857104e-04   20        12        1         0         
+  12    1.970974e-05   1.386355e-01   3.333295e-02   21        13        1         0         
+  13    3.132341e-06   4.124486e-02   2.668148e-03   22        14        1         0         
+  14    3.521656e-09   2.290617e-03   3.339370e-03   23        15        1         0         
+  15    4.569812e-10   9.426280e-05   7.077768e-06   24        16        1         0         
+  16    4.305640e-10   3.204400e-06   1.274542e-05   25        17        1         0         
+  17    4.304623e-10   5.458322e-07   1.124969e-07   26        18        1         0         
+  18    4.304618e-10   1.223681e-09   7.344622e-09   27        19        1         0         
+  19    4.304618e-10   7.258531e-12   1.192882e-10   28        20        1         0         
+  20    4.304618e-10   2.304964e-12   1.020272e-13   29        21        1         0         
+Optimization Terminated with Status: Step Tolerance Met
+body: Y = 3.2999940332192801e+02
+body: S = 9.9999523135146876e+02
+body: D = 1.0000088067560984e+01
+
+real	0m59.139s
+user	0m58.799s
+sys	0m0.293s
+COMPLETED vfm_adjoint_notch2D_Asym_finite_J2_plane_stress
+
+RUNNING plastic_params_only: vfm_finite_difference_notch2D_Asym_finite_J2_plane_stress
+
+Quasi-Newton Method with Limited-Memory BFGS
+Line Search: Cubic Interpolation satisfying Strong Wolfe Conditions
+  iter  value          gnorm          snorm          #fval     #grad     ls_#fval  ls_#grad  
+  0     1.768699e+02   1.857900e+00   
+  1     4.577477e+00   2.347443e+00   6.191775e-01   10        2         9         0         
+  2     4.346879e+00   2.189957e+00   1.764470e-02   11        3         1         0         
+  3     4.041582e+00   2.159676e+00   3.412622e-02   12        4         1         0         
+  4     3.314398e+00   1.367183e+00   1.019607e-01   13        5         1         0         
+  5     2.033890e+00   1.353414e+00   2.176171e-01   14        6         1         0         
+  6     5.967322e-01   1.364373e+00   2.970572e-01   15        7         1         0         
+  7     2.950034e-02   1.363312e+00   1.507104e-01   16        8         1         0         
+  8     1.276089e-03   6.684345e-01   1.094678e-02   17        9         1         0         
+  9     1.900971e-04   2.729873e-02   9.301040e-03   18        10        1         0         
+  10    1.804583e-04   1.495850e-02   1.128354e-03   19        11        1         0         
+  11    1.759701e-04   1.273840e-02   4.929868e-04   20        12        1         0         
+  12    2.095559e-05   1.473684e-01   3.451679e-02   21        13        1         0         
+  13    2.827979e-06   4.471659e-02   2.859043e-03   22        14        1         0         
+  14    3.641474e-07   2.758298e-03   3.723410e-03   23        15        1         0         
+  15    3.571827e-07   1.166503e-04   1.216930e-05   24        16        1         0         
+  16    3.571827e-07   1.166503e-04   0.000000e+00   34        17        10        0         
+Optimization Terminated with Status: Step Tolerance Met
+body: Y = 3.3001735571035181e+02
+body: S = 1.0002631258014648e+03
+body: D = 9.9957625568056478e+00
+
+real	1m23.048s
+user	1m22.645s
+sys	0m0.355s
+COMPLETED vfm_finite_difference_notch2D_Asym_finite_J2_plane_stress
+
+RUNNING plastic_params_only: pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+
+Quasi-Newton Method with Limited-Memory BFGS
+Line Search: Cubic Interpolation satisfying Strong Wolfe Conditions
+  iter  value          gnorm          snorm          #fval     #grad     ls_#fval  ls_#grad  
+  0     5.866860e+00   2.306178e+00   
+  1     2.570357e+00   2.809816e+00   2.306178e+00   2         2         1         0         
+  2     9.350379e-01   2.115502e+00   6.469547e-01   3         3         1         0         
+  3     7.678282e-02   7.636074e-01   6.245262e-01   5         4         2         0         
+  4     1.835180e-02   3.056772e-01   2.671689e-01   6         5         1         0         
+  5     7.274153e-03   1.007974e-01   7.694761e-02   7         6         1         0         
+  6     5.580866e-03   7.414365e-02   2.032729e-02   8         7         1         0         
+  7     4.042489e-04   5.848103e-02   1.252358e-01   9         8         1         0         
+  8     3.602915e-06   2.308153e-03   3.044386e-02   10        9         1         0         
+  9     1.772440e-08   3.609046e-04   3.969860e-03   11        10        1         0         
+  10    1.718770e-10   5.337711e-05   1.074501e-04   12        11        1         0         
+  11    1.189938e-12   4.533293e-06   8.969183e-06   13        12        1         0         
+  12    2.278890e-19   1.286749e-09   8.820096e-07   14        13        1         0         
+  13    1.507469e-24   3.092084e-12   5.072050e-10   15        14        1         0         
+  14    1.341661e-26   2.366599e-13   1.261487e-12   16        15        1         0         
+Optimization Terminated with Status: Converged
+body: Y = 3.3000000000000296e+02
+body: S = 1.0000000000000047e+03
+body: D = 9.9999999999999201e+00
+
+real	6m19.807s
+user	6m19.187s
+sys	0m0.550s
+COMPLETED pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+
+RUNNING plastic_params_only: pdeco_finite_difference_notch2D_Asym_finite_J2_plane_stress
+
+Quasi-Newton Method with Limited-Memory BFGS
+Line Search: Cubic Interpolation satisfying Strong Wolfe Conditions
+  iter  value          gnorm          snorm          #fval     #grad     ls_#fval  ls_#grad  
+  0     5.866860e+00   2.306178e+00   
+  1     2.570357e+00   2.809826e+00   2.306178e+00   2         2         1         0         
+  2     9.350385e-01   2.115514e+00   6.469541e-01   3         3         1         0         
+  3     7.678367e-02   7.636168e-01   6.245239e-01   5         4         2         0         
+  4     1.835354e-02   3.057219e-01   2.671804e-01   6         5         1         0         
+  5     7.273565e-03   1.008064e-01   7.695784e-02   7         6         1         0         
+  6     5.580384e-03   7.415247e-02   2.032672e-02   8         7         1         0         
+  7     4.040299e-04   5.848654e-02   1.252610e-01   9         8         1         0         
+  8     3.615270e-06   2.303589e-03   3.040719e-02   10        9         1         0         
+  9     1.800339e-08   3.607040e-04   3.976484e-03   11        10        1         0         
+  10    6.533075e-11   5.327271e-05   1.079970e-04   12        11        1         0         
+  11    2.331171e-11   4.473229e-06   8.991784e-06   13        12        1         0         
+  12    2.331171e-11   4.473229e-06   0.000000e+00   18        13        5         0         
+Optimization Terminated with Status: Step Tolerance Met
+body: Y = 3.2999989871640474e+02
+body: S = 9.9999981238983457e+02
+body: D = 9.9999927660524399e+00
+
+real	21m6.925s
+user	21m5.930s
+sys	0m0.850s
+COMPLETED pdeco_finite_difference_notch2D_Asym_finite_J2_plane_stress
+
+RUNNING all_params: vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+
+Quasi-Newton Method with Limited-Memory BFGS
+Line Search: Cubic Interpolation satisfying Strong Wolfe Conditions
+  iter  value          gnorm          snorm          #fval     #grad     ls_#fval  ls_#grad  
+  0     1.753764e+02   2.730000e+00   
+  1     5.445427e+00   2.523450e+00   5.838878e-01   10        2         9         0         
+  2     5.126412e+00   2.507743e+00   1.966620e-02   11        3         1         0         
+  3     4.106685e+00   2.607379e+00   8.869706e-02   12        4         1         0         
+  4     2.615221e+00   2.554728e+00   1.690262e-01   13        5         1         0         
+  5     8.537416e-01   2.461491e+00   2.750222e-01   14        6         1         0         
+  6     3.975440e-01   2.536800e+00   1.017434e-01   15        7         1         0         
+  7     3.470399e-01   1.639350e+00   1.826302e-02   16        8         1         0         
+  8     3.272633e-01   1.746573e+00   1.464199e-02   17        9         1         0         
+  9     2.852506e-01   1.736673e+00   3.111743e-02   18        10        1         0         
+  10    1.944199e-01   1.716753e+00   7.481249e-02   19        11        1         0         
+  11    7.662408e-02   1.572093e+00   1.135497e-01   20        12        1         0         
+  12    1.031956e-02   1.121373e+00   7.824707e-02   21        13        1         0         
+  13    8.291912e-03   6.677154e-02   7.316948e-03   22        14        1         0         
+  14    8.263996e-03   1.211285e-01   1.652253e-03   23        15        1         0         
+  15    8.238360e-03   1.429654e-01   1.236430e-03   24        16        1         0         
+  16    8.133461e-03   1.736229e-01   3.305848e-03   25        17        1         0         
+  17    7.745600e-03   2.257590e-01   1.132482e-02   26        18        1         0         
+  18    6.745569e-03   2.366544e-01   3.190147e-02   27        19        1         0         
+  19    4.856693e-03   3.156758e-01   6.682074e-02   28        20        1         0         
+  20    2.947799e-03   8.240159e-01   8.696781e-02   29        21        1         0         
+  21    1.064424e-03   3.481177e-01   2.784125e-02   30        22        1         0         
+  22    7.291121e-04   2.953506e-01   3.029609e-02   31        23        1         0         
+  23    6.860100e-04   2.604117e-02   9.562449e-04   32        24        1         0         
+  24    6.482193e-04   3.708998e-02   9.561270e-03   33        25        1         0         
+  25    6.213490e-04   2.227088e-02   1.365600e-02   34        26        1         0         
+  26    6.207318e-04   2.775833e-02   5.301767e-04   36        27        2         0         
+  27    6.202250e-04   1.625617e-03   1.806412e-04   37        28        1         0         
+  28    6.202156e-04   1.812311e-03   1.458905e-04   38        29        1         0         
+  29    6.202081e-04   2.630478e-03   7.655931e-05   39        30        1         0         
+  30    6.201718e-04   5.461558e-03   2.384792e-04   40        31        1         0         
+  31    6.200915e-04   9.439754e-03   3.371006e-04   41        32        1         0         
+  32    6.198665e-04   1.641118e-02   6.534069e-04   42        33        1         0         
+  33    6.192995e-04   2.725506e-02   1.230734e-03   43        34        1         0         
+  34    6.179080e-04   4.488980e-02   2.744634e-03   44        35        1         0         
+  35    6.141303e-04   7.200258e-02   6.319900e-03   45        36        1         0         
+  36    6.041059e-04   1.164944e-01   1.670145e-02   46        37        1         0         
+  37    5.815123e-04   1.783389e-01   3.818330e-02   47        38        1         0         
+  38    5.237523e-04   2.652203e-01   9.390096e-02   48        39        1         0         
+  39    3.778909e-04   3.425276e-01   2.254168e-01   49        40        1         0         
+  40    2.001189e-04   2.438112e-01   2.728947e-01   51        41        2         0         
+  41    1.207580e-04   1.129268e-01   1.248013e-01   53        42        2         0         
+  42    4.653142e-05   2.513521e-01   1.584668e-01   54        43        1         0         
+  43    2.787391e-05   6.017027e-02   9.973699e-02   55        44        1         0         
+  44    1.914466e-05   7.627971e-02   3.430826e-02   56        45        1         0         
+  45    1.178870e-05   9.391601e-02   5.895017e-02   57        46        1         0         
+  46    5.922656e-06   7.133820e-02   4.190208e-02   58        47        1         0         
+  47    8.129361e-07   1.969109e-02   3.868814e-02   59        48        1         0         
+  48    1.971151e-07   6.807334e-03   7.875304e-03   60        49        1         0         
+  49    3.984304e-08   1.211307e-03   1.644389e-03   61        50        1         0         
+  50    1.494210e-08   6.653142e-04   2.200217e-03   62        51        1         0         
+  51    9.137723e-09   1.172504e-03   2.575372e-03   63        52        1         0         
+  52    1.115431e-09   1.804158e-04   3.864944e-03   64        53        1         0         
+  53    8.433888e-11   8.935124e-05   9.417010e-04   65        54        1         0         
+  54    7.709385e-11   1.281231e-05   7.464496e-06   66        55        1         0         
+  55    7.697789e-11   9.148169e-08   4.204091e-06   67        56        1         0         
+  56    7.697783e-11   1.312376e-09   1.316176e-07   68        57        1         0         
+  57    7.697783e-11   1.312376e-09   3.069629e-16   76        58        8         0         
+Optimization Terminated with Status: Step Tolerance Met
+body: E = 2.0000428237041412e+05
+body: nu = 2.9995382369974849e-01
+body: Y = 3.3000303009116516e+02
+body: S = 1.0000081806092242e+03
+body: D = 9.9997963046045335e+00
+
+real	2m48.768s
+user	2m48.442s
+sys	0m0.281s
+COMPLETED vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+
+RUNNING all_params: vfm_adjoint_notch2D_Asym_finite_J2_plane_stress
+
+Quasi-Newton Method with Limited-Memory BFGS
+Line Search: Cubic Interpolation satisfying Strong Wolfe Conditions
+  iter  value          gnorm          snorm          #fval     #grad     ls_#fval  ls_#grad  
+  0     1.753764e+02   2.730000e+00   
+  1     5.445427e+00   2.523450e+00   5.838878e-01   10        2         9         0         
+  2     5.126412e+00   2.507743e+00   1.966620e-02   11        3         1         0         
+  3     4.106685e+00   2.607379e+00   8.869706e-02   12        4         1         0         
+  4     2.615221e+00   2.554728e+00   1.690262e-01   13        5         1         0         
+  5     8.537416e-01   2.461491e+00   2.750222e-01   14        6         1         0         
+  6     3.975440e-01   2.536800e+00   1.017434e-01   15        7         1         0         
+  7     3.470399e-01   1.639350e+00   1.826302e-02   16        8         1         0         
+  8     3.272633e-01   1.746573e+00   1.464199e-02   17        9         1         0         
+  9     2.852506e-01   1.736673e+00   3.111743e-02   18        10        1         0         
+  10    1.944199e-01   1.716753e+00   7.481249e-02   19        11        1         0         
+  11    7.662408e-02   1.572093e+00   1.135497e-01   20        12        1         0         
+  12    1.031956e-02   1.121373e+00   7.824707e-02   21        13        1         0         
+  13    8.291912e-03   6.677154e-02   7.316948e-03   22        14        1         0         
+  14    8.263996e-03   1.211285e-01   1.652253e-03   23        15        1         0         
+  15    8.238360e-03   1.429654e-01   1.236430e-03   24        16        1         0         
+  16    8.133461e-03   1.736229e-01   3.305848e-03   25        17        1         0         
+  17    7.745600e-03   2.257590e-01   1.132482e-02   26        18        1         0         
+  18    6.745569e-03   2.366544e-01   3.190147e-02   27        19        1         0         
+  19    4.856693e-03   3.156758e-01   6.682074e-02   28        20        1         0         
+  20    2.947799e-03   8.240159e-01   8.696781e-02   29        21        1         0         
+  21    1.064424e-03   3.481177e-01   2.784125e-02   30        22        1         0         
+  22    7.291121e-04   2.953506e-01   3.029609e-02   31        23        1         0         
+  23    6.860100e-04   2.604117e-02   9.562449e-04   32        24        1         0         
+  24    6.482193e-04   3.708998e-02   9.561270e-03   33        25        1         0         
+  25    6.213490e-04   2.227088e-02   1.365600e-02   34        26        1         0         
+  26    6.207318e-04   2.775833e-02   5.301767e-04   36        27        2         0         
+  27    6.202250e-04   1.625617e-03   1.806412e-04   37        28        1         0         
+  28    6.202156e-04   1.812311e-03   1.458905e-04   38        29        1         0         
+  29    6.202081e-04   2.630478e-03   7.655931e-05   39        30        1         0         
+  30    6.201718e-04   5.461558e-03   2.384792e-04   40        31        1         0         
+  31    6.200915e-04   9.439754e-03   3.371006e-04   41        32        1         0         
+  32    6.198665e-04   1.641118e-02   6.534069e-04   42        33        1         0         
+  33    6.192995e-04   2.725506e-02   1.230734e-03   43        34        1         0         
+  34    6.179080e-04   4.488979e-02   2.744634e-03   44        35        1         0         
+  35    6.141303e-04   7.200258e-02   6.319900e-03   45        36        1         0         
+  36    6.041059e-04   1.164944e-01   1.670145e-02   46        37        1         0         
+  37    5.815123e-04   1.783389e-01   3.818330e-02   47        38        1         0         
+  38    5.237523e-04   2.652203e-01   9.390096e-02   48        39        1         0         
+  39    3.778909e-04   3.425276e-01   2.254168e-01   49        40        1         0         
+  40    2.001189e-04   2.438112e-01   2.728947e-01   51        41        2         0         
+  41    1.207580e-04   1.129268e-01   1.248013e-01   53        42        2         0         
+  42    4.653142e-05   2.513521e-01   1.584668e-01   54        43        1         0         
+  43    2.787391e-05   6.017027e-02   9.973699e-02   55        44        1         0         
+  44    1.914466e-05   7.627971e-02   3.430826e-02   56        45        1         0         
+  45    1.178870e-05   9.391600e-02   5.895017e-02   57        46        1         0         
+  46    5.922655e-06   7.133820e-02   4.190208e-02   58        47        1         0         
+  47    8.129361e-07   1.969109e-02   3.868814e-02   59        48        1         0         
+  48    1.971151e-07   6.807334e-03   7.875304e-03   60        49        1         0         
+  49    3.984303e-08   1.211307e-03   1.644389e-03   61        50        1         0         
+  50    1.494210e-08   6.653141e-04   2.200217e-03   62        51        1         0         
+  51    9.137723e-09   1.172504e-03   2.575372e-03   63        52        1         0         
+  52    1.115431e-09   1.804157e-04   3.864944e-03   64        53        1         0         
+  53    8.433888e-11   8.935124e-05   9.417010e-04   65        54        1         0         
+  54    7.709385e-11   1.281230e-05   7.464490e-06   66        55        1         0         
+  55    7.697789e-11   9.148424e-08   4.204089e-06   67        56        1         0         
+  56    7.697783e-11   1.309052e-09   1.316152e-07   68        57        1         0         
+  57    7.697783e-11   9.813988e-11   1.507270e-09   69        58        1         0         
+  58    7.697783e-11   2.571847e-11   1.030053e-10   70        59        1         0         
+  59    7.697783e-11   2.820599e-11   3.096698e-14   74        60        4         0         
+Optimization Terminated with Status: Step Tolerance Met
+body: E = 2.0000428237509410e+05
+body: nu = 2.9995382361913620e-01
+body: Y = 3.3000303008832668e+02
+body: S = 1.0000081804755049e+03
+body: D = 9.9997963065716693e+00
+
+real	3m0.285s
+user	2m59.964s
+sys	0m0.277s
+COMPLETED vfm_adjoint_notch2D_Asym_finite_J2_plane_stress
+
+RUNNING all_params: vfm_finite_difference_notch2D_Asym_finite_J2_plane_stress
+
+Quasi-Newton Method with Limited-Memory BFGS
+Line Search: Cubic Interpolation satisfying Strong Wolfe Conditions
+  iter  value          gnorm          snorm          #fval     #grad     ls_#fval  ls_#grad  
+  0     1.753764e+02   2.730000e+00   
+  1     5.443366e+00   2.523381e+00   5.839528e-01   10        2         9         0         
+  2     5.125053e+00   2.507676e+00   1.963304e-02   11        3         1         0         
+  3     4.099150e+00   2.607145e+00   8.928444e-02   12        4         1         0         
+  4     2.605098e+00   2.554307e+00   1.695091e-01   13        5         1         0         
+  5     8.472087e-01   2.460988e+00   2.751198e-01   14        6         1         0         
+  6     3.989642e-01   2.537100e+00   1.002644e-01   15        7         1         0         
+  7     3.481190e-01   1.640576e+00   1.826722e-02   16        8         1         0         
+  8     3.283727e-01   1.746504e+00   1.460081e-02   17        9         1         0         
+  9     2.863230e-01   1.736530e+00   3.104223e-02   18        10        1         0         
+  10    1.952739e-01   1.716460e+00   7.461486e-02   19        11        1         0         
+  11    7.669821e-02   1.570446e+00   1.142871e-01   20        12        1         0         
+  12    1.013709e-02   1.104790e+00   7.839653e-02   21        13        1         0         
+  13    8.187873e-03   6.784869e-02   7.122215e-03   22        14        1         0         
+  14    8.162250e-03   1.214595e-01   1.557981e-03   23        15        1         0         
+  15    8.137064e-03   1.461039e-01   1.240412e-03   24        16        1         0         
+  16    8.039227e-03   1.827696e-01   3.200669e-03   25        17        1         0         
+  17    7.699475e-03   2.453491e-01   1.047785e-02   26        18        1         0         
+  18    6.871314e-03   2.801372e-01   2.709503e-02   27        19        1         0         
+  19    5.077938e-03   2.259318e-01   6.332073e-02   28        20        1         0         
+  20    3.191910e-03   8.194735e-01   9.302369e-02   29        21        1         0         
+  21    1.250335e-03   3.935497e-01   2.471551e-02   30        22        1         0         
+  22    7.385360e-04   3.617090e-01   3.891911e-02   31        23        1         0         
+  23    6.998114e-04   7.300183e-02   4.089202e-03   32        24        1         0         
+  24    6.558383e-04   5.883860e-02   8.531042e-03   33        25        1         0         
+  25    6.308614e-04   9.520464e-02   1.153777e-02   34        26        1         0         
+  26    6.235738e-04   3.501149e-02   4.874265e-03   35        27        1         0         
+  27    6.227006e-04   2.724616e-03   1.762906e-03   36        28        1         0         
+  28    6.226875e-04   1.576343e-03   1.040239e-04   38        29        2         0         
+  29    6.226666e-04   1.203051e-03   9.120132e-05   39        30        1         0         
+  30    6.225846e-04   3.443543e-03   7.794815e-05   40        31        1         0         
+  31    6.220638e-04   1.687996e-02   6.721543e-04   41        32        1         0         
+  32    6.210837e-04   3.323833e-02   1.497152e-03   42        33        1         0         
+  33    6.178552e-04   6.265111e-02   4.559133e-03   43        34        1         0         
+  34    6.094886e-04   1.099276e-01   1.241011e-02   44        35        1         0         
+  35    5.888207e-04   1.793384e-01   3.150371e-02   45        36        1         0         
+  36    5.328028e-04   2.752851e-01   8.438670e-02   46        37        1         0         
+  37    3.808650e-04   3.025379e-01   2.298603e-01   47        38        1         0         
+  38    2.647845e-04   1.998907e-01   2.030927e-01   49        39        2         0         
+  39    1.010863e-04   1.445015e-01   2.487845e-01   50        40        1         0         
+  40    3.348574e-05   1.538390e-01   1.407057e-01   51        41        1         0         
+  41    1.029508e-05   1.753410e-02   1.174666e-02   53        42        2         0         
+  42    1.953215e-06   3.466854e-02   6.249364e-02   54        43        1         0         
+  43    4.109911e-07   1.933297e-02   1.231097e-02   55        44        1         0         
+  44    3.841126e-07   1.557405e-02   1.455288e-03   56        45        1         0         
+  45    3.841126e-07   1.557405e-02   0.000000e+00   66        46        10        0         
+Optimization Terminated with Status: Step Tolerance Met
+body: E = 2.0010334981769638e+05
+body: nu = 2.9882890808185891e-01
+body: Y = 3.3010165708885927e+02
+body: S = 1.0003779355008422e+03
+body: D = 9.9916711365900355e+00
+
+real	5m2.313s
+user	5m1.751s
+sys	0m0.510s
+COMPLETED vfm_finite_difference_notch2D_Asym_finite_J2_plane_stress
+
+RUNNING all_params: pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+
+Quasi-Newton Method with Limited-Memory BFGS
+Line Search: Cubic Interpolation satisfying Strong Wolfe Conditions
+  iter  value          gnorm          snorm          #fval     #grad     ls_#fval  ls_#grad  
+  0     5.918865e+00   2.344835e+00   
+  1     2.806497e+00   3.041278e+00   2.344835e+00   2         2         1         0         
+  2     9.421649e-01   2.163751e+00   7.072486e-01   3         3         1         0         
+  3     4.841386e-02   4.742742e-01   6.629982e-01   5         4         2         0         
+  4     2.260499e-02   1.953225e-01   1.572082e-01   6         5         1         0         
+  5     1.794347e-02   1.167446e-01   3.837975e-02   7         6         1         0         
+  6     1.365267e-02   9.059687e-02   4.994090e-02   8         7         1         0         
+  7     6.838019e-03   7.282821e-02   1.324557e-01   9         8         1         0         
+  8     4.891947e-03   2.562767e-02   8.050966e-02   10        9         1         0         
+  9     4.513590e-03   1.652778e-02   3.137952e-02   11        10        1         0         
+  10    4.096696e-03   2.175940e-02   4.656562e-02   12        11        1         0         
+  11    3.751620e-03   1.980964e-02   5.127922e-02   13        12        1         0         
+  12    3.323522e-03   1.848715e-02   6.930523e-02   14        13        1         0         
+  13    2.433517e-03   2.143163e-02   1.999605e-01   15        14        1         0         
+  14    1.621175e-03   3.746379e-02   2.136133e-01   16        15        1         0         
+  15    6.544204e-04   4.509170e-02   2.930112e-01   17        16        1         0         
+  16    1.244663e-04   2.488608e-02   1.204307e-01   18        17        1         0         
+  17    4.635174e-07   2.284408e-03   2.008164e-02   19        18        1         0         
+  18    2.168280e-08   3.658165e-04   1.010083e-03   20        19        1         0         
+  19    1.038477e-09   8.205511e-05   8.999835e-04   21        20        1         0         
+  20    1.132962e-11   5.513419e-06   1.354941e-04   22        21        1         0         
+  21    1.391869e-13   4.110099e-07   2.445087e-05   23        22        1         0         
+  22    3.654726e-17   1.203910e-08   2.628843e-06   24        23        1         0         
+  23    2.750774e-20   3.204565e-10   3.342131e-08   25        24        1         0         
+  24    5.350562e-23   1.016516e-11   1.235396e-09   26        25        1         0         
+  25    1.062825e-26   1.414006e-13   3.910112e-11   27        26        1         0         
+Optimization Terminated with Status: Converged
+body: E = 1.9999999999999415e+05
+body: nu = 3.0000000000000127e-01
+body: Y = 3.3000000000000153e+02
+body: S = 1.0000000000000001e+03
+body: D = 9.9999999999999396e+00
+
+real	10m54.766s
+user	10m54.236s
+sys	0m0.441s
+COMPLETED pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+
+RUNNING all_params: pdeco_finite_difference_notch2D_Asym_finite_J2_plane_stress
+
+Quasi-Newton Method with Limited-Memory BFGS
+Line Search: Cubic Interpolation satisfying Strong Wolfe Conditions
+  iter  value          gnorm          snorm          #fval     #grad     ls_#fval  ls_#grad  
+  0     5.918865e+00   2.344835e+00   
+  1     2.806497e+00   3.041282e+00   2.344835e+00   2         2         1         0         
+  2     9.421655e-01   2.163763e+00   7.072478e-01   3         3         1         0         
+  3     4.841440e-02   4.742870e-01   6.629960e-01   5         4         2         0         
+  4     2.260554e-02   1.953496e-01   1.572185e-01   6         5         1         0         
+  5     1.794274e-02   1.167553e-01   3.838511e-02   7         6         1         0         
+  6     1.365194e-02   9.059581e-02   4.993624e-02   8         7         1         0         
+  7     6.836589e-03   7.278696e-02   1.324905e-01   9         8         1         0         
+  8     4.891877e-03   2.562384e-02   8.046553e-02   10        9         1         0         
+  9     4.513215e-03   1.652520e-02   3.141663e-02   11        10        1         0         
+  10    4.096569e-03   2.174876e-02   4.655029e-02   12        11        1         0         
+  11    3.751322e-03   1.979043e-02   5.130549e-02   13        12        1         0         
+  12    3.323198e-03   1.842078e-02   6.930376e-02   14        13        1         0         
+  13    2.431032e-03   2.142581e-02   2.004538e-01   15        14        1         0         
+  14    1.617266e-03   3.740199e-02   2.141467e-01   16        15        1         0         
+  15    6.522874e-04   4.501391e-02   2.926240e-01   17        16        1         0         
+  16    1.236258e-04   2.481457e-02   1.198884e-01   18        17        1         0         
+  17    4.673380e-07   2.281236e-03   2.005056e-02   19        18        1         0         
+  18    2.147794e-08   3.690444e-04   1.105640e-03   20        19        1         0         
+  19    7.837736e-10   8.269166e-05   9.667160e-04   21        20        1         0         
+  20    8.149516e-11   5.851328e-06   1.753215e-04   22        21        1         0         
+  21    4.415970e-11   9.662491e-07   2.024443e-05   23        22        1         0         
+  22    3.917021e-11   2.516001e-08   3.270780e-06   24        23        1         0         
+  23    3.915046e-11   2.608422e-09   2.125839e-07   25        24        1         0         
+  24    3.914123e-11   3.174808e-11   1.975298e-08   26        25        1         0         
+  25    3.914117e-11   1.528595e-12   3.368302e-11   27        26        1         0         
+  26    3.914117e-11   1.528595e-12   0.000000e+00   32        27        5         0         
+Optimization Terminated with Status: Step Tolerance Met
+body: E = 2.0000113920340847e+05
+body: nu = 2.9999865013682492e-01
+body: Y = 3.2999975172688067e+02
+body: S = 1.0000000072057179e+03
+body: D = 9.9999885826987658e+00
+
+real	60m6.689s
+user	60m3.203s
+sys	0m3.191s
+COMPLETED pdeco_finite_difference_notch2D_Asym_finite_J2_plane_stress
+

@@ -1,0 +1,160 @@
+===After successfully running the bash file directory tree with outputs=====
+.
+├── compute_load_disp_error
+│   ├── calibration_pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress.yaml
+│   ├── calibration_vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress.yaml
+│   ├── load_disp_error_pdeco_adjoint_noisy_load_0x.txt
+│   ├── load_disp_error_vfm_forward_sens_noisy_load_0x.txt
+│   ├── objective_pdeco_adjoint_calibration.dat
+│   └── objective_vfm_forward_sens_calibration.dat
+├── directory_tree.txt
+├── forward
+│   ├── forward_notch2D_Asym_finite_J2_plane_stress_forward_viz
+│   │   ├── out_1
+│   │   │   ├── 0
+│   │   │   │   ├── 0.vtu
+│   │   │   │   ├── 1.vtu
+│   │   │   │   ├── 2.vtu
+│   │   │   │   └── 3.vtu
+│   │   │   └── out_1.pvtu
+│   │   ├── out_10
+│   │   │   ├── 0
+│   │   │   │   ├── 0.vtu
+│   │   │   │   ├── 1.vtu
+│   │   │   │   ├── 2.vtu
+│   │   │   │   └── 3.vtu
+│   │   │   └── out_10.pvtu
+│   │   ├── out_11
+│   │   │   ├── 0
+│   │   │   │   ├── 0.vtu
+│   │   │   │   ├── 1.vtu
+│   │   │   │   ├── 2.vtu
+│   │   │   │   └── 3.vtu
+│   │   │   └── out_11.pvtu
+│   │   ├── out_12
+│   │   │   ├── 0
+│   │   │   │   ├── 0.vtu
+│   │   │   │   ├── 1.vtu
+│   │   │   │   ├── 2.vtu
+│   │   │   │   └── 3.vtu
+│   │   │   └── out_12.pvtu
+│   │   ├── out_13
+│   │   │   ├── 0
+│   │   │   │   ├── 0.vtu
+│   │   │   │   ├── 1.vtu
+│   │   │   │   ├── 2.vtu
+│   │   │   │   └── 3.vtu
+│   │   │   └── out_13.pvtu
+│   │   ├── out_2
+│   │   │   ├── 0
+│   │   │   │   ├── 0.vtu
+│   │   │   │   ├── 1.vtu
+│   │   │   │   ├── 2.vtu
+│   │   │   │   └── 3.vtu
+│   │   │   └── out_2.pvtu
+│   │   ├── out_3
+│   │   │   ├── 0
+│   │   │   │   ├── 0.vtu
+│   │   │   │   ├── 1.vtu
+│   │   │   │   ├── 2.vtu
+│   │   │   │   └── 3.vtu
+│   │   │   └── out_3.pvtu
+│   │   ├── out_4
+│   │   │   ├── 0
+│   │   │   │   ├── 0.vtu
+│   │   │   │   ├── 1.vtu
+│   │   │   │   ├── 2.vtu
+│   │   │   │   └── 3.vtu
+│   │   │   └── out_4.pvtu
+│   │   ├── out_5
+│   │   │   ├── 0
+│   │   │   │   ├── 0.vtu
+│   │   │   │   ├── 1.vtu
+│   │   │   │   ├── 2.vtu
+│   │   │   │   └── 3.vtu
+│   │   │   └── out_5.pvtu
+│   │   ├── out_6
+│   │   │   ├── 0
+│   │   │   │   ├── 0.vtu
+│   │   │   │   ├── 1.vtu
+│   │   │   │   ├── 2.vtu
+│   │   │   │   └── 3.vtu
+│   │   │   └── out_6.pvtu
+│   │   ├── out_7
+│   │   │   ├── 0
+│   │   │   │   ├── 0.vtu
+│   │   │   │   ├── 1.vtu
+│   │   │   │   ├── 2.vtu
+│   │   │   │   └── 3.vtu
+│   │   │   └── out_7.pvtu
+│   │   ├── out_8
+│   │   │   ├── 0
+│   │   │   │   ├── 0.vtu
+│   │   │   │   ├── 1.vtu
+│   │   │   │   ├── 2.vtu
+│   │   │   │   └── 3.vtu
+│   │   │   └── out_8.pvtu
+│   │   ├── out_9
+│   │   │   ├── 0
+│   │   │   │   ├── 0.vtu
+│   │   │   │   ├── 1.vtu
+│   │   │   │   ├── 2.vtu
+│   │   │   │   └── 3.vtu
+│   │   │   └── out_9.pvtu
+│   │   └── out.pvd
+│   ├── forward_notch2D_Asym_finite_J2_plane_stress_synthetic
+│   │   ├── 0.smb
+│   │   ├── 1.smb
+│   │   ├── 2.smb
+│   │   └── 3.smb
+│   ├── forward_notch2D_Asym_finite_J2_plane_stress.txt
+│   ├── forward_notch2D_Asym_finite_J2_plane_stress.yaml
+│   ├── load.dat
+│   ├── load_noise_scale_factors.txt
+│   ├── noisy_displacement_data
+│   │   └── noisy_0x
+│   │       ├── noisy_synthetic
+│   │       │   ├── 0.smb
+│   │       │   ├── 1.smb
+│   │       │   ├── 2.smb
+│   │       │   └── 3.smb
+│   │       └── noisy_synthetic_viz
+│   │           ├── 0
+│   │           │   ├── 0.vtu
+│   │           │   ├── 1.vtu
+│   │           │   ├── 2.vtu
+│   │           │   └── 3.vtu
+│   │           └── noisy_synthetic_viz.pvtu
+│   ├── noisy_load_data
+│   │   ├── noisy_0x_load.dat
+│   │   └── noisy_load.pdf
+│   └── time.dat
+├── inverse
+│   ├── input_file_templates
+│   │   ├── template_pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress.yaml
+│   │   └── template_vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress.yaml
+│   ├── noisy_load_0x
+│   │   └── noisy_disp_0x
+│   │       ├── calibrated_params.txt
+│   │       ├── mean_pdeco_adjoint_calibrated_params.txt
+│   │       ├── mean_vfm_forward_sens_calibrated_params.txt
+│   │       ├── objective.dat
+│   │       ├── pdeco_adjoint_calibrated_parameters_diff_initial_guess.csv
+│   │       ├── pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress.out
+│   │       ├── pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress.yaml
+│   │       ├── vfm_forward_sens_calibrated_parameters_diff_initial_guess.csv
+│   │       ├── vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress.out
+│   │       └── vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress.yaml
+│   ├── params_error_pdeco_adjoint_noisy_load_0x.txt
+│   └── params_error_vfm_forward_sens_noisy_load_0x.txt
+├── mat_data_initial.csv
+├── pb_scripts
+│   ├── compute_mean_error.py
+│   ├── generate_initial_data_set.py
+│   └── txt_to_CSV_append.py
+├── run.out
+├── run.sh
+├── SHA
+└── truth_data_params_bounds.csv
+
+43 directories, 124 files

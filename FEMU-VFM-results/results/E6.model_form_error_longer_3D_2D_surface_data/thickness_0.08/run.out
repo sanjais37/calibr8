@@ -1,0 +1,1747 @@
+DISP_EPS_STAR_NOISE = 6.1035e-06
+RUNNING forward_notch3D_Asym_finite_J2
+reading input: temp_forward_notch3D_Asym_finite_J2.yaml
+model ../../../../meshes/longer_notch_Asym_3D_surface_to_2D/thickness_0.08/notch3D_Asym.dmg loaded in 0.002139 seconds
+mesh ../../../../meshes/longer_notch_Asym_3D_surface_to_2D/thickness_0.08/notch3D_Asym_4p.smb loaded in 0.015401 seconds
+number of tet 45159 hex 0 prism 0 pyramid 0
+mesh entity counts: v 10849 e 62796 f 97107 r 45159
+mesh reordered in 0.047093 seconds
+mesh verified in 0.033064 seconds
+nsteps = 8
+ON PRIMAL STEP (1)
+ > (1) Newton iteration
+ > absolute ||R|| = 7.061588e+01
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 4.389637e-02
+ > relative ||R|| = 6.216218e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 1.016014e-02
+ > relative ||R|| = 1.438790e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 2.692412e-04
+ > relative ||R|| = 3.812757e-06
+ > (5) Newton iteration
+ > absolute ||R|| = 2.149254e-08
+ > relative ||R|| = 3.043584e-10
+ > (6) Newton iteration
+ > absolute ||R|| = 5.906955e-13
+ > relative ||R|| = 8.364911e-15
+writeVtuFile into buffers: 0.025389 seconds
+writeVtuFile buffers to disk: 0.002404 seconds
+vtk files forward_notch3D_Asym_finite_J2_forward_viz/out_1 written in 0.031179 seconds
+ON PRIMAL STEP (2)
+ > (1) Newton iteration
+ > absolute ||R|| = 3.528413e+01
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 1.774587e-01
+ > relative ||R|| = 5.029419e-03
+ > (3) Newton iteration
+ > absolute ||R|| = 1.474504e-01
+ > relative ||R|| = 4.178944e-03
+ > (4) Newton iteration
+ > absolute ||R|| = 6.186150e-03
+ > relative ||R|| = 1.753239e-04
+ > (5) Newton iteration
+ > absolute ||R|| = 7.926587e-05
+ > relative ||R|| = 2.246502e-06
+ > (6) Newton iteration
+ > absolute ||R|| = 2.915274e-09
+ > relative ||R|| = 8.262280e-11
+ > (7) Newton iteration
+ > absolute ||R|| = 5.793098e-13
+ > relative ||R|| = 1.641842e-14
+writeVtuFile into buffers: 0.025667 seconds
+writeVtuFile buffers to disk: 0.002509 seconds
+vtk files forward_notch3D_Asym_finite_J2_forward_viz/out_2 written in 0.028791 seconds
+ON PRIMAL STEP (3)
+ > (1) Newton iteration
+ > absolute ||R|| = 3.520027e+01
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 2.750017e-01
+ > relative ||R|| = 7.812490e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > (3) Newton iteration
+ > absolute ||R|| = 2.519981e-01
+ > relative ||R|| = 7.158984e-03
+ > (4) Newton iteration
+ > absolute ||R|| = 7.083103e-02
+ > relative ||R|| = 2.012230e-03
+ > (5) Newton iteration
+ > absolute ||R|| = 2.977565e-03
+ > relative ||R|| = 8.458928e-05
+ > (6) Newton iteration
+ > absolute ||R|| = 1.177942e-04
+ > relative ||R|| = 3.346400e-06
+ > (7) Newton iteration
+ > absolute ||R|| = 6.358097e-06
+ > relative ||R|| = 1.806264e-07
+ > (8) Newton iteration
+ > absolute ||R|| = 1.033608e-10
+ > relative ||R|| = 2.936363e-12
+ > (9) Newton iteration
+ > absolute ||R|| = 4.770409e-13
+ > relative ||R|| = 1.355219e-14
+writeVtuFile into buffers: 0.025931 seconds
+writeVtuFile buffers to disk: 0.002412 seconds
+vtk files forward_notch3D_Asym_finite_J2_forward_viz/out_3 written in 0.029052 seconds
+ON PRIMAL STEP (4)
+ > (1) Newton iteration
+ > absolute ||R|| = 2.097336e+02
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 1.153692e+00
+ > relative ||R|| = 5.500750e-03
+ > (3) Newton iteration
+ > absolute ||R|| = 1.141739e+00
+ > relative ||R|| = 5.443757e-03
+ > (4) Newton iteration
+ > absolute ||R|| = 2.108395e-01
+ > relative ||R|| = 1.005273e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > (5) Newton iteration
+ > absolute ||R|| = 1.028995e-01
+ > relative ||R|| = 4.906201e-04
+ > (6) Newton iteration
+ > absolute ||R|| = 3.647848e-02
+ > relative ||R|| = 1.739277e-04
+ > (7) Newton iteration
+ > absolute ||R|| = 5.268833e-04
+ > relative ||R|| = 2.512155e-06
+ > (8) Newton iteration
+ > absolute ||R|| = 1.500560e-06
+ > relative ||R|| = 7.154599e-09
+ > (9) Newton iteration
+ > absolute ||R|| = 2.163852e-11
+ > relative ||R|| = 1.031714e-13
+writeVtuFile into buffers: 0.023305 seconds
+writeVtuFile buffers to disk: 0.002398 seconds
+vtk files forward_notch3D_Asym_finite_J2_forward_viz/out_4 written in 0.026685 seconds
+ON PRIMAL STEP (5)
+ > (1) Newton iteration
+ > absolute ||R|| = 3.388874e+02
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 4.917503e-01
+ > relative ||R|| = 1.451073e-03
+ > (3) Newton iteration
+ > absolute ||R|| = 2.027934e-01
+ > relative ||R|| = 5.984094e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 2.222406e-02
+ > relative ||R|| = 6.557947e-05
+ > (5) Newton iteration
+ > absolute ||R|| = 1.270487e-03
+ > relative ||R|| = 3.748996e-06
+ > (6) Newton iteration
+ > absolute ||R|| = 3.419247e-05
+ > relative ||R|| = 1.008963e-07
+ > (7) Newton iteration
+ > absolute ||R|| = 1.909052e-09
+ > relative ||R|| = 5.633294e-12
+ > (8) Newton iteration
+ > absolute ||R|| = 4.390296e-13
+ > relative ||R|| = 1.295503e-15
+writeVtuFile into buffers: 0.017000 seconds
+writeVtuFile buffers to disk: 0.001569 seconds
+vtk files forward_notch3D_Asym_finite_J2_forward_viz/out_5 written in 0.019140 seconds
+ON PRIMAL STEP (6)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.276183e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 1.433316e+00
+ > relative ||R|| = 1.123128e-03
+ > (3) Newton iteration
+ > absolute ||R|| = 6.211834e-01
+ > relative ||R|| = 4.867512e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 1.055275e-01
+ > relative ||R|| = 8.268998e-05
+ > (5) Newton iteration
+ > absolute ||R|| = 6.050760e-03
+ > relative ||R|| = 4.741296e-06
+ > (6) Newton iteration
+ > absolute ||R|| = 4.181669e-05
+ > relative ||R|| = 3.276701e-08
+ > (7) Newton iteration
+ > absolute ||R|| = 2.701489e-09
+ > relative ||R|| = 2.116851e-12
+ > (8) Newton iteration
+ > absolute ||R|| = 2.985988e-13
+ > relative ||R|| = 2.339781e-16
+writeVtuFile into buffers: 0.023339 seconds
+writeVtuFile buffers to disk: 0.002554 seconds
+vtk files forward_notch3D_Asym_finite_J2_forward_viz/out_6 written in 0.027500 seconds
+ON PRIMAL STEP (7)
+ > (1) Newton iteration
+ > absolute ||R|| = 9.985198e+02
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 4.961841e-01
+ > relative ||R|| = 4.969196e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 4.999174e-02
+ > relative ||R|| = 5.006585e-05
+ > (4) Newton iteration
+ > absolute ||R|| = 1.962380e-03
+ > relative ||R|| = 1.965289e-06
+ > (5) Newton iteration
+ > absolute ||R|| = 1.267203e-05
+ > relative ||R|| = 1.269082e-08
+ > (6) Newton iteration
+ > absolute ||R|| = 1.841965e-09
+ > relative ||R|| = 1.844695e-12
+ > (7) Newton iteration
+ > absolute ||R|| = 4.001078e-13
+ > relative ||R|| = 4.007009e-16
+writeVtuFile into buffers: 0.024457 seconds
+writeVtuFile buffers to disk: 0.002279 seconds
+vtk files forward_notch3D_Asym_finite_J2_forward_viz/out_7 written in 0.029636 seconds
+ON PRIMAL STEP (8)
+ > (1) Newton iteration
+ > absolute ||R|| = 9.639920e+02
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 2.441358e-01
+ > relative ||R|| = 2.532550e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 1.673004e-02
+ > relative ||R|| = 1.735496e-05
+ > (4) Newton iteration
+ > absolute ||R|| = 1.181840e-04
+ > relative ||R|| = 1.225985e-07
+ > (5) Newton iteration
+ > absolute ||R|| = 1.175389e-08
+ > relative ||R|| = 1.219294e-11
+ > (6) Newton iteration
+ > absolute ||R|| = 5.353284e-13
+ > relative ||R|| = 5.553245e-16
+writeVtuFile into buffers: 0.023215 seconds
+writeVtuFile buffers to disk: 0.002251 seconds
+vtk files forward_notch3D_Asym_finite_J2_forward_viz/out_8 written in 0.027843 seconds
+J: 2.3974509858993979e+03
+
+mesh forward_notch3D_Asym_finite_J2_synthetic/ written in 0.010027 seconds
+COMPLETED forward_notch3D_Asym_finite_J2
+
+RUNNING forward_notch2D_Asym_finite_J2_plane_stress
+reading input: temp_forward_notch2D_Asym_finite_J2_plane_stress.yaml
+model ../../../../meshes/longer_notch_Asym_3D_surface_to_2D/thickness_0.08/notch2D_Asym.dmg loaded in 0.000364 seconds
+mesh ../../../../meshes/longer_notch_Asym_3D_surface_to_2D/thickness_0.08/notch2D_Asym_4p.smb loaded in 0.001806 seconds
+number of triangle 5620 quad 0
+mesh entity counts: v 2923 e 8542 f 5620 r 0
+mesh reordered in 0.001385 seconds
+mesh verified in 0.002542 seconds
+nsteps = 8
+ON PRIMAL STEP (1)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.371336e+02
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 7.523676e-02
+ > relative ||R|| = 5.486383e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 3.684325e-02
+ > relative ||R|| = 2.686667e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 2.360837e-04
+ > relative ||R|| = 1.721560e-06
+ > (5) Newton iteration
+ > absolute ||R|| = 4.172239e-08
+ > relative ||R|| = 3.042462e-10
+ > (6) Newton iteration
+ > absolute ||R|| = 5.302230e-10
+ > relative ||R|| = 3.866469e-12
+ > (7) Newton iteration
+ > absolute ||R|| = 1.328174e-10
+ > relative ||R|| = 9.685254e-13
+writeVtuFile into buffers: 0.003440 seconds
+writeVtuFile buffers to disk: 0.000360 seconds
+vtk files forward_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_1 written in 0.004056 seconds
+ON PRIMAL STEP (2)
+ > (1) Newton iteration
+ > absolute ||R|| = 6.849036e+01
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 2.907990e-01
+ > relative ||R|| = 4.245838e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > (3) Newton iteration
+ > absolute ||R|| = 2.437956e-01
+ > relative ||R|| = 3.559561e-03
+ > (4) Newton iteration
+ > absolute ||R|| = 1.230648e-01
+ > relative ||R|| = 1.796819e-03
+ > (5) Newton iteration
+ > absolute ||R|| = 1.117043e-02
+ > relative ||R|| = 1.630949e-04
+ > (6) Newton iteration
+ > absolute ||R|| = 2.282821e-03
+ > relative ||R|| = 3.333055e-05
+ > (7) Newton iteration
+ > absolute ||R|| = 1.323950e-06
+ > relative ||R|| = 1.933046e-08
+ > (8) Newton iteration
+ > absolute ||R|| = 1.365826e-09
+ > relative ||R|| = 1.994187e-11
+ > (9) Newton iteration
+ > absolute ||R|| = 3.121378e-10
+ > relative ||R|| = 4.557398e-12
+ > (10) Newton iteration
+ > absolute ||R|| = 7.879803e-11
+ > relative ||R|| = 1.150498e-12
+ > (11) Newton iteration
+ > absolute ||R|| = 2.229357e-11
+ > relative ||R|| = 3.254994e-13
+writeVtuFile into buffers: 0.003089 seconds
+writeVtuFile buffers to disk: 0.000313 seconds
+vtk files forward_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_2 written in 0.003670 seconds
+ON PRIMAL STEP (3)
+ > (1) Newton iteration
+ > absolute ||R|| = 6.831383e+01
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 3.418231e-01
+ > relative ||R|| = 5.003717e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > residual increase -- line search alpha_3 = 1.25e-01
+ > (3) Newton iteration
+ > absolute ||R|| = 3.132260e-01
+ > relative ||R|| = 4.585103e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > (4) Newton iteration
+ > absolute ||R|| = 2.810513e-01
+ > relative ||R|| = 4.114121e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > (5) Newton iteration
+ > absolute ||R|| = 2.092826e-01
+ > relative ||R|| = 3.063547e-03
+ > (6) Newton iteration
+ > absolute ||R|| = 8.542887e-02
+ > relative ||R|| = 1.250536e-03
+ > (7) Newton iteration
+ > absolute ||R|| = 5.548580e-03
+ > relative ||R|| = 8.122192e-05
+ > (8) Newton iteration
+ > absolute ||R|| = 1.990482e-04
+ > relative ||R|| = 2.913733e-06
+ > (9) Newton iteration
+ > absolute ||R|| = 4.738638e-08
+ > relative ||R|| = 6.936572e-10
+ > (10) Newton iteration
+ > absolute ||R|| = 4.763679e-10
+ > relative ||R|| = 6.973229e-12
+ > (11) Newton iteration
+ > absolute ||R|| = 1.059175e-10
+ > relative ||R|| = 1.550454e-12
+ > (12) Newton iteration
+ > absolute ||R|| = 2.571789e-11
+ > relative ||R|| = 3.764668e-13
+writeVtuFile into buffers: 0.003102 seconds
+writeVtuFile buffers to disk: 0.000330 seconds
+vtk files forward_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_3 written in 0.003804 seconds
+ON PRIMAL STEP (4)
+ > (1) Newton iteration
+ > absolute ||R|| = 4.048043e+02
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 1.297154e+00
+ > relative ||R|| = 3.204397e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > (3) Newton iteration
+ > absolute ||R|| = 1.189030e+00
+ > relative ||R|| = 2.937296e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > (4) Newton iteration
+ > absolute ||R|| = 8.921871e-01
+ > relative ||R|| = 2.203996e-03
+ > (5) Newton iteration
+ > absolute ||R|| = 4.730537e-01
+ > relative ||R|| = 1.168598e-03
+ > (6) Newton iteration
+ > absolute ||R|| = 1.983568e-02
+ > relative ||R|| = 4.900067e-05
+ > (7) Newton iteration
+ > absolute ||R|| = 2.005890e-03
+ > relative ||R|| = 4.955208e-06
+ > (8) Newton iteration
+ > absolute ||R|| = 3.379488e-05
+ > relative ||R|| = 8.348449e-08
+ > (9) Newton iteration
+ > absolute ||R|| = 7.348337e-10
+ > relative ||R|| = 1.815281e-12
+ > (10) Newton iteration
+ > absolute ||R|| = 1.727531e-10
+ > relative ||R|| = 4.267572e-13
+writeVtuFile into buffers: 0.002967 seconds
+writeVtuFile buffers to disk: 0.000305 seconds
+vtk files forward_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_4 written in 0.003564 seconds
+ON PRIMAL STEP (5)
+ > (1) Newton iteration
+ > absolute ||R|| = 6.124134e+02
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 8.475691e-01
+ > relative ||R|| = 1.383982e-03
+ > (3) Newton iteration
+ > absolute ||R|| = 4.752409e-01
+ > relative ||R|| = 7.760133e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 5.613727e-02
+ > relative ||R|| = 9.166564e-05
+ > (5) Newton iteration
+ > absolute ||R|| = 8.003515e-04
+ > relative ||R|| = 1.306881e-06
+ > (6) Newton iteration
+ > absolute ||R|| = 3.834654e-07
+ > relative ||R|| = 6.261545e-10
+ > (7) Newton iteration
+ > absolute ||R|| = 9.649455e-10
+ > relative ||R|| = 1.575644e-12
+ > (8) Newton iteration
+ > absolute ||R|| = 2.338048e-10
+ > relative ||R|| = 3.817761e-13
+writeVtuFile into buffers: 0.003122 seconds
+writeVtuFile buffers to disk: 0.000325 seconds
+vtk files forward_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_5 written in 0.003715 seconds
+ON PRIMAL STEP (6)
+ > (1) Newton iteration
+ > absolute ||R|| = 2.242893e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 1.721542e+00
+ > relative ||R|| = 7.675546e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 1.507708e+00
+ > relative ||R|| = 6.722160e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 7.220366e-01
+ > relative ||R|| = 3.219221e-04
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > (5) Newton iteration
+ > absolute ||R|| = 5.563496e-01
+ > relative ||R|| = 2.480500e-04
+ > (6) Newton iteration
+ > absolute ||R|| = 5.680682e-02
+ > relative ||R|| = 2.532748e-05
+ > (7) Newton iteration
+ > absolute ||R|| = 6.947470e-03
+ > relative ||R|| = 3.097549e-06
+ > (8) Newton iteration
+ > absolute ||R|| = 4.386668e-05
+ > relative ||R|| = 1.955808e-08
+ > (9) Newton iteration
+ > absolute ||R|| = 2.160283e-09
+ > relative ||R|| = 9.631683e-13
+writeVtuFile into buffers: 0.003354 seconds
+writeVtuFile buffers to disk: 0.000292 seconds
+vtk files forward_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_6 written in 0.003919 seconds
+ON PRIMAL STEP (7)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.155271e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 6.353956e-01
+ > relative ||R|| = 5.499970e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 2.519752e-01
+ > relative ||R|| = 2.181092e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 2.317747e-02
+ > relative ||R|| = 2.006237e-05
+ > (5) Newton iteration
+ > absolute ||R|| = 4.081153e-03
+ > relative ||R|| = 3.532637e-06
+ > (6) Newton iteration
+ > absolute ||R|| = 4.299777e-05
+ > relative ||R|| = 3.721877e-08
+ > (7) Newton iteration
+ > absolute ||R|| = 2.335995e-09
+ > relative ||R|| = 2.022033e-12
+ > (8) Newton iteration
+ > absolute ||R|| = 1.748987e-10
+ > relative ||R|| = 1.513920e-13
+writeVtuFile into buffers: 0.003061 seconds
+writeVtuFile buffers to disk: 0.000324 seconds
+vtk files forward_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_7 written in 0.003816 seconds
+ON PRIMAL STEP (8)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.153164e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 4.097715e-01
+ > relative ||R|| = 3.553455e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 2.242320e-01
+ > relative ||R|| = 1.944494e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 4.042026e-03
+ > relative ||R|| = 3.505162e-06
+ > (5) Newton iteration
+ > absolute ||R|| = 1.092927e-06
+ > relative ||R|| = 9.477644e-10
+ > (6) Newton iteration
+ > absolute ||R|| = 2.403853e-10
+ > relative ||R|| = 2.084572e-13
+writeVtuFile into buffers: 0.003093 seconds
+writeVtuFile buffers to disk: 0.000318 seconds
+vtk files forward_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_8 written in 0.003717 seconds
+J: 2.3721371070843929e+03
+
+mesh forward_notch2D_Asym_finite_J2_plane_stress_synthetic/ written in 0.001294 seconds
+COMPLETED forward_notch2D_Asym_finite_J2_plane_stress
+
+model ../../../../../../meshes/longer_notch_Asym_3D_surface_to_2D/thickness_0.08/notch3D_Asym.dmg loaded in 0.000068 seconds
+mesh noisy_synthetic/ loaded in 0.014537 seconds
+number of tet 45159 hex 0 prism 0 pyramid 0
+mesh entity counts: v 10849 e 62796 f 97107 r 45159
+writeVtuFile into buffers: 0.012429 seconds
+writeVtuFile buffers to disk: 0.000593 seconds
+vtk files noisy_synthetic_viz written in 0.013629 seconds
+model ../../../../../../meshes/longer_notch_Asym_3D_surface_to_2D/thickness_0.08/notch3D_Asym.dmg loaded in 0.000071 seconds
+mesh noisy_synthetic/ loaded in 0.013798 seconds
+number of tet 45159 hex 0 prism 0 pyramid 0
+mesh entity counts: v 10849 e 62796 f 97107 r 45159
+mesh serial_noisy_synthetic/ written in 0.035160 seconds
+planned RIB factor 4 in 0.025124 seconds
+mesh serial_synthetic/ loaded in 0.033672 seconds
+number of tet 37134 hex 0 prism 0 pyramid 0
+mesh entity counts: v 8973 e 51779 f 79941 r 37134
+planned RIB factor 4 in 0.022258 seconds
+mesh expanded from 1 to 4 parts in 0.019404 seconds
+mesh migrated from 1 to 4 in 0.249095 seconds
+PARMA_STATUS  disconnected <max avg> 0 0.000
+PARMA_STATUS  neighbors <max avg> 3 3.000
+PARMA_STATUS  smallest side of max neighbor part 6
+PARMA_STATUS  num parts with max neighbors 4
+PARMA_STATUS  empty parts 0
+PARMA_STATUS  small neighbor counts 1:0 2:0 3:0 4:0 5:0 6:4 7:0 8:0 9:0 10:0 
+PARMA_STATUS  weighted vtx <tot max min avg> 9465.0 2377.0 2354.0 2366.250
+PARMA_STATUS  weighted edge <tot max min avg> 52991.0 13278.0 13216.0 13247.750
+PARMA_STATUS  weighted face <tot max min avg> 80664.0 20185.0 20146.0 20166.000
+PARMA_STATUS  weighted rgn <tot max min avg> 37134.0 9284.0 9283.0 9283.500
+PARMA_STATUS  owned bdry vtx <tot max min avg> 480 242 0 120.000
+PARMA_STATUS  shared bdry vtx <tot max min avg> 972 244 242 243.000
+PARMA_STATUS  model bdry vtx <tot max min avg> 5924 1503 1463 1481.000
+PARMA_STATUS  sharedSidesToElements <max min avg> 0.039 0.039 0.039
+PARMA_STATUS  entity imbalance <v e f r>: 1.00 1.00 1.00 1.00
+MDS: reordering before writing smb files
+mesh noisy_synthetic/ written in 0.060312 seconds
+model ../../../../../../meshes/notch_Asym_3D_surface_to_2D/thickness_0.08/notch3D_Asym.dmg loaded in 0.000076 seconds
+mesh noisy_synthetic/ loaded in 0.011341 seconds
+number of tet 37134 hex 0 prism 0 pyramid 0
+mesh entity counts: v 8973 e 51779 f 79941 r 37134
+writeVtuFile into buffers: 0.011878 seconds
+writeVtuFile buffers to disk: 0.000979 seconds
+vtk files noisy_synthetic_viz written in 0.013412 seconds
+model ../../../../../../meshes/longer_notch_Asym_3D_surface_to_2D/thickness_0.08/notch2D_Asym.dmg loaded in 0.000033 seconds
+mesh serial_longer_synthetic_plane_stress/ loaded in 0.002793 seconds
+number of triangle 5620 quad 0
+mesh entity counts: v 2923 e 8542 f 5620 r 0
+writeVtuFile into buffers: 0.006714 seconds
+writeVtuFile buffers to disk: 0.000353 seconds
+vtk files serial_longer_synthetic_plane_stress_viz written in 0.007540 seconds
+mesh serial_synthetic_plane_stress/ loaded in 0.003255 seconds
+number of triangle 4608 quad 0
+mesh entity counts: v 2407 e 7014 f 4608 r 0
+planned RIB factor 4 in 0.002115 seconds
+mesh expanded from 1 to 4 parts in 0.001552 seconds
+mesh migrated from 1 to 4 in 0.019179 seconds
+PARMA_STATUS  disconnected <max avg> 0 0.000
+PARMA_STATUS  neighbors <max avg> 3 3.000
+PARMA_STATUS  smallest side of max neighbor part 1
+PARMA_STATUS  num parts with max neighbors 4
+PARMA_STATUS  empty parts 0
+PARMA_STATUS  small neighbor counts 1:4 2:0 3:0 4:0 5:0 6:0 7:0 8:0 9:0 10:0 
+PARMA_STATUS  weighted vtx <tot max min avg> 2516.0 631.0 627.0 629.000
+PARMA_STATUS  weighted edge <tot max min avg> 7120.0 1782.0 1778.0 1780.000
+PARMA_STATUS  weighted face <tot max min avg> 4608.0 1152.0 1152.0 1152.000
+PARMA_STATUS  owned bdry vtx <tot max min avg> 107 54 0 26.750
+PARMA_STATUS  shared bdry vtx <tot max min avg> 216 54 54 54.000
+PARMA_STATUS  model bdry vtx <tot max min avg> 208 56 48 52.000
+PARMA_STATUS  sharedSidesToElements <max min avg> 0.046 0.046 0.046
+PARMA_STATUS  entity imbalance <v e f r>: 1.00 1.00 1.00 1.00
+MDS: reordering before writing smb files
+mesh noisy_synthetic_plane_stress/ written in 0.002761 seconds
+model ../../../../../../meshes/longer_notch_Asym_3D_surface_to_2D/thickness_0.08/notch3D_Asym.dmg loaded in 0.000068 seconds
+mesh noisy_synthetic_plane_stress/ loaded in 0.001279 seconds
+number of triangle 4608 quad 0
+mesh entity counts: v 2407 e 7014 f 4608 r 0
+writeVtuFile into buffers: 0.001727 seconds
+writeVtuFile buffers to disk: 0.000133 seconds
+vtk files noisy_synthetic_plane_stress_viz written in 0.002090 seconds
+Initial parameters guess saved to mat_data_initial.csv
+Initial guess::1 => Y: 304.95203731481143, S: 869.753382781279, D: 2.885583732612789
+RUNNING noisy_load_0x noisy_disp_0x vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            3     M =           10
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  6.75863D-02    |proj g|=  1.80152D+00
+
+At iterate    1    f=  1.24674D-02    |proj g|=  7.47237D-01
+
+At iterate    2    f=  9.56236D-05    |proj g|=  4.42370D-02
+
+At iterate    3    f=  4.77086D-05    |proj g|=  6.89139D-03
+
+At iterate    4    f=  4.58815D-05    |proj g|=  6.61228D-03
+
+At iterate    5    f=  4.19050D-05    |proj g|=  9.40275D-03
+
+At iterate    6    f=  3.28397D-05    |proj g|=  1.24940D-02
+
+At iterate    7    f=  1.84004D-05    |proj g|=  1.65962D-02
+
+At iterate    8    f=  4.21072D-06    |proj g|=  1.13674D-02
+
+At iterate    9    f=  3.25296D-07    |proj g|=  2.72437D-03
+
+At iterate   10    f=  1.13994D-07    |proj g|=  2.85902D-04
+
+At iterate   11    f=  1.08158D-07    |proj g|=  3.85478D-05
+
+At iterate   12    f=  1.07941D-07    |proj g|=  3.35899D-05
+
+At iterate   13    f=  1.05840D-07    |proj g|=  4.19759D-05
+
+At iterate   14    f=  9.53931D-08    |proj g|=  1.10048D-04
+
+At iterate   15    f=  7.80448D-08    |proj g|=  1.33954D-04
+
+At iterate   16    f=  4.90955D-08    |proj g|=  1.28235D-04
+
+At iterate   17    f=  4.63921D-08    |proj g|=  7.75986D-04
+
+At iterate   18    f=  3.40409D-08    |proj g|=  1.32418D-04
+
+At iterate   19    f=  2.79138D-08    |proj g|=  6.20451D-05
+
+At iterate   20    f=  2.69235D-08    |proj g|=  2.56002D-05
+
+At iterate   21    f=  2.67032D-08    |proj g|=  5.10462D-06
+
+At iterate   22    f=  2.67027D-08    |proj g|=  1.63329D-06
+
+At iterate   23    f=  2.67025D-08    |proj g|=  3.86448D-08
+
+At iterate   24    f=  2.67025D-08    |proj g|=  8.53969D-09
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    3     24     26     25     0     0   8.540D-09   2.670D-08
+  F =   2.6702498284891653E-008
+
+CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH             
+
+real	0m25.191s
+user	1m23.625s
+sys	0m4.965s
+CALIBRATED PARAMS:
+
+Y: 3.286129245304e+02
+S: 9.855031166711e+02
+D: 1.015996256089e+01
+COMPLETED noisy_load_0x noisy_disp_0x vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+
+Mean values and errors have been written to mean_vfm_forward_sens_calibrated_params.txt and ../../params_error_vfm_forward_sens_noisy_load_0x.txt.
+RUNNING calibration noisy_load_0x noisy_disp_0x calibration_vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+reading input: temp_calibration_vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress.yaml
+model ../../../../meshes/notch_Asym_3D_surface_to_2D/thickness_0.08/notch2D_Asym.dmg loaded in 0.000050 seconds
+mesh ../forward/noisy_displacement_data/noisy_0x/noisy_synthetic_plane_stress/ loaded in 0.001218 seconds
+number of triangle 4608 quad 0
+mesh entity counts: v 2407 e 7014 f 4608 r 0
+mesh reordered in 0.001677 seconds
+  - verifying tags: measured_8_ver, measured_7_ver, measured_6_ver, measured_5_ver, measured_4_ver, measured_3_ver, measured_2_ver, measured_1_ver, measured_0_ver
+mesh verified in 0.002654 seconds
+nsteps = 8
+ON PRIMAL STEP (1)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.266569e+02
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 7.965595e-02
+ > relative ||R|| = 6.289113e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 6.175793e-02
+ > relative ||R|| = 4.876003e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 3.417620e-04
+ > relative ||R|| = 2.698330e-06
+ > (5) Newton iteration
+ > absolute ||R|| = 6.058980e-08
+ > relative ||R|| = 4.783775e-10
+ > (6) Newton iteration
+ > absolute ||R|| = 6.179914e-10
+ > relative ||R|| = 4.879256e-12
+ > (7) Newton iteration
+ > absolute ||R|| = 1.475388e-10
+ > relative ||R|| = 1.164870e-12
+ > (8) Newton iteration
+ > absolute ||R|| = 4.083681e-11
+ > relative ||R|| = 3.224208e-13
+writeVtuFile into buffers: 0.002516 seconds
+writeVtuFile buffers to disk: 0.000324 seconds
+vtk files vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_1 written in 0.003055 seconds
+ON PRIMAL STEP (2)
+ > (1) Newton iteration
+ > absolute ||R|| = 6.367611e+01
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 2.871353e-01
+ > relative ||R|| = 4.509310e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > (3) Newton iteration
+ > absolute ||R|| = 2.563159e-01
+ > relative ||R|| = 4.025307e-03
+ > (4) Newton iteration
+ > absolute ||R|| = 1.398074e-01
+ > relative ||R|| = 2.195603e-03
+ > (5) Newton iteration
+ > absolute ||R|| = 1.100962e-02
+ > relative ||R|| = 1.729003e-04
+ > (6) Newton iteration
+ > absolute ||R|| = 5.335560e-05
+ > relative ||R|| = 8.379219e-07
+ > (7) Newton iteration
+ > absolute ||R|| = 1.741929e-09
+ > relative ||R|| = 2.735608e-11
+ > (8) Newton iteration
+ > absolute ||R|| = 1.547613e-10
+ > relative ||R|| = 2.430445e-12
+ > (9) Newton iteration
+ > absolute ||R|| = 3.698407e-11
+ > relative ||R|| = 5.808156e-13
+writeVtuFile into buffers: 0.002636 seconds
+writeVtuFile buffers to disk: 0.000343 seconds
+vtk files vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_2 written in 0.003201 seconds
+ON PRIMAL STEP (3)
+ > (1) Newton iteration
+ > absolute ||R|| = 6.515769e+01
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 2.999346e-01
+ > relative ||R|| = 4.603211e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > residual increase -- line search alpha_3 = 1.25e-01
+ > (3) Newton iteration
+ > absolute ||R|| = 2.739491e-01
+ > relative ||R|| = 4.204402e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > (4) Newton iteration
+ > absolute ||R|| = 2.411094e-01
+ > relative ||R|| = 3.700398e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > (5) Newton iteration
+ > absolute ||R|| = 1.852779e-01
+ > relative ||R|| = 2.843530e-03
+ > (6) Newton iteration
+ > absolute ||R|| = 7.414483e-02
+ > relative ||R|| = 1.137929e-03
+ > (7) Newton iteration
+ > absolute ||R|| = 2.676867e-03
+ > relative ||R|| = 4.108290e-05
+ > (8) Newton iteration
+ > absolute ||R|| = 4.032625e-04
+ > relative ||R|| = 6.189024e-06
+ > (9) Newton iteration
+ > absolute ||R|| = 1.595177e-07
+ > relative ||R|| = 2.448179e-09
+ > (10) Newton iteration
+ > absolute ||R|| = 6.856420e-10
+ > relative ||R|| = 1.052281e-11
+ > (11) Newton iteration
+ > absolute ||R|| = 1.523182e-10
+ > relative ||R|| = 2.337685e-12
+ > (12) Newton iteration
+ > absolute ||R|| = 3.720175e-11
+ > relative ||R|| = 5.709494e-13
+writeVtuFile into buffers: 0.002629 seconds
+writeVtuFile buffers to disk: 0.000280 seconds
+vtk files vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_3 written in 0.003123 seconds
+ON PRIMAL STEP (4)
+ > (1) Newton iteration
+ > absolute ||R|| = 3.961396e+02
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 1.306265e+00
+ > relative ||R|| = 3.297488e-03
+ > (3) Newton iteration
+ > absolute ||R|| = 9.755570e-01
+ > relative ||R|| = 2.462660e-03
+ > (4) Newton iteration
+ > absolute ||R|| = 1.901010e-01
+ > relative ||R|| = 4.798839e-04
+ > (5) Newton iteration
+ > absolute ||R|| = 2.712265e-02
+ > relative ||R|| = 6.846739e-05
+ > (6) Newton iteration
+ > absolute ||R|| = 3.816616e-04
+ > relative ||R|| = 9.634524e-07
+ > (7) Newton iteration
+ > absolute ||R|| = 1.231840e-07
+ > relative ||R|| = 3.109612e-10
+ > (8) Newton iteration
+ > absolute ||R|| = 7.038841e-10
+ > relative ||R|| = 1.776859e-12
+ > (9) Newton iteration
+ > absolute ||R|| = 1.809957e-10
+ > relative ||R|| = 4.568987e-13
+writeVtuFile into buffers: 0.002706 seconds
+writeVtuFile buffers to disk: 0.000308 seconds
+vtk files vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_4 written in 0.003250 seconds
+ON PRIMAL STEP (5)
+ > (1) Newton iteration
+ > absolute ||R|| = 5.527253e+02
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 8.605163e-01
+ > relative ||R|| = 1.556861e-03
+ > (3) Newton iteration
+ > absolute ||R|| = 3.959590e-01
+ > relative ||R|| = 7.163756e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 4.837445e-02
+ > relative ||R|| = 8.751987e-05
+ > (5) Newton iteration
+ > absolute ||R|| = 1.242484e-03
+ > relative ||R|| = 2.247924e-06
+ > (6) Newton iteration
+ > absolute ||R|| = 1.207480e-06
+ > relative ||R|| = 2.184592e-09
+ > (7) Newton iteration
+ > absolute ||R|| = 7.745095e-10
+ > relative ||R|| = 1.401256e-12
+ > (8) Newton iteration
+ > absolute ||R|| = 1.810213e-10
+ > relative ||R|| = 3.275068e-13
+writeVtuFile into buffers: 0.002676 seconds
+writeVtuFile buffers to disk: 0.000280 seconds
+vtk files vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_5 written in 0.003179 seconds
+ON PRIMAL STEP (6)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.795229e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 1.877261e+00
+ > relative ||R|| = 1.045694e-03
+ > (3) Newton iteration
+ > absolute ||R|| = 9.842966e-01
+ > relative ||R|| = 5.482846e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 4.479373e-01
+ > relative ||R|| = 2.495154e-04
+ > (5) Newton iteration
+ > absolute ||R|| = 1.335545e-02
+ > relative ||R|| = 7.439413e-06
+ > (6) Newton iteration
+ > absolute ||R|| = 1.153735e-04
+ > relative ||R|| = 6.426670e-08
+ > (7) Newton iteration
+ > absolute ||R|| = 1.132833e-08
+ > relative ||R|| = 6.310240e-12
+ > (8) Newton iteration
+ > absolute ||R|| = 1.339448e-10
+ > relative ||R|| = 7.461150e-14
+writeVtuFile into buffers: 0.002617 seconds
+writeVtuFile buffers to disk: 0.000286 seconds
+vtk files vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_6 written in 0.003130 seconds
+ON PRIMAL STEP (7)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.232939e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 6.291518e-01
+ > relative ||R|| = 5.102863e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 5.416736e-01
+ > relative ||R|| = 4.393353e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 9.017764e-03
+ > relative ||R|| = 7.314040e-06
+ > (5) Newton iteration
+ > absolute ||R|| = 6.765317e-05
+ > relative ||R|| = 5.487146e-08
+ > (6) Newton iteration
+ > absolute ||R|| = 4.878963e-09
+ > relative ||R|| = 3.957181e-12
+ > (7) Newton iteration
+ > absolute ||R|| = 9.832827e-11
+ > relative ||R|| = 7.975113e-14
+writeVtuFile into buffers: 0.002661 seconds
+writeVtuFile buffers to disk: 0.000277 seconds
+vtk files vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_7 written in 0.003183 seconds
+ON PRIMAL STEP (8)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.196092e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 3.923530e-01
+ > relative ||R|| = 3.280291e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 1.631050e-01
+ > relative ||R|| = 1.363649e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 9.218464e-03
+ > relative ||R|| = 7.707153e-06
+ > (5) Newton iteration
+ > absolute ||R|| = 4.927092e-06
+ > relative ||R|| = 4.119325e-09
+ > (6) Newton iteration
+ > absolute ||R|| = 1.680126e-10
+ > relative ||R|| = 1.404679e-13
+writeVtuFile into buffers: 0.002856 seconds
+writeVtuFile buffers to disk: 0.000300 seconds
+vtk files vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_8 written in 0.003468 seconds
+J: 9.3613557287126059e-03
+
+COMPLETED calibration noisy_load_0x noisy_disp_0x calibration_vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+
+Initial guess::1 => Y: 304.95203731481143, S: 869.753382781279, D: 2.885583732612789
+RUNNING noisy_load_0x noisy_disp_0x pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            3     M =           10
+ This problem is unconstrained.
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  1.58984D+05    |proj g|=  3.44752D+05
+
+At iterate    1    f=  5.08357D+04    |proj g|=  2.35941D+05
+
+At iterate    2    f=  8.47573D+03    |proj g|=  2.58003D+04
+
+At iterate    3    f=  7.59384D+03    |proj g|=  2.37905D+04
+
+At iterate    4    f=  5.93585D+03    |proj g|=  1.72865D+04
+
+At iterate    5    f=  8.47611D+02    |proj g|=  1.68651D+04
+
+At iterate    6    f=  6.39418D+02    |proj g|=  2.28249D+04
+
+At iterate    7    f=  2.88541D+02    |proj g|=  1.24729D+04
+
+At iterate    8    f=  1.10836D+02    |proj g|=  2.08564D+03
+
+At iterate    9    f=  1.01327D+02    |proj g|=  6.25031D+02
+
+At iterate   10    f=  1.00881D+02    |proj g|=  2.22539D+02
+
+At iterate   11    f=  1.00834D+02    |proj g|=  1.54154D+02
+
+At iterate   12    f=  1.00726D+02    |proj g|=  1.03466D+02
+
+At iterate   13    f=  9.98832D+01    |proj g|=  4.09664D+02
+
+At iterate   14    f=  9.82203D+01    |proj g|=  7.83340D+02
+
+At iterate   15    f=  9.24033D+01    |proj g|=  1.50945D+03
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+Newton's method failed in 30 iterations[ase-d22442:3558674] *** Process received signal ***
+[ase-d22442:3558674] Signal: Aborted (6)
+[ase-d22442:3558674] Signal code:  (-6)
+[ase-d22442:3558674] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x79ab4e842520]
+[ase-d22442:3558674] [ 1] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x79ab4e8969fc]
+[ase-d22442:3558674] [ 2] Newton's method failed in 30 iterations[ase-d22442:3558675] *** Process received signal ***
+[ase-d22442:3558675] Signal: Aborted (6)
+[ase-d22442:3558675] Signal code:  (-6)
+[ase-d22442:3558675] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7d528dc42520]
+[ase-d22442:3558675] [ 1] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x7d528dc969fc]
+[ase-d22442:3558675] [ 2] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x7d528dc42476]
+[ase-d22442:3558675] [ 3] /lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x7d528dc287f3]
+[ase-d22442:3558675] [ 4] Newton's method failed in 30 iterations[ase-d22442:3558676] *** Process received signal ***
+[ase-d22442:3558676] Signal: Aborted (6)
+[ase-d22442:3558676] Signal code:  (-6)
+[ase-d22442:3558676] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7aa92d442520]
+[ase-d22442:3558676] [ 1] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x7aa92d4969fc]
+[ase-d22442:3558676] [ 2] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x7aa92d442476]
+[ase-d22442:3558676] [ 3] /lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x7aa92d4287f3]
+[ase-d22442:3558676] [ 4] Newton's method failed in 30 iterations[ase-d22442:3558677] *** Process received signal ***
+[ase-d22442:3558677] Signal: Aborted (6)
+[ase-d22442:3558677] Signal code:  (-6)
+[ase-d22442:3558677] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x79798ba42520]
+[ase-d22442:3558677] [ 1] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x79798ba969fc]
+[ase-d22442:3558677] [ 2] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x79798ba42476]
+[ase-d22442:3558677] [ 3] /lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x79798ba287f3]
+[ase-d22442:3558677] [ 4] /home/sk63837/calibr8/flavor/linux-shared/install/calibr8/lib/libcalibr8.so(_ZN7calibr84failEPKcz+0xd2)[0x79798c9567c2]
+/lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x79ab4e842476]
+[ase-d22442:3558674] [ 3] /lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x79ab4e8287f3]
+[ase-d22442:3558674] [ 4] /home/sk63837/calibr8/flavor/linux-shared/install/calibr8/lib/libcalibr8.so(_ZN7calibr84failEPKcz+0xd2)[0x79ab4f7567c2]
+[ase-d22442:3558674] [ 5] /home/sk63837/calibr8/flavor/linux-shared/install/calibr8/lib/libcalibr8.so(_ZN7calibr86Primal13solve_at_stepEi+0x1158)[0x79ab4f964a98]
+[ase-d22442:3558674] [ 6] objective(+0xa073)[0x56584ef55073]
+[ase-d22442:3558674] [ 7] objective(+0x910b)[0x56584ef5410b]
+[ase-d22442:3558674] [ 8] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x79ab4e829d90]
+[ase-d22442:3558674] [ 9] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x79ab4e829e40]
+[ase-d22442:3558674] [10] objective(+0x9295)[0x56584ef54295]
+[ase-d22442:3558674] *** End of error message ***
+
+
+[ase-d22442:3558677] [ 5] 
+
+/home/sk63837/calibr8/flavor/linux-shared/install/calibr8/lib/libcalibr8.so(_ZN7calibr84failEPKcz+0xd2)[0x7d528eb567c2]
+[ase-d22442:3558675] [ 5] /home/sk63837/calibr8/flavor/linux-shared/install/calibr8/lib/libcalibr8.so(_ZN7calibr86Primal13solve_at_stepEi+0x1158)[0x7d528ed64a98]
+[ase-d22442:3558675] [ 6] objective(+0xa073)[0x6017ad7e2073]
+[ase-d22442:3558675] [ 7] objective(+0x910b)[0x6017ad7e110b]
+[ase-d22442:3558675] [ 8] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x7d528dc29d90]
+[ase-d22442:3558675] [ 9] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x7d528dc29e40]
+[ase-d22442:3558675] [10] objective(+0x9295)[0x6017ad7e1295]
+[ase-d22442:3558675] *** End of error message ***
+/home/sk63837/calibr8/flavor/linux-shared/install/calibr8/lib/libcalibr8.so(_ZN7calibr84failEPKcz+0xd2)[0x7aa92e3567c2]
+[ase-d22442:3558676] [ 5] /home/sk63837/calibr8/flavor/linux-shared/install/calibr8/lib/libcalibr8.so(_ZN7calibr86Primal13solve_at_stepEi+0x1158)[0x7aa92e564a98]
+[ase-d22442:3558676] [ 6] objective(+0xa073)[0x62e18fcd3073]
+[ase-d22442:3558676] [ 7] objective(+0x910b)[0x62e18fcd210b]
+[ase-d22442:3558676] [ 8] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x7aa92d429d90]
+[ase-d22442:3558676] [ 9] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x7aa92d429e40]
+[ase-d22442:3558676] [10] objective(+0x9295)[0x62e18fcd2295]
+[ase-d22442:3558676] *** End of error message ***
+/home/sk63837/calibr8/flavor/linux-shared/install/calibr8/lib/libcalibr8.so(_ZN7calibr86Primal13solve_at_stepEi+0x1158)[0x79798cb64a98]
+[ase-d22442:3558677] [ 6] objective(+0xa073)[0x58d2c071c073]
+[ase-d22442:3558677] [ 7] objective(+0x910b)[0x58d2c071b10b]
+[ase-d22442:3558677] [ 8] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x79798ba29d90]
+[ase-d22442:3558677] [ 9] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x79798ba29e40]
+[ase-d22442:3558677] [10] objective(+0x9295)[0x58d2c071b295]
+[ase-d22442:3558677] *** End of error message ***
+--------------------------------------------------------------------------
+prterun noticed that process rank 3 with PID 3558677 on node ase-d22442 exited on
+signal 6 (Aborted).
+--------------------------------------------------------------------------
+
+At iterate   16    f=  3.39294D+01    |proj g|=  3.42029D+03
+
+At iterate   17    f=  3.14336D+01    |proj g|=  4.26292D+03
+
+At iterate   18    f=  6.77523D+00    |proj g|=  1.37163D+03
+
+At iterate   19    f=  4.61259D+00    |proj g|=  8.62335D+02
+
+At iterate   20    f=  3.77531D+00    |proj g|=  7.06181D+02
+
+At iterate   21    f=  1.02310D+00    |proj g|=  2.04880D+02
+
+At iterate   22    f=  1.61244D-01    |proj g|=  2.23334D+02
+
+At iterate   23    f=  4.56385D-02    |proj g|=  1.16164D+02
+
+At iterate   24    f=  2.28056D-02    |proj g|=  1.02722D+02
+
+At iterate   25    f=  6.52445D-03    |proj g|=  7.86615D+00
+
+At iterate   26    f=  6.45778D-03    |proj g|=  7.96336D-01
+
+At iterate   27    f=  6.45618D-03    |proj g|=  1.34749D-02
+
+At iterate   28    f=  6.45617D-03    |proj g|=  2.94672D-03
+
+At iterate   29    f=  6.45617D-03    |proj g|=  5.27064D-04
+
+At iterate   30    f=  6.45617D-03    |proj g|=  8.70471D-07
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    3     30     40      1     0     0   8.705D-07   6.456D-03
+  F =   6.4561729453794809E-003
+
+CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL            
+
+real	8m43.297s
+user	33m51.226s
+sys	0m10.051s
+CALIBRATED PARAMS:
+
+Y: 3.301591019094e+02
+S: 1.004002398290e+03
+D: 9.954375349879e+00
+COMPLETED noisy_load_0x noisy_disp_0x pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+
+Mean values and errors have been written to mean_pdeco_adjoint_calibrated_params.txt and ../../params_error_pdeco_adjoint_noisy_load_0x.txt.
+RUNNING calibration noisy_load_0x noisy_disp_0x calibration_pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+reading input: temp_calibration_pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress.yaml
+model ../../../../meshes/notch_Asym_3D_surface_to_2D/thickness_0.08/notch2D_Asym.dmg loaded in 0.000052 seconds
+mesh ../forward/noisy_displacement_data/noisy_0x/noisy_synthetic_plane_stress/ loaded in 0.001290 seconds
+number of triangle 4608 quad 0
+mesh entity counts: v 2407 e 7014 f 4608 r 0
+mesh reordered in 0.001756 seconds
+  - verifying tags: measured_8_ver, measured_7_ver, measured_6_ver, measured_5_ver, measured_4_ver, measured_3_ver, measured_2_ver, measured_1_ver, measured_0_ver
+mesh verified in 0.002563 seconds
+nsteps = 8
+ON PRIMAL STEP (1)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.266569e+02
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 7.805458e-02
+ > relative ||R|| = 6.162679e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 6.425972e-02
+ > relative ||R|| = 5.073528e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 4.494376e-04
+ > relative ||R|| = 3.548465e-06
+ > (5) Newton iteration
+ > absolute ||R|| = 8.550246e-08
+ > relative ||R|| = 6.750715e-10
+ > (6) Newton iteration
+ > absolute ||R|| = 7.044663e-10
+ > relative ||R|| = 5.562006e-12
+ > (7) Newton iteration
+ > absolute ||R|| = 1.781995e-10
+ > relative ||R|| = 1.406947e-12
+ > (8) Newton iteration
+ > absolute ||R|| = 5.312623e-11
+ > relative ||R|| = 4.194500e-13
+writeVtuFile into buffers: 0.002584 seconds
+writeVtuFile buffers to disk: 0.000421 seconds
+vtk files pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_1 written in 0.003214 seconds
+ON PRIMAL STEP (2)
+ > (1) Newton iteration
+ > absolute ||R|| = 6.367609e+01
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 2.849873e-01
+ > relative ||R|| = 4.475578e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > (3) Newton iteration
+ > absolute ||R|| = 2.612033e-01
+ > relative ||R|| = 4.102063e-03
+ > (4) Newton iteration
+ > absolute ||R|| = 1.225402e-01
+ > relative ||R|| = 1.924430e-03
+ > (5) Newton iteration
+ > absolute ||R|| = 1.490719e-02
+ > relative ||R|| = 2.341096e-04
+ > (6) Newton iteration
+ > absolute ||R|| = 1.699274e-03
+ > relative ||R|| = 2.668621e-05
+ > (7) Newton iteration
+ > absolute ||R|| = 7.289554e-07
+ > relative ||R|| = 1.144787e-08
+ > (8) Newton iteration
+ > absolute ||R|| = 1.090018e-09
+ > relative ||R|| = 1.711816e-11
+ > (9) Newton iteration
+ > absolute ||R|| = 2.548285e-10
+ > relative ||R|| = 4.001950e-12
+ > (10) Newton iteration
+ > absolute ||R|| = 6.653558e-11
+ > relative ||R|| = 1.044907e-12
+ > (11) Newton iteration
+ > absolute ||R|| = 1.930276e-11
+ > relative ||R|| = 3.031399e-13
+writeVtuFile into buffers: 0.002567 seconds
+writeVtuFile buffers to disk: 0.000264 seconds
+vtk files pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_2 written in 0.003017 seconds
+ON PRIMAL STEP (3)
+ > (1) Newton iteration
+ > absolute ||R|| = 6.515759e+01
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 3.024671e-01
+ > relative ||R|| = 4.642085e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > residual increase -- line search alpha_3 = 1.25e-01
+ > (3) Newton iteration
+ > absolute ||R|| = 2.768871e-01
+ > relative ||R|| = 4.249498e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > (4) Newton iteration
+ > absolute ||R|| = 2.430925e-01
+ > relative ||R|| = 3.730840e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > (5) Newton iteration
+ > absolute ||R|| = 1.824784e-01
+ > relative ||R|| = 2.800570e-03
+ > (6) Newton iteration
+ > absolute ||R|| = 8.646984e-02
+ > relative ||R|| = 1.327088e-03
+ > (7) Newton iteration
+ > absolute ||R|| = 3.107547e-03
+ > relative ||R|| = 4.769278e-05
+ > (8) Newton iteration
+ > absolute ||R|| = 1.944402e-06
+ > relative ||R|| = 2.984153e-08
+ > (9) Newton iteration
+ > absolute ||R|| = 1.115457e-09
+ > relative ||R|| = 1.711936e-11
+ > (10) Newton iteration
+ > absolute ||R|| = 2.623035e-10
+ > relative ||R|| = 4.025678e-12
+ > (11) Newton iteration
+ > absolute ||R|| = 7.000591e-11
+ > relative ||R|| = 1.074409e-12
+ > (12) Newton iteration
+ > absolute ||R|| = 2.068359e-11
+ > relative ||R|| = 3.174394e-13
+writeVtuFile into buffers: 0.002563 seconds
+writeVtuFile buffers to disk: 0.000274 seconds
+vtk files pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_3 written in 0.003045 seconds
+ON PRIMAL STEP (4)
+ > (1) Newton iteration
+ > absolute ||R|| = 3.961370e+02
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 1.292092e+00
+ > relative ||R|| = 3.261729e-03
+ > (3) Newton iteration
+ > absolute ||R|| = 9.975390e-01
+ > relative ||R|| = 2.518166e-03
+ > (4) Newton iteration
+ > absolute ||R|| = 1.737843e-01
+ > relative ||R|| = 4.386974e-04
+ > (5) Newton iteration
+ > absolute ||R|| = 2.577028e-02
+ > relative ||R|| = 6.505395e-05
+ > (6) Newton iteration
+ > absolute ||R|| = 2.789928e-04
+ > relative ||R|| = 7.042837e-07
+ > (7) Newton iteration
+ > absolute ||R|| = 1.034622e-07
+ > relative ||R|| = 2.611778e-10
+ > (8) Newton iteration
+ > absolute ||R|| = 6.415037e-10
+ > relative ||R|| = 1.619398e-12
+ > (9) Newton iteration
+ > absolute ||R|| = 1.823190e-10
+ > relative ||R|| = 4.602424e-13
+writeVtuFile into buffers: 0.002393 seconds
+writeVtuFile buffers to disk: 0.000396 seconds
+vtk files pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_4 written in 0.002977 seconds
+ON PRIMAL STEP (5)
+ > (1) Newton iteration
+ > absolute ||R|| = 5.527419e+02
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 8.638677e-01
+ > relative ||R|| = 1.562877e-03
+ > (3) Newton iteration
+ > absolute ||R|| = 3.942526e-01
+ > relative ||R|| = 7.132671e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 4.983782e-02
+ > relative ||R|| = 9.016472e-05
+ > (5) Newton iteration
+ > absolute ||R|| = 1.167330e-03
+ > relative ||R|| = 2.111890e-06
+ > (6) Newton iteration
+ > absolute ||R|| = 8.765487e-07
+ > relative ||R|| = 1.585819e-09
+ > (7) Newton iteration
+ > absolute ||R|| = 8.523206e-10
+ > relative ||R|| = 1.541987e-12
+ > (8) Newton iteration
+ > absolute ||R|| = 1.996484e-10
+ > relative ||R|| = 3.611964e-13
+writeVtuFile into buffers: 0.002722 seconds
+writeVtuFile buffers to disk: 0.000300 seconds
+vtk files pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_5 written in 0.003254 seconds
+ON PRIMAL STEP (6)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.795529e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 1.862439e+00
+ > relative ||R|| = 1.037265e-03
+ > (3) Newton iteration
+ > absolute ||R|| = 9.486947e-01
+ > relative ||R|| = 5.283649e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 2.997032e-01
+ > relative ||R|| = 1.669164e-04
+ > (5) Newton iteration
+ > absolute ||R|| = 1.130649e-02
+ > relative ||R|| = 6.297026e-06
+ > (6) Newton iteration
+ > absolute ||R|| = 3.665100e-05
+ > relative ||R|| = 2.041236e-08
+ > (7) Newton iteration
+ > absolute ||R|| = 6.796061e-10
+ > relative ||R|| = 3.784990e-13
+writeVtuFile into buffers: 0.002786 seconds
+writeVtuFile buffers to disk: 0.000259 seconds
+vtk files pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_6 written in 0.003242 seconds
+ON PRIMAL STEP (7)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.232989e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 6.493151e-01
+ > relative ||R|| = 5.266186e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 2.650706e-01
+ > relative ||R|| = 2.149821e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 2.936764e-03
+ > relative ||R|| = 2.381824e-06
+ > (5) Newton iteration
+ > absolute ||R|| = 4.103867e-06
+ > relative ||R|| = 3.328389e-09
+ > (6) Newton iteration
+ > absolute ||R|| = 1.828878e-10
+ > relative ||R|| = 1.483288e-13
+writeVtuFile into buffers: 0.002561 seconds
+writeVtuFile buffers to disk: 0.000273 seconds
+vtk files pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_7 written in 0.003022 seconds
+ON PRIMAL STEP (8)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.195493e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 3.950477e-01
+ > relative ||R|| = 3.304476e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 1.338298e-01
+ > relative ||R|| = 1.119453e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 7.161738e-03
+ > relative ||R|| = 5.990617e-06
+ > (5) Newton iteration
+ > absolute ||R|| = 2.376170e-06
+ > relative ||R|| = 1.987608e-09
+ > (6) Newton iteration
+ > absolute ||R|| = 1.595461e-10
+ > relative ||R|| = 1.334563e-13
+writeVtuFile into buffers: 0.002198 seconds
+writeVtuFile buffers to disk: 0.000273 seconds
+vtk files pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_8 written in 0.002713 seconds
+J: 2.1064401768481467e-06
+
+COMPLETED calibration noisy_load_0x noisy_disp_0x calibration_pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+
+Initial guess::1 => Y: 304.95203731481143, S: 869.753382781279, D: 2.885583732612789
+RUNNING noisy_load_0x noisy_disp_0x 3D_pdeco_adjoint_notch3D_Asym_finite_J2
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            3     M =           10
+ This problem is unconstrained.
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  1.58996D+05    |proj g|=  3.44839D+05
+
+At iterate    1    f=  5.09267D+04    |proj g|=  2.36305D+05
+
+At iterate    2    f=  8.49917D+03    |proj g|=  2.60563D+04
+
+At iterate    3    f=  7.60937D+03    |proj g|=  2.39358D+04
+
+At iterate    4    f=  5.94452D+03    |proj g|=  1.74364D+04
+
+At iterate    5    f=  9.13692D+02    |proj g|=  1.55897D+04
+
+At iterate    6    f=  6.74472D+02    |proj g|=  2.25603D+04
+
+At iterate    7    f=  3.46933D+02    |proj g|=  1.42140D+04
+
+At iterate    8    f=  1.18014D+02    |proj g|=  2.12818D+03
+
+At iterate    9    f=  1.04229D+02    |proj g|=  9.84683D+02
+
+At iterate   10    f=  1.03140D+02    |proj g|=  3.08542D+02
+
+At iterate   11    f=  1.03051D+02    |proj g|=  2.15739D+02
+
+At iterate   12    f=  1.02810D+02    |proj g|=  1.39971D+02
+
+At iterate   13    f=  1.02114D+02    |proj g|=  4.54952D+02
+
+At iterate   14    f=  1.00304D+02    |proj g|=  9.56914D+02
+
+At iterate   15    f=  9.48184D+01    |proj g|=  1.81461D+03
+
+At iterate   16    f=  2.06822D+01    |proj g|=  2.27306D+03
+
+At iterate   17    f=  1.90242D+01    |proj g|=  2.99388D+03
+
+At iterate   18    f=  9.96163D+00    |proj g|=  1.96857D+03
+
+At iterate   19    f=  6.01684D+00    |proj g|=  9.62525D+02
+
+At iterate   20    f=  5.16284D+00    |proj g|=  9.59577D+02
+
+At iterate   21    f=  1.21790D+00    |proj g|=  4.87001D+02
+
+At iterate   22    f=  1.48430D-01    |proj g|=  1.18765D+02
+
+At iterate   23    f=  9.67794D-03    |proj g|=  6.73328D+01
+
+At iterate   24    f=  2.51494D-03    |proj g|=  4.26099D+01
+
+At iterate   25    f=  4.27604D-04    |proj g|=  1.77201D+00
+
+At iterate   26    f=  4.23884D-04    |proj g|=  1.81788D-01
+
+At iterate   27    f=  4.23800D-04    |proj g|=  3.03751D-03
+
+At iterate   28    f=  4.23800D-04    |proj g|=  2.32544D-04
+
+At iterate   29    f=  4.23800D-04    |proj g|=  3.41577D-06
+
+At iterate   30    f=  4.23800D-04    |proj g|=  1.65308D-08
+
+ Bad direction in the line search;
+   refresh the lbfgs memory and restart the iteration.
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    3     31     49      2     0     0   1.653D-08   4.238D-04
+  F =   4.2379953751569025E-004
+
+ABNORMAL_TERMINATION_IN_LNSRCH                              
+
+ Line search cannot locate an adequate point after MAXLS
+  function and gradient evaluations.
+  Previous x, f and g restored.
+ Possible causes: 1 error in function or gradient evaluation;
+                  2 rounding error dominate computation.
+
+real	400m53.972s
+user	1602m5.417s
+sys	0m59.488s
+CALIBRATED PARAMS:
+
+Y: 3.300755959753e+02
+S: 1.000050935186e+03
+D: 9.997746352083e+00
+COMPLETED noisy_load_0x noisy_disp_0x 3D_pdeco_adjoint_notch3D_Asym_finite_J2
+
+Mean values and errors have been written to mean_3D_pdeco_adjoint_calibrated_params.txt and ../../params_error_3D_pdeco_adjoint_noisy_load_0x.txt.
+RUNNING calibration noisy_load_0x noisy_disp_0x calibration_3D_pdeco_adjoint_notch3D_Asym_finite_J2
+reading input: temp_calibration_3D_pdeco_adjoint_notch3D_Asym_finite_J2.yaml
+model ../../../../meshes/notch_Asym_3D_surface_to_2D/thickness_0.08/notch3D_Asym.dmg loaded in 0.000050 seconds
+mesh ../forward/noisy_displacement_data/noisy_0x/noisy_synthetic/ loaded in 0.008306 seconds
+number of tet 37134 hex 0 prism 0 pyramid 0
+mesh entity counts: v 8973 e 51779 f 79941 r 37134
+mesh reordered in 0.036516 seconds
+  - verifying tags: measured_8_ver, measured_7_ver, measured_6_ver, measured_5_ver, measured_4_ver, measured_3_ver, measured_2_ver, measured_1_ver, measured_0_ver
+mesh verified in 0.022164 seconds
+nsteps = 8
+ON PRIMAL STEP (1)
+ > (1) Newton iteration
+ > absolute ||R|| = 6.567281e+01
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 4.149132e-02
+ > relative ||R|| = 6.317884e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 1.081427e-02
+ > relative ||R|| = 1.646689e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 4.061214e-04
+ > relative ||R|| = 6.184011e-06
+ > (5) Newton iteration
+ > absolute ||R|| = 4.411238e-07
+ > relative ||R|| = 6.716994e-09
+ > (6) Newton iteration
+ > absolute ||R|| = 7.863997e-13
+ > relative ||R|| = 1.197451e-14
+writeVtuFile into buffers: 0.014447 seconds
+writeVtuFile buffers to disk: 0.001366 seconds
+vtk files 3D_pdeco_adjoint_notch3D_Asym_finite_J2_forward_viz/out_1 written in 0.016186 seconds
+ON PRIMAL STEP (2)
+ > (1) Newton iteration
+ > absolute ||R|| = 3.303505e+01
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 1.780166e-01
+ > relative ||R|| = 5.388720e-03
+ > (3) Newton iteration
+ > absolute ||R|| = 1.595881e-01
+ > relative ||R|| = 4.830873e-03
+ > (4) Newton iteration
+ > absolute ||R|| = 6.805850e-03
+ > relative ||R|| = 2.060190e-04
+ > (5) Newton iteration
+ > absolute ||R|| = 3.699751e-04
+ > relative ||R|| = 1.119947e-05
+ > (6) Newton iteration
+ > absolute ||R|| = 9.345922e-08
+ > relative ||R|| = 2.829093e-09
+ > (7) Newton iteration
+ > absolute ||R|| = 7.271917e-13
+ > relative ||R|| = 2.201273e-14
+writeVtuFile into buffers: 0.014036 seconds
+writeVtuFile buffers to disk: 0.001507 seconds
+vtk files 3D_pdeco_adjoint_notch3D_Asym_finite_J2_forward_viz/out_2 written in 0.015889 seconds
+ON PRIMAL STEP (3)
+ > (1) Newton iteration
+ > absolute ||R|| = 3.380912e+01
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 2.954583e-01
+ > relative ||R|| = 8.739011e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > (3) Newton iteration
+ > absolute ||R|| = 2.633171e-01
+ > relative ||R|| = 7.788344e-03
+ > (4) Newton iteration
+ > absolute ||R|| = 9.697569e-02
+ > relative ||R|| = 2.868330e-03
+ > (5) Newton iteration
+ > absolute ||R|| = 3.477338e-03
+ > relative ||R|| = 1.028521e-04
+ > (6) Newton iteration
+ > absolute ||R|| = 2.672027e-04
+ > relative ||R|| = 7.903273e-06
+ > (7) Newton iteration
+ > absolute ||R|| = 1.352447e-06
+ > relative ||R|| = 4.000243e-08
+ > (8) Newton iteration
+ > absolute ||R|| = 5.993813e-12
+ > relative ||R|| = 1.772839e-13
+writeVtuFile into buffers: 0.013874 seconds
+writeVtuFile buffers to disk: 0.001471 seconds
+vtk files 3D_pdeco_adjoint_notch3D_Asym_finite_J2_forward_viz/out_3 written in 0.015917 seconds
+ON PRIMAL STEP (4)
+ > (1) Newton iteration
+ > absolute ||R|| = 2.056481e+02
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 1.072145e+00
+ > relative ||R|| = 5.213494e-03
+ > (3) Newton iteration
+ > absolute ||R|| = 3.448717e-01
+ > relative ||R|| = 1.676999e-03
+ > (4) Newton iteration
+ > absolute ||R|| = 5.964312e-02
+ > relative ||R|| = 2.900252e-04
+ > (5) Newton iteration
+ > absolute ||R|| = 5.465534e-03
+ > relative ||R|| = 2.657712e-05
+ > (6) Newton iteration
+ > absolute ||R|| = 3.237501e-04
+ > relative ||R|| = 1.574292e-06
+ > (7) Newton iteration
+ > absolute ||R|| = 1.336014e-06
+ > relative ||R|| = 6.496602e-09
+ > (8) Newton iteration
+ > absolute ||R|| = 1.682523e-12
+ > relative ||R|| = 8.181564e-15
+writeVtuFile into buffers: 0.014300 seconds
+writeVtuFile buffers to disk: 0.001288 seconds
+vtk files 3D_pdeco_adjoint_notch3D_Asym_finite_J2_forward_viz/out_4 written in 0.015945 seconds
+ON PRIMAL STEP (5)
+ > (1) Newton iteration
+ > absolute ||R|| = 3.067842e+02
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 5.107953e-01
+ > relative ||R|| = 1.664999e-03
+ > (3) Newton iteration
+ > absolute ||R|| = 1.603463e-01
+ > relative ||R|| = 5.226681e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 1.539506e-02
+ > relative ||R|| = 5.018204e-05
+ > (5) Newton iteration
+ > absolute ||R|| = 3.152918e-04
+ > relative ||R|| = 1.027732e-06
+ > (6) Newton iteration
+ > absolute ||R|| = 2.049925e-07
+ > relative ||R|| = 6.681978e-10
+ > (7) Newton iteration
+ > absolute ||R|| = 4.652541e-13
+ > relative ||R|| = 1.516552e-15
+writeVtuFile into buffers: 0.013772 seconds
+writeVtuFile buffers to disk: 0.001436 seconds
+vtk files 3D_pdeco_adjoint_notch3D_Asym_finite_J2_forward_viz/out_5 written in 0.016239 seconds
+ON PRIMAL STEP (6)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.119990e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 1.528618e+00
+ > relative ||R|| = 1.364849e-03
+ > (3) Newton iteration
+ > absolute ||R|| = 3.740495e-01
+ > relative ||R|| = 3.339757e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 4.490583e-02
+ > relative ||R|| = 4.009484e-05
+ > (5) Newton iteration
+ > absolute ||R|| = 2.746888e-03
+ > relative ||R|| = 2.452600e-06
+ > (6) Newton iteration
+ > absolute ||R|| = 4.741427e-05
+ > relative ||R|| = 4.233454e-08
+ > (7) Newton iteration
+ > absolute ||R|| = 7.496149e-09
+ > relative ||R|| = 6.693049e-12
+ > (8) Newton iteration
+ > absolute ||R|| = 3.035461e-13
+ > relative ||R|| = 2.710257e-16
+writeVtuFile into buffers: 0.014850 seconds
+writeVtuFile buffers to disk: 0.001617 seconds
+vtk files 3D_pdeco_adjoint_notch3D_Asym_finite_J2_forward_viz/out_6 written in 0.017157 seconds
+ON PRIMAL STEP (7)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.014493e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 3.657036e-01
+ > relative ||R|| = 3.604792e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 3.421869e-02
+ > relative ||R|| = 3.372985e-05
+ > (4) Newton iteration
+ > absolute ||R|| = 1.954957e-03
+ > relative ||R|| = 1.927029e-06
+ > (5) Newton iteration
+ > absolute ||R|| = 6.162950e-06
+ > relative ||R|| = 6.074907e-09
+ > (6) Newton iteration
+ > absolute ||R|| = 1.093176e-10
+ > relative ||R|| = 1.077559e-13
+writeVtuFile into buffers: 0.014250 seconds
+writeVtuFile buffers to disk: 0.002355 seconds
+vtk files 3D_pdeco_adjoint_notch3D_Asym_finite_J2_forward_viz/out_7 written in 0.016953 seconds
+ON PRIMAL STEP (8)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.028424e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 2.024294e-01
+ > relative ||R|| = 1.968346e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 2.858794e-02
+ > relative ||R|| = 2.779781e-05
+ > (4) Newton iteration
+ > absolute ||R|| = 1.190730e-03
+ > relative ||R|| = 1.157820e-06
+ > (5) Newton iteration
+ > absolute ||R|| = 3.430950e-06
+ > relative ||R|| = 3.336124e-09
+ > (6) Newton iteration
+ > absolute ||R|| = 5.918049e-11
+ > relative ||R|| = 5.754483e-14
+writeVtuFile into buffers: 0.013368 seconds
+writeVtuFile buffers to disk: 0.001286 seconds
+vtk files 3D_pdeco_adjoint_notch3D_Asym_finite_J2_forward_viz/out_8 written in 0.015217 seconds
+J: 1.1809220462208796e-07
+
+COMPLETED calibration noisy_load_0x noisy_disp_0x calibration_3D_pdeco_adjoint_notch3D_Asym_finite_J2
+
+Total elapsed time: 426.26 minutes

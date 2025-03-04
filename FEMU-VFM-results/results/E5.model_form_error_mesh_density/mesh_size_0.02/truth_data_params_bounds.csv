@@ -1,0 +1,4 @@
+params,True Values,Lower bound,Upper bound,Tolerance
+Y,330,250,500,0.05
+S,1000,500,2000,0.05
+D,10,1,20,0.05

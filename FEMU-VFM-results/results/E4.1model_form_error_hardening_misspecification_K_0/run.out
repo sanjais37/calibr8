@@ -1,0 +1,3248 @@
+DISP_EPS_STAR_NOISE = 6.1035e-06
+RUNNING forward_notch2D_Asym_finite_J2_plane_stress
+reading input: forward_notch2D_Asym_finite_J2_plane_stress.yaml
+model ../../../meshes/notch2D_Asym/notch2D_Asym.dmg loaded in 0.000042 seconds
+mesh ../../../meshes/notch2D_Asym/notch2D_Asym_4p.smb loaded in 0.000963 seconds
+number of triangle 4566 quad 0
+mesh entity counts: v 2386 e 6951 f 4566 r 0
+mesh reordered in 0.000747 seconds
+mesh verified in 0.001313 seconds
+nsteps = 13
+ON PRIMAL STEP (1)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.676488e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 1.751357e+00
+ > relative ||R|| = 1.044658e-03
+ > (3) Newton iteration
+ > absolute ||R|| = 1.731106e+00
+ > relative ||R|| = 1.032579e-03
+ > (4) Newton iteration
+ > absolute ||R|| = 1.834829e-01
+ > relative ||R|| = 1.094448e-04
+ > (5) Newton iteration
+ > absolute ||R|| = 1.292438e-02
+ > relative ||R|| = 7.709200e-06
+ > (6) Newton iteration
+ > absolute ||R|| = 5.242195e-05
+ > relative ||R|| = 3.126891e-08
+ > (7) Newton iteration
+ > absolute ||R|| = 1.211237e-08
+ > relative ||R|| = 7.224844e-12
+ > (8) Newton iteration
+ > absolute ||R|| = 2.700151e-09
+ > relative ||R|| = 1.610599e-12
+ > (9) Newton iteration
+ > absolute ||R|| = 6.580744e-10
+ > relative ||R|| = 3.925315e-13
+writeVtuFile into buffers: 0.001825 seconds
+writeVtuFile buffers to disk: 0.000108 seconds
+vtk files forward_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_1 written in 0.002091 seconds
+ON PRIMAL STEP (2)
+ > (1) Newton iteration
+ > absolute ||R|| = 8.371549e+02
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 4.130603e+00
+ > relative ||R|| = 4.934096e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > (3) Newton iteration
+ > absolute ||R|| = 3.522717e+00
+ > relative ||R|| = 4.207962e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > (4) Newton iteration
+ > absolute ||R|| = 2.045620e+00
+ > relative ||R|| = 2.443538e-03
+ > (5) Newton iteration
+ > absolute ||R|| = 5.602292e-01
+ > relative ||R|| = 6.692061e-04
+ > (6) Newton iteration
+ > absolute ||R|| = 5.526313e-02
+ > relative ||R|| = 6.601302e-05
+ > (7) Newton iteration
+ > absolute ||R|| = 6.013116e-04
+ > relative ||R|| = 7.182799e-07
+ > (8) Newton iteration
+ > absolute ||R|| = 5.771192e-06
+ > relative ||R|| = 6.893816e-09
+ > (9) Newton iteration
+ > absolute ||R|| = 1.214817e-08
+ > relative ||R|| = 1.451125e-11
+ > (10) Newton iteration
+ > absolute ||R|| = 2.765357e-09
+ > relative ||R|| = 3.303280e-12
+ > (11) Newton iteration
+ > absolute ||R|| = 7.026786e-10
+ > relative ||R|| = 8.393650e-13
+writeVtuFile into buffers: 0.001769 seconds
+writeVtuFile buffers to disk: 0.000125 seconds
+vtk files forward_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_2 written in 0.002064 seconds
+ON PRIMAL STEP (3)
+ > (1) Newton iteration
+ > absolute ||R|| = 8.326670e+02
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 4.522338e+00
+ > relative ||R|| = 5.431149e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > residual increase -- line search alpha_3 = 1.25e-01
+ > (3) Newton iteration
+ > absolute ||R|| = 4.100817e+00
+ > relative ||R|| = 4.924918e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > (4) Newton iteration
+ > absolute ||R|| = 3.388061e+00
+ > relative ||R|| = 4.068926e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > (5) Newton iteration
+ > absolute ||R|| = 2.189854e+00
+ > relative ||R|| = 2.629928e-03
+ > (6) Newton iteration
+ > absolute ||R|| = 8.123374e-01
+ > relative ||R|| = 9.755850e-04
+ > (7) Newton iteration
+ > absolute ||R|| = 2.221579e-02
+ > relative ||R|| = 2.668029e-05
+ > (8) Newton iteration
+ > absolute ||R|| = 1.323045e-03
+ > relative ||R|| = 1.588924e-06
+ > (9) Newton iteration
+ > absolute ||R|| = 1.464846e-05
+ > relative ||R|| = 1.759222e-08
+ > (10) Newton iteration
+ > absolute ||R|| = 1.474278e-08
+ > relative ||R|| = 1.770550e-11
+ > (11) Newton iteration
+ > absolute ||R|| = 3.406524e-09
+ > relative ||R|| = 4.091100e-12
+ > (12) Newton iteration
+ > absolute ||R|| = 8.781080e-10
+ > relative ||R|| = 1.054573e-12
+ > (13) Newton iteration
+ > absolute ||R|| = 2.495909e-10
+ > relative ||R|| = 2.997487e-13
+writeVtuFile into buffers: 0.001772 seconds
+writeVtuFile buffers to disk: 0.000123 seconds
+vtk files forward_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_3 written in 0.002070 seconds
+ON PRIMAL STEP (4)
+ > (1) Newton iteration
+ > absolute ||R|| = 4.896473e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 1.021533e+01
+ > relative ||R|| = 2.086263e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > (3) Newton iteration
+ > absolute ||R|| = 9.004387e+00
+ > relative ||R|| = 1.838954e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > (4) Newton iteration
+ > absolute ||R|| = 6.201931e+00
+ > relative ||R|| = 1.266612e-03
+ > (5) Newton iteration
+ > absolute ||R|| = 2.122410e+00
+ > relative ||R|| = 4.334568e-04
+ > (6) Newton iteration
+ > absolute ||R|| = 7.922113e-02
+ > relative ||R|| = 1.617922e-05
+ > (7) Newton iteration
+ > absolute ||R|| = 5.008521e-04
+ > relative ||R|| = 1.022883e-07
+ > (8) Newton iteration
+ > absolute ||R|| = 7.462030e-08
+ > relative ||R|| = 1.523960e-11
+ > (9) Newton iteration
+ > absolute ||R|| = 3.689712e-09
+ > relative ||R|| = 7.535449e-13
+writeVtuFile into buffers: 0.001770 seconds
+writeVtuFile buffers to disk: 0.000132 seconds
+vtk files forward_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_4 written in 0.002088 seconds
+ON PRIMAL STEP (5)
+ > (1) Newton iteration
+ > absolute ||R|| = 7.479339e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 6.185865e+00
+ > relative ||R|| = 8.270604e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 2.993232e+00
+ > relative ||R|| = 4.002000e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 2.022446e-01
+ > relative ||R|| = 2.704043e-05
+ > (5) Newton iteration
+ > absolute ||R|| = 4.032706e-03
+ > relative ||R|| = 5.391795e-07
+ > (6) Newton iteration
+ > absolute ||R|| = 2.949553e-06
+ > relative ||R|| = 3.943601e-10
+ > (7) Newton iteration
+ > absolute ||R|| = 9.478951e-09
+ > relative ||R|| = 1.267352e-12
+ > (8) Newton iteration
+ > absolute ||R|| = 2.316129e-09
+ > relative ||R|| = 3.096702e-13
+writeVtuFile into buffers: 0.001765 seconds
+writeVtuFile buffers to disk: 0.000114 seconds
+vtk files forward_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_5 written in 0.002045 seconds
+ON PRIMAL STEP (6)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.430925e+04
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 6.979070e+00
+ > relative ||R|| = 4.877312e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 3.437132e+00
+ > relative ||R|| = 2.402034e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 3.193340e-01
+ > relative ||R|| = 2.231661e-05
+ > (5) Newton iteration
+ > absolute ||R|| = 9.937701e-03
+ > relative ||R|| = 6.944947e-07
+ > (6) Newton iteration
+ > absolute ||R|| = 2.743313e-05
+ > relative ||R|| = 1.917160e-09
+ > (7) Newton iteration
+ > absolute ||R|| = 9.809226e-09
+ > relative ||R|| = 6.855163e-13
+writeVtuFile into buffers: 0.001766 seconds
+writeVtuFile buffers to disk: 0.000119 seconds
+vtk files forward_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_6 written in 0.002052 seconds
+ON PRIMAL STEP (7)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.350194e+04
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 4.319199e+00
+ > relative ||R|| = 3.198947e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 1.469766e+00
+ > relative ||R|| = 1.088559e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 1.131966e-01
+ > relative ||R|| = 8.383729e-06
+ > (5) Newton iteration
+ > absolute ||R|| = 1.390320e-03
+ > relative ||R|| = 1.029719e-07
+ > (6) Newton iteration
+ > absolute ||R|| = 1.418211e-06
+ > relative ||R|| = 1.050376e-10
+ > (7) Newton iteration
+ > absolute ||R|| = 4.445587e-09
+ > relative ||R|| = 3.292554e-13
+writeVtuFile into buffers: 0.001755 seconds
+writeVtuFile buffers to disk: 0.000121 seconds
+vtk files forward_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_7 written in 0.002048 seconds
+ON PRIMAL STEP (8)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.274258e+04
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 3.254002e+00
+ > relative ||R|| = 2.553645e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 5.334101e-01
+ > relative ||R|| = 4.186044e-05
+ > (4) Newton iteration
+ > absolute ||R|| = 1.545784e-02
+ > relative ||R|| = 1.213086e-06
+ > (5) Newton iteration
+ > absolute ||R|| = 3.394018e-05
+ > relative ||R|| = 2.663525e-09
+ > (6) Newton iteration
+ > absolute ||R|| = 6.567710e-09
+ > relative ||R|| = 5.154145e-13
+writeVtuFile into buffers: 0.001769 seconds
+writeVtuFile buffers to disk: 0.000143 seconds
+vtk files forward_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_8 written in 0.002079 seconds
+ON PRIMAL STEP (9)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.203257e+04
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 2.740526e+00
+ > relative ||R|| = 2.277589e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 3.944056e-01
+ > relative ||R|| = 3.277815e-05
+ > (4) Newton iteration
+ > absolute ||R|| = 2.893088e-02
+ > relative ||R|| = 2.404380e-06
+ > (5) Newton iteration
+ > absolute ||R|| = 1.583673e-03
+ > relative ||R|| = 1.316155e-07
+ > (6) Newton iteration
+ > absolute ||R|| = 3.675617e-06
+ > relative ||R|| = 3.054722e-10
+ > (7) Newton iteration
+ > absolute ||R|| = 7.146965e-09
+ > relative ||R|| = 5.939681e-13
+writeVtuFile into buffers: 0.001790 seconds
+writeVtuFile buffers to disk: 0.000159 seconds
+vtk files forward_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_9 written in 0.002116 seconds
+ON PRIMAL STEP (10)
+ > (1) Newton iteration
+ > absolute ||R|| = 5.666772e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 8.943869e-01
+ > relative ||R|| = 1.578300e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 1.193966e-01
+ > relative ||R|| = 2.106960e-05
+ > (4) Newton iteration
+ > absolute ||R|| = 5.361958e-03
+ > relative ||R|| = 9.462103e-07
+ > (5) Newton iteration
+ > absolute ||R|| = 3.302865e-05
+ > relative ||R|| = 5.828477e-09
+ > (6) Newton iteration
+ > absolute ||R|| = 6.391878e-09
+ > relative ||R|| = 1.127957e-12
+ > (7) Newton iteration
+ > absolute ||R|| = 1.388745e-09
+ > relative ||R|| = 2.450680e-13
+writeVtuFile into buffers: 0.001766 seconds
+writeVtuFile buffers to disk: 0.000118 seconds
+vtk files forward_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_10 written in 0.002050 seconds
+ON PRIMAL STEP (11)
+ > (1) Newton iteration
+ > absolute ||R|| = 5.429340e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 8.739921e-01
+ > relative ||R|| = 1.609757e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 7.002902e-02
+ > relative ||R|| = 1.289826e-05
+ > (4) Newton iteration
+ > absolute ||R|| = 5.062000e-04
+ > relative ||R|| = 9.323417e-08
+ > (5) Newton iteration
+ > absolute ||R|| = 6.032708e-08
+ > relative ||R|| = 1.111131e-11
+ > (6) Newton iteration
+ > absolute ||R|| = 1.335633e-09
+ > relative ||R|| = 2.460029e-13
+writeVtuFile into buffers: 0.001773 seconds
+writeVtuFile buffers to disk: 0.000121 seconds
+vtk files forward_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_11 written in 0.002065 seconds
+ON PRIMAL STEP (12)
+ > (1) Newton iteration
+ > absolute ||R|| = 5.291982e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 7.159008e-01
+ > relative ||R|| = 1.352803e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 4.182151e-02
+ > relative ||R|| = 7.902807e-06
+ > (4) Newton iteration
+ > absolute ||R|| = 8.207856e-04
+ > relative ||R|| = 1.550999e-07
+ > (5) Newton iteration
+ > absolute ||R|| = 3.063227e-07
+ > relative ||R|| = 5.788431e-11
+ > (6) Newton iteration
+ > absolute ||R|| = 3.576592e-09
+ > relative ||R|| = 6.758513e-13
+writeVtuFile into buffers: 0.001762 seconds
+writeVtuFile buffers to disk: 0.000162 seconds
+vtk files forward_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_12 written in 0.002098 seconds
+ON PRIMAL STEP (13)
+ > (1) Newton iteration
+ > absolute ||R|| = 5.134257e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 6.941761e-01
+ > relative ||R|| = 1.352048e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 2.503780e-02
+ > relative ||R|| = 4.876616e-06
+ > (4) Newton iteration
+ > absolute ||R|| = 1.215661e-04
+ > relative ||R|| = 2.367744e-08
+ > (5) Newton iteration
+ > absolute ||R|| = 5.803045e-09
+ > relative ||R|| = 1.130260e-12
+ > (6) Newton iteration
+ > absolute ||R|| = 9.445311e-10
+ > relative ||R|| = 1.839665e-13
+writeVtuFile into buffers: 0.001751 seconds
+writeVtuFile buffers to disk: 0.000118 seconds
+vtk files forward_notch2D_Asym_finite_J2_plane_stress_forward_viz/out_13 written in 0.002048 seconds
+J: 4.2603674542163603e+05
+
+mesh forward_notch2D_Asym_finite_J2_plane_stress_synthetic/ written in 0.000993 seconds
+COMPLETED forward_notch2D_Asym_finite_J2_plane_stress
+
+model ../../../../../meshes/notch2D_Asym/notch2D_Asym.dmg loaded in 0.000028 seconds
+mesh noisy_synthetic/ loaded in 0.001067 seconds
+number of triangle 4566 quad 0
+mesh entity counts: v 2386 e 6951 f 4566 r 0
+writeVtuFile into buffers: 0.001911 seconds
+writeVtuFile buffers to disk: 0.000133 seconds
+vtk files noisy_synthetic_viz written in 0.002224 seconds
+Initial parameters guess saved to mat_data_initial.csv
+Initial guess::1 => Y: 304.95203731481143, S: 869.753382781279, D: 2.885583732612789
+RUNNING noisy_load_0x noisy_disp_0x pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            3     M =           10
+ This problem is unconstrained.
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  5.65675D+00    |proj g|=  3.47400D+01
+
+At iterate    1    f=  2.15608D+00    |proj g|=  1.77440D+01
+
+At iterate    2    f=  2.72055D-01    |proj g|=  2.18208D+00
+
+At iterate    3    f=  2.45860D-01    |proj g|=  1.13839D+00
+
+At iterate    4    f=  2.36257D-01    |proj g|=  1.08023D+00
+
+At iterate    5    f=  2.24493D-01    |proj g|=  3.24973D-01
+
+At iterate    6    f=  2.17036D-01    |proj g|=  6.33825D-01
+
+At iterate    7    f=  1.96920D-01    |proj g|=  1.69888D+00
+
+At iterate    8    f=  1.67869D-01    |proj g|=  3.54177D+00
+
+At iterate    9    f=  1.36872D-01    |proj g|=  2.54142D+00
+
+At iterate   10    f=  8.43371D-02    |proj g|=  1.39930D+00
+
+At iterate   11    f=  7.58223D-02    |proj g|=  1.62249D-01
+
+At iterate   12    f=  7.49550D-02    |proj g|=  3.91385D-02
+
+At iterate   13    f=  7.48615D-02    |proj g|=  6.83916D-03
+
+At iterate   14    f=  7.48613D-02    |proj g|=  8.79069D-04
+
+At iterate   15    f=  7.48613D-02    |proj g|=  2.73565D-05
+
+At iterate   16    f=  7.48613D-02    |proj g|=  3.01472D-07
+
+ Bad direction in the line search;
+   refresh the lbfgs memory and restart the iteration.
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    3     17     30      2     0     0   3.015D-07   7.486D-02
+  F =   7.4861281159794818E-002
+
+ABNORMAL_TERMINATION_IN_LNSRCH                              
+
+ Line search cannot locate an adequate point after MAXLS
+  function and gradient evaluations.
+  Previous x, f and g restored.
+ Possible causes: 1 error in function or gradient evaluation;
+                  2 rounding error dominate computation.
+
+real	6m24.232s
+user	25m13.376s
+sys	0m7.864s
+CALIBRATED PARAMS:
+
+Y: 3.538307642549e+02
+S: 5.131926107190e+02
+D: 4.810926149648e+00
+COMPLETED noisy_load_0x noisy_disp_0x pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+
+Initial guess::2 => Y: 347.978753140138, S: 960.7679656603814, D: 11.876756188802016
+RUNNING noisy_load_0x noisy_disp_0x pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            3     M =           10
+ This problem is unconstrained.
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  5.27826D+01    |proj g|=  8.93543D+01
+
+At iterate    1    f=  4.36526D+00    |proj g|=  3.61896D+01
+
+At iterate    2    f=  2.30135D+00    |proj g|=  2.09783D+01
+
+At iterate    3    f=  7.35863D-01    |proj g|=  3.64032D+00
+
+At iterate    4    f=  6.27339D-01    |proj g|=  2.81573D+00
+
+At iterate    5    f=  4.74302D-01    |proj g|=  1.62699D+00
+
+At iterate    6    f=  3.63912D-01    |proj g|=  2.13188D+00
+
+At iterate    7    f=  1.84055D-01    |proj g|=  2.43887D+00
+
+At iterate    8    f=  1.05747D-01    |proj g|=  8.13120D-01
+
+At iterate    9    f=  8.24075D-02    |proj g|=  4.87155D-01
+
+At iterate   10    f=  7.59550D-02    |proj g|=  2.85987D-01
+
+At iterate   11    f=  7.49909D-02    |proj g|=  1.48843D-01
+
+At iterate   12    f=  7.48654D-02    |proj g|=  2.27057D-02
+
+At iterate   13    f=  7.48613D-02    |proj g|=  9.07219D-04
+
+At iterate   14    f=  7.48613D-02    |proj g|=  1.31053D-04
+
+At iterate   15    f=  7.48613D-02    |proj g|=  2.28403D-06
+
+At iterate   16    f=  7.48613D-02    |proj g|=  8.58661D-08
+
+At iterate   17    f=  7.48613D-02    |proj g|=  1.93311D-09
+
+At iterate   18    f=  7.48613D-02    |proj g|=  7.78204D-12
+
+ Bad direction in the line search;
+   refresh the lbfgs memory and restart the iteration.
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    3     19     29      2     0     0   7.782D-12   7.486D-02
+  F =   7.4861281159801660E-002
+
+ABNORMAL_TERMINATION_IN_LNSRCH                              
+
+ Line search cannot locate an adequate point after MAXLS
+  function and gradient evaluations.
+  Previous x, f and g restored.
+ Possible causes: 1 error in function or gradient evaluation;
+                  2 rounding error dominate computation.
+
+real	5m47.431s
+user	22m47.746s
+sys	0m7.373s
+CALIBRATED PARAMS:
+
+Y: 3.538307643185e+02
+S: 5.131926045429e+02
+D: 4.810926225860e+00
+COMPLETED noisy_load_0x noisy_disp_0x pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+
+Initial guess::3 => Y: 377.7352104776696, S: 1092.9364631329656, D: 2.5143876747525935
+RUNNING noisy_load_0x noisy_disp_0x pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            3     M =           10
+ This problem is unconstrained.
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  3.48468D+00    |proj g|=  2.56945D+01
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+
+At iterate    1    f=  7.52812D-01    |proj g|=  7.11676D+00
+
+At iterate    2    f=  5.63807D-01    |proj g|=  4.97318D+00
+
+At iterate    3    f=  3.04680D-01    |proj g|=  5.34325D-01
+
+At iterate    4    f=  2.98556D-01    |proj g|=  2.03307D-01
+
+At iterate    5    f=  2.96299D-01    |proj g|=  2.60652D-01
+
+At iterate    6    f=  2.86514D-01    |proj g|=  5.19663D-01
+
+At iterate    7    f=  2.65079D-01    |proj g|=  1.01076D+00
+
+At iterate    8    f=  2.23143D-01    |proj g|=  1.86520D+00
+
+At iterate    9    f=  1.80935D-01    |proj g|=  2.04628D+00
+
+At iterate   10    f=  7.72299D-02    |proj g|=  6.34360D-01
+
+At iterate   11    f=  7.48756D-02    |proj g|=  4.70676D-02
+
+At iterate   12    f=  7.48629D-02    |proj g|=  1.25778D-02
+
+At iterate   13    f=  7.48613D-02    |proj g|=  3.04645D-04
+
+At iterate   14    f=  7.48613D-02    |proj g|=  1.24226D-04
+
+At iterate   15    f=  7.48613D-02    |proj g|=  1.09517D-05
+
+At iterate   16    f=  7.48613D-02    |proj g|=  3.29758D-07
+
+At iterate   17    f=  7.48613D-02    |proj g|=  1.65816D-10
+
+At iterate   18    f=  7.48613D-02    |proj g|=  2.28312D-12
+
+ Bad direction in the line search;
+   refresh the lbfgs memory and restart the iteration.
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    3     19     32      2     0     0   2.283D-12   7.486D-02
+  F =   7.4861281159793375E-002
+
+ABNORMAL_TERMINATION_IN_LNSRCH                              
+
+ Line search cannot locate an adequate point after MAXLS
+  function and gradient evaluations.
+  Previous x, f and g restored.
+ Possible causes: 1 error in function or gradient evaluation;
+                  2 rounding error dominate computation.
+
+real	6m41.503s
+user	26m20.137s
+sys	0m8.415s
+CALIBRATED PARAMS:
+
+Y: 3.538307643185e+02
+S: 5.131926045427e+02
+D: 4.810926225863e+00
+COMPLETED noisy_load_0x noisy_disp_0x pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+
+Initial guess::4 => Y: 333.3017733042311, S: 1012.6125842234335, D: 2.5014129507308294
+RUNNING noisy_load_0x noisy_disp_0x pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            3     M =           10
+ This problem is unconstrained.
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  4.09791D+00    |proj g|=  2.71472D+01
+ > Reached max line search evals
+ > Reached max line search evals
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+Newton's method failed in 30 iterations[ase-d22442:191962] *** Process received signal ***
+[ase-d22442:191962] Signal: Aborted (6)
+[ase-d22442:191962] Signal code:  (-6)
+Newton's method failed in 30 iterations[ase-d22442:191965] *** Process received signal ***
+[ase-d22442:191965] Signal: Aborted (6)
+[ase-d22442:191965] Signal code:  (-6)
+Newton's method failed in 30 iterations[ase-d22442:191964] *** Process received signal ***
+[ase-d22442:191964] Signal: Aborted (6)
+[ase-d22442:191964] Signal code:  (-6)
+[ase-d22442:191964] [ 0] Newton's method failed in 30 iterations[ase-d22442:191963] *** Process received signal ***
+[ase-d22442:191963] Signal: Aborted (6)
+[ase-d22442:191963] Signal code:  (-6)
+[ase-d22442:191963] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x75bc2d442520]
+
+[ase-d22442:191963] [ 1] [ase-d22442:191965] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7bdadfa42520]
+[ase-d22442:191965] [ 1] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x7bdadfa969fc]
+[ase-d22442:191965] [ 2] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x7bdadfa42476]
+[ase-d22442:191965] [ 3] [ase-d22442:191962] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7f83eee42520]
+[ase-d22442:191962] [ 1] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x7f83eee969fc]
+[ase-d22442:191962] [ 2] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x7f83eee42476]
+
+[ase-d22442:191962] [ 3] 
+
+/lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x758264042520]
+[ase-d22442:191964] [ 1] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x7582640969fc]
+[ase-d22442:191964] [ 2] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x758264042476]
+[ase-d22442:191964] [ 3] /lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x7582640287f3]
+[ase-d22442:191964] [ 4] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x75bc2d4969fc]
+[ase-d22442:191963] [ 2] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x75bc2d442476]
+[ase-d22442:191963] [ 3] /lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x75bc2d4287f3]
+[ase-d22442:191963] [ 4] /home/sk63837/calibr8/flavor/linux-shared/install/calibr8/lib/libcalibr8.so(_ZN7calibr84failEPKcz+0xd2)[0x75bc2e356702]
+[ase-d22442:191963] [ 5] /lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x7bdadfa287f3]
+[ase-d22442:191965] [ 4] /home/sk63837/calibr8/flavor/linux-shared/install/calibr8/lib/libcalibr8.so(_ZN7calibr84failEPKcz+0xd2)[0x7bdae0956702]
+[ase-d22442:191965] [ 5] /lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x7f83eee287f3]
+[ase-d22442:191962] [ 4] /home/sk63837/calibr8/flavor/linux-shared/install/calibr8/lib/libcalibr8.so(_ZN7calibr84failEPKcz+0xd2)[0x7f83efd56702]
+[ase-d22442:191962] [ 5] /home/sk63837/calibr8/flavor/linux-shared/install/calibr8/lib/libcalibr8.so(_ZN7calibr84failEPKcz+0xd2)[0x758264f56702]
+[ase-d22442:191964] [ 5] /home/sk63837/calibr8/flavor/linux-shared/install/calibr8/lib/libcalibr8.so(_ZN7calibr86Primal13solve_at_stepEi+0x1158)[0x7bdae0b638f8]
+[ase-d22442:191965] [ 6] objective(+0xa073)[0x5872a3880073]
+[ase-d22442:191965] [ 7] objective(+0x910b)[0x5872a387f10b]
+[ase-d22442:191965] [ 8] /home/sk63837/calibr8/flavor/linux-shared/install/calibr8/lib/libcalibr8.so(_ZN7calibr86Primal13solve_at_stepEi+0x1158)[0x7f83eff638f8]
+[ase-d22442:191962] [ 6] objective(+0xa073)[0x5b9fd6ece073]
+[ase-d22442:191962] [ 7] objective(+0x910b)[0x5b9fd6ecd10b]
+[ase-d22442:191962] [ 8] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x7f83eee29d90]
+[ase-d22442:191962] [ 9] /home/sk63837/calibr8/flavor/linux-shared/install/calibr8/lib/libcalibr8.so(_ZN7calibr86Primal13solve_at_stepEi+0x1158)[0x7582651638f8]
+[ase-d22442:191964] [ 6] objective(+0xa073)[0x5b3db0d91073]
+[ase-d22442:191964] [ 7] objective(+0x910b)[0x5b3db0d9010b]
+[ase-d22442:191964] [ 8] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x758264029d90]
+[ase-d22442:191964] [ 9] /home/sk63837/calibr8/flavor/linux-shared/install/calibr8/lib/libcalibr8.so(_ZN7calibr86Primal13solve_at_stepEi+0x1158)[0x75bc2e5638f8]
+[ase-d22442:191963] [ 6] objective(+0xa073)[0x5ac0ed5da073]
+[ase-d22442:191963] [ 7] objective(+0x910b)[0x5ac0ed5d910b]
+[ase-d22442:191963] [ 8] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x75bc2d429d90]
+[ase-d22442:191963] [ 9] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x75bc2d429e40]
+[ase-d22442:191963] [10] objective(+0x9295)[0x5ac0ed5d9295]
+[ase-d22442:191963] *** End of error message ***
+/lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x7bdadfa29d90]
+[ase-d22442:191965] [ 9] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x7bdadfa29e40]
+[ase-d22442:191965] [10] objective(+0x9295)[0x5872a387f295]
+[ase-d22442:191965] *** End of error message ***
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x7f83eee29e40]
+[ase-d22442:191962] [10] objective(+0x9295)[0x5b9fd6ecd295]
+[ase-d22442:191962] *** End of error message ***
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x758264029e40]
+[ase-d22442:191964] [10] objective(+0x9295)[0x5b3db0d90295]
+[ase-d22442:191964] *** End of error message ***
+--------------------------------------------------------------------------
+prterun noticed that process rank 1 with PID 191963 on node ase-d22442 exited on
+signal 6 (Aborted).
+--------------------------------------------------------------------------
+
+At iterate    1    f=  4.34477D-01    |proj g|=  5.92216D+00
+
+At iterate    2    f=  2.99377D-01    |proj g|=  1.18339D+00
+
+At iterate    3    f=  2.94099D-01    |proj g|=  6.18023D-01
+
+At iterate    4    f=  2.88862D-01    |proj g|=  6.09537D-01
+
+At iterate    5    f=  2.85844D-01    |proj g|=  2.59151D-01
+
+At iterate    6    f=  2.83698D-01    |proj g|=  3.38617D-01
+
+At iterate    7    f=  2.76634D-01    |proj g|=  7.47926D-01
+
+At iterate    8    f=  2.62355D-01    |proj g|=  1.31324D+00
+
+At iterate    9    f=  2.35184D-01    |proj g|=  2.37786D+00
+
+At iterate   10    f=  2.02289D-01    |proj g|=  2.92036D+00
+
+At iterate   11    f=  1.27445D-01    |proj g|=  2.69695D+00
+
+At iterate   12    f=  8.48806D-02    |proj g|=  1.12768D+00
+
+At iterate   13    f=  7.58340D-02    |proj g|=  3.57497D-01
+
+At iterate   14    f=  7.49555D-02    |proj g|=  5.27771D-02
+
+At iterate   15    f=  7.48633D-02    |proj g|=  4.76139D-03
+
+At iterate   16    f=  7.48619D-02    |proj g|=  7.81505D-03
+
+At iterate   17    f=  7.48614D-02    |proj g|=  1.39837D-03
+
+At iterate   18    f=  7.48613D-02    |proj g|=  1.09904D-04
+
+At iterate   19    f=  7.48613D-02    |proj g|=  7.25099D-06
+
+At iterate   20    f=  7.48613D-02    |proj g|=  7.72413D-09
+
+At iterate   21    f=  7.48613D-02    |proj g|=  2.64544D-11
+
+At iterate   22    f=  7.48613D-02    |proj g|=  7.67824D-13
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    3     22     25      1     0     0   7.678D-13   7.486D-02
+  F =   7.4861281159793236E-002
+
+CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL            
+
+real	5m29.881s
+user	21m19.349s
+sys	0m7.193s
+CALIBRATED PARAMS:
+
+Y: 3.538307643185e+02
+S: 5.131926045427e+02
+D: 4.810926225863e+00
+COMPLETED noisy_load_0x noisy_disp_0x pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+
+Initial guess::5 => Y: 321.59919290608434, S: 915.347333256774, D: 4.164856817868848
+RUNNING noisy_load_0x noisy_disp_0x pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            3     M =           10
+ This problem is unconstrained.
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  1.68010D+01    |proj g|=  5.23187D+01
+
+At iterate    1    f=  6.23431D-01    |proj g|=  7.14974D+00
+
+At iterate    2    f=  4.02257D-01    |proj g|=  4.07778D+00
+
+At iterate    3    f=  1.53513D-01    |proj g|=  6.04447D-01
+
+At iterate    4    f=  1.47701D-01    |proj g|=  1.89524D-01
+
+At iterate    5    f=  1.45802D-01    |proj g|=  2.35070D-01
+
+At iterate    6    f=  1.38711D-01    |proj g|=  4.64702D-01
+
+At iterate    7    f=  1.24549D-01    |proj g|=  7.95580D-01
+
+At iterate    8    f=  1.04147D-01    |proj g|=  9.56554D-01
+
+At iterate    9    f=  8.71516D-02    |proj g|=  6.62658D-01
+
+At iterate   10    f=  7.55183D-02    |proj g|=  3.77620D-01
+
+At iterate   11    f=  7.52136D-02    |proj g|=  1.40308D-01
+
+At iterate   12    f=  7.48651D-02    |proj g|=  2.68274D-02
+
+At iterate   13    f=  7.48614D-02    |proj g|=  4.44212D-03
+
+At iterate   14    f=  7.48613D-02    |proj g|=  1.30670D-05
+
+At iterate   15    f=  7.48613D-02    |proj g|=  1.94266D-06
+
+At iterate   16    f=  7.48613D-02    |proj g|=  3.69780D-08
+
+At iterate   17    f=  7.48613D-02    |proj g|=  3.01812D-10
+
+ Bad direction in the line search;
+   refresh the lbfgs memory and restart the iteration.
+
+At iterate   18    f=  7.48613D-02    |proj g|=  3.85649D-08
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    3     18     28      2     0     0   3.856D-08   7.486D-02
+  F =   7.4861281159800550E-002
+
+CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH             
+
+real	5m54.025s
+user	23m14.053s
+sys	0m7.293s
+CALIBRATED PARAMS:
+
+Y: 3.538307643512e+02
+S: 5.131926046995e+02
+D: 4.810926226864e+00
+COMPLETED noisy_load_0x noisy_disp_0x pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+
+Initial guess::6 => Y: 369.5525099104966, S: 947.3146114088597, D: 3.0318310853110892
+RUNNING noisy_load_0x noisy_disp_0x pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            3     M =           10
+ This problem is unconstrained.
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  3.93575D+00    |proj g|=  2.81407D+01
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+ > Reached max line search evals
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+Newton's method failed in 30 iterations[ase-d22442:193479] *** Process received signal ***
+[ase-d22442:193479] Signal: Aborted (6)
+[ase-d22442:193479] Signal code:  (-6)
+Newton's method failed in 30 iterations[ase-d22442:193481] *** Process received signal ***
+[ase-d22442:193481] Signal: Aborted (6)
+[ase-d22442:193481] Signal code:  (-6)
+Newton's method failed in 30 iterations[ase-d22442:193480] *** Process received signal ***
+[ase-d22442:193480] Signal: Aborted (6)
+[ase-d22442:193480] Signal code:  (-6)
+Newton's method failed in 30 iterations[ase-d22442:193482] *** Process received signal ***
+[ase-d22442:193482] Signal: Aborted (6)
+[ase-d22442:193482] Signal code:  (-6)
+[ase-d22442:193482] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7d2bce642520]
+[ase-d22442:193482] [ 1] [ase-d22442:193480] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x7e2489842520]
+[ase-d22442:193480] [ 1] [ase-d22442:193479] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x778e59042520]
+[ase-d22442:193479] [ 1] [ase-d22442:193481] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x42520)[0x731a06842520]
+[ase-d22442:193481] [ 1] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x7d2bce6969fc]
+[ase-d22442:193482] [ 2] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x778e590969fc]
+[ase-d22442:193479] [ 2] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x7e24898969fc]
+[ase-d22442:193480] [ 2] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c)[0x731a068969fc]
+[ase-d22442:193481] [ 2] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x731a06842476]
+[ase-d22442:193481] [ 3] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x7d2bce642476]
+[ase-d22442:193482] [ 3] /lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x7d2bce6287f3]
+[ase-d22442:193482] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x778e59042476]
+[ase-d22442:193479] [ 3] /lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x778e590287f3]
+[ase-d22442:193479] [ 4] /lib/x86_64-linux-gnu/libc.so.6(raise+0x16)[0x7e2489842476]
+[ase-d22442:193480] [ 3] /lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x7e24898287f3]
+[ase-d22442:193480] [ 4] /lib/x86_64-linux-gnu/libc.so.6(abort+0xd3)[0x731a068287f3]
+[ase-d22442:193481] [ 4] [ 4] /home/sk63837/calibr8/flavor/linux-shared/install/calibr8/lib/libcalibr8.so(_ZN7calibr84failEPKcz+0xd2)[0x778e59f56702]
+[ase-d22442:193479] [ 5] /home/sk63837/calibr8/flavor/linux-shared/install/calibr8/lib/libcalibr8.so(_ZN7calibr84failEPKcz+0xd2)[0x731a07756702]
+[ase-d22442:193481] [ 5] /home/sk63837/calibr8/flavor/linux-shared/install/calibr8/lib/libcalibr8.so(_ZN7calibr84failEPKcz+0xd2)[0x7d2bcf556702]
+[ase-d22442:193482] [ 5] /home/sk63837/calibr8/flavor/linux-shared/install/calibr8/lib/libcalibr8.so(_ZN7calibr84failEPKcz+0xd2)[0x7e248a756702]
+
+
+
+
+[ase-d22442:193480] [ 5] /home/sk63837/calibr8/flavor/linux-shared/install/calibr8/lib/libcalibr8.so(_ZN7calibr86Primal13solve_at_stepEi+0x1158)[0x778e5a1638f8]
+[ase-d22442:193479] [ 6] objective(+0xa073)[0x56eac4af4073]
+[ase-d22442:193479] [ 7] objective(+0x910b)[0x56eac4af310b]
+[ase-d22442:193479] [ 8] /home/sk63837/calibr8/flavor/linux-shared/install/calibr8/lib/libcalibr8.so(_ZN7calibr86Primal13solve_at_stepEi+0x1158)[0x731a079638f8]
+[ase-d22442:193481] [ 6] objective(+0xa073)[0x56d014fb4073]
+[ase-d22442:193481] [ 7] objective(+0x910b)[0x56d014fb310b]
+[ase-d22442:193481] [ 8] /home/sk63837/calibr8/flavor/linux-shared/install/calibr8/lib/libcalibr8.so(_ZN7calibr86Primal13solve_at_stepEi+0x1158)[0x7d2bcf7638f8]
+[ase-d22442:193482] [ 6] objective(+0xa073)[0x57180ede7073]
+[ase-d22442:193482] [ 7] objective(+0x910b)[0x57180ede610b]
+[ase-d22442:193482] [ 8] /home/sk63837/calibr8/flavor/linux-shared/install/calibr8/lib/libcalibr8.so(_ZN7calibr86Primal13solve_at_stepEi+0x1158)[0x7e248a9638f8]
+[ase-d22442:193480] [ 6] objective(+0xa073)[0x64662c38e073]
+[ase-d22442:193480] [ 7] objective(+0x910b)[0x64662c38d10b]
+[ase-d22442:193480] [ 8] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x7e2489829d90]
+[ase-d22442:193480] /lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x778e59029d90]
+[ase-d22442:193479] [ 9] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x778e59029e40]
+/lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x7d2bce629d90]
+[ase-d22442:193482] [ 9] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x7d2bce629e40]
+[ase-d22442:193482] [10] objective(+0x9295)[0x57180ede6295]
+[ase-d22442:193482] *** End of error message ***
+/lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x731a06829d90]
+[ase-d22442:193481] [ 9] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x731a06829e40]
+[ase-d22442:193481] [10] objective(+0x9295)[0x56d014fb3295]
+[ase-d22442:193481] *** End of error message ***
+[ 9] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x7e2489829e40]
+[ase-d22442:193480] [10] objective(+0x9295)[0x64662c38d295]
+[ase-d22442:193480] *** End of error message ***
+[ase-d22442:193479] [10] objective(+0x9295)[0x56eac4af3295]
+[ase-d22442:193479] *** End of error message ***
+--------------------------------------------------------------------------
+prterun noticed that process rank 2 with PID 193481 on node ase-d22442 exited on
+signal 6 (Aborted).
+--------------------------------------------------------------------------
+
+At iterate    1    f=  1.12565D+00    |proj g|=  1.51778D+01
+
+At iterate    2    f=  4.75090D-01    |proj g|=  5.44786D+00
+
+At iterate    3    f=  3.40138D-01    |proj g|=  2.46180D+00
+
+At iterate    4    f=  2.42260D-01    |proj g|=  1.37720D+00
+
+At iterate    5    f=  2.29182D-01    |proj g|=  2.69465D-01
+
+At iterate    6    f=  2.28211D-01    |proj g|=  3.07519D-01
+
+At iterate    7    f=  2.21575D-01    |proj g|=  4.44119D-01
+
+At iterate    8    f=  2.05727D-01    |proj g|=  7.31717D-01
+
+At iterate    9    f=  1.73164D-01    |proj g|=  1.26408D+00
+
+At iterate   10    f=  1.42187D-01    |proj g|=  1.89515D+00
+
+At iterate   11    f=  9.17452D-02    |proj g|=  9.59866D-01
+
+At iterate   12    f=  7.76486D-02    |proj g|=  6.48445D-01
+
+At iterate   13    f=  7.63979D-02    |proj g|=  4.05946D-01
+
+At iterate   14    f=  7.48842D-02    |proj g|=  5.47028D-02
+
+At iterate   15    f=  7.48615D-02    |proj g|=  4.52466D-03
+
+At iterate   16    f=  7.48613D-02    |proj g|=  3.16960D-04
+
+At iterate   17    f=  7.48613D-02    |proj g|=  5.86219D-05
+
+At iterate   18    f=  7.48613D-02    |proj g|=  3.43038D-05
+
+At iterate   19    f=  7.48613D-02    |proj g|=  1.13665D-06
+
+At iterate   20    f=  7.48613D-02    |proj g|=  8.09382D-08
+
+ Bad direction in the line search;
+   refresh the lbfgs memory and restart the iteration.
+
+At iterate   21    f=  7.48613D-02    |proj g|=  9.40013D-08
+
+ Bad direction in the line search;
+   refresh the lbfgs memory and restart the iteration.
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    3     22     39      3     0     0   9.400D-08   7.486D-02
+  F =   7.4861281159796983E-002
+
+ABNORMAL_TERMINATION_IN_LNSRCH                              
+
+ Line search cannot locate an adequate point after MAXLS
+  function and gradient evaluations.
+  Previous x, f and g restored.
+ Possible causes: 1 error in function or gradient evaluation;
+                  2 rounding error dominate computation.
+
+real	8m14.802s
+user	32m6.164s
+sys	0m10.603s
+CALIBRATED PARAMS:
+
+Y: 3.538307645702e+02
+S: 5.131926038734e+02
+D: 4.810926237357e+00
+COMPLETED noisy_load_0x noisy_disp_0x pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+
+Initial guess::7 => Y: 305.360592782534, S: 1120.195549344129, D: 5.895971547404541
+RUNNING noisy_load_0x noisy_disp_0x pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            3     M =           10
+ This problem is unconstrained.
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  4.50626D+01    |proj g|=  6.78979D+01
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+
+At iterate    1    f=  1.12488D+01    |proj g|=  5.78197D+01
+
+At iterate    2    f=  2.65192D+00    |proj g|=  2.39779D+01
+
+At iterate    3    f=  4.26638D-01    |proj g|=  5.33891D+00
+
+At iterate    4    f=  2.82006D-01    |proj g|=  4.10597D+00
+
+At iterate    5    f=  9.90846D-02    |proj g|=  5.20200D-01
+
+At iterate    6    f=  9.59777D-02    |proj g|=  1.43332D-01
+
+At iterate    7    f=  9.52227D-02    |proj g|=  1.58766D-01
+
+At iterate    8    f=  9.24424D-02    |proj g|=  3.30615D-01
+
+At iterate    9    f=  8.74297D-02    |proj g|=  5.51750D-01
+
+At iterate   10    f=  8.04196D-02    |proj g|=  4.98582D-01
+
+At iterate   11    f=  7.61411D-02    |proj g|=  2.54425D-01
+
+At iterate   12    f=  7.48931D-02    |proj g|=  8.39138D-02
+
+At iterate   13    f=  7.48634D-02    |proj g|=  1.39400D-02
+
+At iterate   14    f=  7.48613D-02    |proj g|=  3.46156D-04
+
+At iterate   15    f=  7.48613D-02    |proj g|=  6.43452D-06
+
+At iterate   16    f=  7.48613D-02    |proj g|=  5.69886D-08
+
+At iterate   17    f=  7.48613D-02    |proj g|=  1.94917D-09
+
+ Bad direction in the line search;
+   refresh the lbfgs memory and restart the iteration.
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    3     18     28      2     0     0   1.949D-09   7.486D-02
+  F =   7.4861281159802853E-002
+
+ABNORMAL_TERMINATION_IN_LNSRCH                              
+
+ Line search cannot locate an adequate point after MAXLS
+  function and gradient evaluations.
+  Previous x, f and g restored.
+ Possible causes: 1 error in function or gradient evaluation;
+                  2 rounding error dominate computation.
+
+real	6m10.788s
+user	24m16.886s
+sys	0m8.554s
+CALIBRATED PARAMS:
+
+Y: 3.538307643184e+02
+S: 5.131926045484e+02
+D: 4.810926225624e+00
+COMPLETED noisy_load_0x noisy_disp_0x pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+
+Initial guess::8 => Y: 278.10037883697237, S: 823.357654266394, D: 7.121715583946575
+RUNNING noisy_load_0x noisy_disp_0x pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            3     M =           10
+ This problem is unconstrained.
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  3.58810D+01    |proj g|=  6.09340D+01
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+HyperJ2PlaneStress:solve_nonlinear failed in 501 iterations
+
+At iterate    1    f=  4.34372D+00    |proj g|=  3.16602D+01
+
+At iterate    2    f=  5.57314D-01    |proj g|=  7.73762D+00
+
+At iterate    3    f=  3.51871D-01    |proj g|=  5.07529D+00
+
+At iterate    4    f=  9.01659D-02    |proj g|=  5.19482D-01
+
+At iterate    5    f=  8.34579D-02    |proj g|=  1.62049D-01
+
+At iterate    6    f=  8.28050D-02    |proj g|=  1.11539D-01
+
+At iterate    7    f=  8.09954D-02    |proj g|=  2.07162D-01
+
+At iterate    8    f=  7.82915D-02    |proj g|=  2.59858D-01
+
+At iterate    9    f=  7.55615D-02    |proj g|=  1.79058D-01
+
+At iterate   10    f=  7.48812D-02    |proj g|=  5.41397D-02
+
+At iterate   11    f=  7.48619D-02    |proj g|=  5.33737D-03
+
+At iterate   12    f=  7.48613D-02    |proj g|=  9.70670D-04
+
+At iterate   13    f=  7.48613D-02    |proj g|=  1.84479D-03
+
+At iterate   14    f=  7.48613D-02    |proj g|=  5.23042D-04
+
+At iterate   15    f=  7.48613D-02    |proj g|=  6.74372D-07
+
+At iterate   16    f=  7.48613D-02    |proj g|=  2.14943D-07
+
+At iterate   17    f=  7.48613D-02    |proj g|=  3.46296D-08
+
+At iterate   18    f=  7.48613D-02    |proj g|=  5.41383D-10
+
+ Bad direction in the line search;
+   refresh the lbfgs memory and restart the iteration.
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    3     19     32      2     0     0   5.414D-10   7.486D-02
+  F =   7.4861281159794971E-002
+
+ABNORMAL_TERMINATION_IN_LNSRCH                              
+
+ Line search cannot locate an adequate point after MAXLS
+  function and gradient evaluations.
+  Previous x, f and g restored.
+ Possible causes: 1 error in function or gradient evaluation;
+                  2 rounding error dominate computation.
+
+real	6m28.236s
+user	25m26.271s
+sys	0m8.588s
+CALIBRATED PARAMS:
+
+Y: 3.538307643204e+02
+S: 5.131926045467e+02
+D: 4.810926225874e+00
+COMPLETED noisy_load_0x noisy_disp_0x pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+
+Initial guess::9 => Y: 350.1333977365762, S: 944.4833544942475, D: 10.48319403823991
+RUNNING noisy_load_0x noisy_disp_0x pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            3     M =           10
+ This problem is unconstrained.
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  4.77977D+01    |proj g|=  8.32572D+01
+
+At iterate    1    f=  7.36383D+00    |proj g|=  4.93837D+01
+
+At iterate    2    f=  2.34170D+00    |proj g|=  2.24479D+01
+
+At iterate    3    f=  5.86256D-01    |proj g|=  3.46049D+00
+
+At iterate    4    f=  4.46427D-01    |proj g|=  2.95535D+00
+
+At iterate    5    f=  2.86310D-01    |proj g|=  9.73707D-01
+
+At iterate    6    f=  2.48266D-01    |proj g|=  9.63707D-01
+
+At iterate    7    f=  1.60358D-01    |proj g|=  1.29379D+00
+
+At iterate    8    f=  1.00882D-01    |proj g|=  9.94693D-01
+
+At iterate    9    f=  7.82916D-02    |proj g|=  1.62057D-01
+
+At iterate   10    f=  7.54018D-02    |proj g|=  2.86949D-01
+
+At iterate   11    f=  7.49654D-02    |proj g|=  1.18921D-01
+
+At iterate   12    f=  7.48668D-02    |proj g|=  1.97563D-02
+
+At iterate   13    f=  7.48615D-02    |proj g|=  3.32692D-03
+
+At iterate   14    f=  7.48613D-02    |proj g|=  4.55383D-04
+
+At iterate   15    f=  7.48613D-02    |proj g|=  6.64731D-06
+
+At iterate   16    f=  7.48613D-02    |proj g|=  6.35899D-07
+
+At iterate   17    f=  7.48613D-02    |proj g|=  7.74252D-08
+
+ Bad direction in the line search;
+   refresh the lbfgs memory and restart the iteration.
+
+At iterate   18    f=  7.48613D-02    |proj g|=  2.51651D-08
+
+ Bad direction in the line search;
+   refresh the lbfgs memory and restart the iteration.
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    3     19     35      3     0     0   2.517D-08   7.486D-02
+  F =   7.4861281159796414E-002
+
+ABNORMAL_TERMINATION_IN_LNSRCH                              
+
+ Line search cannot locate an adequate point after MAXLS
+  function and gradient evaluations.
+  Previous x, f and g restored.
+ Possible causes: 1 error in function or gradient evaluation;
+                  2 rounding error dominate computation.
+
+real	6m55.129s
+user	27m13.124s
+sys	0m8.789s
+CALIBRATED PARAMS:
+
+Y: 3.538307645807e+02
+S: 5.131926055220e+02
+D: 4.810926216878e+00
+COMPLETED noisy_load_0x noisy_disp_0x pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+
+Initial guess::10 => Y: 328.6733594720175, S: 1079.1020078086563, D: 7.651524035059682
+RUNNING noisy_load_0x noisy_disp_0x pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            3     M =           10
+ This problem is unconstrained.
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  4.96120D+01    |proj g|=  7.61668D+01
+
+At iterate    1    f=  7.05279D+00    |proj g|=  4.65318D+01
+
+At iterate    2    f=  2.06502D+00    |proj g|=  2.15418D+01
+
+At iterate    3    f=  3.56463D-01    |proj g|=  4.73628D+00
+
+At iterate    4    f=  2.17024D-01    |proj g|=  3.54187D+00
+
+At iterate    5    f=  7.98453D-02    |proj g|=  4.44536D-01
+
+At iterate    6    f=  7.79948D-02    |proj g|=  7.92668D-02
+
+At iterate    7    f=  7.78144D-02    |proj g|=  7.26371D-02
+
+At iterate    8    f=  7.72556D-02    |proj g|=  1.54836D-01
+
+At iterate    9    f=  7.63850D-02    |proj g|=  2.34764D-01
+
+At iterate   10    f=  7.53057D-02    |proj g|=  1.82925D-01
+
+At iterate   11    f=  7.48801D-02    |proj g|=  4.48595D-02
+
+At iterate   12    f=  7.48620D-02    |proj g|=  7.49633D-03
+
+At iterate   13    f=  7.48613D-02    |proj g|=  1.19111D-03
+
+At iterate   14    f=  7.48613D-02    |proj g|=  7.43274D-04
+
+At iterate   15    f=  7.48613D-02    |proj g|=  8.54350D-05
+
+At iterate   16    f=  7.48613D-02    |proj g|=  1.26736D-06
+
+At iterate   17    f=  7.48613D-02    |proj g|=  5.72205D-08
+
+ Bad direction in the line search;
+   refresh the lbfgs memory and restart the iteration.
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    3     18     29      2     0     0   5.722D-08   7.486D-02
+  F =   7.4861281159799425E-002
+
+ABNORMAL_TERMINATION_IN_LNSRCH                              
+
+ Line search cannot locate an adequate point after MAXLS
+  function and gradient evaluations.
+  Previous x, f and g restored.
+ Possible causes: 1 error in function or gradient evaluation;
+                  2 rounding error dominate computation.
+
+real	5m55.059s
+user	23m16.878s
+sys	0m7.564s
+CALIBRATED PARAMS:
+
+Y: 3.538307646470e+02
+S: 5.131926053963e+02
+D: 4.810926218278e+00
+COMPLETED noisy_load_0x noisy_disp_0x pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+
+Mean values and errors have been written to mean_pdeco_adjoint_calibrated_params.txt and ../../params_error_pdeco_adjoint_noisy_load_0x.txt.
+RUNNING calibration noisy_load_0x noisy_disp_0x calibration_pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+reading input: temp_calibration_pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress.yaml
+model ../../../meshes/notch2D_Asym/notch2D_Asym.dmg loaded in 0.000036 seconds
+mesh ../forward/forward_notch2D_Asym_finite_J2_plane_stress_synthetic/ loaded in 0.001077 seconds
+number of triangle 4566 quad 0
+mesh entity counts: v 2386 e 6951 f 4566 r 0
+mesh reordered in 0.001714 seconds
+  - verifying tags: measured_13_ver, measured_12_ver, measured_11_ver, measured_10_ver, measured_9_ver, measured_8_ver, measured_7_ver, measured_6_ver, measured_5_ver, measured_4_ver, measured_3_ver, measured_2_ver, measured_1_ver, measured_0_ver
+mesh verified in 0.002125 seconds
+nsteps = 13
+ON PRIMAL STEP (1)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.676488e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 1.434348e+00
+ > relative ||R|| = 8.555671e-04
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > (3) Newton iteration
+ > absolute ||R|| = 8.785607e-01
+ > relative ||R|| = 5.240483e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 3.686888e-02
+ > relative ||R|| = 2.199174e-05
+ > (5) Newton iteration
+ > absolute ||R|| = 6.601962e-03
+ > relative ||R|| = 3.937971e-06
+ > (6) Newton iteration
+ > absolute ||R|| = 1.563295e-06
+ > relative ||R|| = 9.324821e-10
+ > (7) Newton iteration
+ > absolute ||R|| = 7.124872e-09
+ > relative ||R|| = 4.249879e-12
+ > (8) Newton iteration
+ > absolute ||R|| = 1.882148e-09
+ > relative ||R|| = 1.122673e-12
+ > (9) Newton iteration
+ > absolute ||R|| = 5.802923e-10
+ > relative ||R|| = 3.461357e-13
+ON PRIMAL STEP (2)
+ > (1) Newton iteration
+ > absolute ||R|| = 8.371511e+02
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 4.425438e+00
+ > relative ||R|| = 5.286307e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > residual increase -- line search alpha_3 = 1.25e-01
+ > (3) Newton iteration
+ > absolute ||R|| = 3.978234e+00
+ > relative ||R|| = 4.752110e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > (4) Newton iteration
+ > absolute ||R|| = 3.163112e+00
+ > relative ||R|| = 3.778424e-03
+ > (5) Newton iteration
+ > absolute ||R|| = 1.842181e+00
+ > relative ||R|| = 2.200535e-03
+ > (6) Newton iteration
+ > absolute ||R|| = 1.697669e-01
+ > relative ||R|| = 2.027913e-04
+ > (7) Newton iteration
+ > absolute ||R|| = 1.890741e-02
+ > relative ||R|| = 2.258541e-05
+ > (8) Newton iteration
+ > absolute ||R|| = 4.349561e-06
+ > relative ||R|| = 5.195670e-09
+ > (9) Newton iteration
+ > absolute ||R|| = 9.911667e-09
+ > relative ||R|| = 1.183976e-11
+ > (10) Newton iteration
+ > absolute ||R|| = 2.351989e-09
+ > relative ||R|| = 2.809515e-12
+ > (11) Newton iteration
+ > absolute ||R|| = 6.514577e-10
+ > relative ||R|| = 7.781841e-13
+ON PRIMAL STEP (3)
+ > (1) Newton iteration
+ > absolute ||R|| = 8.326771e+02
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 4.311062e+00
+ > relative ||R|| = 5.177352e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > residual increase -- line search alpha_3 = 1.25e-01
+ > residual increase -- line search alpha_4 = 6.25e-02
+ > (3) Newton iteration
+ > absolute ||R|| = 4.152782e+00
+ > relative ||R|| = 4.987266e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > residual increase -- line search alpha_3 = 1.25e-01
+ > (4) Newton iteration
+ > absolute ||R|| = 3.989374e+00
+ > relative ||R|| = 4.791022e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > (5) Newton iteration
+ > absolute ||R|| = 3.643947e+00
+ > relative ||R|| = 4.376183e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > (6) Newton iteration
+ > absolute ||R|| = 2.925484e+00
+ > relative ||R|| = 3.513348e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > (7) Newton iteration
+ > absolute ||R|| = 2.282257e+00
+ > relative ||R|| = 2.740867e-03
+ > (8) Newton iteration
+ > absolute ||R|| = 8.740625e-01
+ > relative ||R|| = 1.049702e-03
+ > (9) Newton iteration
+ > absolute ||R|| = 4.604799e-02
+ > relative ||R|| = 5.530114e-05
+ > (10) Newton iteration
+ > absolute ||R|| = 8.113327e-05
+ > relative ||R|| = 9.743666e-08
+ > (11) Newton iteration
+ > absolute ||R|| = 1.063782e-08
+ > relative ||R|| = 1.277544e-11
+ > (12) Newton iteration
+ > absolute ||R|| = 2.214982e-09
+ > relative ||R|| = 2.660074e-12
+ > (13) Newton iteration
+ > absolute ||R|| = 4.928440e-10
+ > relative ||R|| = 5.918789e-13
+ON PRIMAL STEP (4)
+ > (1) Newton iteration
+ > absolute ||R|| = 4.942889e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 1.450146e+01
+ > relative ||R|| = 2.933801e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > residual increase -- line search alpha_3 = 1.25e-01
+ > (3) Newton iteration
+ > absolute ||R|| = 1.390651e+01
+ > relative ||R|| = 2.813438e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > (4) Newton iteration
+ > absolute ||R|| = 1.380465e+01
+ > relative ||R|| = 2.792831e-03
+ > (5) Newton iteration
+ > absolute ||R|| = 5.396613e+00
+ > relative ||R|| = 1.091793e-03
+ > (6) Newton iteration
+ > absolute ||R|| = 7.888003e-01
+ > relative ||R|| = 1.595828e-04
+ > (7) Newton iteration
+ > absolute ||R|| = 1.156382e-01
+ > relative ||R|| = 2.339486e-05
+ > (8) Newton iteration
+ > absolute ||R|| = 2.889534e-03
+ > relative ||R|| = 5.845840e-07
+ > (9) Newton iteration
+ > absolute ||R|| = 1.777859e-06
+ > relative ||R|| = 3.596801e-10
+ > (10) Newton iteration
+ > absolute ||R|| = 8.607799e-09
+ > relative ||R|| = 1.741451e-12
+ > (11) Newton iteration
+ > absolute ||R|| = 2.198316e-09
+ > relative ||R|| = 4.447432e-13
+ON PRIMAL STEP (5)
+ > (1) Newton iteration
+ > absolute ||R|| = 7.590499e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 7.654833e+00
+ > relative ||R|| = 1.008476e-03
+ > (3) Newton iteration
+ > absolute ||R|| = 6.085470e+00
+ > relative ||R|| = 8.017220e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 2.538724e+00
+ > relative ||R|| = 3.344608e-04
+ > (5) Newton iteration
+ > absolute ||R|| = 9.897895e-02
+ > relative ||R|| = 1.303985e-05
+ > (6) Newton iteration
+ > absolute ||R|| = 8.834897e-04
+ > relative ||R|| = 1.163941e-07
+ > (7) Newton iteration
+ > absolute ||R|| = 8.804957e-08
+ > relative ||R|| = 1.159997e-11
+ > (8) Newton iteration
+ > absolute ||R|| = 2.514880e-09
+ > relative ||R|| = 3.313195e-13
+ON PRIMAL STEP (6)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.487802e+04
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 8.564827e+00
+ > relative ||R|| = 5.756697e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 8.247427e+00
+ > relative ||R|| = 5.543363e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 1.381953e+00
+ > relative ||R|| = 9.288552e-05
+ > (5) Newton iteration
+ > absolute ||R|| = 1.477336e-01
+ > relative ||R|| = 9.929652e-06
+ > (6) Newton iteration
+ > absolute ||R|| = 1.278338e-02
+ > relative ||R|| = 8.592124e-07
+ > (7) Newton iteration
+ > absolute ||R|| = 2.456394e-05
+ > relative ||R|| = 1.651022e-09
+ > (8) Newton iteration
+ > absolute ||R|| = 9.753559e-09
+ > relative ||R|| = 6.555683e-13
+ON PRIMAL STEP (7)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.403913e+04
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 5.322986e+00
+ > relative ||R|| = 3.791535e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 2.032665e+00
+ > relative ||R|| = 1.447856e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 3.060611e-01
+ > relative ||R|| = 2.180057e-05
+ > (5) Newton iteration
+ > absolute ||R|| = 7.009140e-03
+ > relative ||R|| = 4.992573e-07
+ > (6) Newton iteration
+ > absolute ||R|| = 4.370567e-06
+ > relative ||R|| = 3.113132e-10
+ > (7) Newton iteration
+ > absolute ||R|| = 9.009886e-09
+ > relative ||R|| = 6.417694e-13
+ON PRIMAL STEP (8)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.344522e+04
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 3.830484e+00
+ > relative ||R|| = 2.848956e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 9.000695e-01
+ > relative ||R|| = 6.694344e-05
+ > (4) Newton iteration
+ > absolute ||R|| = 1.058005e-01
+ > relative ||R|| = 7.869002e-06
+ > (5) Newton iteration
+ > absolute ||R|| = 1.562926e-03
+ > relative ||R|| = 1.162440e-07
+ > (6) Newton iteration
+ > absolute ||R|| = 5.611680e-07
+ > relative ||R|| = 4.173735e-11
+ > (7) Newton iteration
+ > absolute ||R|| = 1.940861e-09
+ > relative ||R|| = 1.443532e-13
+ON PRIMAL STEP (9)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.269359e+04
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 3.181810e+00
+ > relative ||R|| = 2.506627e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 7.511083e-01
+ > relative ||R|| = 5.917224e-05
+ > (4) Newton iteration
+ > absolute ||R|| = 8.901269e-02
+ > relative ||R|| = 7.012411e-06
+ > (5) Newton iteration
+ > absolute ||R|| = 1.101534e-03
+ > relative ||R|| = 8.677878e-08
+ > (6) Newton iteration
+ > absolute ||R|| = 2.087497e-07
+ > relative ||R|| = 1.644528e-11
+ > (7) Newton iteration
+ > absolute ||R|| = 1.265796e-09
+ > relative ||R|| = 9.971932e-14
+ON PRIMAL STEP (10)
+ > (1) Newton iteration
+ > absolute ||R|| = 5.983901e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 1.158011e+00
+ > relative ||R|| = 1.935211e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 1.031435e-01
+ > relative ||R|| = 1.723682e-05
+ > (4) Newton iteration
+ > absolute ||R|| = 1.393959e-02
+ > relative ||R|| = 2.329516e-06
+ > (5) Newton iteration
+ > absolute ||R|| = 2.223327e-05
+ > relative ||R|| = 3.715514e-09
+ > (6) Newton iteration
+ > absolute ||R|| = 8.598091e-09
+ > relative ||R|| = 1.436870e-12
+ > (7) Newton iteration
+ > absolute ||R|| = 2.058346e-09
+ > relative ||R|| = 3.439806e-13
+ON PRIMAL STEP (11)
+ > (1) Newton iteration
+ > absolute ||R|| = 5.834138e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 1.014321e+00
+ > relative ||R|| = 1.738597e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 3.521687e-01
+ > relative ||R|| = 6.036345e-05
+ > (4) Newton iteration
+ > absolute ||R|| = 9.841457e-03
+ > relative ||R|| = 1.686874e-06
+ > (5) Newton iteration
+ > absolute ||R|| = 6.643110e-06
+ > relative ||R|| = 1.138662e-09
+ > (6) Newton iteration
+ > absolute ||R|| = 7.610383e-09
+ > relative ||R|| = 1.304457e-12
+ > (7) Newton iteration
+ > absolute ||R|| = 1.814373e-09
+ > relative ||R|| = 3.109926e-13
+ON PRIMAL STEP (12)
+ > (1) Newton iteration
+ > absolute ||R|| = 5.740319e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 1.012808e+00
+ > relative ||R|| = 1.764377e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 8.866780e-02
+ > relative ||R|| = 1.544649e-05
+ > (4) Newton iteration
+ > absolute ||R|| = 4.196104e-04
+ > relative ||R|| = 7.309880e-08
+ > (5) Newton iteration
+ > absolute ||R|| = 2.422522e-08
+ > relative ||R|| = 4.220186e-12
+ > (6) Newton iteration
+ > absolute ||R|| = 1.466903e-09
+ > relative ||R|| = 2.555439e-13
+ON PRIMAL STEP (13)
+ > (1) Newton iteration
+ > absolute ||R|| = 5.542132e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 7.721070e-01
+ > relative ||R|| = 1.393159e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 4.582488e-02
+ > relative ||R|| = 8.268456e-06
+ > (4) Newton iteration
+ > absolute ||R|| = 1.312879e-04
+ > relative ||R|| = 2.368905e-08
+ > (5) Newton iteration
+ > absolute ||R|| = 1.994928e-09
+ > relative ||R|| = 3.599568e-13
+J: 4.8399383494848275e-01
+
+COMPLETED calibration noisy_load_0x noisy_disp_0x calibration_pdeco_adjoint_notch2D_Asym_finite_J2_plane_stress
+
+Initial guess::1 => Y: 304.95203731481143, S: 869.753382781279, D: 2.885583732612789
+RUNNING noisy_load_0x noisy_disp_0x vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            3     M =           10
+ This problem is unconstrained.
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  2.80634D-01    |proj g|=  4.28322D+00
+
+At iterate    1    f=  3.37550D-03    |proj g|=  1.19846D-01
+
+At iterate    2    f=  3.16782D-03    |proj g|=  4.14594D-02
+
+At iterate    3    f=  2.81459D-03    |proj g|=  5.27417D-02
+
+At iterate    4    f=  1.67099D-03    |proj g|=  1.52115D-01
+
+At iterate    5    f=  9.44710D-04    |proj g|=  1.24716D-01
+
+At iterate    6    f=  6.06385D-04    |proj g|=  2.29651D-02
+
+At iterate    7    f=  5.91465D-04    |proj g|=  8.54884D-04
+
+At iterate    8    f=  5.91261D-04    |proj g|=  3.23540D-04
+
+At iterate    9    f=  5.91082D-04    |proj g|=  3.53970D-04
+
+At iterate   10    f=  5.90358D-04    |proj g|=  1.20207D-03
+
+At iterate   11    f=  5.87695D-04    |proj g|=  3.27660D-03
+
+At iterate   12    f=  5.81489D-04    |proj g|=  6.06910D-03
+
+At iterate   13    f=  5.64820D-04    |proj g|=  7.76171D-03
+
+At iterate   14    f=  5.53902D-04    |proj g|=  5.98257D-02
+
+At iterate   15    f=  5.13999D-04    |proj g|=  1.43007D-02
+
+At iterate   16    f=  4.42517D-04    |proj g|=  6.41286D-03
+
+At iterate   17    f=  3.33013D-04    |proj g|=  5.54842D-02
+
+At iterate   18    f=  2.55501D-04    |proj g|=  2.56268D-02
+
+At iterate   19    f=  1.99342D-04    |proj g|=  5.60939D-02
+
+At iterate   20    f=  1.45242D-04    |proj g|=  5.99516D-02
+
+At iterate   21    f=  1.06569D-04    |proj g|=  2.69136D-02
+
+At iterate   22    f=  7.37974D-05    |proj g|=  7.26143D-03
+
+At iterate   23    f=  6.24648D-05    |proj g|=  1.60292D-02
+
+At iterate   24    f=  5.62353D-05    |proj g|=  5.11107D-03
+
+At iterate   25    f=  5.35869D-05    |proj g|=  6.41042D-03
+
+At iterate   26    f=  5.30673D-05    |proj g|=  3.55007D-04
+
+At iterate   27    f=  5.30546D-05    |proj g|=  1.08367D-05
+
+At iterate   28    f=  5.30544D-05    |proj g|=  1.84426D-06
+
+At iterate   29    f=  5.30544D-05    |proj g|=  6.48824D-08
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    3     29     34      1     0     0   6.488D-08   5.305D-05
+  F =   5.3054391353495675E-005
+
+CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL            
+
+real	0m30.267s
+user	1m34.987s
+sys	0m6.884s
+CALIBRATED PARAMS:
+
+Y: 3.427655159454e+02
+S: 3.493095390747e+02
+D: 8.961386364029e+00
+COMPLETED noisy_load_0x noisy_disp_0x vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+
+Initial guess::2 => Y: 347.978753140138, S: 960.7679656603814, D: 11.876756188802016
+RUNNING noisy_load_0x noisy_disp_0x vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            3     M =           10
+ This problem is unconstrained.
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  7.67414D+00    |proj g|=  2.29852D+01
+
+At iterate    1    f=  3.61973D+00    |proj g|=  9.82192D+00
+
+At iterate    2    f=  1.03814D+00    |proj g|=  6.13916D+00
+
+At iterate    3    f=  1.57763D-01    |proj g|=  1.50295D+00
+
+At iterate    4    f=  1.21058D-01    |proj g|=  5.78469D-01
+
+At iterate    5    f=  1.12811D-01    |proj g|=  4.40050D-01
+
+At iterate    6    f=  6.78402D-02    |proj g|=  5.41527D-01
+
+At iterate    7    f=  1.60939D-02    |proj g|=  1.94998D-01
+
+At iterate    8    f=  1.00402D-02    |proj g|=  5.93678D-01
+
+At iterate    9    f=  5.00565D-03    |proj g|=  3.22511D-01
+
+At iterate   10    f=  7.59331D-04    |proj g|=  5.94305D-02
+
+At iterate   11    f=  1.80593D-04    |proj g|=  3.76470D-02
+
+At iterate   12    f=  9.71675D-05    |proj g|=  1.50958D-03
+
+At iterate   13    f=  9.49957D-05    |proj g|=  1.67242D-03
+
+At iterate   14    f=  9.47436D-05    |proj g|=  4.43355D-04
+
+At iterate   15    f=  9.40848D-05    |proj g|=  4.04816D-03
+
+At iterate   16    f=  9.25598D-05    |proj g|=  9.20811D-03
+
+At iterate   17    f=  8.89645D-05    |proj g|=  1.68880D-02
+
+At iterate   18    f=  8.26682D-05    |proj g|=  2.51215D-02
+
+At iterate   19    f=  7.38616D-05    |proj g|=  2.81001D-02
+
+At iterate   20    f=  6.05642D-05    |proj g|=  1.91115D-02
+
+At iterate   21    f=  5.37247D-05    |proj g|=  1.52786D-03
+
+At iterate   22    f=  5.31011D-05    |proj g|=  1.20635D-03
+
+At iterate   23    f=  5.30553D-05    |proj g|=  1.27788D-04
+
+At iterate   24    f=  5.30547D-05    |proj g|=  1.05237D-04
+
+At iterate   25    f=  5.30544D-05    |proj g|=  1.11308D-05
+
+At iterate   26    f=  5.30544D-05    |proj g|=  3.08499D-07
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    3     26     28      1     0     0   3.085D-07   5.305D-05
+  F =   5.3054391368164517E-005
+
+CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL            
+
+real	0m25.492s
+user	1m21.050s
+sys	0m5.841s
+CALIBRATED PARAMS:
+
+Y: 3.427654763240e+02
+S: 3.493087831025e+02
+D: 8.961418172388e+00
+COMPLETED noisy_load_0x noisy_disp_0x vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+
+Initial guess::3 => Y: 377.7352104776696, S: 1092.9364631329656, D: 2.5143876747525935
+RUNNING noisy_load_0x noisy_disp_0x vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            3     M =           10
+ This problem is unconstrained.
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  2.87648D-01    |proj g|=  5.08472D+00
+
+At iterate    1    f=  7.17656D-03    |proj g|=  5.19823D-01
+
+At iterate    2    f=  3.84825D-03    |proj g|=  7.97806D-02
+
+At iterate    3    f=  3.71176D-03    |proj g|=  4.30942D-02
+
+At iterate    4    f=  3.55623D-03    |proj g|=  5.31176D-02
+
+At iterate    5    f=  3.04310D-03    |proj g|=  1.24042D-01
+
+At iterate    6    f=  2.30423D-03    |proj g|=  1.90790D-01
+
+At iterate    7    f=  1.36452D-03    |proj g|=  1.76208D-01
+
+At iterate    8    f=  7.34232D-04    |proj g|=  4.17301D-02
+
+At iterate    9    f=  6.91180D-04    |proj g|=  1.89437D-03
+
+At iterate   10    f=  6.90327D-04    |proj g|=  4.36012D-04
+
+At iterate   11    f=  6.90289D-04    |proj g|=  2.99248D-04
+
+At iterate   12    f=  6.90219D-04    |proj g|=  4.00598D-04
+
+At iterate   13    f=  6.90050D-04    |proj g|=  1.20157D-03
+
+At iterate   14    f=  6.89612D-04    |proj g|=  2.45462D-03
+
+At iterate   15    f=  6.88450D-04    |proj g|=  4.30642D-03
+
+At iterate   16    f=  6.85333D-04    |proj g|=  7.16043D-03
+
+At iterate   17    f=  6.77230D-04    |proj g|=  1.20584D-02
+
+At iterate   18    f=  6.55809D-04    |proj g|=  1.67971D-02
+
+At iterate   19    f=  6.07595D-04    |proj g|=  3.33505D-02
+
+At iterate   20    f=  5.73547D-04    |proj g|=  1.68108D-02
+
+At iterate   21    f=  4.95123D-04    |proj g|=  9.85484D-03
+
+At iterate   22    f=  2.74724D-04    |proj g|=  3.29331D-02
+
+At iterate   23    f=  1.95934D-04    |proj g|=  7.32687D-03
+
+At iterate   24    f=  1.31856D-04    |proj g|=  5.46160D-02
+
+At iterate   25    f=  1.07119D-04    |proj g|=  1.51421D-02
+
+At iterate   26    f=  7.94267D-05    |proj g|=  1.44482D-02
+
+At iterate   27    f=  7.49775D-05    |proj g|=  6.96750D-03
+
+At iterate   28    f=  6.29343D-05    |proj g|=  1.30928D-02
+
+At iterate   29    f=  5.43051D-05    |proj g|=  7.01610D-03
+
+At iterate   30    f=  5.32912D-05    |proj g|=  2.17862D-03
+
+At iterate   31    f=  5.30600D-05    |proj g|=  3.79549D-04
+
+At iterate   32    f=  5.30544D-05    |proj g|=  1.56664D-05
+
+At iterate   33    f=  5.30544D-05    |proj g|=  4.94401D-07
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    3     33     40      1     0     0   4.944D-07   5.305D-05
+  F =   5.3054391365255217E-005
+
+CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL            
+
+real	0m36.850s
+user	1m54.047s
+sys	0m8.636s
+CALIBRATED PARAMS:
+
+Y: 3.427654866245e+02
+S: 3.493096102157e+02
+D: 8.961387287020e+00
+COMPLETED noisy_load_0x noisy_disp_0x vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+
+Initial guess::4 => Y: 333.3017733042311, S: 1012.6125842234335, D: 2.5014129507308294
+RUNNING noisy_load_0x noisy_disp_0x vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            3     M =           10
+ This problem is unconstrained.
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  1.99874D-02    |proj g|=  1.14087D+00
+
+At iterate    1    f=  4.67003D-03    |proj g|=  3.57333D-01
+
+At iterate    2    f=  2.86384D-03    |proj g|=  3.23032D-02
+
+At iterate    3    f=  2.61135D-03    |proj g|=  3.75933D-02
+
+At iterate    4    f=  1.22145D-03    |proj g|=  1.32030D-01
+
+At iterate    5    f=  8.26343D-04    |proj g|=  8.22277D-02
+
+At iterate    6    f=  6.75564D-04    |proj g|=  3.61563D-03
+
+At iterate    7    f=  6.72999D-04    |proj g|=  4.14762D-04
+
+At iterate    8    f=  6.72944D-04    |proj g|=  2.86239D-04
+
+At iterate    9    f=  6.72857D-04    |proj g|=  4.52063D-04
+
+At iterate   10    f=  6.72589D-04    |proj g|=  1.24326D-03
+
+At iterate   11    f=  6.72019D-04    |proj g|=  2.28173D-03
+
+At iterate   12    f=  6.70385D-04    |proj g|=  4.17396D-03
+
+At iterate   13    f=  6.66254D-04    |proj g|=  7.11701D-03
+
+At iterate   14    f=  6.55976D-04    |proj g|=  1.24573D-02
+
+At iterate   15    f=  6.34437D-04    |proj g|=  1.92792D-02
+
+At iterate   16    f=  6.01960D-04    |proj g|=  3.41381D-02
+
+At iterate   17    f=  5.48346D-04    |proj g|=  1.27903D-02
+
+At iterate   18    f=  4.92665D-04    |proj g|=  5.83086D-02
+
+At iterate   19    f=  3.01001D-04    |proj g|=  1.75800D-02
+
+At iterate   20    f=  2.27047D-04    |proj g|=  3.57706D-02
+
+At iterate   21    f=  1.87288D-04    |proj g|=  5.06749D-02
+
+At iterate   22    f=  1.27982D-04    |proj g|=  3.30275D-02
+
+At iterate   23    f=  8.80003D-05    |proj g|=  1.06137D-02
+
+At iterate   24    f=  6.53438D-05    |proj g|=  8.98351D-03
+
+At iterate   25    f=  5.61951D-05    |proj g|=  9.88074D-03
+
+At iterate   26    f=  5.41146D-05    |proj g|=  2.11569D-03
+
+At iterate   27    f=  5.31282D-05    |proj g|=  2.22397D-03
+
+At iterate   28    f=  5.30629D-05    |proj g|=  6.45810D-04
+
+At iterate   29    f=  5.30544D-05    |proj g|=  1.05889D-05
+
+At iterate   30    f=  5.30544D-05    |proj g|=  4.85435D-07
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    3     30     37      1     0     0   4.854D-07   5.305D-05
+  F =   5.3054391532555798E-005
+
+CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL            
+
+real	0m33.694s
+user	1m44.672s
+sys	0m7.944s
+CALIBRATED PARAMS:
+
+Y: 3.427657073753e+02
+S: 3.493112764746e+02
+D: 8.961299395158e+00
+COMPLETED noisy_load_0x noisy_disp_0x vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+
+Initial guess::5 => Y: 321.59919290608434, S: 915.347333256774, D: 4.164856817868848
+RUNNING noisy_load_0x noisy_disp_0x vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            3     M =           10
+ This problem is unconstrained.
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  7.28456D-02    |proj g|=  1.52461D+00
+
+At iterate    1    f=  3.38895D-02    |proj g|=  3.18478D-01
+
+At iterate    2    f=  3.21100D-02    |proj g|=  1.47730D-01
+
+At iterate    3    f=  2.88283D-02    |proj g|=  2.17807D-01
+
+At iterate    4    f=  2.27303D-02    |proj g|=  3.88367D-01
+
+At iterate    5    f=  1.51759D-02    |proj g|=  5.40632D-01
+
+At iterate    6    f=  5.98589D-03    |proj g|=  3.77543D-01
+
+At iterate    7    f=  1.47540D-03    |proj g|=  7.54828D-02
+
+At iterate    8    f=  6.02504D-04    |proj g|=  3.55723D-02
+
+At iterate    9    f=  4.85543D-04    |proj g|=  6.55689D-03
+
+At iterate   10    f=  4.81333D-04    |proj g|=  6.32165D-04
+
+At iterate   11    f=  4.81276D-04    |proj g|=  3.67379D-04
+
+At iterate   12    f=  4.81234D-04    |proj g|=  4.83181D-04
+
+At iterate   13    f=  4.81100D-04    |proj g|=  1.08201D-03
+
+At iterate   14    f=  4.80726D-04    |proj g|=  2.05326D-03
+
+At iterate   15    f=  4.79819D-04    |proj g|=  4.73431D-03
+
+At iterate   16    f=  4.77455D-04    |proj g|=  5.69945D-03
+
+At iterate   17    f=  4.75957D-04    |proj g|=  1.65655D-02
+
+At iterate   18    f=  4.69513D-04    |proj g|=  1.63722D-02
+
+At iterate   19    f=  4.39065D-04    |proj g|=  1.97559D-02
+
+At iterate   20    f=  4.00000D-04    |proj g|=  2.77622D-02
+
+At iterate   21    f=  3.30891D-04    |proj g|=  2.31080D-02
+
+At iterate   22    f=  1.75484D-04    |proj g|=  3.61627D-03
+
+At iterate   23    f=  1.39236D-04    |proj g|=  2.94968D-02
+
+At iterate   24    f=  6.48389D-05    |proj g|=  1.15270D-02
+
+At iterate   25    f=  6.09145D-05    |proj g|=  1.94358D-02
+
+At iterate   26    f=  5.41424D-05    |proj g|=  8.57642D-04
+
+At iterate   27    f=  5.33618D-05    |proj g|=  1.72055D-03
+
+At iterate   28    f=  5.30576D-05    |proj g|=  2.79623D-04
+
+At iterate   29    f=  5.30544D-05    |proj g|=  4.60358D-05
+
+At iterate   30    f=  5.30544D-05    |proj g|=  6.08565D-06
+
+At iterate   31    f=  5.30544D-05    |proj g|=  8.59140D-09
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    3     31     36      1     0     0   8.591D-09   5.305D-05
+  F =   5.3054391353544912E-005
+
+CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL            
+
+real	0m33.302s
+user	1m44.327s
+sys	0m7.612s
+CALIBRATED PARAMS:
+
+Y: 3.427655115792e+02
+S: 3.493094943171e+02
+D: 8.961388440460e+00
+COMPLETED noisy_load_0x noisy_disp_0x vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+
+Initial guess::6 => Y: 369.5525099104966, S: 947.3146114088597, D: 3.0318310853110892
+RUNNING noisy_load_0x noisy_disp_0x vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            3     M =           10
+ This problem is unconstrained.
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  2.17396D-01    |proj g|=  4.30840D+00
+
+At iterate    1    f=  7.41127D-03    |proj g|=  4.62716D-01
+
+At iterate    2    f=  4.76714D-03    |proj g|=  6.93947D-02
+
+At iterate    3    f=  4.61876D-03    |proj g|=  5.09118D-02
+
+At iterate    4    f=  4.30752D-03    |proj g|=  6.72507D-02
+
+At iterate    5    f=  3.60530D-03    |proj g|=  1.57605D-01
+
+At iterate    6    f=  2.55550D-03    |proj g|=  2.25105D-01
+
+At iterate    7    f=  1.31782D-03    |proj g|=  1.83617D-01
+
+At iterate    8    f=  6.48975D-04    |proj g|=  4.62436D-02
+
+At iterate    9    f=  6.00027D-04    |proj g|=  2.28436D-03
+
+At iterate   10    f=  5.99088D-04    |proj g|=  4.58373D-04
+
+At iterate   11    f=  5.99045D-04    |proj g|=  3.33083D-04
+
+At iterate   12    f=  5.98975D-04    |proj g|=  3.14068D-04
+
+At iterate   13    f=  5.98681D-04    |proj g|=  1.38028D-03
+
+At iterate   14    f=  5.98067D-04    |proj g|=  2.74432D-03
+
+At iterate   15    f=  5.96360D-04    |proj g|=  4.83549D-03
+
+At iterate   16    f=  5.91850D-04    |proj g|=  8.12682D-03
+
+At iterate   17    f=  5.80059D-04    |proj g|=  1.32961D-02
+
+At iterate   18    f=  5.50640D-04    |proj g|=  1.67105D-02
+
+At iterate   19    f=  5.23405D-04    |proj g|=  7.04205D-02
+
+At iterate   20    f=  4.96548D-04    |proj g|=  3.51117D-02
+
+At iterate   21    f=  3.35028D-04    |proj g|=  8.02534D-03
+
+At iterate   22    f=  2.27261D-04    |proj g|=  5.02964D-02
+
+At iterate   23    f=  1.56126D-04    |proj g|=  1.97722D-02
+
+At iterate   24    f=  1.26414D-04    |proj g|=  3.12082D-02
+
+At iterate   25    f=  9.89235D-05    |proj g|=  3.53693D-02
+
+At iterate   26    f=  6.67702D-05    |proj g|=  1.86580D-02
+
+At iterate   27    f=  5.89747D-05    |proj g|=  6.12042D-03
+
+At iterate   28    f=  5.37652D-05    |proj g|=  2.77265D-03
+
+At iterate   29    f=  5.30921D-05    |proj g|=  4.19103D-04
+
+At iterate   30    f=  5.30554D-05    |proj g|=  2.64243D-04
+
+At iterate   31    f=  5.30544D-05    |proj g|=  3.35790D-06
+
+At iterate   32    f=  5.30544D-05    |proj g|=  1.50941D-06
+
+At iterate   33    f=  5.30544D-05    |proj g|=  8.72507D-08
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    3     33     38      1     0     0   8.725D-08   5.305D-05
+  F =   5.3054391353560483E-005
+
+CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL            
+
+real	0m33.987s
+user	1m45.862s
+sys	0m7.789s
+CALIBRATED PARAMS:
+
+Y: 3.427655139104e+02
+S: 3.493095390704e+02
+D: 8.961386672820e+00
+COMPLETED noisy_load_0x noisy_disp_0x vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+
+Initial guess::7 => Y: 305.360592782534, S: 1120.195549344129, D: 5.895971547404541
+RUNNING noisy_load_0x noisy_disp_0x vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            3     M =           10
+ This problem is unconstrained.
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  1.20845D+00    |proj g|=  7.63601D+00
+
+At iterate    1    f=  1.65294D-01    |proj g|=  9.86485D-01
+
+At iterate    2    f=  1.51082D-01    |proj g|=  5.26084D-01
+
+At iterate    3    f=  1.30598D-01    |proj g|=  6.15945D-01
+
+At iterate    4    f=  1.05064D-01    |proj g|=  7.51598D-01
+
+At iterate    5    f=  6.94152D-02    |proj g|=  9.78604D-01
+
+At iterate    6    f=  3.09025D-02    |proj g|=  6.14461D-01
+
+At iterate    7    f=  1.06520D-02    |proj g|=  1.58887D-01
+
+At iterate    8    f=  3.31031D-03    |proj g|=  2.23075D-01
+
+At iterate    9    f=  8.03861D-04    |proj g|=  4.88363D-02
+
+At iterate   10    f=  4.46806D-04    |proj g|=  5.98900D-02
+
+At iterate   11    f=  4.02271D-04    |proj g|=  5.96878D-03
+
+At iterate   12    f=  4.00599D-04    |proj g|=  3.27754D-04
+
+At iterate   13    f=  4.00571D-04    |proj g|=  4.00089D-04
+
+At iterate   14    f=  3.92808D-04    |proj g|=  1.47434D-03
+
+At iterate   15    f=  3.61847D-04    |proj g|=  7.76351D-03
+
+At iterate   16    f=  3.26754D-04    |proj g|=  3.75386D-02
+
+At iterate   17    f=  2.77910D-04    |proj g|=  1.70008D-02
+
+At iterate   18    f=  1.46817D-04    |proj g|=  1.49388D-02
+
+At iterate   19    f=  1.16130D-04    |proj g|=  2.64122D-02
+
+At iterate   20    f=  6.28131D-05    |proj g|=  1.81353D-02
+
+At iterate   21    f=  5.73590D-05    |proj g|=  3.10730D-03
+
+At iterate   22    f=  5.35774D-05    |proj g|=  5.70683D-03
+
+At iterate   23    f=  5.33204D-05    |proj g|=  2.46659D-03
+
+At iterate   24    f=  5.30713D-05    |proj g|=  7.15464D-04
+
+At iterate   25    f=  5.30545D-05    |proj g|=  1.93428D-05
+
+At iterate   26    f=  5.30544D-05    |proj g|=  6.37496D-06
+
+At iterate   27    f=  5.30544D-05    |proj g|=  1.13985D-08
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    3     27     34      1     0     0   1.140D-08   5.305D-05
+  F =   5.3054391353453873E-005
+
+CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL            
+
+real	0m31.461s
+user	1m39.859s
+sys	0m6.942s
+CALIBRATED PARAMS:
+
+Y: 3.427655180781e+02
+S: 3.493096015676e+02
+D: 8.961383851954e+00
+COMPLETED noisy_load_0x noisy_disp_0x vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+
+Initial guess::8 => Y: 278.10037883697237, S: 823.357654266394, D: 7.121715583946575
+RUNNING noisy_load_0x noisy_disp_0x vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            3     M =           10
+ This problem is unconstrained.
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  2.08132D-01    |proj g|=  1.68118D+00
+
+At iterate    1    f=  1.29099D-01    |proj g|=  7.29513D-01
+
+At iterate    2    f=  1.20102D-01    |proj g|=  4.25456D-01
+
+At iterate    3    f=  9.57260D-02    |proj g|=  5.75009D-01
+
+At iterate    4    f=  7.19973D-02    |proj g|=  7.42714D-01
+
+At iterate    5    f=  4.25524D-02    |proj g|=  8.21092D-01
+
+At iterate    6    f=  1.37421D-02    |proj g|=  2.04526D-01
+
+At iterate    7    f=  4.56893D-03    |proj g|=  1.95648D-01
+
+At iterate    8    f=  9.79831D-04    |proj g|=  3.81113D-02
+
+At iterate    9    f=  3.32956D-04    |proj g|=  6.36001D-02
+
+At iterate   10    f=  2.47138D-04    |proj g|=  3.15722D-02
+
+At iterate   11    f=  2.33662D-04    |proj g|=  8.52974D-04
+
+At iterate   12    f=  2.33616D-04    |proj g|=  4.29255D-04
+
+At iterate   13    f=  2.33549D-04    |proj g|=  4.81659D-04
+
+At iterate   14    f=  2.32923D-04    |proj g|=  1.88299D-03
+
+At iterate   15    f=  2.31435D-04    |proj g|=  4.04872D-03
+
+At iterate   16    f=  2.27416D-04    |proj g|=  7.65695D-03
+
+At iterate   17    f=  2.17004D-04    |proj g|=  1.42640D-02
+
+At iterate   18    f=  1.92025D-04    |proj g|=  2.99779D-02
+
+At iterate   19    f=  1.65773D-04    |proj g|=  6.60895D-02
+
+At iterate   20    f=  1.22205D-04    |proj g|=  3.46326D-02
+
+At iterate   21    f=  6.05408D-05    |proj g|=  2.13609D-02
+
+At iterate   22    f=  5.81033D-05    |proj g|=  9.36499D-03
+
+At iterate   23    f=  5.53224D-05    |proj g|=  5.77056D-03
+
+At iterate   24    f=  5.31331D-05    |proj g|=  1.38251D-03
+
+At iterate   25    f=  5.30558D-05    |proj g|=  1.70150D-04
+
+At iterate   26    f=  5.30544D-05    |proj g|=  1.15136D-05
+
+At iterate   27    f=  5.30544D-05    |proj g|=  1.97319D-06
+
+At iterate   28    f=  5.30544D-05    |proj g|=  2.84611D-08
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    3     28     32      1     0     0   2.846D-08   5.305D-05
+  F =   5.3054391353799367E-005
+
+CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL            
+
+real	0m29.395s
+user	1m33.108s
+sys	0m6.601s
+CALIBRATED PARAMS:
+
+Y: 3.427655080053e+02
+S: 3.493094399828e+02
+D: 8.961390760556e+00
+COMPLETED noisy_load_0x noisy_disp_0x vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+
+Initial guess::9 => Y: 350.1333977365762, S: 944.4833544942475, D: 10.48319403823991
+RUNNING noisy_load_0x noisy_disp_0x vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            3     M =           10
+ This problem is unconstrained.
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  5.88474D+00    |proj g|=  2.03027D+01
+
+At iterate    1    f=  4.32536D+00    |proj g|=  1.04838D+01
+
+At iterate    2    f=  1.10204D+00    |proj g|=  6.43125D+00
+
+At iterate    3    f=  1.17545D-01    |proj g|=  5.58894D-01
+
+At iterate    4    f=  1.08248D-01    |proj g|=  3.97993D-01
+
+At iterate    5    f=  8.78796D-02    |proj g|=  5.68438D-01
+
+At iterate    6    f=  5.89542D-02    |proj g|=  8.72242D-01
+
+At iterate    7    f=  3.40543D-02    |proj g|=  7.21440D-01
+
+At iterate    8    f=  1.04282D-02    |proj g|=  1.31870D-01
+
+At iterate    9    f=  3.27795D-03    |proj g|=  2.25611D-01
+
+At iterate   10    f=  5.84649D-04    |proj g|=  3.81960D-02
+
+At iterate   11    f=  1.75991D-04    |proj g|=  4.29744D-02
+
+At iterate   12    f=  1.31190D-04    |proj g|=  1.45727D-02
+
+At iterate   13    f=  1.27785D-04    |proj g|=  6.14634D-04
+
+At iterate   14    f=  1.27773D-04    |proj g|=  3.85644D-04
+
+At iterate   15    f=  1.27763D-04    |proj g|=  3.10020D-04
+
+At iterate   16    f=  1.27749D-04    |proj g|=  3.43294D-04
+
+At iterate   17    f=  1.27741D-04    |proj g|=  9.78891D-04
+
+At iterate   18    f=  1.27708D-04    |proj g|=  1.38294D-03
+
+At iterate   19    f=  1.27556D-04    |proj g|=  2.56769D-03
+
+At iterate   20    f=  1.27217D-04    |proj g|=  4.24569D-03
+
+At iterate   21    f=  1.26283D-04    |proj g|=  7.05180D-03
+
+At iterate   22    f=  1.23930D-04    |proj g|=  1.14792D-02
+
+At iterate   23    f=  1.18175D-04    |proj g|=  1.82379D-02
+
+At iterate   24    f=  1.06527D-04    |proj g|=  2.69090D-02
+
+At iterate   25    f=  8.90283D-05    |proj g|=  3.12677D-02
+
+At iterate   26    f=  8.33911D-05    |proj g|=  4.39301D-03
+
+At iterate   27    f=  7.22929D-05    |proj g|=  2.89340D-02
+
+At iterate   28    f=  5.75260D-05    |proj g|=  9.44135D-03
+
+At iterate   29    f=  5.38845D-05    |proj g|=  3.44059D-03
+
+At iterate   30    f=  5.30776D-05    |proj g|=  7.32406D-05
+
+At iterate   31    f=  5.30550D-05    |proj g|=  4.98848D-05
+
+At iterate   32    f=  5.30547D-05    |proj g|=  1.10288D-04
+
+At iterate   33    f=  5.30544D-05    |proj g|=  1.30414D-05
+
+At iterate   34    f=  5.30544D-05    |proj g|=  4.39717D-07
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    3     34     40      1     0     0   4.397D-07   5.305D-05
+  F =   5.3054391359923808E-005
+
+CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL            
+
+real	0m36.139s
+user	1m52.529s
+sys	0m8.315s
+CALIBRATED PARAMS:
+
+Y: 3.427655125201e+02
+S: 3.493092353582e+02
+D: 8.961397753246e+00
+COMPLETED noisy_load_0x noisy_disp_0x vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+
+Initial guess::10 => Y: 328.6733594720175, S: 1079.1020078086563, D: 7.651524035059682
+RUNNING noisy_load_0x noisy_disp_0x vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            3     M =           10
+ This problem is unconstrained.
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  3.42828D+00    |proj g|=  1.44318D+01
+
+At iterate    1    f=  1.77217D-01    |proj g|=  8.42821D-01
+
+At iterate    2    f=  1.66361D-01    |proj g|=  5.49401D-01
+
+At iterate    3    f=  1.36106D-01    |proj g|=  7.45851D-01
+
+At iterate    4    f=  1.11469D-01    |proj g|=  8.26359D-01
+
+At iterate    5    f=  6.71155D-02    |proj g|=  9.94129D-01
+
+At iterate    6    f=  2.69526D-02    |proj g|=  4.48146D-01
+
+At iterate    7    f=  9.60536D-03    |proj g|=  2.10438D-01
+
+At iterate    8    f=  2.79423D-03    |proj g|=  1.59810D-01
+
+At iterate    9    f=  6.69561D-04    |proj g|=  1.90670D-02
+
+At iterate   10    f=  3.97889D-04    |proj g|=  9.62318D-02
+
+At iterate   11    f=  2.83980D-04    |proj g|=  2.13380D-03
+
+At iterate   12    f=  2.83083D-04    |proj g|=  3.34042D-04
+
+At iterate   13    f=  2.83005D-04    |proj g|=  3.92300D-04
+
+At iterate   14    f=  2.82207D-04    |proj g|=  4.93256D-04
+
+At iterate   15    f=  2.77693D-04    |proj g|=  1.26275D-03
+
+At iterate   16    f=  2.69299D-04    |proj g|=  2.05740D-03
+
+At iterate   17    f=  2.47718D-04    |proj g|=  3.43506D-03
+
+At iterate   18    f=  2.18406D-04    |proj g|=  6.85902D-03
+
+At iterate   19    f=  1.72583D-04    |proj g|=  1.16056D-02
+
+At iterate   20    f=  7.87063D-05    |proj g|=  1.62835D-03
+
+At iterate   21    f=  6.43822D-05    |proj g|=  2.25179D-02
+
+At iterate   22    f=  5.38676D-05    |proj g|=  2.60109D-03
+
+At iterate   23    f=  5.31407D-05    |proj g|=  1.41786D-03
+
+At iterate   24    f=  5.30579D-05    |proj g|=  2.60985D-04
+
+At iterate   25    f=  5.30545D-05    |proj g|=  6.47525D-05
+
+At iterate   26    f=  5.30544D-05    |proj g|=  3.58291D-07
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+    3     26     29      1     0     0   3.583D-07   5.305D-05
+  F =   5.3054391630036903E-005
+
+CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL            
+
+real	0m29.147s
+user	1m31.063s
+sys	0m7.066s
+CALIBRATED PARAMS:
+
+Y: 3.427655837855e+02
+S: 3.493123945200e+02
+D: 8.961278961029e+00
+COMPLETED noisy_load_0x noisy_disp_0x vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+
+Mean values and errors have been written to mean_vfm_forward_sens_calibrated_params.txt and ../../params_error_vfm_forward_sens_noisy_load_0x.txt.
+RUNNING calibration noisy_load_0x noisy_disp_0x calibration_vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+reading input: temp_calibration_vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress.yaml
+model ../../../meshes/notch2D_Asym/notch2D_Asym.dmg loaded in 0.000038 seconds
+mesh ../forward/forward_notch2D_Asym_finite_J2_plane_stress_synthetic/ loaded in 0.001047 seconds
+number of triangle 4566 quad 0
+mesh entity counts: v 2386 e 6951 f 4566 r 0
+mesh reordered in 0.001678 seconds
+  - verifying tags: measured_13_ver, measured_12_ver, measured_11_ver, measured_10_ver, measured_9_ver, measured_8_ver, measured_7_ver, measured_6_ver, measured_5_ver, measured_4_ver, measured_3_ver, measured_2_ver, measured_1_ver, measured_0_ver
+mesh verified in 0.002188 seconds
+nsteps = 13
+ON PRIMAL STEP (1)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.676488e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 1.599878e+00
+ > relative ||R|| = 9.543032e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 1.164969e+00
+ > relative ||R|| = 6.948864e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 7.547800e-03
+ > relative ||R|| = 4.502149e-06
+ > (5) Newton iteration
+ > absolute ||R|| = 1.390578e-06
+ > relative ||R|| = 8.294586e-10
+ > (6) Newton iteration
+ > absolute ||R|| = 9.873458e-09
+ > relative ||R|| = 5.889370e-12
+ > (7) Newton iteration
+ > absolute ||R|| = 2.530030e-09
+ > relative ||R|| = 1.509125e-12
+ > (8) Newton iteration
+ > absolute ||R|| = 7.562976e-10
+ > relative ||R|| = 4.511202e-13
+ON PRIMAL STEP (2)
+ > (1) Newton iteration
+ > absolute ||R|| = 8.371532e+02
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 4.314561e+00
+ > relative ||R|| = 5.153849e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > residual increase -- line search alpha_3 = 1.25e-01
+ > (3) Newton iteration
+ > absolute ||R|| = 3.909976e+00
+ > relative ||R|| = 4.670562e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > (4) Newton iteration
+ > absolute ||R|| = 3.560143e+00
+ > relative ||R|| = 4.252678e-03
+ > (5) Newton iteration
+ > absolute ||R|| = 1.045984e+00
+ > relative ||R|| = 1.249453e-03
+ > (6) Newton iteration
+ > absolute ||R|| = 1.567839e-01
+ > relative ||R|| = 1.872822e-04
+ > (7) Newton iteration
+ > absolute ||R|| = 1.958098e-02
+ > relative ||R|| = 2.338996e-05
+ > (8) Newton iteration
+ > absolute ||R|| = 1.147471e-04
+ > relative ||R|| = 1.370682e-07
+ > (9) Newton iteration
+ > absolute ||R|| = 1.164652e-08
+ > relative ||R|| = 1.391205e-11
+ > (10) Newton iteration
+ > absolute ||R|| = 2.493920e-09
+ > relative ||R|| = 2.979048e-12
+ > (11) Newton iteration
+ > absolute ||R|| = 5.687345e-10
+ > relative ||R|| = 6.793673e-13
+ON PRIMAL STEP (3)
+ > (1) Newton iteration
+ > absolute ||R|| = 8.326265e+02
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 4.469347e+00
+ > relative ||R|| = 5.367769e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > residual increase -- line search alpha_3 = 1.25e-01
+ > residual increase -- line search alpha_4 = 6.25e-02
+ > (3) Newton iteration
+ > absolute ||R|| = 4.293433e+00
+ > relative ||R|| = 5.156494e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > residual increase -- line search alpha_3 = 1.25e-01
+ > (4) Newton iteration
+ > absolute ||R|| = 4.171945e+00
+ > relative ||R|| = 5.010584e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > (5) Newton iteration
+ > absolute ||R|| = 3.626718e+00
+ > relative ||R|| = 4.355756e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > (6) Newton iteration
+ > absolute ||R|| = 2.913554e+00
+ > relative ||R|| = 3.499233e-03
+ > (7) Newton iteration
+ > absolute ||R|| = 2.537703e+00
+ > relative ||R|| = 3.047829e-03
+ > (8) Newton iteration
+ > absolute ||R|| = 7.606356e-02
+ > relative ||R|| = 9.135376e-05
+ > (9) Newton iteration
+ > absolute ||R|| = 3.615625e-03
+ > relative ||R|| = 4.342433e-06
+ > (10) Newton iteration
+ > absolute ||R|| = 1.355662e-06
+ > relative ||R|| = 1.628176e-09
+ > (11) Newton iteration
+ > absolute ||R|| = 1.057954e-08
+ > relative ||R|| = 1.270623e-11
+ > (12) Newton iteration
+ > absolute ||R|| = 2.602248e-09
+ > relative ||R|| = 3.125348e-12
+ > (13) Newton iteration
+ > absolute ||R|| = 1.055527e-09
+ > relative ||R|| = 1.267707e-12
+ > (14) Newton iteration
+ > absolute ||R|| = 1.733119e-10
+ > relative ||R|| = 2.081509e-13
+ON PRIMAL STEP (4)
+ > (1) Newton iteration
+ > absolute ||R|| = 4.908966e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 1.454254e+01
+ > relative ||R|| = 2.962445e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > residual increase -- line search alpha_3 = 1.25e-01
+ > (3) Newton iteration
+ > absolute ||R|| = 1.377296e+01
+ > relative ||R|| = 2.805673e-03
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > (4) Newton iteration
+ > absolute ||R|| = 1.288911e+01
+ > relative ||R|| = 2.625626e-03
+ > (5) Newton iteration
+ > absolute ||R|| = 4.984620e+00
+ > relative ||R|| = 1.015411e-03
+ > (6) Newton iteration
+ > absolute ||R|| = 7.610221e-01
+ > relative ||R|| = 1.550270e-04
+ > (7) Newton iteration
+ > absolute ||R|| = 4.075493e-02
+ > relative ||R|| = 8.302141e-06
+ > (8) Newton iteration
+ > absolute ||R|| = 4.020840e-04
+ > relative ||R|| = 8.190808e-08
+ > (9) Newton iteration
+ > absolute ||R|| = 3.768480e-08
+ > relative ||R|| = 7.676728e-12
+ > (10) Newton iteration
+ > absolute ||R|| = 1.673833e-09
+ > relative ||R|| = 3.409747e-13
+ON PRIMAL STEP (5)
+ > (1) Newton iteration
+ > absolute ||R|| = 7.592980e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 7.647249e+00
+ > relative ||R|| = 1.007147e-03
+ > (3) Newton iteration
+ > absolute ||R|| = 6.594326e+00
+ > relative ||R|| = 8.684766e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 9.628737e-01
+ > relative ||R|| = 1.268110e-04
+ > (5) Newton iteration
+ > absolute ||R|| = 6.492126e-02
+ > relative ||R|| = 8.550168e-06
+ > (6) Newton iteration
+ > absolute ||R|| = 4.076263e-04
+ > relative ||R|| = 5.368462e-08
+ > (7) Newton iteration
+ > absolute ||R|| = 1.956759e-08
+ > relative ||R|| = 2.577063e-12
+ > (8) Newton iteration
+ > absolute ||R|| = 1.075371e-09
+ > relative ||R|| = 1.416270e-13
+ON PRIMAL STEP (6)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.464700e+04
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 8.671447e+00
+ > relative ||R|| = 5.920287e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 6.972773e+00
+ > relative ||R|| = 4.760546e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 8.091084e-01
+ > relative ||R|| = 5.524054e-05
+ > (5) Newton iteration
+ > absolute ||R|| = 5.728491e-02
+ > relative ||R|| = 3.911032e-06
+ > (6) Newton iteration
+ > absolute ||R|| = 4.127632e-04
+ > relative ||R|| = 2.818072e-08
+ > (7) Newton iteration
+ > absolute ||R|| = 2.846372e-08
+ > relative ||R|| = 1.943313e-12
+ > (8) Newton iteration
+ > absolute ||R|| = 1.967661e-09
+ > relative ||R|| = 1.343388e-13
+ON PRIMAL STEP (7)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.376117e+04
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 5.299051e+00
+ > relative ||R|| = 3.850728e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 2.567776e+00
+ > relative ||R|| = 1.865958e-04
+ > (4) Newton iteration
+ > absolute ||R|| = 4.056694e-01
+ > relative ||R|| = 2.947929e-05
+ > (5) Newton iteration
+ > absolute ||R|| = 1.817528e-02
+ > relative ||R|| = 1.320766e-06
+ > (6) Newton iteration
+ > absolute ||R|| = 2.343541e-05
+ > relative ||R|| = 1.703010e-09
+ > (7) Newton iteration
+ > absolute ||R|| = 8.660487e-09
+ > relative ||R|| = 6.293425e-13
+ON PRIMAL STEP (8)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.291602e+04
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 3.741836e+00
+ > relative ||R|| = 2.897051e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 8.620890e-01
+ > relative ||R|| = 6.674572e-05
+ > (4) Newton iteration
+ > absolute ||R|| = 1.589365e-01
+ > relative ||R|| = 1.230538e-05
+ > (5) Newton iteration
+ > absolute ||R|| = 1.761706e-03
+ > relative ||R|| = 1.363970e-07
+ > (6) Newton iteration
+ > absolute ||R|| = 2.907913e-07
+ > relative ||R|| = 2.251401e-11
+ > (7) Newton iteration
+ > absolute ||R|| = 2.120422e-09
+ > relative ||R|| = 1.641699e-13
+ON PRIMAL STEP (9)
+ > (1) Newton iteration
+ > absolute ||R|| = 1.247070e+04
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 2.657280e+00
+ > relative ||R|| = 2.130819e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 4.687891e-01
+ > relative ||R|| = 3.759125e-05
+ > (4) Newton iteration
+ > absolute ||R|| = 1.794495e-02
+ > relative ||R|| = 1.438969e-06
+ > (5) Newton iteration
+ > absolute ||R|| = 2.918674e-06
+ > relative ||R|| = 2.340426e-10
+ > (6) Newton iteration
+ > absolute ||R|| = 7.457562e-09
+ > relative ||R|| = 5.980067e-13
+ON PRIMAL STEP (10)
+ > (1) Newton iteration
+ > absolute ||R|| = 5.965723e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 1.048057e+00
+ > relative ||R|| = 1.756797e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 5.668584e-01
+ > relative ||R|| = 9.501923e-05
+ > (4) Newton iteration
+ > absolute ||R|| = 1.191948e-03
+ > relative ||R|| = 1.997994e-07
+ > (5) Newton iteration
+ > absolute ||R|| = 1.013741e-07
+ > relative ||R|| = 1.699276e-11
+ > (6) Newton iteration
+ > absolute ||R|| = 2.892071e-09
+ > relative ||R|| = 4.847813e-13
+ON PRIMAL STEP (11)
+ > (1) Newton iteration
+ > absolute ||R|| = 6.142313e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 9.775274e-01
+ > relative ||R|| = 1.591465e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 2.346420e-01
+ > relative ||R|| = 3.820092e-05
+ > (4) Newton iteration
+ > absolute ||R|| = 5.619685e-03
+ > relative ||R|| = 9.149136e-07
+ > (5) Newton iteration
+ > absolute ||R|| = 1.399097e-03
+ > relative ||R|| = 2.277802e-07
+ > (6) Newton iteration
+ > absolute ||R|| = 2.726614e-07
+ > relative ||R|| = 4.439067e-11
+ > (7) Newton iteration
+ > absolute ||R|| = 4.448940e-09
+ > relative ||R|| = 7.243102e-13
+ON PRIMAL STEP (12)
+ > (1) Newton iteration
+ > absolute ||R|| = 6.137659e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 1.146441e+00
+ > relative ||R|| = 1.867879e-04
+ > (3) Newton iteration
+ > absolute ||R|| = 3.800598e-01
+ > relative ||R|| = 6.192260e-05
+ > (4) Newton iteration
+ > absolute ||R|| = 1.322625e-02
+ > relative ||R|| = 2.154934e-06
+ > (5) Newton iteration
+ > absolute ||R|| = 7.507614e-06
+ > relative ||R|| = 1.223205e-09
+ > (6) Newton iteration
+ > absolute ||R|| = 4.896849e-09
+ > relative ||R|| = 7.978366e-13
+ON PRIMAL STEP (13)
+ > (1) Newton iteration
+ > absolute ||R|| = 6.097831e+03
+ > relative ||R|| = 1.000000e+00
+ > (2) Newton iteration
+ > absolute ||R|| = 1.493049e+00
+ > relative ||R|| = 2.448492e-04
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > (3) Newton iteration
+ > absolute ||R|| = 1.332370e+00
+ > relative ||R|| = 2.184990e-04
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > (4) Newton iteration
+ > absolute ||R|| = 1.105772e+00
+ > relative ||R|| = 1.813385e-04
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > residual increase -- line search alpha_2 = 2.50e-01
+ > (5) Newton iteration
+ > absolute ||R|| = 1.059129e+00
+ > relative ||R|| = 1.736895e-04
+ > residual increase -- line search alpha_1 = 5.00e-01
+ > (6) Newton iteration
+ > absolute ||R|| = 5.402200e-01
+ > relative ||R|| = 8.859216e-05
+ > (7) Newton iteration
+ > absolute ||R|| = 3.150466e-01
+ > relative ||R|| = 5.166536e-05
+ > (8) Newton iteration
+ > absolute ||R|| = 5.108807e-03
+ > relative ||R|| = 8.378072e-07
+ > (9) Newton iteration
+ > absolute ||R|| = 6.035414e-06
+ > relative ||R|| = 9.897641e-10
+ > (10) Newton iteration
+ > absolute ||R|| = 7.394044e-09
+ > relative ||R|| = 1.212570e-12
+ > (11) Newton iteration
+ > absolute ||R|| = 1.907546e-09
+ > relative ||R|| = 3.128236e-13
+J: 4.8187712325357790e+00
+
+COMPLETED calibration noisy_load_0x noisy_disp_0x calibration_vfm_forward_sens_notch2D_Asym_finite_J2_plane_stress
+
+Total elapsed time: 69.98 minutes

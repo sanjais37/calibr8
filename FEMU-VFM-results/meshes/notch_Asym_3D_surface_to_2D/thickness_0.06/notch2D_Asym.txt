@@ -1,0 +1,6 @@
+elem set body 1
+2 19
+node set ymin 1
+1 17
+node set ymax 1
+1 13
