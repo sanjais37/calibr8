@@ -37,7 +37,7 @@ The numerical results reported in the article titled "A comparative study of cal
 ## Additional Information
 
  - Make sure to have the required environment set up before running the problems.
- - The example files provided in the `examples` directory can help demonstrate different inverse use cases such as FEMU (PDECO), VFM using different gradient computation schemes viz, finite-differences (FD), Adjoint, Forward Sensitivity (FS).
+ - The example files in the `examples` directory (located in the root) illustrate various inverse use cases, including FEMU (PDECO) and VFM, using different gradient computation methods such as finite differences (FD), Adjoint, and Forward Sensitivity (FS)
  
  -  For `Calibr8` installation details, visit: [Calibr8 GitHub Repository](https://github.com/sandialabs/calibr8)
  
